@@ -1,0 +1,282 @@
+<RenderPasses>
+    <SetBackbufferRenderTarget group="VisualisationsPrepare">
+        <CustomDepthTarget name="Depth">
+        </CustomDepthTarget>
+    </SetBackbufferRenderTarget>
+    <SetViewport group="VisualisationsPrepare">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="VisualisationsPrepare">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+    </SetScissorRect>
+    <VisualisationPrologue group="VisualisationsPrologue">
+    </VisualisationPrologue>
+    <ConditionalPass group="Visualisation">
+        <If condition="LightVisualisationEnabled">
+            <SetShader>
+                <Shader name="PassThroughColour">
+                </Shader>
+            </SetShader>
+            <SetConstantColour>
+                <Colour r="0" g="0" b="0" a="0.8">
+                </Colour>
+            </SetConstantColour>
+            <DrawNoVertexBuffer>
+                <Primitive type="TriList" count="1">
+                </Primitive>
+            </DrawNoVertexBuffer>
+            <SetStencilRef group="LightingDeferred">
+                <StencilRef value="128">
+                </StencilRef>
+            </SetStencilRef>
+            <DrawRenderItems group="DrawVisualisation">
+                <Priority type="Light">
+                </Priority>
+                <RenderItemExecutionParams>
+                    <BindShaders value="false">
+                    </BindShaders>
+                    <BindDepthStencilState value="false">
+                    </BindDepthStencilState>
+                    <BindBlendState value="false">
+                    </BindBlendState>
+                    <BindRasterizerState value="false">
+                    </BindRasterizerState>
+                </RenderItemExecutionParams>
+                <SetShader>
+                    <Shader name="LightOverdrawVisualisationOutsideBack">
+                    </Shader>
+                </SetShader>
+                <DrawRenderItemFlag>
+                    <FlagMask value="3">
+                    </FlagMask>
+                    <FlagRef value="0">
+                    </FlagRef>
+                </DrawRenderItemFlag>
+                <SetShader>
+                    <Shader name="LightOverdrawVisualisationOutsideFront">
+                    </Shader>
+                </SetShader>
+                <DrawRenderItemFlag>
+                    <FlagMask value="3">
+                    </FlagMask>
+                    <FlagRef value="1">
+                    </FlagRef>
+                </DrawRenderItemFlag>
+            </DrawRenderItems>
+            <DrawRenderItems group="DrawVisualisation">
+                <Priority type="LightInside">
+                </Priority>
+                <RenderItemExecutionParams>
+                    <BindShaders value="false">
+                    </BindShaders>
+                    <BindDepthStencilState value="false">
+                    </BindDepthStencilState>
+                    <BindBlendState value="false">
+                    </BindBlendState>
+                    <BindRasterizerState value="false">
+                    </BindRasterizerState>
+                </RenderItemExecutionParams>
+                <SetShader>
+                    <Shader name="LightOverdrawVisualisationInside">
+                    </Shader>
+                </SetShader>
+                <DrawRenderItem>
+                </DrawRenderItem>
+            </DrawRenderItems>
+            <DrawRenderItems group="DrawVisualisation">
+                <Priority type="ParticleLights">
+                </Priority>
+                <RenderItemExecutionParams>
+                    <BindShaders value="true">
+                    </BindShaders>
+                    <BindPixelShaders value="false">
+                    </BindPixelShaders>
+                    <BindBlendState value="false">
+                    </BindBlendState>
+                </RenderItemExecutionParams>
+                <SetConstantColour>
+                    <Colour r="0.1" g="0" b="0" a="0.1">
+                    </Colour>
+                </SetConstantColour>
+                <SetShader>
+                    <Shader name="ConstantColour">
+                    </Shader>
+                </SetShader>
+                <DrawRenderItem>
+                </DrawRenderItem>
+            </DrawRenderItems>
+        </If>
+        <Else>
+            <ConditionalPass group="Visualisation">
+                <If condition="AlphaVisualisationEnabled">
+                    <SetShader>
+                        <Shader name="PassThroughColour">
+                        </Shader>
+                    </SetShader>
+                    <SetConstantColour>
+                        <Colour r="0" g="0" b="0" a="0.8">
+                        </Colour>
+                    </SetConstantColour>
+                    <DrawNoVertexBuffer>
+                        <Primitive type="TriList" count="1">
+                        </Primitive>
+                    </DrawNoVertexBuffer>
+                    <DrawRenderItems group="DrawVisualisation">
+                        <Priority type="PreWater">
+                        </Priority>
+                        <RenderItemExecutionParams>
+                            <BindShaders value="true">
+                            </BindShaders>
+                            <BindPixelShaders value="false">
+                            </BindPixelShaders>
+                            <BindBlendState value="false">
+                            </BindBlendState>
+                            <BindDepthStencilState value="false">
+                            </BindDepthStencilState>
+                        </RenderItemExecutionParams>
+                        <SetConstantColour>
+                            <Colour r="0.1" g="0" b="0" a="0.1">
+                            </Colour>
+                        </SetConstantColour>
+                        <SetShader>
+                            <Shader name="ConstantColour">
+                            </Shader>
+                        </SetShader>
+                        <DrawRenderItem>
+                        </DrawRenderItem>
+                    </DrawRenderItems>
+                    <DrawRenderItems group="DrawVisualisation">
+                        <Priority type="Alpha">
+                        </Priority>
+                        <RenderItemExecutionParams>
+                            <BindShaders value="true">
+                            </BindShaders>
+                            <BindPixelShaders value="false">
+                            </BindPixelShaders>
+                            <BindBlendState value="false">
+                            </BindBlendState>
+                        </RenderItemExecutionParams>
+                        <SetConstantColour>
+                            <Colour r="0.1" g="0" b="0" a="0.1">
+                            </Colour>
+                        </SetConstantColour>
+                        <SetShader>
+                            <Shader name="ConstantColour">
+                            </Shader>
+                        </SetShader>
+                        <DrawRenderItem>
+                        </DrawRenderItem>
+                    </DrawRenderItems>
+                    <DrawRenderItems group="DrawVisualisation">
+                        <Priority type="AlphaLowRes">
+                        </Priority>
+                        <RenderItemExecutionParams>
+                            <BindShaders value="true">
+                            </BindShaders>
+                            <BindPixelShaders value="false">
+                            </BindPixelShaders>
+                            <BindBlendState value="false">
+                            </BindBlendState>
+                        </RenderItemExecutionParams>
+                        <SetConstantColour>
+                            <Colour r="0" g="0.1" b="0" a="0.1">
+                            </Colour>
+                        </SetConstantColour>
+                        <SetShader>
+                            <Shader name="ConstantColour">
+                            </Shader>
+                        </SetShader>
+                        <DrawRenderItem>
+                        </DrawRenderItem>
+                    </DrawRenderItems>
+                </If>
+                <Else>
+                    <ConditionalPass group="Visualisation">
+                        <If condition="TileRenderingVisualisationEnabled">
+                            <SetTileLightingConstantBuffer group="TileLighting">
+                            </SetTileLightingConstantBuffer>
+                            <SetTexture group="SetupTileRendering">
+                                <RenderGlobal name="TileLightingTileBuffer">
+                                </RenderGlobal>
+                                <Shader type="Pixel">
+                                </Shader>
+                                <Index index="15">
+                                </Index>
+                            </SetTexture>
+                            <SetShader>
+                                <Shader name="TileLightingOverdraw">
+                                </Shader>
+                                <SetRenderStates value="false">
+                                </SetRenderStates>
+                            </SetShader>
+                            <SetConstantColour>
+                                <Colour r="0" g="0" b="0" a="0.8">
+                                </Colour>
+                            </SetConstantColour>
+                            <DrawNoVertexBuffer>
+                                <Primitive type="TriList" count="1">
+                                </Primitive>
+                            </DrawNoVertexBuffer>
+                        </If>
+                        <Else>
+                            <DrawRenderItems group="DrawVisualisation">
+                                <Priority begin="Solid" end="TerrainBlend">
+                                </Priority>
+                                <RenderItemExecutionParams>
+                                    <BindShaders value="false">
+                                    </BindShaders>
+                                    <BindDepthStencilState value="false">
+                                    </BindDepthStencilState>
+                                    <BindBlendState value="false">
+                                    </BindBlendState>
+                                    <BindRasterizerState value="false">
+                                    </BindRasterizerState>
+                                </RenderItemExecutionParams>
+                                <SetVisualisationShader>
+                                </SetVisualisationShader>
+                                <VisualisationItemPrologue>
+                                </VisualisationItemPrologue>
+                                <DrawRenderItem>
+                                </DrawRenderItem>
+                            </DrawRenderItems>
+                            <DrawRenderItems group="DrawVisualisation">
+                                <Priority begin="Decal" end="Decal">
+                                </Priority>
+                                <RenderItemExecutionParams>
+                                    <BindShaders value="false">
+                                    </BindShaders>
+                                    <BindDepthStencilState value="false">
+                                    </BindDepthStencilState>
+                                    <BindBlendState value="false">
+                                    </BindBlendState>
+                                    <BindRasterizerState value="false">
+                                    </BindRasterizerState>
+                                </RenderItemExecutionParams>
+                                <SetVisualisationShader>
+                                </SetVisualisationShader>
+                                <VisualisationItemPrologue>
+                                </VisualisationItemPrologue>
+                                <DrawRenderItem>
+                                </DrawRenderItem>
+                            </DrawRenderItems>
+                            <SetVisualisationShader>
+                            </SetVisualisationShader>
+                            <VisualisationItemPrologue>
+                            </VisualisationItemPrologue>
+                            <Include file="renderPasses_DrawFoliage.xml">
+                            </Include>
+                        </Else>
+                    </ConditionalPass>
+                </Else>
+            </ConditionalPass>
+        </Else>
+    </ConditionalPass>
+    <SetBackbufferRenderTarget group="VisualisationEpilogue">
+    </SetBackbufferRenderTarget>
+    <VisualisationEpilogue group="VisualisationEpilogue">
+    </VisualisationEpilogue>
+</RenderPasses>

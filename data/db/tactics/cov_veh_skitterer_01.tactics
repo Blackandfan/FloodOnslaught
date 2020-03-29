@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>FocusBeam</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>50</DamagePerSecond>
+		<DamagePerSecond>70</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_skittererBeam_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -44,7 +44,7 @@
 	<Weapon>
 		<Name>FocusBeam2</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>50</DamagePerSecond>
+		<DamagePerSecond>70</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_skittererBeam_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -85,7 +85,7 @@
 	<Weapon>
 		<Name>FocusBeamUpgrade</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>70</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_skittererbeamupgrade_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -126,7 +126,7 @@
 	<Weapon>
 		<Name>FocusBeamUpgrade2</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>70</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_skittererbeamupgrade_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -377,7 +377,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Relation>Self</Relation>
+			<Relation>Ally</Relation>
 			<TargetType>infantry</TargetType>
 			<Action>ActionConvertToDroneInf</Action>
 			<RequireBeingOwnedByOriginalOwner />
@@ -385,7 +385,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Relation>Self</Relation>
+			<Relation>Ally</Relation>
 			<TargetType>GroundVehicle</TargetType>
 			<Action>ActionConvertToDrone</Action>
 			<RequireBeingOwnedByOriginalOwner />

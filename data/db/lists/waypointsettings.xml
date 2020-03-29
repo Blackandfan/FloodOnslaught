@@ -1,0 +1,60 @@
+<waypoint>
+    <settings_url platform="xboxone" client_path="/settings/hw2xo/efbc0b88-3b18-491e-8d02-ced1278e6198">
+    </settings_url>
+    <settings_url platform="pc" client_path="/settings/hw2pc/7e6f6384-c8a6-408c-aabb-e234f1d676cf">
+    </settings_url>
+    <server_url platform="pc" sandbox="L343.13" server_url="https://settings-intone.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360">
+    </server_url>
+    <server_url platform="xboxone" sandbox="L343.13" server_url="https://settings-intone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c">
+    </server_url>
+    <server_url platform="pc" sandbox="L343.14" server_url="https://settings-strategy.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360">
+    </server_url>
+    <server_url platform="xboxone" sandbox="L343.14" server_url="https://settings-strategy.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c">
+    </server_url>
+    <server_url platform="pc" sandbox="L343.17" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360">
+    </server_url>
+    <server_url platform="xboxone" sandbox="L343.17" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c">
+    </server_url>
+    <server_url platform="pc" sandbox="L343.99" server_url="https://settings-intone.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360">
+    </server_url>
+    <server_url platform="xboxone" sandbox="L343.99" server_url="https://settings-intone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c">
+    </server_url>
+    <server_url platform="pc" sandbox="CERT" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360">
+    </server_url>
+    <server_url platform="xboxone" sandbox="CERT" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c">
+    </server_url>
+    <server_url platform="pc" sandbox="CERT.DEBUG" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360">
+    </server_url>
+    <server_url platform="xboxone" sandbox="CERT.DEBUG" server_url="https://settings-certone.test.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c">
+    </server_url>
+    <server_url platform="pc" sandbox="RETAIL" server_url="https://settings.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360">
+    </server_url>
+    <server_url platform="xboxone" sandbox="RETAIL" server_url="https://settings.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c">
+    </server_url>
+    <server_url platform="pc" sandbox="DEFAULT" server_url="https://settings.svc.halowaypoint.com/settings/hw2pcds/23c23532-94c6-4e13-9096-7d1d1bfbb360">
+    </server_url>
+    <server_url platform="xboxone" sandbox="DEFAULT" server_url="https://settings.svc.halowaypoint.com/settings/hw2xods/ed609f88-19d6-4f1e-b052-4b4ba4ef232c">
+    </server_url>
+    <xsts_endpoints>
+        <xsts_endpoint sandbox="DEFAULT">https://dummy-xsts-host.test.svc.halowaypoint.com</xsts_endpoint>
+        <xsts_endpoint sandbox="RETAIL">https://dummy-xsts-host.svc.halowaypoint.com</xsts_endpoint>
+    </xsts_endpoints>
+    <stats_mapping>
+        <stat game="built_units">
+        </stat>
+        <stat game="collected_supplies">
+        </stat>
+        <stat game="collected_power">
+        </stat>
+        <stat game="structuresBuilt" waypoint="structuresBuilt">
+        </stat>
+        <stat game="structuresDestroyed" waypoint="structuresDestroyed">
+        </stat>
+        <stat game="unitsTrained" waypoint="unitsTrained ">
+        </stat>
+        <stat game="unitsKilled" waypoint="unitsKilled">
+        </stat>
+        <stat game="unitsLost" waypoint="unitsLost">
+        </stat>
+    </stats_mapping>
+</waypoint>

@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InfectionBomb</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>2200</DamagePerSecond>
+		<DamagePerSecond>999999</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
@@ -156,6 +156,17 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>4</WorkRange>
 	</Action>
+	<Action>
+		<Name>MoveAirPattern</Name>
+		<ActionType>MoveAirPattern</ActionType>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
 	<Tactic>
 		<TargetRule>
 			<Ability>Command</Ability>
@@ -171,7 +182,27 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
+			<ExcludeTargetType>Flood</ExcludeTargetType>
 			<Action>RifleAttackAction</Action>
 		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<PersistentAction>MoveAirPattern</PersistentAction>
 	</Tactic>
 </TacticData>

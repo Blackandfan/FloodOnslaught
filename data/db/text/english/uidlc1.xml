@@ -1,0 +1,145 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIDLC1.CARD.SHORTDESCR.HELLDROP">Aim drop pods that deploy Hellbringers and burn nearby enemies</str>
+    <str id="UIDLC1.CARD.SHORTDESCR.IMMOLATION">Cover the ground in waves of flame, creating a lasting inferno</str>
+    <str id="UIDLC1.CARD.SHORTDESCR.NAPALMMISSILES">Drop incendiary missiles that leave behind a path of fire</str>
+    <str id="UIDLC1.CARD.SHORTDESCR.UNSTABLECONCOCTION">Boost target units&apos; speed and damage. Units explode on death</str>
+    <str id="UIDLC1.CARD.TITLE.FLAMECYCLOPS">Kinsano&apos;s Cyclops</str>
+    <str id="UIDLC1.CARD.TITLE.FLAMEHOG">Flame Warthog</str>
+    <str id="UIDLC1.CARD.TITLE.GRENADEHOG">Veteran Flame &apos;Hog</str>
+    <str id="UIDLC1.CARD.TITLE.HELLBRINGERSUPGRADE">Veteran Hellbringers</str>
+    <str id="UIDLC1.CARD.TITLE.HELLDROP">Helldrop</str>
+    <str id="UIDLC1.CARD.TITLE.IMMOLATION">Inferno</str>
+    <str id="UIDLC1.CARD.TITLE.NAPALMMISSILES">Napalm Missiles</str>
+    <str id="UIDLC1.CARD.TITLE.UNSTABLECONCOCTION">Hellcharge</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.BODY.FLAMECYCLOPS">K</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.BODY.FLAMEHOG">F</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.BODY.FLAMEWARTHOG">Warthog armed with powerful flamer.
+
+The Flame Warthog, or &apos;Flamehog&apos;, is an adapted Warthog only available to Morgan Kinsano. The usual Warthog autocannon has been replaced with a white-burning flamethrower which is particularly effective against infantry and buildings. The passenger also fires anti-air rockets. 
+
+The Flamehog has the same ramming ability as a regular Warthog and an upgrade allows the flamer to be replaced with a grenade launcher with incendiary grenades.</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.BODY.KINSANO">T</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.BODY.KINSANO">I</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.BODY.KINSANOCYCLOPS">T</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.TITLE.FLAMECYCLOPS">Kinsano&apos;s Cyclops</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.TITLE.FLAMEHOG">Flame Warthog</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.TITLE.FLAMEWARTHOG">Flame Warthog</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.TITLE.KINSANO">Kinsano</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.TITLE.KINSANO">Kinsano</str>
+    <str id="UIDLC1.CODEX.UNITSUNSC.TITLE.KINSANOCYCLOPS">Kinsano&apos;s Cyclops</str>
+    <str id="UIDLC1.COMMANDERTITLE.KINSANO">KINSANO</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.FIRESTORMBATTLE">Drop veteran units: three Hellbringers, two Flame Warthogs, and a Scorpion.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.FLAMEHOGDROP">Drops a veteran Flame Warthog into battle.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.HELLDROP">Drops veteran Hellbringer squad into battle, damaging nearby units.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.IMMOLATION">Creates a long-lasting fiery blast which grows in size over time.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.NAPALMMISSILESI">Fires area-effect incendiary missiles causing flame damage over time.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.NAPALMMISSILESII">Increases flame damage and effect duration.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.NAPALMMISSILESIII">Further increases flame damage and effect duration.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.NITREOUSI">Increases vehicle speed.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.NITREOUSII">Further increases vehicle speed.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.UNSCBLOODLUST1">All units gain temporary damage buff when they make a kill.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.UNSTABLECONCI">Affected units move faster, lose health and explode on death during effect.
+Explosion creates a burning area that damages ground targets.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.UNSTABLECONCII">Increases number of units affected, explosive damage and burn radius.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERDESCR.UNSTABLECONCIII">Further increases units affected and burn damage, radius and duration.</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.FIRESTORMBATTLE">Firestorm Battle Group</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.FLAMEHOGDROP">Flame Warthog Drop</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.HELLDROP">Helldrop</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.IMMOLATION">Inferno</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.NAPALMMISSILESI">Napalm Missiles I</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.NAPALMMISSILESII">Napalm Missiles II</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.NAPALMMISSILESIII">Napalm Missiles III</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.NITREOUSI">Redline I</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.NITREOUSII">Redline II</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.UNSCBLOODLUST1">Heat of Battle</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.UNSTABLECONCI">Hellcharge I</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.UNSTABLECONCII">Hellcharge II</str>
+    <str id="UIDLC1.COMMANDTREEPAGE.POWERNAME.UNSTABLECONCIII">Hellcharge III</str>
+    <str id="UIDLC1.FIRESTORMBATTLE.RADIALCENTER.NAME">FIRESTORM BATTLE GROUP</str>
+    <str id="UIDLC1.FIRESTORMBATTLE.RADIALEDGE.NAME">FIRESTORM BATTLE GROUP</str>
+    <str id="UIDLC1.FIRESTORMBATTLE.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.FLAMEHOGDROP.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.IMMOLATION.RADIALCENTER.NAME">INFERNO</str>
+    <str id="UIDLC1.IMMOLATION.RADIALEDGE.NAME">INFERNO</str>
+    <str id="UIDLC1.IMMOLATION.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.IMMOLATION.RADIALEDGE.SHORTDESCR">Activate to fire a massive napalm bomb at the battlefield.
+The bomb creates a burning area that grows over time.
+
+The projectile hurts all unit types and buildings.
+The burning area only affects ground targets.</str>
+    <str id="UIDLC1.LEADER.ROLE.KINSANO.1">Inferno</str>
+    <str id="UIDLC1.LEADER.ROLE.KINSANO.2">Demolitions</str>
+    <str id="UIDLC1.LEADER.ROLE.KINSANO.3">Rebel</str>
+    <str id="UIDLC1.LEADERSELECT.ROLE01.KINSANO">Pyrotechnics</str>
+    <str id="UIDLC1.LEADERSELECT.ROLE02.KINSANO">Mobility</str>
+    <str id="UIDLC1.LEADERSELECT.SHORTDESCR.KINSANO">Kinsano is all about the burn, launching pyrotechnic attacks and covering the battlefield in flame.</str>
+    <str id="UIDLC1.LEADERSELECT.SHORTDESCR.KINSANO.BLITZ">Kinsano is all about the burn, launching pyrotechnic attacks, using fire-based area denial, and calling in flame-based units.</str>
+    <str id="UIDLC1.LEADERSELECT.TITLE.KINSANO">Kinsano</str>
+    <str id="UIDLC1.NAPALMMISSLES.RADIALCENTER.NAME">NAPALM MISSILES I</str>
+    <str id="UIDLC1.NAPALMMISSLES.RADIALEDGE.NAME">NAPALM MISSILES I</str>
+    <str id="UIDLC1.NAPALMMISSLES.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.NAPALMMISSLES.RADIALEDGE.SHORTDESCR">Activate to fire incendiary missiles which create burning areas on impact.
+Missiles damage all unit types and buildings.  
+Burning areas only affect ground targets.</str>
+    <str id="UIDLC1.NAPALMMISSLESII.RADIALCENTER.NAME">NAPALM MISSILES II</str>
+    <str id="UIDLC1.NAPALMMISSLESII.RADIALEDGE.NAME">NAPALM MISSILES II</str>
+    <str id="UIDLC1.NAPALMMISSLESII.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.NAPALMMISSLESII.RADIALEDGE.SHORTDESCR">Activate to fire incendiary missiles which create burning areas on impact.
+Missiles damage all unit types and buildings.  
+Burning areas only affect ground targets.</str>
+    <str id="UIDLC1.NAPALMMISSLESIII.RADIALCENTER.NAME">NAPALM MISSILES III</str>
+    <str id="UIDLC1.NAPALMMISSLESIII.RADIALEDGE.NAME">NAPALM MISSILES III</str>
+    <str id="UIDLC1.NAPALMMISSLESIII.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.NAPALMMISSLESIII.RADIALEDGE.SHORTDESCR">Activate to fire incendiary missiles which create burning areas on impact.
+Missiles damage all unit types and buildings.  
+Burning areas only affect ground targets.</str>
+    <str id="UIDLC1.NITREOUS.RADIALCENTER.NAME">REDLINE I</str>
+    <str id="UIDLC1.NITREOUS.RADIALEDGE.NAME">REDLINE I</str>
+    <str id="UIDLC1.NITREOUS.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.NITREOUS.RADIALEDGE.SHORTDESCR">Increases vehicle speed.</str>
+    <str id="UIDLC1.NITREOUSII.RADIALCENTER.NAME">REDLINE II</str>
+    <str id="UIDLC1.NITREOUSII.RADIALEDGE.NAME">REDLINE II</str>
+    <str id="UIDLC1.NITREOUSII.RADIALEDGE.ROLE">Further increases vehicle speed.</str>
+    <str id="UIDLC1.PYROMANIA.RADIALCENTER.NAME">HEAT OF BATTLE</str>
+    <str id="UIDLC1.PYROMANIA.RADIALEDGE.NAME">HEAT OF BATTLE</str>
+    <str id="UIDLC1.PYROMANIA.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.PYROMANIA.RADIALEDGE.SHORTDESCR">All units gain a temporary damage buff whenever they make a kill.</str>
+    <str id="UIDLC1.SPECIALABILITY.FLAMECYCLOPS.DESCR">Creates a wall of fire that is deadly to anything that moves through it.</str>
+    <str id="UIDLC1.SPECIALABILITY.FLAMECYCLOPS.TITLE">Flamewall</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE1.RADIALCENTER.NAME">FLAMEWALL</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE1.RADIALEDGE.NAME">FLAMEWALL</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE1.RADIALEDGE.ROLE">NEW ABILITY</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE1.RADIALEDGE.SHORTDESCR">Damages units who
+walk through fire
+Good area control</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE2.RADIALCENTER.NAME">HIGH-TORQUE JOINT</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE2.RADIALEDGE.NAME">HIGH-TORQUE JOINT</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE2.RADIALEDGE.ROLE">UNIT UPGRADE</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE2.RADIALEDGE.SHORTDESCR">Increases speed
+Increases health and damage</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE3.RADIALCENTER.NAME">DRAGON TANKS</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE3.RADIALEDGE.NAME">DRAGON TANKS</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE3.RADIALEDGE.ROLE">UNIT UPGRADE</str>
+    <str id="UIDLC1.UNSC_FLAMECYCLOPS_UPGRADE3.RADIALEDGE.SHORTDESCR">Larger Firewalls
+Increases health and damage</str>
+    <str id="UIDLC1.UNSC_FLAMEHOG_UPGRADE3.RADIALCENTER.NAME">INCENDIARY GRENADES</str>
+    <str id="UIDLC1.UNSC_FLAMEHOG_UPGRADE3.RADIALEDGE.NAME">INCENDIARY GRENADES</str>
+    <str id="UIDLC1.UNSC_FLAMEHOG_UPGRADE3.RADIALEDGE.ROLE">WEAPON UPGRADES</str>
+    <str id="UIDLC1.UNSC_INF_FLAMECYCLOPS_01.RADIALEDGE.ROLE">HERO UNIT</str>
+    <str id="UIDLC1.UNSC_VEH_FLAMEHOG_01.RADIALEDGE.ROLE">CORE VEHICLE</str>
+    <str id="UIDLC1.UNSCUNSTABLECON1.RADIALEDGE.NAME">HELLCHARGE I</str>
+    <str id="UIDLC1.UNSCUNSTABLECON1.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.UNSCUNSTABLECON1.RADIALEDGE.SHORTDESCR">Activate to set units on fire over a short duration.
+Affected units move faster and if killed during the effect, they explode on death and create a burning area.</str>
+    <str id="UIDLC1.UNSTABLECONCII.RADIALCENTER.NAME">HELLCHARGE II</str>
+    <str id="UIDLC1.UNSTABLECONCII.RADIALEDGE.NAME">HELLCHARGE II</str>
+    <str id="UIDLC1.UNSTABLECONCII.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.UNSTABLECONCII.RADIALEDGE.SHORTDESCR">Activate to set units on fire over a short duration.
+Affected units move faster and if killed during the effect, they explode on death and create a burning area.</str>
+    <str id="UIDLC1.UNSTABLECONCIII.RADIALCENTER.NAME">HELLCHARGE II</str>
+    <str id="UIDLC1.UNSTABLECONCIII.RADIALEDGE.NAME">HELLCHARGE II</str>
+    <str id="UIDLC1.UNSTABLECONCIII.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIDLC1.UNSTABLECONCIII.RADIALEDGE.SHORTDESCR">Activate to set units on fire over a short duration.
+Affected units move faster and if killed during the effect, they explode on death and create a burning area.</str>
+    <str id="UIDLC1.USNCUNSTABLECON1.RADIALCENTER.NAME">HELLCHARGE I</str>
+</string_table>

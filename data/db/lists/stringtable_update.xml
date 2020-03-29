@@ -1,0 +1,64 @@
+<StringTable version="1">
+    <Language name="English">
+        <String _locID="25551" category="UI" scenario="MPPartyRoomHelp" subtitle="false" Update="true">Select a game mode to play.</String>
+        <String _locID="26009" category="Skirmish" scenario="game mode" subtitle="false" Update="true">When your team strength pulls the indicator to your side, you win.</String>
+        <String _locID="26010" category="Skirmish" scenario="game mode" subtitle="false" Update="true">REINFORCEMENT</String>
+        <String _locID="26011" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Your resources will be depleted in waves as troops are delivered.</String>
+        <String _locID="26012" category="Skirmish" scenario="game mode" subtitle="false" Update="true">CAPTURE THE FLAG</String>
+        <String _locID="26013" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Grab the flag, then keep the flag carrier alive to earn a capture point.</String>
+        <String _locID="26014" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Next Wave in</String>
+        <String _locID="26023" category="Skirmish" scenario="CTF" subtitle="false" Update="true">FLAG TAKEN!!</String>
+        <String _locID="26024" category="Skirmish" scenario="CTF" subtitle="false" Update="true">FLAG SPAWNED</String>
+        <String _locID="26025" category="Skirmish" scenario="CTF" subtitle="false" Update="true">YOUR TEAM HAS THE FLAG!</String>
+        <String _locID="26026" category="Skirmish" scenario="CTF" subtitle="false" Update="true">ENEMY TEAM HAS THE FLAG!</String>
+        <String _locID="26027" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Play with standard game settings.</String>
+        <String _locID="26028" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Start with high resources and all techs. Bases provide more population.</String>
+        <String _locID="26029" category="Skirmish" scenario="CTF" subtitle="false" Update="true">CAPTURE 3 FLAGS TO WIN</String>
+        <String _locID="26030" category="Skirmish" scenario="game mode" subtitle="false" Update="true">TUG OF WAR</String>
+        <String _locID="26031" category="Skirmish" subtitle="false" Update="true">BARRENS (1v1)</String>
+        <String _locID="26032" category="Skirmish" subtitle="false" Update="true">Difficult terrain channels units into killing zones. The side that controls the Forerunner artifacts will have the advantage.</String>
+        <String _locID="26033" category="Skirmish" subtitle="false" Update="true">BLOOD RIVER (1v1)</String>
+        <String _locID="26034" category="Skirmish" subtitle="false" Update="true">Secure base locations on nearby cliffs overlook this naturally red-tinged river. The soldiers that fought over its two narrow crossings gave the river its name, which has since taken on a greater meaning.</String>
+        <String _locID="26035" category="Skirmish" subtitle="false" Update="true">MEMORIAL BASIN (2v2)</String>
+        <String _locID="26036" category="Skirmish" subtitle="false" Update="true">The high ground in the middle offers good cover for infantry, while the generally open terrain transforms organized battle plans into bloodbaths.</String>
+        <String _locID="26037" category="UI" subtitle="false" Update="true">DOWNLOADABLE CONTENT</String>
+        <String _locID="26038" category="UI" subtitle="false" Update="true">Halo Wars downloadable content is available. Select Options and Extras off the main menu.</String>
+        <String _locID="26039" category="UI" subtitle="false" Update="true">Player %1!s! is missing the downloadable content required for this game mode.</String>
+        <String _locID="26045" category="Skirmish" scenario="CTF" subtitle="false" Update="true">Alpha</String>
+        <String _locID="26046" category="Skirmish" scenario="CTF" subtitle="false" Update="true">Bravo</String>
+        <String _locID="26047" category="Skirmish" scenario="CTF" subtitle="false" Update="true">Alpha Team</String>
+        <String _locID="26048" category="Skirmish" scenario="CTF" subtitle="false" Update="true">Bravo Team</String>
+        <String _locID="26049" category="Skirmish" scenario="CTF" subtitle="false" Update="true">CAPTURE 4 FLAGS TO WIN</String>
+        <String _locID="26050" category="Skirmish" scenario="CTF" subtitle="false" Update="true">CAPTURE 5 FLAGS TO WIN</String>
+        <String _locID="26051" category="Skirmish" scenario="CTF" subtitle="false" Update="true">CARRIER DESTROYED</String>
+        <String _locID="26052" category="Squads" subtitle="false" Update="true">FLAG</String>
+        <String _locID="26053" category="UI" subtitle="false" Update="true">Keep Away 1v1</String>
+        <String _locID="26054" category="UI" subtitle="false" Update="true">Keep Away 2v2</String>
+        <String _locID="26055" category="UI" subtitle="false" Update="true">Keep Away 3v3</String>
+        <String _locID="26056" category="UI" subtitle="false" Update="true">Keep Away 2v2 Party Teams</String>
+        <String _locID="26057" category="UI" subtitle="false" Update="true">Keep Away 3v3 Party Teams</String>
+        <String _locID="26058" category="UI" subtitle="false" Update="true">Tug of War 1v1</String>
+        <String _locID="26059" category="UI" subtitle="false" Update="true">Tug of War 2v2</String>
+        <String _locID="26060" category="UI" subtitle="false" Update="true">Tug of War 3v3</String>
+        <String _locID="26061" category="UI" subtitle="false" Update="true">Tug of War 2v2 Party Teams</String>
+        <String _locID="26062" category="UI" subtitle="false" Update="true">Tug of War 3v3 Party Teams</String>
+        <String _locID="26063" category="UI" subtitle="false" Update="true">Reinforcement 1v1</String>
+        <String _locID="26064" category="UI" subtitle="false" Update="true">Reinforcement 2v2</String>
+        <String _locID="26065" category="UI" subtitle="false" Update="true">Reinforcement 3v3</String>
+        <String _locID="26066" category="UI" subtitle="false" Update="true">Reinforcement 2v2 Party Teams</String>
+        <String _locID="26067" category="UI" subtitle="false" Update="true">Reinforcement 3v3 Party Teams</String>
+        <String _locID="26068" category="UI" subtitle="false" Update="true">For more stats and detailed game information, please visit www.HaloWars.com</String>
+        <String _locID="26069" category="UI" subtitle="false" Update="true">T</String>
+        <String _locID="26070" category="UI" subtitle="false" Update="true">T</String>
+        <String _locID="26071" category="UI" subtitle="false" Update="true">I</String>
+        <String _locID="26072" category="UI" scenario="Options" subtitle="false" Update="true">Always Show Hitpoint Bars</String>
+        <String _locID="26073" category="UI" scenario="Options" subtitle="false">Toggles hitpoint bars to always be displayed for every unit.</String>
+        <String _locID="26074" category="UI" scenario="Options" subtitle="false" Update="true">Unique Paint Jobs</String>
+        <String _locID="26075" category="UI" scenario="Options" subtitle="false">Turns on any unique paint jobs you may have installed (e.g. the Fireball Warthog or the Honor Guard Wraith) at the start of each game.  These cannot be toggled off once a game starts.</String>
+        <String _locID="26076" category="UI" scenario="Options" subtitle="false" Update="true">ALLIES</String>
+        <String _locID="26077" category="UI" scenario="Options" subtitle="false" Update="true">ENEMIES</String>
+        <String _locID="26078" category="UI" subtitle="false" Update="true">Player %1!s! is missing the downloadable content required for this map.</String>
+        <String _locID="26081" category="Skirmish" scenario=" Map Name" subtitle="false">GLACIAL RAVINE (3v3)</String>
+        <String _locID="26082" category="Skirmish" scenario="Map Description" subtitle="false">A snow-topped mountain range forms a natural barrier that cuts this region in half.  Control of the two energy walls at the narrow central pass often determines the outcome of the battle, though clever use of the Sentinel Factories may play a role as well.</String>
+    </Language>
+</StringTable>

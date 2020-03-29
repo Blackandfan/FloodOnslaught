@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>140</DamagePerSecond>
+		<DamagePerSecond>275</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_needler_02</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinNeedlerImpact</ImpactEffect>
@@ -31,7 +31,7 @@
 	<Weapon>
 		<Name>MissileLauncher</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<DamagePerSecond>388</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_shardstorm</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinShardStormImpactImpact</ImpactEffect>
@@ -76,7 +76,7 @@
 	<Weapon>
 		<Name>Melee</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>160</DamagePerSecond>
+		<DamagePerSecond>500</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>5</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
@@ -227,7 +227,23 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>4</WorkRange>
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>1.5</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedronenerfed_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Action>CovCommandAreaBuff</Action>

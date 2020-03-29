@@ -1,0 +1,218 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIEP2.CAMPAIGNSELECTION.BANISHED.PURCHASE">Purchase Awakening the Nightmare</str>
+    <str id="UIEP2.CAMPAIGNSELECTION.BANISHED.PURCHASEDESCRIPTION">Purchase the new campaign from the store.</str>
+    <str id="UIEP2.CAMPAIGNSELECTION.BANISHED.TITLE">AWAKENING THE NIGHTMARE</str>
+    <str id="UIEP2.CODEX.BUILDBAN.BODY.MEGATURRET">&lt;b&gt;&lt;i&gt;Heavy artillery emplacement.&lt;/b&gt;&lt;/i&gt;
+
+The Mega Turret is an automated, long-range artillery platform available to Warlord Pavium. They fire powerful plasma torpedoes that can be upgraded to scorch the impact point and leave a pool of &lt;b&gt;Lingering Death&lt;/b&gt;. As if this devastation wasn&apos;t enough, they can also use Banished-modified &lt;b&gt;Compound Detonators&lt;/b&gt; for even greater damage. These mega turrets are massive and power hungry, and require a standard base building slot.
+
+The Mega Turret was used to protect Covenant military and religious installations, but these massive cannons have also been encountered at remote colonies and outposts guarding nothing of obvious value and reflexively attacking all who approach without long-forgotten authorization codes. The Banished deploy the Mega Turret as a straightforward anti-siege weapon at war camps on the Ark which have the necessary infrastructure and permanence to support their use.</str>
+    <str id="UIEP2.CODEX.BUILDBAN.TITLE.MEGATURRET">Mega Turret</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.BROTHERSINARMS.M02_01">P</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.BROTHERSINARMS.M02_02">P</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.IDLEHANDS.M04_01">Unknown Author, Installation 00, Date 12/13/2552 
+
+Recently I have had troubling thoughts. 
+
+I am caretaker of this installation and it is my duty to maintain the natural balance of things, and I have performed my task admirably. But what I have learned from this experience, this war, is the terrible cost of peace. 
+
+For millennia, all was quiet and still and the wonderful designs of this installation meant I had relatively little to do except making improvements and the occasional minor systems repair. The paradox is that the better I perform in my job, the less I have to do.  
+
+As a result, I am conflicted by the recent events on this installation. The damage caused by the invaders and their war horrifies me, but it has given me a purpose once again. The one constant is that this installation is the most important thing in the galaxy and I must protect it at all costs. The destruction that scars the place I am duty bound to protect has focused my thoughts for the first time in centuries, and so it is once again through conflict that I have found a renewed sense of purpose. [1/2]</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.IDLEHANDS.M04_02">U</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.PANDORASBOX.M01_01">F</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.PANDORASBOX.M01_02">F</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.TREADCAREFULLY.M03">F</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.UNCOMFORTABLETRUTH.M05_01">U</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.UNCOMFORTABLETRUTH.M05_02">F</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.BODY.WARPEDREFLECTIONS.M03">Plutus, Brute captain. Emergency signal. 6/4/2559
+
+Voridus, this is Plutus! This is not a call for help, as I know it is already too late for us, but rather a warning. The Flood scourge has breached our base and I can hear the screams of my Jiralhanae brothers from the outer corridors as they fall to the monstrosities. 
+
+We were preparing the laser drills for power extraction when an Unggoy spotted the first form. We laughed at typical Unggoy panic until we saw a Wraith engulfed by a wave of seething sickness. Our defences did little to stop the sheer numbers of Flood when they first attacked, swarming over the turrets and silencing them under mounds of filth. We fell back inside, but they crawled and slithered through the vents and cracks and our base became a slaughterhouse.
+
+I watched as battle-hardened Jiralhanae scream in terror as the Flood twisted their forms into horrifying new shapes, their eyes pleading for a swift death. Warriors I had fought side by side with turned upon me with unknowing eyes and terrible rage.  I ordered the few survivors to fall back to the inner corridors as I planted my last cache of plasma mines, hoping to put an end to the torment suffered by those infected. 
+
+There were moments of silence after the mines exploded, which we used to count our numbers and weapons. We have not enough to hold for an hour, let along push back this enemy. Already, the uncanny screams have started rumbling again, and the pounding has begun as they fling their battered and contorted bodies against the door. 
+
+We laughed at the Covenant rumors about High Charity, but they were all true. The Flood will consume all. You must...
+
+[Transcription ends]</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.BROTHERSINARMS.M02_01">Brothers in Arms I</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.BROTHERSINARMS.M02_02">Brothers in Arms II</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.IDLEHANDS.M04_01">Idle Hands I</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.IDLEHANDS.M04_02">Idle Hands II</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.PANDORASBOX.M01_01">Pandora&apos;s Box I</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.PANDORASBOX.M01_02">Pandora&apos;s Box II</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.TREADCAREFULLY.M03">Tread Carefully</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.UNCOMFORTABLETRUTH.M05_01">An Uncomfortable Truth I</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.UNCOMFORTABLETRUTH.M05_02">An Uncomfortable Truth II</str>
+    <str id="UIEP2.CODEX.CAMPAIGN.TITLE.WARPEDREFLECTIONS.M03">Warped Reflections</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.BLIGHTLANDS">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.COMBATFORMS">&lt;b&gt;&lt;i&gt;Pestilent puppets.&lt;/b&gt;&lt;/i&gt;
+
+Combat forms are relatively intact sentient hosts under the control of an infection form that has nested within. Though sections of the host&apos;s body are consumed and converted into Flood cells, some limbs and sensory organs are retained to utilize available weapons, tools, vehicles, equipment, and even starships. The infection form does augment its new body and repair minor damage in order to better serve as a living weapon, but ultimately the combat form is utterly disposable.
+
+The infection form driving the host body does not feel pain or fear, though the same cannot be said for the host. Worse, in some horrific circumstances the infection form is unable to completely dominate the original personality and the victim remains fully aware of their irrevocable transformation and use as a tool of the parasite.</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.FLOODHIVES">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.GRAVEMIND">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.HIGHCHARITY">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.INFECTIONFORM">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.KEYMINDS">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.PUREFORMS">&lt;b&gt;&lt;i&gt;Bone and bile.&lt;/b&gt;&lt;/i&gt;
+
+As the parasite grows in strength the key minds begin to cultivate tumorous masses and mucus-like lakes of pure Flood cells using nonessential biomass as food. Most of these Flood cells are used to form hives and blightlands, but some is harvested to create deadly &lt;b&gt;war-forms&lt;/b&gt;. With the sound of breaking bones and ripping flesh these creatures transform themselves to best confront the threats they encounter, contorting and reshaping their anatomy into grotesque but lethal shapes as they lead hordes of lesser combat forms into battle.</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.BODY.THEFLOOD">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.BLIGHTLANDS">Blightlands</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.COMBATFORMS">Combat Forms</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.FLOODHIVES">Flood Hives</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.GRAVEMIND">Gravemind</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.HIGHCHARITY">High Charity</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.INFECTIONFORM">Infection Forms</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.KEYMINDS">Keyminds</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.PUREFORMS">Pure Forms</str>
+    <str id="UIEP2.CODEX.FLOODHISTORY.TITLE.THEFLOOD">The Flood</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.COCOONEDBASES">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.EGG">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.HIVE">&lt;b&gt;&lt;i&gt;Infected wounds.&lt;/b&gt;&lt;/i&gt;
+
+Spore Mounds are an agglomeration of lesser Flood forms and secretions that conceal and protect the foul nests of the parasite. Though mere hills compared to what is to come, the Spore Mounds which have sprouted on the Ark and survived Sentinel cleansing efforts are incredibly dangerous.
+
+Spore Mounds act as an Abomination leader for nearby Flood, in addition to producing new units.</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.HIVECOMMANDER">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.INFECTED">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.PODINFECTORS">Once the parasite can establish a hive it can begin to produce massive numbers of infection forms that spread out in search of new sentients to infect, and non-sapient animals on which to feed. Both ground and airborne infection forms are used as living weapons, hurling themselves at the enemy to overwhelm defenses and assimilate the unprepared.
+
+&lt;b&gt;Pods&lt;/b&gt; hurl themselves at infantry units, bursting and dealing damage. If Pods gets the killing blow their victim becomes Infected and falls under Flood control. Though individually weak and easily killed, pod infectors strike in vast numbers and can move over cliffs.</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.PROTOGRAVEMIND">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.RUPTURE">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.SEEDERINFECTORS">O</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.SPAWNER">&lt;</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.BODY.VEHICLEINFECTOR">&lt;b&gt;&lt;i&gt;Anti-vehicle war-forms.&lt;/b&gt;&lt;/i&gt;
+
+The Infester is a pure form that specializes in cracking open vehicles and converting their crew into Flood-controlled puppets. A purpose-built biological weapon, Infesters expend all of their energy on their attack, collapsing in a dying heap and spreading spores upon the completion of their singular task.
+
+The Infester is adapted to the task of countering and subverting armored vehicles used by the UNSC and Banished. Though they can attack infantry and structures with barbed tentacles, their goal is to hunt manned vehicles. When they detect mechanized prey, the Infester grabs onto it with their tentacles and bores into the hull to reach the crew. This process can be interrupted, similar to the Hijack ability. If the infestation is successful, however, the vehicle is infected and the Infester dies.</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.COCOONEDBASES">Cocooned Bases</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.EGG">Blisters</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.HIVE">Spore Mound</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.HIVECOMMANDER">Abomination</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.INFECTED">Infected</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.PODINFECTORS">Pod Infectors</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.PROTOGRAVEMIND">Proto-Gravemind</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.RUPTURE">Bursters</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.SEEDERINFECTORS">Seeder Infectors</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.SPAWNER">Spawners</str>
+    <str id="UIEP2.CODEX.FLOODUNITS.TITLE.VEHICLEINFECTOR">Infester</str>
+    <str id="UIEP2.CODEX.M01.COLLECT.UNLOCKCONDITION">Unlocked by finding a collectable in &apos;What Could Go Wrong?&apos;.</str>
+    <str id="UIEP2.CODEX.M01LOGS.UNLOCKCONDITION">Unlocked by completing &apos;What Could Go Wrong?&apos;.</str>
+    <str id="UIEP2.CODEX.M02.COLLECT.UNLOCKCONDITION">Unlocked by finding a collectable in &apos;Fighting Retreat&apos;.</str>
+    <str id="UIEP2.CODEX.M02LOGS.UNLOCKCONDITION">Unlocked by completing &apos;Fighting Retreat&apos;.</str>
+    <str id="UIEP2.CODEX.M03.COLLECT.UNLOCKCONDITION">Unlocked by finding a collectable in &apos;Light the Fuse&apos;.</str>
+    <str id="UIEP2.CODEX.M03LOGS.UNLOCKCONDITION">Unlocked by completing &apos;Light the Fuse&apos;.</str>
+    <str id="UIEP2.CODEX.M04.COLLECT.UNLOCKCONDITION">Unlocked by finding a collectable in &apos;The Archive&apos;.</str>
+    <str id="UIEP2.CODEX.M04LOGS.UNLOCKCONDITION">Unlocked by completing &apos;The Archive&apos;.</str>
+    <str id="UIEP2.CODEX.M05.COLLECT.UNLOCKCONDITION">Unlocked by finding a collectable in &apos;Manifestation&apos;.</str>
+    <str id="UIEP2.CODEX.M05LOGS.UNLOCKCONDITION">Unlocked by completing &apos;Manifestation&apos;.</str>
+    <str id="UIEP2.CODEX.MPMAPS.BODY.FISSURES">Volatile liquid churns and boils beneath the uncertain amber surface.
+
+Scorched cracks and violent crystal protrusions scar and pock this rocky amber terrain, torn by eruptions from the explosive molten fluid energy that bubbles and smolders beneath the surface. Pressure forces up huge bursts of the liquid, quickly solidifying into huge crystals and trapping invaluable volatile raw power inside. Nearby, an elegant Forerunner structure stretches out over the precipice overlooking endless desert dunes, housing a lift that drops deep to the solemn Archive below.</str>
+    <str id="UIEP2.CODEX.MPMAPS.BODY.MIRAGE">Rolling sands hide the ghosts of fallen warriors in these arid wilds.
+
+The weight of Forerunner history lays heavy upon this beautiful but wild environment.  Desert winds moan at the edge of a vast Forerunner gate that protects a long-forgotten secret; the ship-seed of an ancient Forerunner Despair-class fighter, dormant for a hundred millennia.</str>
+    <str id="UIEP2.CODEX.MPMAPS.BODY.TERMINUS">T</str>
+    <str id="UIEP2.CODEX.MPMAPS.TITLE.FISSURES">Fissures</str>
+    <str id="UIEP2.CODEX.MPMAPS.TITLE.MIRAGE">Mirage</str>
+    <str id="UIEP2.CODEX.MPMAPS.TITLE.TERMINUS">Terminus</str>
+    <str id="UIEP2.CODEX.MPMAPS.UNLOCKCONDITIONTERMINUS">Unlocked by playing Terminus Firefight.</str>
+    <str id="UIEP2.CODEX.UNITSBAN.BODY.BRUTEGRENADIER">&lt;b&gt;&lt;i&gt;Destroyers and despoilers.&lt;/b&gt;&lt;/i&gt;
+
+Brute Grenadiers are a special infantry unit available to Voridus. Their &lt;b&gt;Gel Siphon&lt;/b&gt; ability allows them to absorb nearby infusion pools and harness that energy to overcharge their &lt;b&gt;iatrochemically-enhanced armor&lt;/b&gt; and &lt;b&gt;grenade launchers&lt;/b&gt;. 
+
+On death, their equipment explodes, doing damage to nearby units and leaving behind an infusion pool. Their weapons can be upgraded with &lt;b&gt;Hard-Target Detonators&lt;/b&gt; to cause additional damage against vehicles and structures, and &lt;b&gt;Infused Grenades&lt;/b&gt; which increases grenade attack range and creates short-lived energy pools at the point of impact.
+
+The Brutes Grenadiers are madmen and savages who are too unstable and crude to advance in the Banished hierarchy. With few other options to seek glory, they have turned to Voridus, who offers a place in the vanguard of his pack for any willing to test his latest inventions. Glory they will have, even as their bodies rot from the inside out from exposure to the unspeakably toxic by-products of the power they abuse.</str>
+    <str id="UIEP2.CODEX.UNITSBAN.BODY.INFUSEDENGINEER">&lt;</str>
+    <str id="UIEP2.CODEX.UNITSBAN.BODY.PAVIUM">&lt;</str>
+    <str id="UIEP2.CODEX.UNITSBAN.BODY.PAVIUMUNIT">&lt;</str>
+    <str id="UIEP2.CODEX.UNITSBAN.BODY.VOLATILESCARAB">O</str>
+    <str id="UIEP2.CODEX.UNITSBAN.BODY.VORIDUS">&lt;b&gt;&lt;i&gt;The corrupter.&lt;/b&gt;&lt;/i&gt;
+
+Voridus is many things that his elder brother is not: glory-seeking, vicious, curious, and spontaneous. Gifted with an intuitive understanding of Forerunner systems, he has ruthlessly exploited the Ark for new resources and knowledge since the Banished arrived, culminating in his recent harnessing of &lt;g&gt;infusion gel&lt;/b&gt;. 
+
+Infusion gel is a perfected form of the energetic meta-materials and strained-bond lattices used in Covenant fuel rods, and is one of the materials pumped throughout the Ark in great rivers to keep the installation functioning. Unfortunately, the prototype infusion technology Voridus created produces corrosive and mutagenic sludge during operation. Not that this has stopped Voridus from field testing new weapons that actually harness these dangerous by-products.
+
+As a leader, Voridus has bent his considerable intellect to perfecting the military uses of infusion gel, utilizing it in powerful &lt;b&gt;Infused Mine&lt;/b&gt; explosives and creating an &lt;b&gt;Infusion Wake&lt;/b&gt; of corrupting energy with targeted bombing runs. With &lt;b&gt;Salt the Earth&lt;/b&gt; he spreads energy pools, while the &lt;b&gt;Invigorating Frenzy&lt;/b&gt; leader ability heals allies that are in energy pools. &lt;b&gt;Cataclysm&lt;/b&gt; triggers the energy pools latent potential, resetting their duration and significantly increasing the damage they cause to enemy units (even those in the air). When not manipulating gel, his &lt;b&gt;Combat Spoils&lt;/b&gt; leader ability orders his units to salvage a small amount of resources when dealing damage to enemy buildings.</str>
+    <str id="UIEP2.CODEX.UNITSBAN.BODY.VORIDUSUNIT">&lt;b&gt;&lt;i&gt;The corrupter.&lt;/b&gt;&lt;/i&gt;
+
+Voridus takes to the field in &lt;b&gt;iatrochemically-enhanced armor&lt;/n&gt; powered by tanks of infusion gel. Voridus can drop this gel from his tanks, leaving long-lasting toxic &lt;b&gt;energy pools&lt;/b&gt; in his wake which damage enemy units but which can be harnessed by his allies. 
+
+Though he takes to the field with a standard gravity hammer, once he acquires enough resources he replaces it with an &lt;b&gt;Infused Hammer&lt;/n&gt;, which creates energy pools with each strike and synergizes with his armor. Voridus can also intentionally release the gel from his tanks when he activates his &lt;b&gt;Salt the Earth&lt;/b&gt; ability, leaving wide energy pools in his wake.</str>
+    <str id="UIEP2.CODEX.UNITSBAN.BODY.WRAITHAPC">&lt;b&gt;&lt;i&gt;Assault transport.&lt;/b&gt;&lt;/i&gt;
+
+The Wraith Invader is an infantry fighting vehicle available to Warlord Pavium. It is armed with a siphoning beam, which repairs the transport, and can carry two units of infantry. Each of the infantry units can fire out of the Wraith Invader. In addition to standard vehicle upgrades the gravity propulsion system of the Wraith Invader can be boosted with &lt;b&gt;Carrier Overdrive&lt;/b&gt;, significantly increasing its shield strength and damage.
+
+In the Covenant, ecclesiastical authorities ultimately oversaw even the most trivial modifications to existing designs. Improvements or alterations required layers of bureaucracy to navigate, and often took decades to gain approval from the Prophets. The Banished approval process is much simpler: if there is a demonstrated need and materials available a pack leader can make any changes that he or she wishes. The Wraith Invader is an example of this freedom, with Pavium taking damaged mortar tank hulls and repurposing them into heavy troop carriers.</str>
+    <str id="UIEP2.CODEX.UNITSBAN.TITLE.BRUTEGRENADIER">Brute Grenadier</str>
+    <str id="UIEP2.CODEX.UNITSBAN.TITLE.INFUSEDENGINEER">Infused Engineer</str>
+    <str id="UIEP2.CODEX.UNITSBAN.TITLE.PAVIUM">Pavium</str>
+    <str id="UIEP2.CODEX.UNITSBAN.TITLE.PAVIUMUNIT">Pavium</str>
+    <str id="UIEP2.CODEX.UNITSBAN.TITLE.VOLATILESCARAB">Volatile Scarab</str>
+    <str id="UIEP2.CODEX.UNITSBAN.TITLE.VORIDUS">Voridus</str>
+    <str id="UIEP2.CODEX.UNITSBAN.TITLE.VORIDUSUNIT">Voridus</str>
+    <str id="UIEP2.CODEX.UNITSBAN.TITLE.WRAITHAPC">Wraith Invader</str>
+    <str id="UIEP2.DIFFICULTY.RANDOMDESCRIPTION">Press @RandDiff@ to matchmake with any difficulty</str>
+    <str id="UIEP2.FIREFIGHT.FINDMATCH">MAIN MENU/ FIREFIGHT/ FIND MATCH</str>
+    <str id="UIEP2.FIREFIGHT.POSTMATCH.HISCORE.TITLE">You&apos;ve posted a new high score</str>
+    <str id="UIEP2.FIREFIGHT.POSTMATCH.PREVSCORE">Previous score&lt;br&gt;%1</str>
+    <str id="UIEP2.FIREFIGHTDIALOG.HEADER">Terminus Firefight</str>
+    <str id="UIEP2.FIREFIGHTDIALOG.STORE">@Y_Button@ Go to Store</str>
+    <str id="UIEP2.FIREFIGHTDIALOG.TEXT">The new Terminus Firefight mode is part of the &apos;Awakening the Nightmare&apos; download.
+Please go to the store to purchase...</str>
+    <str id="UIEP2.FIREFIGHTDIALOG.TITLE">New Terminus Firefight mode available.</str>
+    <str id="UIEP2.FIREFIGHTHUD.MULTIPLIER.LABEL">SCORE(&lt;font color=&apos;#00c8f7&apos;&gt;X%1&lt;/font&gt;)</str>
+    <str id="UIEP2.LEADERSELECT.ROLE01.CORRUPTED">Desolator</str>
+    <str id="UIEP2.LEADERSELECT.ROLE01.UNBREAKABLE">Indestructible</str>
+    <str id="UIEP2.LEADERSELECT.ROLE02.CORRUPTED">Stormtrooper</str>
+    <str id="UIEP2.LEADERSELECT.ROLE02.UNBREAKABLE">Vanguard</str>
+    <str id="UIEP2.LEADERSELECT.ROLE03.CORRUPTED">Scourge</str>
+    <str id="UIEP2.LEADERSELECT.ROLE03.UNBREAKABLE">Grand Cannon</str>
+    <str id="UIEP2.LEADERSELECT.ROLE3.CORRUPTED">Wakey Wakey</str>
+    <str id="UIEP2.LEADERSELECT.SHORTDESCR.CORRUPTED">Voridus focuses on aggressive rush attacks and uses his unique incendiary gel weapons to create damaging pools of toxic liquid.</str>
+    <str id="UIEP2.LEADERSELECT.SHORTDESCR.CORRUPTED.BLITZ">Voridus focuses on aggressive rush attacks and uses his unique incendiary gel weapons to create damaging pools of toxic liquid.</str>
+    <str id="UIEP2.LEADERSELECT.SHORTDESCR.UNBREAKABLE">Pavium&apos;s ephitet of &apos;The Unbreakable&apos; comes from his mastery of defensive and economic tactics.</str>
+    <str id="UIEP2.LEADERSELECT.SHORTDESCR.UNBREAKABLE.BLITZ">Pavium&apos;s ephitet of &apos;The Unbreakable&apos; comes from his mastery of defensive and economic tactics.</str>
+    <str id="UIEP2.LEADERSELECT.TITLE.CORRUPTED">Voridus</str>
+    <str id="UIEP2.LEADERSELECT.TITLE.UNBREAKABLE">Pavium</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.LOCATION.M01">HIGH CHARITY CRASH SITE</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.LOCATION.M02">HIGH CHARITY SALVAGE OPERATION</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.LOCATION.M03">BANISHED SALVAGE DRILLS</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.LOCATION.M04">FORERUNNER ARCHIVE</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.LOCATION.M05">HIGH CHARITY CRASH SITE</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.TITLE.M01">WHAT COULD GO WRONG?</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.TITLE.M02">FIGHTING RETREAT</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.TITLE.M03">LIGHT THE FUSE</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.TITLE.M04">THE ARCHIVE</str>
+    <str id="UIEP2.MISSIONBRIEFSCREEN.TITLE.M05">MANIFESTATION</str>
+    <str id="UIEP2.MISSIONSPAGE.SHORTDESCR.M01">Voridus launches a Scarab assault through Sentinel-heavy territory to break into High Charity.</str>
+    <str id="UIEP2.MISSIONSPAGE.SHORTDESCR.M02">Pavium and his troops prepare an exit route to extract High Charity salvage.</str>
+    <str id="UIEP2.MISSIONSPAGE.SHORTDESCR.M03">Pavium must rescue Voridus and clear a path to the Forerunner structure nearby.</str>
+    <str id="UIEP2.MISSIONSPAGE.SHORTDESCR.M04">V</str>
+    <str id="UIEP2.MISSIONSPAGE.SHORTDESCR.M05">V</str>
+    <str id="UIEP2.PAUSESCREEN.SHORTDESCR.EP2M01">Voridus launches a Scarab assault through Sentinel-heavy territory to break into High Charity.</str>
+    <str id="UIEP2.PAUSESCREEN.SHORTDESCR.EP2M02">Pavium and his troops prepare an exit route to extract High Charity salvage.</str>
+    <str id="UIEP2.PAUSESCREEN.SHORTDESCR.EP2M03">Pavium must rescue Voridus and clear a path to the Forerunner structure nearby.</str>
+    <str id="UIEP2.PAUSESCREEN.SHORTDESCR.EP2M04">V</str>
+    <str id="UIEP2.PAUSESCREEN.SHORTDESCR.EP2M05">V</str>
+    <str id="UIEP2.PAUSESCREEN.TITLE.EP2M01">What Could Go Wrong?</str>
+    <str id="UIEP2.PAUSESCREEN.TITLE.EP2M02">Fighting Retreat</str>
+    <str id="UIEP2.PAUSESCREEN.TITLE.EP2M03">Light the Fuse</str>
+    <str id="UIEP2.PAUSESCREEN.TITLE.EP2M04">The Archive</str>
+    <str id="UIEP2.PAUSESCREEN.TITLE.EP2M05">Manifestation</str>
+    <str id="UIEP2.RICHPRESENCE.MISSIONNAMES.M01">What Could Go Wrong?</str>
+    <str id="UIEP2.RICHPRESENCE.MISSIONNAMES.M02">Fighting Retreat</str>
+    <str id="UIEP2.RICHPRESENCE.MISSIONNAMES.M03">Light the Fuse</str>
+    <str id="UIEP2.RICHPRESENCE.MISSIONNAMES.M04">The Archive</str>
+    <str id="UIEP2.RICHPRESENCE.MISSIONNAMES.M05">Manifestation</str>
+    <str id="UIEP2.STATUSBAR.RANDOMDIFFICULTY">@RandDiff@ No preferred difficulty</str>
+</string_table>

@@ -3,9 +3,9 @@
 	<Weapon>
 		<Name>MeleeAttack</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
+		<DamagePerSecond>250</DamagePerSecond>
 		<WeaponType>Melee</WeaponType>
-		<MaxRange>4</MaxRange>
+		<MaxRange>7</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
@@ -21,6 +21,8 @@
 		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<TimeToInfect>60</TimeToInfect>
+		<InfectionTargetType>Hero</InfectionTargetType>
 	</Weapon>
 	<Weapon>
 		<Name>JumpAttackHammer</Name>
@@ -54,6 +56,7 @@
 		<Anim>MeleeAttack</Anim>
 		<Weapon>MeleeAttack</Weapon>
 		<FullBodyAttackAnim />
+		<Infection />
 		<Strafing turnRate="180" trackingSpeed="60" />
 	</Action>
 	<Action>
@@ -69,7 +72,119 @@
 		<VelocityScalar>35</VelocityScalar>
 		<LandingDelay>0.400000006</LandingDelay>
 	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
 	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MeleeAttackAction</Action>

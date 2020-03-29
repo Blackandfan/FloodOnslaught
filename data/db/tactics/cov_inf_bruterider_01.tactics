@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Hammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>300</DamagePerSecond>
 		<WeaponType>BruteRider</WeaponType>
 		<MaxRange>2</MaxRange>
 		<ThrowUnits />
@@ -35,7 +35,7 @@
 	<Weapon>
 		<Name>PunchHarder</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>160</DamagePerSecond>
+		<DamagePerSecond>360</DamagePerSecond>
 		<WeaponType>BruteRider</WeaponType>
 		<MaxRange>2</MaxRange>
 		<ThrowUnits />

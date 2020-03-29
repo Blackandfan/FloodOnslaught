@@ -1,0 +1,30 @@
+<UserClasses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <UserClass DBID="0" Name="TechBuildList">
+        <Fields Name="Tech" Type="Tech">
+        </Fields>
+        <Fields Name="Priority" Type="Integer">
+        </Fields>
+    </UserClass>
+    <UserClass DBID="1" Name="SquadBuildList">
+        <Fields Name="Squad" Type="ProtoSquad">
+        </Fields>
+        <Fields Name="Count" Type="Integer">
+        </Fields>
+    </UserClass>
+    <UserClass DBID="2" Name="TechUpgradeTable">
+        <Fields Name="Tech" Type="Tech">
+        </Fields>
+        <Fields Name="SquadType" Type="ObjectType">
+        </Fields>
+        <Fields Name="NumRequired" Type="Integer">
+        </Fields>
+    </UserClass>
+    <UserClass DBID="3" Name="BuildingBuildList">
+        <Fields Name="Building" Type="ObjectType">
+        </Fields>
+        <Fields Name="BuildCount" Type="Integer">
+        </Fields>
+        <Fields Name="Priority" Type="Integer">
+        </Fields>
+    </UserClass>
+</UserClasses>

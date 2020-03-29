@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>LeechBeam</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_impervioushunterbeam</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -55,7 +55,7 @@
 	<Weapon>
 		<Name>LeechBeamVehicle</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>495</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_impervioushunterbeam</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -107,7 +107,7 @@
 	<Weapon>
 		<Name>LeechBeamUpgrade</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_impervioushunterbeamupgrade</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -159,7 +159,7 @@
 	<Weapon>
 		<Name>LeechBeamUpgradeVehicle</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>550</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_impervioushunterbeamupgrade</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -447,7 +447,6 @@
 		<Weapon>Taunt</Weapon>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
-		<StartDisabled />
 		<SpecificData>
 			<TauntDuration>10</TauntDuration>
 			<TauntRange>25</TauntRange>
@@ -549,7 +548,23 @@
 		<ActionType>EnergyShield</ActionType>
 		<ProtoObject>cov_locustshield</ProtoObject>
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />

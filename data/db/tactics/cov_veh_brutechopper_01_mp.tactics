@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaCannonLeft</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>55</DamagePerSecond>
+		<DamagePerSecond>86</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>PlasmaCannonRight</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>55</DamagePerSecond>
+		<DamagePerSecond>86</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
@@ -53,7 +53,7 @@
 	<Weapon>
 		<Name>ExplosivePlasmaCannonLeft</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>65</DamagePerSecond>
+		<DamagePerSecond>99</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
@@ -94,7 +94,7 @@
 	<Weapon>
 		<Name>ExplosivePlasmaCannonRight</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>65</DamagePerSecond>
+		<DamagePerSecond>99</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>

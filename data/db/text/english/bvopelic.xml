@@ -1,0 +1,41 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="BVOPELIC_DROPSHIP_ARRIVING_AT_DROP_ZONE_PELICANSPIRIT_01">Pelican at the DZ, over.</str>
+    <str id="BVOPELIC_DROPSHIP_ARRIVING_AT_DROP_ZONE_PELICANSPIRIT_02">Ready to drop units, over.</str>
+    <str id="BVOPELIC_DROPSHIP_ARRIVING_AT_DROP_ZONE_PELICANSPIRIT_03">Pelican in the drop zone, get ready.</str>
+    <str id="BVOPELIC_DROPSHIP_ARRIVING_AT_DROP_ZONE_PELICANSPIRIT_04">In the DZ and ready to drop.</str>
+    <str id="BVOPELIC_DROPSHIP_DEATH_PELICANSPIRIT_1">(Wallah death)</str>
+    <str id="BVOPELIC_DROPSHIP_DEATH_PELICANSPIRIT_2">(Wallah death)</str>
+    <str id="BVOPELIC_DROPSHIP_DROP_OFF_UNITS_PELICANSPIRIT_01">Dropping off units.</str>
+    <str id="BVOPELIC_DROPSHIP_DROP_OFF_UNITS_PELICANSPIRIT_02">Delivering units.</str>
+    <str id="BVOPELIC_DROPSHIP_DROP_OFF_UNITS_PELICANSPIRIT_03">So long and good luck!</str>
+    <str id="BVOPELIC_DROPSHIP_DROP_OFF_UNITS_PELICANSPIRIT_04">D</str>
+    <str id="BVOPELIC_DROPSHIP_LEAVING_DROP_ZONE_PELICANSPIRIT">Pelican leaving the DZ and returning to base.</str>
+    <str id="BVOPELIC_DROPSHIP_PICKING_UP_UNITS_01">All aboard.</str>
+    <str id="BVOPELIC_DROPSHIP_PICKING_UP_UNITS_02">Come on, don&apos;t be shy.</str>
+    <str id="BVOPELIC_DROPSHIP_PICKING_UP_UNITS_03">Plenty of room, get in while you still can.</str>
+    <str id="BVOPELIC_DROPSHIP_UNDER_ATTACK_AFTER_DROPPING_UNITS_PELICANSPIRIT">Pelican under fire, peeling off.</str>
+    <str id="BVOPELIC_DROPSHIP_UNDER_ATTACK_DURING_DROPPING_UNITS_PELICANSPIRIT">DZ is hot. A little help here?</str>
+    <str id="BVOPELIC_DROPSHIP_UNDER_ATTACK_PELICANSPIRIT">Pelican under attack, requesting support!</str>
+    <str id="BVOPELIC_DROPSHIP_UNITS_DROPPED_OFF_PELICANSPIRIT_01">All units delivered to DZ, over.</str>
+    <str id="BVOPELIC_DROPSHIP_UNITS_DROPPED_OFF_PELICANSPIRIT_02">All units out and on the ground.</str>
+    <str id="BVOPELIC_DROPSHIP_UNITS_DROPPED_OFF_PELICANSPIRIT_03">Bring me something back nice, eh?</str>
+    <str id="BVOPELIC_DROPSHIP_UNITS_DROPPED_OFF_PELICANSPIRIT_04">Units delivered and deployed, over.</str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+    <str id="BVOPELIC_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+</string_table>

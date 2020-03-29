@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverSMG</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>34</DamagePerSecond>
+		<DamagePerSecond>37</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Medium">SmallBallisticImpact</ImpactEffect>
@@ -26,7 +26,7 @@
 	<Weapon>
 		<Name>SMG</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>34</DamagePerSecond>
+		<DamagePerSecond>37</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Medium">SmallBallisticImpact</ImpactEffect>
@@ -49,7 +49,7 @@
 	<Weapon>
 		<Name>AirSMG</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>34</DamagePerSecond>
+		<DamagePerSecond>37</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Medium">SmallBallisticImpact</ImpactEffect>
@@ -70,48 +70,14 @@
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
 	<Weapon>
-		<Name>ThrownODSTMine</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_grenade_03</Projectile>
-		<ImpactEffect size="Small">ODSTMineImpact</ImpactEffect>
-		<Mine>fx_mine_ODSTMine_01</Mine>
-		<AlwaysReplaceTargetWithItsPosition />
-		<MaxRange>30</MaxRange>
-		<MaxPlantRange>35</MaxPlantRange>
-	</Weapon>
-	<Weapon>
-		<Name>RM_ThrownODSTMine</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_grenade_03</Projectile>
-		<ImpactEffect size="Small">ODSTMineImpact</ImpactEffect>
-		<Mine>fx_mine_ODSTMine_01_RM</Mine>
-		<AlwaysReplaceTargetWithItsPosition />
-		<MaxRange>30</MaxRange>
-		<MaxPlantRange>35</MaxPlantRange>
-	</Weapon>
-	<Weapon>
 		<Name>Grenade</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>170</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>LeaderPower</WeaponType>
-		<Projectile>fx_proj_grenadeodst_01</Projectile>
-		<ImpactEffect size="Medium">GrenadeExplosion</ImpactEffect>
-		<MaxVelocityLead>21</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>0</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>0</MovingMaxDeviation>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>900</PhysicsForceMin>
-		<PhysicsForceMax>1100</PhysicsForceMax>
+		<DamagePerSecond>125</DamagePerSecond>
+		<WeaponType>AntiBuildingFire</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -128,36 +94,40 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<PreAttackCooldownMin>3</PreAttackCooldownMin>
-		<PreAttackCooldownMax>3</PreAttackCooldownMax>
-		<PostAttackCooldownMin>10</PostAttackCooldownMin>
-		<PostAttackCooldownMax>11</PostAttackCooldownMax>
-		<Filter>Light</Filter>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="Infantry">6</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>1</VisualAmmo>
+		<ReloadAnimation>RocketReload</ReloadAnimation>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
+		<DamageModifier rating="1" type="Building">4</DamageModifier>
+		<Hardpoint>Torso</Hardpoint>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>3</PreAttackCooldownMax>
+		<PostAttackCooldownMin>3</PostAttackCooldownMin>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>InCoverGrenade</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>170</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>LeaderPower</WeaponType>
-		<Projectile>fx_proj_grenadeodst_01</Projectile>
-		<ImpactEffect size="Medium">GrenadeExplosion</ImpactEffect>
-		<MaxVelocityLead>21</MaxVelocityLead>
-		<MaxRange>55</MaxRange>
+		<DamagePerSecond>51</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>24.6000004</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>0</MaxDeviation>
+		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>0</MovingMaxDeviation>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>900</PhysicsForceMin>
-		<PhysicsForceMax>1100</PhysicsForceMax>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>1</VisualAmmo>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -174,22 +144,20 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<PreAttackCooldownMin>3</PreAttackCooldownMin>
-		<PreAttackCooldownMax>3</PreAttackCooldownMax>
-		<PostAttackCooldownMin>10</PostAttackCooldownMin>
-		<PostAttackCooldownMax>11</PostAttackCooldownMax>
-		<Filter>Light</Filter>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="Infantry">6</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<ReloadAnimation>RocketReload</ReloadAnimation>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<ProjectileLaunchDirY />
 	</Weapon>
 	<Action>
 		<Name>InCoverSMGAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>SMGAttack</Anim>
-		<ReloadAnim>SMGReload</ReloadAnim>
+		<Anim>AssaultRifleAttack</Anim>
+		<ReloadAnim>AssaultRifleReload</ReloadAnim>
 		<Weapon>InCoverSMG</Weapon>
 		<FullBodyAttackAnim />
 		<FindBetterAction />
@@ -197,9 +165,9 @@
 	<Action>
 		<Name>SMGAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>SMGAttack</Anim>
-		<MoveAnim>JogAttack</MoveAnim>
-		<ReloadAnim>SMGReload</ReloadAnim>
+		<Anim>AssaultRifleAttack</Anim>
+		<MoveAnim>AssaultRifleAttackMove</MoveAnim>
+		<ReloadAnim>AssaultRifleReload</ReloadAnim>
 		<Weapon>SMG</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
@@ -208,9 +176,9 @@
 	<Action>
 		<Name>AirSMGAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>SMGAttack</Anim>
-		<MoveAnim>JogAttack</MoveAnim>
-		<ReloadAnim>SMGReload</ReloadAnim>
+		<Anim>AssaultRifleAttack</Anim>
+		<MoveAnim>AssaultRifleAttackMove</MoveAnim>
+		<ReloadAnim>AssaultRifleReload</ReloadAnim>
 		<Weapon>AirSMG</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
@@ -219,8 +187,8 @@
 	<Action>
 		<Name>InCoverGrenadeAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>FragGrenadeAttack</Anim>
-		<MoveAnim>JogAttackGrenade</MoveAnim>
+		<Anim>RocketAttack</Anim>
+		<ReloadAnim>RocketReload</ReloadAnim>
 		<Weapon>InCoverGrenade</Weapon>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
@@ -229,32 +197,15 @@
 	<Action>
 		<Name>GrenadeAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>FragGrenadeAttack</Anim>
-		<MoveAnim>JogAttackGrenade</MoveAnim>
+		<Anim>RocketAttack</Anim>
+		<MoveAnim>JogAttack</MoveAnim>
+		<ReloadAnim>RocketReload</ReloadAnim>
 		<Weapon>Grenade</Weapon>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<FindBetterAction />
+		<MaxNumUnitsPerformAction>4</MaxNumUnitsPerformAction>
 		<Strafing turnRate="180" trackingSpeed="60" />
-	</Action>
-	<Action>
-		<Name>MineAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>Mine</Anim>
-		<Weapon>ThrownODSTMine</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
-		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
-	</Action>
-	<Action>
-		<Name>RM_MineAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>Mine</Anim>
-		<Weapon>RM_ThrownODSTMine</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
-		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
-		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -366,15 +317,8 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
 			<Action>InCoverGrenadeAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>GrenadeAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
@@ -395,25 +339,8 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Relation>Self</Relation>
-			<Action>MineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>MineAttackAction</Action>
-			<Relation>Ally</Relation>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>MineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<TargetsGround />
-			<Action>MineAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
+			<Action>GrenadeAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
@@ -437,28 +364,6 @@
 			<Relation>Self</Relation>
 			<TargetType>TeleportDropoff</TargetType>
 			<Action>UngarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Self</Relation>
-			<Action>RM_MineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>RM_MineAttackAction</Action>
-			<Relation>Ally</Relation>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>RM_MineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<TargetsGround />
-			<Action>RM_MineAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 	</Tactic>
 </TacticData>

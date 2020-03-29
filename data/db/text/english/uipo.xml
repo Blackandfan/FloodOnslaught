@@ -1,0 +1,101 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIPO.CARD.SHORTDESCR.CLUSTERMISSILES">Fire a staggered series of bombs onto the battlefield</str>
+    <str id="UIPO.CARD.SHORTDESCR.COMBATSALVAGE">Tag your mechanical units to re-deploy them back at base if killed</str>
+    <str id="UIPO.CARD.SHORTDESCR.HEAVYMETAL">Boost the armor of target allies but reduce their movement speed</str>
+    <str id="UIPO.CARD.SHORTDESCR.PELICANTRANSPORT">Pick up and move your units to another location</str>
+    <str id="UIPO.CARD.TITLE.CLUSTERMISSILES">Scatter Bomb</str>
+    <str id="UIPO.CARD.TITLE.COMBATSALVAGE">Combat Salvage</str>
+    <str id="UIPO.CARD.TITLE.GRIZZLY">Grizzly</str>
+    <str id="UIPO.CARD.TITLE.HEAVYMETAL">Heavy Metal</str>
+    <str id="UIPO.CARD.TITLE.HERO.FORGEHOG">Forge&apos;s Warthog</str>
+    <str id="UIPO.CARD.TITLE.KODIAK.RUSH">Vanguard Kodiak</str>
+    <str id="UIPO.CARD.TITLE.MARINES.REFLECT">Reactive Marines</str>
+    <str id="UIPO.CARD.TITLE.PELICANTRANSPORT">Pelican Transport</str>
+    <str id="UIPO.CODEX.UNITSUNSC.BODY.FORGE">&lt;</str>
+    <str id="UIPO.CODEX.UNITSUNSC.BODY.FORGESHOG">&lt;</str>
+    <str id="UIPO.CODEX.UNITSUNSC.BODY.GRIZZLY">&lt;</str>
+    <str id="UIPO.CODEX.UNITSUNSC.TITLE.FORGE">Sergeant Forge</str>
+    <str id="UIPO.CODEX.UNITSUNSC.TITLE.FORGESHOG">Forge&apos;s Warthog</str>
+    <str id="UIPO.CODEX.UNITSUNSC.TITLE.GRIZZLY">Grizzly</str>
+    <str id="UIPO.COMMANDERTITLE.FORGE">SERGEANT FORGE</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.GRIZZLYBATTALION">Pelican Gunship drops-off 3 veteran Grizzlies.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.PELICANTRANSPORT">Transports selected units point-to-point.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.ROLLINGECONOMYI">Reduced costs and build times for Supply Pads, Generators, and their upgrades.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.ROLLINGECONOMYII">Further reduced costs and build times for Supply Pads, Generators, and their upgrades.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.SCATTERBOMBI">Fires a series of staggered bombs at the battlefield.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.SCATTERBOMBII">Increases damage and number of bombs fired.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.UNSCHEROFORGE">Forge storms the battlefield in his custom Warthog.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.VEHICLEDROPI">Pelican Gunship drops-off a veteran Kodiak.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERDESCR.VEHICLEDROPII">Pelican Gunship drops-off a veteran Kodiak and Warthog.</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.GRIZZLYBATTALION">Grizzly Battalion</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.PELICANTRANSPORT">Pelican Transport</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.ROLLINGECONOMYI">Rolling Economy I</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.ROLLINGECONOMYII">Rolling Economy II</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.SCATTERBOMBI">Scatter Bombs I</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.SCATTERBOMBII">Scatter Bombs II</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.UNSCHEROFORGE">Forge&apos;s Warthog</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.VEHICLEDROPI">Vehicle Drop I</str>
+    <str id="UIPO.COMMANDTREEPAGE.POWERNAME.VEHICLEDROPII">Vehicle Drop II</str>
+    <str id="UIPO.COMMANDTREEPAGE.UNLOCKREQUIRED.ROLLINGECONOMYI">Rolling Economy I required.</str>
+    <str id="UIPO.COMMANDTREEPAGE.UNLOCKREQUIRED.SCATTERBOMBI">Scatter Bomb I required.</str>
+    <str id="UIPO.COMMANDTREEPAGE.UNLOCKREQUIRED.VEHICLEDROPI">Vehicle Drop I required.</str>
+    <str id="UIPO.GRIZZLYBATALLION.RADIALCENTER.NAME">GRIZZLY BATALLION</str>
+    <str id="UIPO.GRIZZLYBATALLION.RADIALEDGE.NAME">GRIZZLY BATALLION</str>
+    <str id="UIPO.GRIZZLYBATALLION.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIPO.GRIZZLYBATALLION.RADIALEDGE.SHORTDESCR">Activate to get a deployment of 3 veteran Grizzly tanks.</str>
+    <str id="UIPO.LEADER.ROLE.FORGE.1">Full Metal</str>
+    <str id="UIPO.LEADER.ROLE.FORGE.2">Mad Dash</str>
+    <str id="UIPO.LEADER.ROLE.FORGE.3">Rolling Thunder</str>
+    <str id="UIPO.LEADERSELECT.ROLE01.FORGE">Armor</str>
+    <str id="UIPO.LEADERSELECT.ROLE02.FORGE">Economy</str>
+    <str id="UIPO.LEADERSELECT.SHORTDESCR.FORGE">Forge&apos;s strengths lie in armored aggression and slow-building economy, using heavy vehicles to push through enemies.</str>
+    <str id="UIPO.LEADERSELECT.SHORTDESCR.FORGE.BLITZ">Forge&apos;s strengths lie in armored aggression, using heavy vehicles to push through enemies.</str>
+    <str id="UIPO.LEADERSELECT.TITLE.FORGE">Sergeant Forge</str>
+    <str id="UIPO.PELICANTRANSPORT.RADIALCENTER.NAME">PELICAN TRANSPORT</str>
+    <str id="UIPO.PELICANTRANSPORT.RADIALEDGE.NAME">PELICAN TRANSPORT</str>
+    <str id="UIPO.PELICANTRANSPORT.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIPO.PELICANTRANSPORT.RADIALEDGE.SHORTDESCR">Selected units are transported point-to-point.
+Transports anywhere within range.</str>
+    <str id="UIPO.SCATTERBOMB.RADIALCENTER.NAME">SCATTER BOMBS I</str>
+    <str id="UIPO.SCATTERBOMB.RADIALEDGE.NAME">SCATTER BOMBS I</str>
+    <str id="UIPO.SCATTERBOMB.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIPO.SCATTERBOMB.RADIALEDGE.SHORTDESCR">Activate to drop scattered salvo of bombs.
+Damages all unit types &amp; buildings.</str>
+    <str id="UIPO.SCATTERBOMBII.RADIALCENTER.NAME">SCATTER BOMBS II</str>
+    <str id="UIPO.SCATTERBOMBII.RADIALEDGE.NAME">SCATTER BOMBS II</str>
+    <str id="UIPO.SCATTERBOMBII.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIPO.SCATTERBOMBII.RADIALEDGE.SHORTDESCR">Activate to drop scattered salvo of bombs.
+Damages all unit types &amp; buildings.</str>
+    <str id="UIPO.SPECIALABILITY.FORGEHOG.DESCR">Fires an EMP at an area, slowing nearby enemies.</str>
+    <str id="UIPO.SPECIALABILITY.FORGEHOG.TITLE">Anvil Round</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE1.RADIALCENTER.NAME">ANVIL ROUND</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE1.RADIALEDGE.NAME">ANVIL ROUND</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE1.RADIALEDGE.ROLE">NEW ABILITY</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE1.RADIALEDGE.SHORTDESCR">Fires an EMP round
+Slows enemy vehicles</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE2.RADIALCENTER.NAME">DEFENSIVE AURA</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE2.RADIALEDGE.NAME">DEFENSIVE AURA</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE2.RADIALEDGE.ROLE">UNIT UPGRADE</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE2.RADIALEDGE.SHORTDESCR">Improved Nanobots
+Increase nearby allies speed</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE3.RADIALCENTER.NAME">GAUSS OVERCHARGE</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE3.RADIALEDGE.NAME">GAUSS OVERCHARGE</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE3.RADIALEDGE.ROLE">WEAPON UPGRADE</str>
+    <str id="UIPO.UNSC_FORGEHOG_UPGRADE3.RADIALEDGE.SHORTDESCR">Gauss Cannon
+Upgraded Anvil Round ability</str>
+    <str id="UIPO.UNSC_VEH_FORGEHOG_01.RADIALCENTER.NAME">FORGE&apos;S WARTHOG</str>
+    <str id="UIPO.UNSC_VEH_FORGEHOG_01.RADIALEDGE.NAME">FORGE&apos;S WARTHOG</str>
+    <str id="UIPO.UNSC_VEH_FORGEHOG_01.RADIALEDGE.ROLE">HERO UNIT</str>
+    <str id="UIPO.UNSC_VEH_FORGEHOG_01.RADIALEDGE.SHORTDESCR">Improved Warthog
+Unique to Forge
+Protective nanobots
+One active hero limit.</str>
+    <str id="UIPO.VEHICLEDROPI.RADIALCENTER.NAME">VEHICLE DROP I</str>
+    <str id="UIPO.VEHICLEDROPI.RADIALEDGE.NAME">VEHICLE DROP I</str>
+    <str id="UIPO.VEHICLEDROPI.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIPO.VEHICLEDROPI.RADIALEDGE.SHORTDESCR">Activate to get a drop-off of a veteran Warthog.</str>
+    <str id="UIPO.VEHICLEDROPII.RADIALCENTER.NAME">VEHICLE DROP II</str>
+    <str id="UIPO.VEHICLEDROPII.RADIALEDGE.NAME">VEHICLE DROP II</str>
+    <str id="UIPO.VEHICLEDROPII.RADIALEDGE.ROLE">LEADER POWER</str>
+    <str id="UIPO.VEHICLEDROPII.RADIALEDGE.SHORTDESCR">Activate to get a drop-off of a veteran Warthog and Kodiak.</str>
+</string_table>

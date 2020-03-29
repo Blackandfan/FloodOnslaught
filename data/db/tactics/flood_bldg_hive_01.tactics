@@ -1,5 +1,126 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>3500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SuicideGrunt</WeaponType>
+		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
+		<MaxRange>10</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<DamageAllGarrisoned>True</DamageAllGarrisoned>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>25</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>14</AOERadius>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<Filter>Medium</Filter>
+		<InfectionTargetType>Military</InfectionTargetType>
+	</Weapon>
+	<Weapon>
+		<Name>SpawnerTrigger</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile isSpawnedSquad="true">flood_inf_infectfrm_01</Projectile>
+		<ImpactEffect size="small">MediumPlasmaExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>120</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>20</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>20</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>12</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>9</PostAttackCooldownMin>
+		<PostAttackCooldownMax>12</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>SpawnerAI</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile isSpawnedSquad="true">flood_inf_infectfrm_01</Projectile>
+		<ImpactEffect size="small">MediumPlasmaExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>120</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>20</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>20</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>12</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>9</PostAttackCooldownMin>
+		<PostAttackCooldownMax>12</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Action>
+		<Name>SpawnerTriggerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Spawn</Anim>
+		<Weapon>SpawnerTrigger</Weapon>
+		<DontAutoRestart />
+		<ForceAttachmentAnim />
+		<FullBodyAttackAnim />
+		<DontCheckOrientTolerance />
+	</Action>
+	<Action>
+		<Name>SpawnerInfAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Spawn</Anim>
+		<Weapon>SpawnerAI</Weapon>
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<DontCheckOrientTolerance />
+	</Action>
+	<Action>
+		<Name>SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<Infection />
+		<AutoDetonate AutoDetonateIdleTime="0" AutoDetonateAggroRange="35" />
+		<Weapon>Bomb</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
 	<Action>
 		<Name>TrainedSquadDoor</Name>
 		<ActionType>TrainedSquadDoor</ActionType>
@@ -14,7 +135,7 @@
 		<ActionType>AreaBuff</ActionType>
 		<WorkRange>60</WorkRange>
 		<SpecificData>
-			<BuffParams BuffType="ForgehogHeavyMetal" SlowModifier="1.5" DamageMitigationScalar="0.800000012">0.5f</BuffParams>
+			<BuffParams BuffType="CovBoundlessRage" SlowModifier="1.5" DamageMitigationScalar="0.800000012">0.5f</BuffParams>
 			<TargetTypes />
 			<Relations>
 				<Relation>Ally</Relation>
@@ -25,6 +146,16 @@
 	<Tactic>
 		<PersistentAction>TrainedSquadDoor</PersistentAction>
 		<PersistentAction>Base</PersistentAction>
-		<PersistentAction>AreaBuff2</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>SpawnerTriggerAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>SpawnerInfAttackAction</Action>
+		</TargetRule>
 	</Tactic>
 </TacticData>

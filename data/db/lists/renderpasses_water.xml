@@ -1,0 +1,112 @@
+<RenderPasses>
+    <Include file="renderPasses_SetupTileLightingForPass.xml">
+    </Include>
+    <Include file="renderPasses_SetupAlphaTypePass.xml">
+    </Include>
+    <SetRenderTargets group="PreWater">
+        <Target name="LightAccumulation">
+        </Target>
+        <Target name="Depth">
+        </Target>
+    </SetRenderTargets>
+    <DrawRenderItems group="PreWater">
+        <Priority type="PreWater">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <ConditionalPriorityPass group="Water">
+        <If condition="Water">
+            <SetRenderTargets group="Water">
+                <Target name="WaterRefraction">
+                </Target>
+            </SetRenderTargets>
+            <SetTexture group="Water">
+                <Target name="LightAccumulation">
+                </Target>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="0">
+                </Index>
+            </SetTexture>
+            <SamplerState group="Water">
+                <Address u="Clamp" v="Clamp" w="Clamp">
+                </Address>
+                <Filter min="Linear" mag="Linear" mip="Linear">
+                </Filter>
+                <Index index="0">
+                </Index>
+            </SamplerState>
+            <SetShader group="Water">
+                <Shader name="PassThroughWater">
+                </Shader>
+            </SetShader>
+            <DrawNoVertexBuffer group="Water">
+                <Primitive type="TriList" count="1">
+                </Primitive>
+            </DrawNoVertexBuffer>
+            <UnsetTexture group="Water">
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="0">
+                </Index>
+            </UnsetTexture>
+            <SetRenderTargets group="Water">
+                <Target name="LightAccumulation">
+                </Target>
+                <Target name="Depth">
+                </Target>
+            </SetRenderTargets>
+            <Include file="renderPasses_SetupTileLightingForPass.xml">
+            </Include>
+            <Include file="renderPasses_SetupAlphaTypePass.xml">
+            </Include>
+            <SetTexture group="Water">
+                <Target name="WaterRefraction">
+                </Target>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="8">
+                </Index>
+            </SetTexture>
+            <SetTexture group="Water">
+                <EngineTexture name="Black2D">
+                </EngineTexture>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="9">
+                </Index>
+            </SetTexture>
+            <SamplerState group="Water">
+                <Address u="Mirror" v="Mirror" w="Mirror">
+                </Address>
+                <Filter min="Linear" mag="Linear" mip="Linear">
+                </Filter>
+                <Index index="8">
+                </Index>
+            </SamplerState>
+            <SamplerState group="Water">
+                <Address u="Mirror" v="Mirror" w="Mirror">
+                </Address>
+                <Filter min="Linear" mag="Linear" mip="Linear">
+                </Filter>
+                <Index index="9">
+                </Index>
+            </SamplerState>
+            <DrawRenderItems group="Water">
+                <Priority type="Water">
+                </Priority>
+                <DrawRenderItem>
+                </DrawRenderItem>
+            </DrawRenderItems>
+            <UnsetTexture group="Water">
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="7">
+                </Index>
+            </UnsetTexture>
+            <Include file="renderPasses_CopyDepthOnly.xml">
+            </Include>
+        </If>
+    </ConditionalPriorityPass>
+</RenderPasses>

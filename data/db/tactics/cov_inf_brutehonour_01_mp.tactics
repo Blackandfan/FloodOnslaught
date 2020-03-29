@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Hammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>515</DamagePerSecond>
+		<DamagePerSecond>1250</DamagePerSecond>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -124,7 +124,7 @@
 	<Weapon>
 		<Name>HealingStunningPullHammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>515</DamagePerSecond>
+		<DamagePerSecond>2250</DamagePerSecond>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -167,7 +167,7 @@
 	<Weapon>
 		<Name>HammerShockwave</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>3000</DamagePerSecond>
+		<DamagePerSecond>30000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>3</MaxRange>
@@ -207,7 +207,7 @@
 	<Weapon>
 		<Name>SelfHammerShockwave</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>3000</DamagePerSecond>
+		<DamagePerSecond>30000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>3</MaxRange>
@@ -253,7 +253,6 @@
 		<ChargeOnDealt />
 		<Anim>Pull</Anim>
 		<ProtoObject bone="bone_vfx_HammerPoint">fx_decimuspullcharged_01</ProtoObject>
-		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>HammerAttackAction</Name>
@@ -290,6 +289,7 @@
 		<Fatality attacker="fatality_brutehon01_v_sniper01_attacker_01" target="fatality_brutehon01_v_sniper01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
 		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
 		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>PullHammerAttackAction</Name>
@@ -409,7 +409,6 @@
 		<Fatality attacker="fatality_brutehon01_v_sniper01_attacker_01" target="fatality_brutehon01_v_sniper01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
 		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
 		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
-		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>HammerShockwaveAction</Name>

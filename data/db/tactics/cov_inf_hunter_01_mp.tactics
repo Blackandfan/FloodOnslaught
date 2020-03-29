@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>FuelRodCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>90</DamagePerSecond>
+		<DamagePerSecond>250</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">FuelRodCannonAirImpact</ImpactEffect>
@@ -38,7 +38,7 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>104</DamagePerSecond>
+		<DamagePerSecond>420</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_hunterbeam</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>

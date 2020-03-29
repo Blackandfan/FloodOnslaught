@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>CyclopsCannon</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>155</DamagePerSecond>
+		<DamagePerSecond>315</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Medium">AutoCannonImpact</ImpactEffect>
@@ -32,7 +32,7 @@
 	<Weapon>
 		<Name>InCoverCyclopsCannon</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>155</DamagePerSecond>
+		<DamagePerSecond>315</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Medium">AutoCannonImpact</ImpactEffect>
@@ -61,7 +61,7 @@
 	<Weapon>
 		<Name>CyclopsEMPCannon</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>188</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_cannon_02</Projectile>
 		<ImpactEffect size="Medium">CyclopsUpgradeImpact</ImpactEffect>
@@ -91,7 +91,7 @@
 	<Weapon>
 		<Name>InCoverCyclopsEMPCannon</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>188</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_cannon_02</Projectile>
 		<ImpactEffect size="Medium">CyclopsUpgradeImpact</ImpactEffect>

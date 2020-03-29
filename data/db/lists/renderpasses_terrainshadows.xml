@@ -1,0 +1,10 @@
+<RenderPasses>
+    <PrepareTerrainRender group="Terrain">
+    </PrepareTerrainRender>
+    <DrawRenderItems group="Terrain">
+        <Priority type="Terrain">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+</RenderPasses>

@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Minigun</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_johnsonMinigun_01</Projectile>
 		<ImpactEffect size="Small">SmallBallisticImpact</ImpactEffect>
@@ -24,7 +24,7 @@
 	<Weapon>
 		<Name>MinigunUpgrade</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_guasschainGun_01</Projectile>
 		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
@@ -45,7 +45,7 @@
 	<Weapon>
 		<Name>Artillery</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>180</DamagePerSecond>
+		<DamagePerSecond>300</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_johnsonmissile_01</Projectile>
 		<ImpactEffect size="Medium">JohnsonMissileImpact</ImpactEffect>
@@ -258,7 +258,23 @@
 		<ActionType>EnergyShield</ActionType>
 		<ProtoObject>cov_locustshield</ProtoObject>
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<PersistentAction>ArtilleryAttackAction</PersistentAction>
 		<TargetRule>

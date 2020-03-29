@@ -103,7 +103,7 @@
 				</entry>
 				<entry>
 					<key>CorruptBrute</key>
-					<value>../textures/common/gamertag/img_leader_gamertag_Voridus</value>
+					<value>../textures/hud/icons/entityicons/img_leaderboard_mFlood</value>
 				</entry>
 				<entry>
 					<key>UnbreakableBrute</key>
@@ -215,9 +215,9 @@
 				</entry>
 				<entry>
 					<key>CorruptBrute</key>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Voridus</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_Voridus</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Voridus</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_mFlood</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_mFlood</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_mFlood</value>
 				</entry>
 				<entry>
 					<key>UnbreakableBrute</key>
@@ -549,7 +549,7 @@
 				</entry>
 				<entry>
 					<key>CorruptBrute</key>
-					<value>../textures/frontend/Leaderboard/img_leaderboard_Voridus</value>
+					<value>../textures/hud/icons/entityicons/img_leaderboard_mFlood</value>
 				</entry>
 				<entry>
 					<key>UnbreakableBrute</key>
@@ -750,8 +750,8 @@
 			</entry>
 			<entry>
 				<key>CorruptBrute</key>
-				<value>UIEP2.LEADERSELECT.TITLE.CORRUPTED</value>
-				<value>UIEP2.LEADERSELECT.SHORTDESCR.CORRUPTED</value>
+				<value>UIENT.LEADERSELECT.TITLE.FLOOD</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.FLOOD</value>
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIEP2.LEADERSELECT.ROLE01.CORRUPTED</value>
 				<value>UIMP.FINDMATCH.NA</value>

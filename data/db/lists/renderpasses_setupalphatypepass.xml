@@ -1,0 +1,124 @@
+<RenderPasses>
+    <SetTexture group="AlphaSetup">
+        <RenderGlobal name="TerrainHeightfield">
+        </RenderGlobal>
+        <Shader type="Vertex">
+        </Shader>
+        <Index index="8">
+        </Index>
+    </SetTexture>
+    <SamplerState group="AlphaSetup">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="8">
+        </Index>
+        <Shader type="Vertex">
+        </Shader>
+    </SamplerState>
+    <SetTexture group="AlphaSetup">
+        <Target name="DepthCopy">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="7">
+        </Index>
+    </SetTexture>
+    <SamplerState group="AlphaSetup">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="7">
+        </Index>
+    </SamplerState>
+    <SetTextureMultiStage group="AlphaSetup">
+        <Target name="DirectionalLightDepth">
+        </Target>
+        <Shader type="Vertex" index="5">
+        </Shader>
+        <Shader type="Pixel" index="5">
+        </Shader>
+    </SetTextureMultiStage>
+    <SamplerState group="AlphaSetup">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Comparison function="LessEqual" enabled="1">
+        </Comparison>
+        <Shader type="Vertex">
+        </Shader>
+        <Index index="5">
+        </Index>
+    </SamplerState>
+    <SamplerState group="AlphaSetup">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Comparison function="LessEqual" enabled="1">
+        </Comparison>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="5">
+        </Index>
+    </SamplerState>
+    <SetTexture group="AlphaSetup">
+        <Target name="AlphaShadowAccum">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="14">
+        </Index>
+    </SetTexture>
+    <SamplerState group="AlphaSetup">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="14">
+        </Index>
+    </SamplerState>
+    <SetTexture group="AlphaSetup">
+        <RenderGlobal name="AccumulatedVolumeFog">
+        </RenderGlobal>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="11">
+        </Index>
+    </SetTexture>
+    <SamplerState group="AlphaSetup">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="11">
+        </Index>
+    </SamplerState>
+    <BindIBLData group="AlphaSetup">
+        <GlobalIBLTex shaderType="Pixel" textureIndex="6">
+        </GlobalIBLTex>
+        <GlobalIBLSHCoeffs shaderType="Pixel" textureIndex="10">
+        </GlobalIBLSHCoeffs>
+        <BRDFTexture shaderType="Pixel" textureIndex="12">
+        </BRDFTexture>
+    </BindIBLData>
+    <SamplerState group="AlphaSetup">
+        <Address u="Wrap" v="Wrap" w="Wrap">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="6">
+        </Index>
+    </SamplerState>
+    <SamplerState group="Reflection">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="12">
+        </Index>
+    </SamplerState>
+</RenderPasses>

@@ -1,0 +1,82 @@
+<RenderPasses>
+    <SetRenderTargets group="MotionVectors">
+        <Target name="MotionVectors">
+        </Target>
+    </SetRenderTargets>
+    <SetTexture group="MotionVectors">
+        <Target name="DepthCopy">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="7">
+        </Index>
+    </SetTexture>
+    <SamplerState group="MotionVectors">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Point" mag="Point" mip="Point">
+        </Filter>
+        <Index index="7">
+        </Index>
+    </SamplerState>
+    <SetViewport group="MotionVectors">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissor group="MotionVectors">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+    </SetScissor>
+    <SetShader>
+        <Shader name="FullScreenCameraVelocity">
+        </Shader>
+    </SetShader>
+    <DrawNoVertexBuffer group="MotionVectors">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <SetRenderTargets group="MotionVectors">
+        <Target name="MotionVectors">
+        </Target>
+        <Target name="Depth">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="MotionVectors">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissor group="MotionVectors">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+    </SetScissor>
+    <SetShader>
+        <Shader name="TempNonSkinnedVel">
+        </Shader>
+    </SetShader>
+    <DrawRenderItems group="MotionVectors">
+        <Priority begin="Solid" end="SolidUnits">
+        </Priority>
+        <RenderItemExecutionParams>
+            <BindShaders value="false">
+            </BindShaders>
+            <BindDepthStencilState value="false">
+            </BindDepthStencilState>
+            <BindBlendState value="false">
+            </BindBlendState>
+            <BindRasterizerState value="false">
+            </BindRasterizerState>
+        </RenderItemExecutionParams>
+        <SetShader>
+            <SkinnedShader name="TempSkinnedVel">
+            </SkinnedShader>
+            <Shader name="TempNonSkinnedVel">
+            </Shader>
+        </SetShader>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+</RenderPasses>

@@ -5,7 +5,7 @@
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
 		<WorkRange>30</WorkRange>
-		<WorkRate>0.0359999985</WorkRate>
+		<WorkRate>0.15</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="35" />
 		<SpecificData>

@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Chaingun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>125</DamagePerSecond>
+		<DamagePerSecond>116</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
@@ -39,7 +39,7 @@
 	<Weapon>
 		<Name>StandardGun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>209</DamagePerSecond>
+		<DamagePerSecond>195</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -78,7 +78,7 @@
 	<Weapon>
 		<Name>ChaingunJohnson</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>137</DamagePerSecond>
+		<DamagePerSecond>127</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
@@ -116,7 +116,7 @@
 	<Weapon>
 		<Name>StandardGunJohnson</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>230</DamagePerSecond>
+		<DamagePerSecond>214</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -157,7 +157,7 @@
 	<Weapon>
 		<Name>ChaingunJohnson1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>137</DamagePerSecond>
+		<DamagePerSecond>127</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
@@ -195,7 +195,7 @@
 	<Weapon>
 		<Name>StandardGunJohnson1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>230</DamagePerSecond>
+		<DamagePerSecond>214</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>

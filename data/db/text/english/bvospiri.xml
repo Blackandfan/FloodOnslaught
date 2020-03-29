@@ -1,0 +1,40 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="BVOSPIRI_DROPSHIP_ARRIVING_AT_DROP_ZONE_PELICANSPIRIT_01">Spirit arriving at deploying location.</str>
+    <str id="BVOSPIRI_DROPSHIP_ARRIVING_AT_DROP_ZONE_PELICANSPIRIT_02">Spirit here.</str>
+    <str id="BVOSPIRI_DROPSHIP_ARRIVING_AT_DROP_ZONE_PELICANSPIRIT_03">Preparing to deploy units.</str>
+    <str id="BVOSPIRI_DROPSHIP_ARRIVING_AT_DROP_ZONE_PELICANSPIRIT_04">Units ready to disembark.</str>
+    <str id="BVOSPIRI_DROPSHIP_DEATH_PELICANSPIRIT_1">Arghh!</str>
+    <str id="BVOSPIRI_DROPSHIP_DEATH_PELICANSPIRIT_2">Arghh!</str>
+    <str id="BVOSPIRI_DROPSHIP_DROP_OFF_UNITS_PELICANSPIRIT_02">Units preparing to leave.</str>
+    <str id="BVOSPIRI_DROPSHIP_DROP_OFF_UNITS_PELICANSPIRIT_03">Dispatching units.</str>
+    <str id="BVOSPIRI_DROPSHIP_DROP_OFF_UNITS_PELICANSPIRIT_04">Open the carrier bay!</str>
+    <str id="BVOSPIRI_DROPSHIP_LEAVING_DROP_ZONE_PELICANSPIRIT">Leaving area.</str>
+    <str id="BVOSPIRI_DROPSHIP_SPIRIT_COVERING_FIRE_01">Lay down covering fire!</str>
+    <str id="BVOSPIRI_DROPSHIP_SPIRIT_COVERING_FIRE_02">Fire plasma barrage!</str>
+    <str id="BVOSPIRI_DROPSHIP_SPIRIT_COVERING_FIRE_03">Cover those forces!</str>
+    <str id="BVOSPIRI_DROPSHIP_UNDER_ATTACK_AFTER_DROPPING_UNITS_PELICANSPIRIT">We are under attack! Evading!</str>
+    <str id="BVOSPIRI_DROPSHIP_UNDER_ATTACK_DURING_DROPPING_UNITS_PELICANSPIRIT">The enemy is attacking, we are going to take casualties!</str>
+    <str id="BVOSPIRI_DROPSHIP_UNDER_ATTACK_PELICANSPIRIT">We are under attack!</str>
+    <str id="BVOSPIRI_DROPSHIP_UNITS_DROPPED_OFF_PELICANSPIRIT_01">Units are at location.</str>
+    <str id="BVOSPIRI_DROPSHIP_UNITS_DROPPED_OFF_PELICANSPIRIT_02">Units are on the field.</str>
+    <str id="BVOSPIRI_DROPSHIP_UNITS_DROPPED_OFF_PELICANSPIRIT_03">Units delivered.</str>
+    <str id="BVOSPIRI_DROPSHIP_UNITS_DROPPED_OFF_PELICANSPIRIT_04">All units out.</str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+    <str id="BVOSPIRI_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+</string_table>

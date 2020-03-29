@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="chopper01">
+	<model name="chopper01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/vehicles/floodchopper01/mesh_chopper01</file>
+				<damagefile>episode2/pack1/units/flood/vehicles/floodchopper01/chopper01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="chopper01_frontaxle" tobone="socketbone_frontaxle" frombone="GrannyRootBone_frontaxle" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadLightLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadLightRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/ChopperCabinLight" tobone="bone_vfx_CockpitLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/ChopperWheelLight" tobone="bone_vfx_WheelLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerExhaust" tobone="bone_vfx_EngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerExhaust" tobone="bone_vfx_EngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ChopperHoverEngine" tobone="bone_vfx_HoverEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/chopper" tobone="bone_vfx_HoverPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="chopper01_handlebars" tobone="socketbone_handle_bars_0" frombone="GrannyRootBone_handle_bars_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_chopper" pointData="Metal" />
+			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_main_idle01</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_main_idle02</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHover" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Attack_Left" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack_Right" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Transition" tweenTime="2" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_main_walk01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_main_walk02</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostTail" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHoverFast" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHover" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Jog" exitAction="Transition" tweenTime="2" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_main_walk01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_main_walk02</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostTail" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostTailFast" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHoverFast" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Transition" tweenTime="2" tweenToAnimation="Run" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_main_walk01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_main_walk02</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostTail" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostTailFast" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHoverFast" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="15" tweenToAnimation="Gather" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_idle02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_idle03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_idle04</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHover" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Exp_Attack_Left" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Exp_Attack_Right" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Ram" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_ram</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="PLAY_SFX_3D_VEH_BAN_Chopper_RamBoost" tobone="GrannyRootBone_chopper01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.522000015" end="1" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostTail" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHoverFast" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHover" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMiscVFX/ChopperRamTrails" tobone="bone_vfx_HoverEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMiscVFX/ChopperRevSmoke" tobone="bone_vfx_EngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMiscVFX/ChopperRevSmoke" tobone="bone_vfx_EngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Rev" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_main_rev</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="PLAY_SFX_3D_VEH_BAN_Chopper_RamRev" tobone="GrannyRootBone_chopper01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="STOP_SFX_3D_VEH_BAN_Chopper_RamRev" tobone="GrannyRootBone_chopper01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="PLAY_SFX_3D_VEH_BAN_Chopper_RamBoost" tobone="GrannyRootBone_chopper01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostTail" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHoverFast" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GhostHover" tobone="bone_vfx_Wheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMiscVFX/ChopperRevSmoke" tobone="bone_vfx_EngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMiscVFX/ChopperRamTrails" tobone="bone_vfx_HoverEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMiscVFX/ChopperRevSmoke" tobone="bone_vfx_EngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Transform" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/vehicles/infectedchopper_01/transform_01_chopper</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.600000024" end="1" name="vfx/episode2/floodInfectFanfare" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.600000024" end="1" name="PLAY_SFX_3D_FLY_FLD_TransformGrowth_Vehicle" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="chopper01_frontaxle">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\covenant\rostermode\vehicles\rm_chopper_fear\mesh_frontaxle</file>
+				<damagefile>units/covenant/rostermode/vehicles/rm_chopper_fear/rm_front_axle</damagefile>
+			</asset>
+			<attach type="ModelRef" name="chopper01_wheel" tobone="socketbone_wheel" frombone="GrannyRootBone_wheel" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="chopper01_gunleft" tobone="socketbone_gunleft_0" frombone="GrannyRootBone_gunleft_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="chopper01_gunright" tobone="socketbone_gunright_0" frombone="GrannyRootBone_gunright_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_frontaxle_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_frontaxle_idle02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack_Left" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack_Right" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="15" tweenToAnimation="Gather" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_idle02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_idle03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_idle04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Exp_Attack_Left" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Exp_Attack_Right" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Rev" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_rev</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Ram" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_frontaxle_ram</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Transition" tweenTime="2" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_frontaxle_walk01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_frontaxle_walk02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Transition" tweenTime="2" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_frontaxle_walk01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_frontaxle_walk02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Transition" tweenTime="2" tweenToAnimation="Run" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_frontaxle_walk01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_frontaxle_walk02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Transform" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/vehicles/infectedchopper_01/transform_01_frontaxle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="chopper01_wheel">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/vehicles/floodchopper01/mesh_wheel</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_wheel_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_wheel_idle02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="15" tweenToAnimation="Gather" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_wheel_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_wheel_idle02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_wheel_idle03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_wheel_idle04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Rev" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_wheel_rev</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Ram" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_wheel_ram</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Transition" tweenTime="2" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_wheel_walk01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_wheel_walk02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Transition" tweenTime="2" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_wheel_walk01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_wheel_walk02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Transition" tweenTime="2" tweenToAnimation="Run" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_wheel_walk01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_wheel_walk02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Transform" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/vehicles/infectedchopper_01/transform_chopper_01_wheel</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="chopper01_gunleft">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/vehicles/floodchopper01/mesh_gunleft_0</file>
+				<damagefile>episode2/pack1/units/flood/vehicles/floodchopper01/gun_left</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_gunleft_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_gunleft_idle02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack_Left" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_attack01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.100000001" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.100000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.100000001" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.200000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.200000003" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.300000012" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.300000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.400000006" end="1" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.400000006" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.5" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.5" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.600000024" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.600000024" end="1" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.600000024" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.699999988" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.699999988" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.800000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.800000012" end="1" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.899999976" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.899999976" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.899999976" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="15" tweenToAnimation="Gather" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_idle02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_idle03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_idle04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Exp_Attack_Left" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_attack01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.100000001" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.100000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.100000001" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.200000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.200000003" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.300000012" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.300000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.400000006" end="1" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.400000006" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.5" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.5" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.600000024" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.600000024" end="1" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.600000024" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.699999988" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.699999988" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.800000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.800000012" end="1" tobone="bone_vfx_LowerLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.899999976" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.899999976" end="1" tobone="bone_vfx_UpperLeftMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.899999976" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Rev" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_rev</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Ram" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_ram</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Transform" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/vehicles/infectedchopper_01/transform_01_gunleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="chopper01_gunright">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/vehicles/floodchopper01/mesh_gunright_0</file>
+				<damagefile>episode2/pack1/units/flood/vehicles/floodchopper01/gun_right</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_gunright_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/floodchopper01/flood_chopper_gunright_idle02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack_Right" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunright_attack01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.100000001" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.100000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.100000001" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.200000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.200000003" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.300000012" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.300000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.400000006" end="1" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.400000006" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.5" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.5" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.600000024" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.600000024" end="1" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.600000024" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.699999988" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.699999988" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.800000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.800000012" end="1" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.899999976" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.899999976" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.899999976" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannon" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="15" tweenToAnimation="Gather" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_idle02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunleft_idle03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunright_idle04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Exp_Attack_Right" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunright_attack01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.100000001" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.100000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.100000001" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.200000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.200000003" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.300000012" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.300000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.400000006" end="1" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.400000006" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.5" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.5" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.600000024" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.600000024" end="1" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.600000024" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.699999988" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.699999988" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.800000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.800000012" end="1" tobone="bone_vfx_LowerRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunleft_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.899999976" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ChopperExplosiveSpikerMuzzle" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.899999976" end="1" tobone="bone_vfx_UpperRightMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.899999976" end="1" name="PLAY_SFX_3D_WPN_BAN_ChopperAutocannonShrapnel" tobone="GrannyRootBone_gunright_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Rev" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunright_rev</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Ram" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/chopper01/chopper_gunright_ram</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Transform" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/vehicles/infectedchopper_01/transform_01_gunright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="chopper01_handlebars">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/vehicles/floodchopper01/mesh_handle_bars_0</file>
+			</asset>
+		</component>
+	</model>
+</visual>

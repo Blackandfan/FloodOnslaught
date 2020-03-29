@@ -1,0 +1,58 @@
+<RenderPasses>
+    <SetRenderTargets group="UIDecalStencil">
+        <Target name="Depth">
+        </Target>
+    </SetRenderTargets>
+    <SetStencilRef group="UIDecalStencil">
+        <StencilRef value="255">
+        </StencilRef>
+    </SetStencilRef>
+    <DrawRenderItems group="UIDecalStencil">
+        <Priority type="UIDecalStencil">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <Include file="renderPasses_SetupTileLightingForPass.xml">
+    </Include>
+    <Include file="renderPasses_SetupAlphaTypePass.xml">
+    </Include>
+    <SetRenderTargets group="PreAlpha">
+        <Target name="LightAccumulation">
+        </Target>
+        <Target name="Depth">
+        </Target>
+    </SetRenderTargets>
+    <DrawRenderItems group="PreAlpha">
+        <Priority type="PreAlpha">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <DrawRenderItems group="AlphaDecal">
+        <Priority type="AlphaDecal">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <SetStencilRef group="UIDecals">
+        <StencilRef value="255">
+        </StencilRef>
+    </SetStencilRef>
+    <DrawRenderItems group="UIDecals">
+        <Priority type="UIDecal">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <DrawRenderItems group="Alpha">
+        <Priority type="Alpha">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <GPUParticle group="Alpha">
+        <Render value="true">
+        </Render>
+    </GPUParticle>
+</RenderPasses>

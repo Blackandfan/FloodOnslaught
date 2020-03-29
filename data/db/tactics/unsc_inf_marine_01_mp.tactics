@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverAssaultRifle</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>22</DamagePerSecond>
+		<DamagePerSecond>30</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallBallisticImpact</ImpactEffect>
@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>AssaultRifle</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>22</DamagePerSecond>
+		<DamagePerSecond>30</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallBallisticImpact</ImpactEffect>
@@ -56,7 +56,7 @@
 	<Weapon>
 		<Name>AirAssaultRifle</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>22</DamagePerSecond>
+		<DamagePerSecond>30</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallBallisticImpact</ImpactEffect>
@@ -102,7 +102,7 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
+				<Radius>8</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -202,7 +202,7 @@
 		<Name>GarrisonTeleport</Name>
 		<ActionType>Garrison</ActionType>
 		<Anim>TeleportOut</Anim>
-		<WorkRange>9.22500038</WorkRange>
+		<WorkRange>9.27500038</WorkRange>
 	</Action>
 	<Action>
 		<Name>UngarrisonTeleport</Name>

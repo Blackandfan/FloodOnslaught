@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>MissileLauncher</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>176</DamagePerSecond>
+		<DamagePerSecond>164</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -33,7 +33,7 @@
 	<Weapon>
 		<Name>StandardGun</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>220</DamagePerSecond>
+		<DamagePerSecond>205</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
@@ -49,7 +49,7 @@
 	<Weapon>
 		<Name>MissileLauncherJohnson</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>194</DamagePerSecond>
+		<DamagePerSecond>181</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -81,7 +81,7 @@
 	<Weapon>
 		<Name>StandardGunJohnson</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>220</DamagePerSecond>
+		<DamagePerSecond>205</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
@@ -99,7 +99,7 @@
 	<Weapon>
 		<Name>MissileLauncherJohnson1</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>194</DamagePerSecond>
+		<DamagePerSecond>181</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -131,7 +131,7 @@
 	<Weapon>
 		<Name>StandardGunJohnson1</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>220</DamagePerSecond>
+		<DamagePerSecond>205</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>

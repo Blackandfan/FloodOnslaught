@@ -1,0 +1,342 @@
+<RenderPasses>
+    <SetTexture group="ScreenSpaceReflection">
+        <Target name="GBufferRT0">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SamplerState group="ScreenSpaceReflection">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="0">
+        </Index>
+    </SamplerState>
+    <SetTexture group="ScreenSpaceReflection">
+        <Target name="GBufferRT1">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="1">
+        </Index>
+    </SetTexture>
+    <SamplerState group="ScreenSpaceReflection">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="1">
+        </Index>
+    </SamplerState>
+    <SetTexture group="ScreenSpaceReflection">
+        <Target name="GBufferRT2">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="2">
+        </Index>
+    </SetTexture>
+    <SamplerState group="ScreenSpaceReflection">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="2">
+        </Index>
+    </SamplerState>
+    <SetTexture group="ScreenSpaceReflection">
+        <Target name="GBufferRT3">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="3">
+        </Index>
+    </SetTexture>
+    <SamplerState group="ScreenSpaceReflection">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="3">
+        </Index>
+    </SamplerState>
+    <SamplerState group="ScreenSpaceReflection">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="4">
+        </Index>
+    </SamplerState>
+    <SetTexture group="ScreenSpaceReflection">
+        <Target name="DepthCopy">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="7">
+        </Index>
+    </SetTexture>
+    <SamplerState group="ScreenSpaceReflection">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Point" mag="Point" mip="Point">
+        </Filter>
+        <Index index="7">
+        </Index>
+    </SamplerState>
+    <ConditionalPass group="ScreenSpaceReflection">
+        <If condition="ScreenSpaceReflectionsEnabled">
+            <SetRenderTargets group="ScreenSpaceReflection">
+                <Target name="ScreenSpaceRefl">
+                </Target>
+            </SetRenderTargets>
+            <SetViewport group="ScreenSpaceReflection">
+                <Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5">
+                </Coords>
+                <Depth minZ="0" maxZ="1">
+                </Depth>
+            </SetViewport>
+            <SetScissorRect group="ScreenSpaceReflection">
+                <Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5">
+                </Coords>
+            </SetScissorRect>
+            <SetShader group="ScreenSpaceReflection">
+                <Shader name="SSR">
+                </Shader>
+            </SetShader>
+            <SetTexture group="ScreenSpaceReflection">
+                <Target name="LightAccumulation">
+                </Target>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="8">
+                </Index>
+            </SetTexture>
+            <SamplerState group="ScreenSpaceReflection">
+                <Address u="Clamp" v="Clamp" w="Clamp">
+                </Address>
+                <Filter min="Linear" mag="Linear" mip="Linear">
+                </Filter>
+                <Index index="8">
+                </Index>
+            </SamplerState>
+            <DrawNoVertexBuffer group="ScreenSpaceReflection">
+                <Primitive type="TriList" count="1">
+                </Primitive>
+            </DrawNoVertexBuffer>
+            <BlurMips group="ScreenSpaceReflection">
+                <Target name="ScreenSpaceRefl">
+                </Target>
+                <IntermediateTarget name="ScreenSpaceReflTemp">
+                </IntermediateTarget>
+                <HorzShader name="BlurSSR_H">
+                </HorzShader>
+                <VertShader name="BlurSSR_V">
+                </VertShader>
+            </BlurMips>
+            <UnsetTexture group="ScreenSpaceReflection">
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="8">
+                </Index>
+            </UnsetTexture>
+        </If>
+    </ConditionalPass>
+    <ConditionalPass group="PostLighting">
+        <If condition="SAOEnabled">
+            <SetTexture group="FullScreenLightAccumulation">
+                <Target name="AO_Depth_ShadowMask">
+                </Target>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="4">
+                </Index>
+            </SetTexture>
+            <ConditionalPass group="PostLighting">
+                <If condition="ScreenSpaceReflectionsEnabled">
+                    <SetShader group="PostLighting">
+                        <Shader name="CompositeVolumetricFogWithSSRSAO">
+                        </Shader>
+                    </SetShader>
+                </If>
+                <Else>
+                    <SetShader group="PostLighting">
+                        <Shader name="CompositeVolumetricFogSAO">
+                        </Shader>
+                    </SetShader>
+                </Else>
+            </ConditionalPass>
+        </If>
+        <Else>
+            <SetTexture group="ScreenSpaceReflection">
+                <Target name="AmbientOcclusion">
+                </Target>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="4">
+                </Index>
+            </SetTexture>
+            <ConditionalPass group="PostLighting">
+                <If condition="AOEnabled">
+                    <ConditionalPass group="PostLighting">
+                        <If condition="ScreenSpaceReflectionsEnabled">
+                            <SetShader group="PostLighting">
+                                <Shader name="CompositeVolumetricFogWithSSR">
+                                </Shader>
+                            </SetShader>
+                        </If>
+                        <Else>
+                            <SetShader group="PostLighting">
+                                <Shader name="CompositeVolumetricFog">
+                                </Shader>
+                            </SetShader>
+                        </Else>
+                    </ConditionalPass>
+                </If>
+                <Else>
+                    <ConditionalPass group="PostLighting">
+                        <If condition="ScreenSpaceReflectionsEnabled">
+                            <SetShader group="PostLighting">
+                                <Shader name="CompositeVolumetricFogWithSSRNoAO">
+                                </Shader>
+                            </SetShader>
+                        </If>
+                        <Else>
+                            <SetShader group="PostLighting">
+                                <Shader name="CompositeVolumetricFogNoAO">
+                                </Shader>
+                            </SetShader>
+                        </Else>
+                    </ConditionalPass>
+                </Else>
+            </ConditionalPass>
+        </Else>
+    </ConditionalPass>
+    <SetViewport group="PostLighting">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="PostLighting">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+    </SetScissorRect>
+    <SetRenderTargets group="PostLighting">
+        <Target name="LightAccumulation">
+        </Target>
+    </SetRenderTargets>
+    <SetTexture group="PostLighting">
+        <Target name="GBufferRT0">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SetTexture group="PostLighting">
+        <Target name="AO_Depth_ShadowMask">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="5">
+        </Index>
+    </SetTexture>
+    <SamplerState group="PostLighting">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Comparison function="LessEqual" enabled="1">
+        </Comparison>
+        <Index index="5">
+        </Index>
+    </SamplerState>
+    <SamplerState group="PostLighting">
+        <Address u="Wrap" v="Wrap" w="Wrap">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="6">
+        </Index>
+    </SamplerState>
+    <SamplerState group="PostLighting">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="12">
+        </Index>
+    </SamplerState>
+    <BindIBLData group="PostLighting">
+        <GlobalIBLTex shaderType="Pixel" textureIndex="6">
+        </GlobalIBLTex>
+        <GlobalIBLSHCoeffs shaderType="Pixel" textureIndex="10">
+        </GlobalIBLSHCoeffs>
+        <BRDFTexture shaderType="Pixel" textureIndex="12">
+        </BRDFTexture>
+    </BindIBLData>
+    <SetTexture group="PostLighting">
+        <Target name="ScreenSpaceRefl">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="9">
+        </Index>
+    </SetTexture>
+    <SamplerState group="PostLighting">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="9">
+        </Index>
+    </SamplerState>
+    <SetTexture group="PostLighting">
+        <RenderGlobal name="AccumulatedVolumeFog">
+        </RenderGlobal>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="11">
+        </Index>
+    </SetTexture>
+    <SamplerState group="PostLighting">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="11">
+        </Index>
+    </SamplerState>
+    <DrawNoVertexBuffer group="PostLighting">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <UnsetTexture group="PostLighting">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="5">
+        </Index>
+    </UnsetTexture>
+    <UnsetTexture group="PostLighting">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="6">
+        </Index>
+    </UnsetTexture>
+    <UnsetTexture group="PostLighting">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="7">
+        </Index>
+    </UnsetTexture>
+    <UnsetTexture group="PostLighting">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="9">
+        </Index>
+    </UnsetTexture>
+</RenderPasses>

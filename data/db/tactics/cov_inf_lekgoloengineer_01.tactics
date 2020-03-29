@@ -22,7 +22,7 @@
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
 		<WorkRange>23</WorkRange>
-		<WorkRate>0.0450000018</WorkRate>
+		<WorkRate>0.0150000018</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="35" />
 		<SpecificData>
@@ -43,7 +43,7 @@
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
 		<WorkRange>23</WorkRange>
-		<WorkRate>0.25</WorkRate>
+		<WorkRate>0.15</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
 		<SpecificData>

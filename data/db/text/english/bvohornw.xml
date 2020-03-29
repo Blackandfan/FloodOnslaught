@@ -1,0 +1,111 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="BVOHORNW_CALLOUT_BEING_HIJACKED_BY_SPARTAN_ENEMY_01">Too close! Too close!</str>
+    <str id="BVOHORNW_CALLOUT_BEING_HIJACKED_BY_SPARTAN_ENEMY_02">This can&apos;t be happening!</str>
+    <str id="BVOHORNW_CALLOUT_BEING_HIJACKED_BY_SPARTAN_ENEMY_03">Shake them off!</str>
+    <str id="BVOHORNW_INCIDENTAL_SUCCESS_CHEERS_01">Go, Team Hornet!</str>
+    <str id="BVOHORNW_INCIDENTAL_SUCCESS_CHEERS_02">Oorah!</str>
+    <str id="BVOHORNW_INCIDENTAL_SUCCESS_CHEERS_03">Two on the wings, ready to sting!</str>
+    <str id="BVOHORNW_INCIDENTAL_SUCCESS_CHEERS_04">Boom, that&apos;s how we do it!</str>
+    <str id="BVOHORNW_INCIDENTAL_SUCCESS_CHEERS_05">Nothing better!</str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ALLIES_ATTACKING_BASE">
+    </str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ALLIES_BASE_UNDERATTACK">
+    </str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+    <str id="BVOHORNW_LEADER_SKIRMISH_ENEMY_NOT_PRODUCING_POWER">
+    </str>
+    <str id="BVOHORNW_ORDER_ATTACK_01_APP_BSL01">Uh, can we get off here?</str>
+    <str id="BVOHORNW_ORDER_ATTACK_01_APP_BSL03">Oh, we are going to crash and burn.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_01_BSL01">Missiles at the ready.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_01_BSL03">Take them down!</str>
+    <str id="BVOHORNW_ORDER_ATTACK_01_CON_BSL01">Wait until they get a load of us.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_01_CON_BSL03">I was hoping for a challenge!</str>
+    <str id="BVOHORNW_ORDER_ATTACK_02_APP_BSL01">Suddenly I feel very exposed.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_02_APP_BSL03">Wish I was inside right now.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_02_BSL01">Acquiring targets.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_02_BSL03">Got my target!</str>
+    <str id="BVOHORNW_ORDER_ATTACK_02_CON_BSL01">Does that even count as a target?</str>
+    <str id="BVOHORNW_ORDER_ATTACK_02_CON_BSL03">I&apos;m starting to feel guilty.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_03_APP_BSL01">Did I hear that right?</str>
+    <str id="BVOHORNW_ORDER_ATTACK_03_APP_BSL03">Oh yeah, this is gonna hurt.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_03_BSL01">We&apos;ve got this.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_03_BSL03">Rack them up and knock them down.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_03_CON_BSL01">They are toast.</str>
+    <str id="BVOHORNW_ORDER_ATTACK_03_CON_BSL03">This is going to be a breeze.</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_01_BSL01">We&apos;re secure.</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_01_BSL03">Hey, remember we&apos;re out here!</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_02_BSL01">Sitting pretty.</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_02_BSL03">Man, that thruster&apos;s putting out some heat!</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_03_BSL01">Holding on.</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_03_BSL03">Holding on!</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_04_BSL01">Keep an eye out for targets.</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_04_BSL03">Whoo!</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_05_BSL01">Scanning for hostiles.</str>
+    <str id="BVOHORNW_ORDER_MOVE_TO_POSITION_05_BSL03">This is more like it!</str>
+    <str id="BVOHORNW_WALLA_CHEERING_01">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_02">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_03">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_04">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_05">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_06">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_07">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_08">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_09">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_10">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_11">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_12">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_13">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_14">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_CHEERING_15">(Wallah cheer)</str>
+    <str id="BVOHORNW_WALLA_DEATH_01">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_02">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_03">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_04">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_05">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_06">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_07">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_08">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_09">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_10">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_11">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_12">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_13">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_14">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_15">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_16">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_17">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_18">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_19">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_20">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_21">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_22">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_23">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_24">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_25">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_26">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_27">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_28">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_29">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_DEATH_30">(Wallah death cry)</str>
+    <str id="BVOHORNW_WALLA_PAIN_01">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_02">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_03">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_04">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_05">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_06">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_07">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_08">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_09">(Wallah Pain)</str>
+    <str id="BVOHORNW_WALLA_PAIN_10">(Wallah Pain)</str>
+</string_table>

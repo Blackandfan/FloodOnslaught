@@ -39,34 +39,6 @@ frontend
 				@extend = "common.UIFontStyles.smallHeader";
 				text-html = true;
 			}
-
-			MenuItem1 
-			{
-					
-				@extend = "common.UIFontStyles.expandingHeaderBG";
-				
-				.label
-				{
-					text = "UIMP.FIREFIGHT.FINDMATCH.TITLE";
-					@extend = "common.UIFontStyles.expandingHeaderText";
-				}
-
-				.image
-				{
-					image-path = "../textures/frontend/Firefight/img_firefight_findmatch";
-					@extend = "common.UIFontStyles.centerFitImage";
-				}
-			}
-			MenuItem1:over  { sound = "PLAY_SFX_2D_UI_ChangeSelection"; }
-			MenuItem1:down  { sound = "PLAY_SFX_2D_UI_CampaignDifficulity_Down"; }
-			MenuItem1:focus { sound = "PLAY_SFX_2D_UI_ChangeSelection"; }
-			
-			tileText1 
-			{
-				text = "UIMP.FIREFIGHT.FINDMATCH.DESCR";
-				@extend = "common.UIFontStyles.smallHeader";
-				text-html = true;
-			}
 		}
 		
 		privateMatch 

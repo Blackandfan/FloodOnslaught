@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
-	<Weapon>
-		<Name>AreaSlow</Name>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<ReapplyDamageOverArea />
-		<Shockwave duration="20" />
-		<AOERadius>22</AOERadius>
-		<Slow TargetType="GroundVehicle" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">1.5f</Slow>
-	</Weapon>
-	<Action>
-		<Name>GenericInfoAttackAction</Name>
-		<Weapon>AreaSlow</Weapon>
-	</Action>
-	<Tactic />
+    <Weapon>
+        <Name>AreaSlow</Name>
+        <DamagePerSecond>0</DamagePerSecond>
+        <WeaponType>Basic</WeaponType>
+        <ReapplyDamageOverArea>
+        </ReapplyDamageOverArea>
+        <Shockwave duration="20">
+        </Shockwave>
+        <AOERadius>22</AOERadius>
+        <Slow TargetType="GroundVehicle" MovementModifier="0.4" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">1.5f</Slow>
+    </Weapon>
+    <Action>
+        <Name>GenericInfoAttackAction</Name>
+        <Weapon>AreaSlow</Weapon>
+    </Action>
+    <Tactic>
+    </Tactic>
 </TacticData>

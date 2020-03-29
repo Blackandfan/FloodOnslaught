@@ -1,0 +1,18 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIDLC3.CODEX.UNITSBAN.BODY.GOLIATH">P</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.BODY.IMPERVHUNTER">I</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.BODY.LEKGOLOLEADER">T</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.BODY.LIVINGBARRIER">D</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.BODY.SKITTERER">F</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.TITLE.GOLIATH">Goliath</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.TITLE.IMPERVHUNTER">Hunter Captain</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.TITLE.LEKGOLOLEADER">Colony</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.TITLE.LIVINGBARRIER">Living Barrier</str>
+    <str id="UIDLC3.CODEX.UNITSBAN.TITLE.SKITTERER">Skitterer</str>
+    <str id="UIDLC3.LEADERSELECT.ROLE01.LEKGOLO">Battering Ram</str>
+    <str id="UIDLC3.LEADERSELECT.ROLE02.LEKGOLO">Assimilation</str>
+    <str id="UIDLC3.LEADERSELECT.ROLE03.LEKGOLO">Destiny Bond</str>
+    <str id="UIDLC3.LEADERSELECT.SHORTDESCR.LEKGOLO">A colony of Lekgolo with a focus on tough frontline units and healing.</str>
+    <str id="UIDLC3.LEADERSELECT.SHORTDESCR.LEKGOLO.BLITZ">A colony of Lekgolo with a focus on tough frontline units and healing.</str>
+    <str id="UIDLC3.LEADERSELECT.TITLE.LEKGOLO">Colony</str>
+</string_table>

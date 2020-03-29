@@ -1,0 +1,46 @@
+<RenderPasses>
+    <SetBoneBuffer>
+    </SetBoneBuffer>
+    <SetRenderTargets group="PrepareStd">
+        <Target name="GBufferRT0">
+        </Target>
+        <Target name="GBufferRT1">
+        </Target>
+        <Target name="GBufferRT2">
+        </Target>
+        <Target name="GBufferRT3">
+        </Target>
+        <Target name="Depth">
+        </Target>
+    </SetRenderTargets>
+    <Clear group="PrepareStd">
+        <Target name="GBufferRT0">
+        </Target>
+        <Target name="GBufferRT1">
+        </Target>
+        <Target name="GBufferRT2">
+        </Target>
+        <Target name="GBufferRT3">
+        </Target>
+        <Target name="Depth">
+        </Target>
+        <Color r="0" g="0" b="0" a="30">
+        </Color>
+        <Color r="127" g="127" b="127" a="35">
+        </Color>
+        <Color r="0" g="0" b="0" a="40">
+        </Color>
+        <Color r="0" g="0" b="0" a="0">
+        </Color>
+        <Flags flags="All">
+        </Flags>
+    </Clear>
+    <SetViewport group="PrepareStd">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <DrawIBLCapture group="PrepareStd">
+    </DrawIBLCapture>
+</RenderPasses>

@@ -1,0 +1,13 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="EP2CIN_CINE01_PAVIUM_01">Do not disobey your orders again.</str>
+    <str id="EP2CIN_CINE01_PAVIUM_02">Scout the shell, salvage the ships. That is it. Atriox was clear!</str>
+    <str id="EP2CIN_CINE01_PAVIUM_03">Voridus, listen, you fail him one more time trying to prove yourself and I will not be able to save you.</str>
+    <str id="EP2CIN_CINE01_PAVIUM_04">&amp;  </str>
+    <str id="EP2CIN_CINE01_VORIDUS_01">I</str>
+    <str id="EP2CIN_CINE01_VORIDUS_02">Relax, brother. You worry too much</str>
+    <str id="EP2CIN_CINE02_VORIDUS_01">Prepare yourselves.</str>
+    <str id="EP2CIN_CINE03_ATRIOX_01">I told you NOT to go inside.</str>
+    <str id="EP2CIN_CINE03_ATRIOX_02">For good reason.</str>
+    <str id="EP2CIN_CINE03_ATRIOX_03">Secure the breach. Clean up your mess.</str>
+    <str id="EP2CIN_CINE03_ATRIOX_04">I will be waiting for you when you are done.</str>
+</string_table>

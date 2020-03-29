@@ -20,7 +20,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>OrbitalBombardment</Name>
-		<DamagePerSecond>3000</DamagePerSecond>
+		<DamagePerSecond>3300</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_gp_arbiter_plasmabolt_01</Projectile>

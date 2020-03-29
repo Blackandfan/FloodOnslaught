@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>SpartanLaserLeft</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>125</DamagePerSecond>
+		<DamagePerSecond>275</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>SpartanLaserRight</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>125</DamagePerSecond>
+		<DamagePerSecond>275</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -53,7 +53,7 @@
 	<Weapon>
 		<Name>MissileLaunchers</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_jerome_mech_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>

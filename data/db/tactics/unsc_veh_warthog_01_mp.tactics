@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>122</DamagePerSecond>
+		<DamagePerSecond>165</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chainGun_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -31,7 +31,7 @@
 	<Weapon>
 		<Name>GaussCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>158</DamagePerSecond>
+		<DamagePerSecond>218</DamagePerSecond>
 		<WeaponType>GaussCannon</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="medium">GaussImpact</ImpactEffect>

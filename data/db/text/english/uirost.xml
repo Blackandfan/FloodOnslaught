@@ -1,0 +1,795 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIROST.CARD.CATEGORY.POWER">POWER</str>
+    <str id="UIROST.CARD.CATEGORY.UNIT">UNIT</str>
+    <str id="UIROST.CARD.LEVEL.MAX">MAX</str>
+    <str id="UIROST.CARD.LEVEL.NEXT">lvl</str>
+    <str id="UIROST.CARD.LEVEL.XPCOUNT">%1 / %2</str>
+    <str id="UIROST.CARD.RARITY.COMMON">COMMON</str>
+    <str id="UIROST.CARD.RARITY.LEGENDARY">LEGENDARY</str>
+    <str id="UIROST.CARD.RARITY.RARE">RARE</str>
+    <str id="UIROST.CARD.RARITY.UNCOMMON">UNCOMMON</str>
+    <str id="UIROST.CARD.ROLE.BUFF">BUFF</str>
+    <str id="UIROST.CARD.ROLE.DAMAGE">DAMAGE</str>
+    <str id="UIROST.CARD.ROLE.DEBUFF">DEBUFF</str>
+    <str id="UIROST.CARD.ROLE.HEALING">HEALING</str>
+    <str id="UIROST.CARD.ROLE.SPAWN">DEPLOY</str>
+    <str id="UIROST.CARD.ROLE.UTILITY">UTILITY</str>
+    <str id="UIROST.CARD.SHORTDESCR.ADRENALINE">Boost the movement speed of all friendly units on the battlefield</str>
+    <str id="UIROST.CARD.SHORTDESCR.ADVOPTICS">Increase line of sight and weapon range of all friendly units on the battlefield</str>
+    <str id="UIROST.CARD.SHORTDESCR.AGGRESSOR">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.ARBITER">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.ARCHERMISSILES">Fire high damage missiles in a specified direction</str>
+    <str id="UIROST.CARD.SHORTDESCR.ARKDEFENSE">Call in a swarm of Aggressor Sentinels to attack nearby enemies</str>
+    <str id="UIROST.CARD.SHORTDESCR.BANSHEE">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.BANSHEE.BLAST">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.BATTLEAPC">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.BLASTHAMMER">Slam the ground, shove enemies away, and briefly slow them</str>
+    <str id="UIROST.CARD.SHORTDESCR.BLISTERBACK">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.BLISTERBACK.LASTSTAND">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.BOUNDLESSFURY">Enrage all friendly units, boosting their damage and speed</str>
+    <str id="UIROST.CARD.SHORTDESCR.BUNKERDROP">Deploy a building that infantry can garrison in for protection</str>
+    <str id="UIROST.CARD.SHORTDESCR.CATACLYSM">Infused gel areas flare up and deal damage</str>
+    <str id="UIROST.CARD.SHORTDESCR.CHOPPER">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.CHOPPER.FEAR">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.CLEANSINGBEAM">Unleash and direct a damaging plasma beam</str>
+    <str id="UIROST.CARD.SHORTDESCR.CLOAK">%1 target friendly units</str>
+    <str id="UIROST.CARD.SHORTDESCR.COLOSSUS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.CONDOR">Briefly deploy the Condor super unit</str>
+    <str id="UIROST.CARD.SHORTDESCR.CONDUITOFRAGE">Boost targets&apos; damage, healing, and speed. Playing other cards increases this buff&apos;s duration</str>
+    <str id="UIROST.CARD.SHORTDESCR.CONTROLLEDHEAL">Heal friendly units in the area over a long duration</str>
+    <str id="UIROST.CARD.SHORTDESCR.CORRUPTIONBALL">Unleash and direct a vortex that damages enemies and spreads infusion gel.</str>
+    <str id="UIROST.CARD.SHORTDESCR.CRYO.BISON">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.CRYO.PEGASUS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.CRYO.TROOPERS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.CRYOBLAST">Damage and instantly freeze target enemies</str>
+    <str id="UIROST.CARD.SHORTDESCR.CRYOMINE">Place mines that damage and chill or freeze affected enemies. Triggered by ground units</str>
+    <str id="UIROST.CARD.SHORTDESCR.CRYOSTORM">Create a lasting storm that chills and slowly freezes enemy units</str>
+    <str id="UIROST.CARD.SHORTDESCR.CYCLOPS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.CYCLOPS.REFLECT">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.CYCLOPS.UPG">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.DECIMUS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.ELITERANGERS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.ELITERANGERS.RUSH">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.ELITESQUAD">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.EMPMACBLAST">Blast an area to damage and briefly stun enemy vehicles and aircraft</str>
+    <str id="UIROST.CARD.SHORTDESCR.ENGINEER">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.GHOST">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.GHOSTINMACH">Take momentary control of enemy mechanical units</str>
+    <str id="UIROST.CARD.SHORTDESCR.GOLIATH">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.GRIZZLY">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.GRUNTS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.GRUNTS.BLAST">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.GRUNTS.RUSH">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.GRUNTS.SIPHON">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.GRUNTSWARM">Call in a mob of weak, controllable Grunts</str>
+    <str id="UIROST.CARD.SHORTDESCR.HELLBRINGERS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HELLBRINGERS.BLAST">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HERO.ALICE130">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HERO.ATRIOXCHOSEN">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HERO.DOUGLAS042">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HERO.GRUNTGOBLIN">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HERO.HONORGUARD">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HERO.JEROME092">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HERO.WARLORD">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HOLODECOY">Create several holograms of friendly units to deceive the enemy</str>
+    <str id="UIROST.CARD.SHORTDESCR.HORNET">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HORNET.LASTSTAND">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HUGRAOKSWARM">Call in a swarm of Engineers to heal nearby allied troops</str>
+    <str id="UIROST.CARD.SHORTDESCR.HUNTERS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.HUNTERS.GUARD">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.ICEBLOCK">Manually drop multiple ice barriers to obstruct movement and chill nearby enemies</str>
+    <str id="UIROST.CARD.SHORTDESCR.IMPERVHUNTER">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.JACKRABBIT">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.JACKRABBIT.BLAST">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.JACKRABBIT.DETECT">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.JEROMELEADER">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.JOHNSON">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.JOHNSONMECH">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.JUMPPACKBRUTE">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.JUMPPACKBRUTE.BLAST">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.KODIAK">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.KODIAK.CLOAK">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.LEKGOLOPILOTING">Boost the armor and weapon range of target allied vehicles and turrets</str>
+    <str id="UIROST.CARD.SHORTDESCR.LICHVANGUARD">Call in an assault Lich and grant the Rush keyword to any cards deployed near the Lich</str>
+    <str id="UIROST.CARD.SHORTDESCR.LOCUST">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.LOCUST.SIPHON">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.LOCUSTLASTSTAND">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.MACBLAST">Launch a high damage slug to blast a target area</str>
+    <str id="UIROST.CARD.SHORTDESCR.MANTIS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.MARAUDER">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.MARAUDER.CLOAK">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.MARAUDER.RALLY">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.MARINES">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.MARINES.GUARD">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.MARINES.SIPHON">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.MASSCLOAKING">Temporarily %1 and %2 all allied units, and increase their speed</str>
+    <str id="UIROST.CARD.SHORTDESCR.MECHRESILIENCE">Briefly speed up all friendly Mechs and make them invulnerable</str>
+    <str id="UIROST.CARD.SHORTDESCR.MEDDRONES">Heal friendly units in range over a short duration</str>
+    <str id="UIROST.CARD.SHORTDESCR.MEGATURRET">Deploy a temporary Mega Turret</str>
+    <str id="UIROST.CARD.SHORTDESCR.METHANEBOMBING">Barrage target area with damaging methane barrels that choke enemies and buff allied Grunts</str>
+    <str id="UIROST.CARD.SHORTDESCR.MINESCORRUPTION">Place Mines that damage ground units and leave infusion gel upon exploding. Triggered by ground units</str>
+    <str id="UIROST.CARD.SHORTDESCR.MINESSCORCH">Place mines that damage ground units with burning plasma. Triggered by ground units</str>
+    <str id="UIROST.CARD.SHORTDESCR.MINESSHRAP">Place mines that damage and slow ground units. Triggered by ground units</str>
+    <str id="UIROST.CARD.SHORTDESCR.NIGHTINGALE">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.NIGHTINGALE.LASTSTAND">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.ODST">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.ODSTDROP">Aim drop pods that crash to the ground and deploy ODST Infantry</str>
+    <str id="UIROST.CARD.SHORTDESCR.OMEGATEAM">Randomly call one of Omega Team&apos;s three Spartans to battle</str>
+    <str id="UIROST.CARD.SHORTDESCR.PELICGUNSWEEP">Encircle target area with Pelican Gunships to deal heavy damage</str>
+    <str id="UIROST.CARD.SHORTDESCR.PHANTOM">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.PLANETCLEANSING">Deal massive damage at target area with a ring of plasma beams</str>
+    <str id="UIROST.CARD.SHORTDESCR.PLASMABOLT">Blast target area for light but quick damage</str>
+    <str id="UIROST.CARD.SHORTDESCR.PROWLINGGRUNTS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.RALLYTURRET">Deploy a temporary turret with %1 to inspire allied troops</str>
+    <str id="UIROST.CARD.SHORTDESCR.REAVER">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.REAVER.CLOAK">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.REGENSIPHONS">Infusion pools grant healing for a brief time</str>
+    <str id="UIROST.CARD.SHORTDESCR.RESTORATION">Grant brief invulnerability and a longer healing aura to friendly units in the target area</str>
+    <str id="UIROST.CARD.SHORTDESCR.RETURNTOSENDER">Bombard target area with wreckage from a destroyed Banished warship</str>
+    <str id="UIROST.CARD.SHORTDESCR.SCARAB">Briefly deploy the Scarab super unit</str>
+    <str id="UIROST.CARD.SHORTDESCR.SCATTERBEAMS">Unleash a series of damaging plasma beams</str>
+    <str id="UIROST.CARD.SHORTDESCR.SCORPION">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.SCORPION.FEAR">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.SEISMICCHARGE">Blast target area to damage enemies, shattering frozen enemies for massive damage</str>
+    <str id="UIROST.CARD.SHORTDESCR.SENTINEL">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.SHADETURRET">Deploy multiple small temporary turrets</str>
+    <str id="UIROST.CARD.SHORTDESCR.SHIELDTOWER">Deploy a temporary Shield Tower that protects units within its radius</str>
+    <str id="UIROST.CARD.SHORTDESCR.SIEGETURRETDROP">Deploy a temporary long-range siege turret</str>
+    <str id="UIROST.CARD.SHORTDESCR.SIPHONPOOL">Heal nearby allies and harm nearby enemies for a short duration</str>
+    <str id="UIROST.CARD.SHORTDESCR.SKITTERSWARM">Deploy several controllable Skitterers who can also attach to your other units</str>
+    <str id="UIROST.CARD.SHORTDESCR.SNIPER">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.SNIPER.STANCHION">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.SPARTANMORALE">Greatly boost the effectiveness of any %1 on the battlefield for a short time</str>
+    <str id="UIROST.CARD.SHORTDESCR.SPIRITASSAULT">Call in an armed Spirit Transport to drop off Banished units</str>
+    <str id="UIROST.CARD.SHORTDESCR.STASIS">Trap all units in a temporary, impenetrable prison. Trapped units cannot capture zones</str>
+    <str id="UIROST.CARD.SHORTDESCR.STUN">Draw a wall of energy that stuns passing enemies and lowers their armor</str>
+    <str id="UIROST.CARD.SHORTDESCR.TELEPORT">Select any group of units and move them to target location</str>
+    <str id="UIROST.CARD.SHORTDESCR.TURRETDROP">Deploy a temporary defensive turret</str>
+    <str id="UIROST.CARD.SHORTDESCR.ULTRAMINES">Place numerous, durable mines that heavily damage ground units. Triggered by ground units</str>
+    <str id="UIROST.CARD.SHORTDESCR.VETERANHUNTERS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.VETERANMANTIS">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.VORTEX">Open a rift that pulls in nearby enemies for its duration</str>
+    <str id="UIROST.CARD.SHORTDESCR.VULTURE">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.WALLS">Draw a wall of Lekgolo worms that obstructs movement</str>
+    <str id="UIROST.CARD.SHORTDESCR.WARTHOG">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.WARTHOG.GUARD">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.WARTHOG.LASTSTAND">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.WATCHTOWER">Place a tower with %1 and a long sight range</str>
+    <str id="UIROST.CARD.SHORTDESCR.WOLVERINE">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.WOLVERINE.RUSH">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.WRAITH">
+    </str>
+    <str id="UIROST.CARD.SHORTDESCR.WRAITH.GUARD">
+    </str>
+    <str id="UIROST.CARD.TITLE.ADRENALINE">Double Time</str>
+    <str id="UIROST.CARD.TITLE.ADVOPTICS">Advanced Optics</str>
+    <str id="UIROST.CARD.TITLE.AGGRESSOR">Protector Sentinel</str>
+    <str id="UIROST.CARD.TITLE.ARBITER">The Arbiter</str>
+    <str id="UIROST.CARD.TITLE.ARCHERMISSILES">Archer Missiles</str>
+    <str id="UIROST.CARD.TITLE.ARKDEFENSE">Ark Defense</str>
+    <str id="UIROST.CARD.TITLE.BANSHEE">Banshee</str>
+    <str id="UIROST.CARD.TITLE.BANSHEE.BLAST">Unstable Banshee</str>
+    <str id="UIROST.CARD.TITLE.BATTLEAPC">Mastodon</str>
+    <str id="UIROST.CARD.TITLE.BLASTHAMMER">Blast Hammer</str>
+    <str id="UIROST.CARD.TITLE.BLISTERBACK">Blisterback</str>
+    <str id="UIROST.CARD.TITLE.BLISTERBACK.GUARD">Ironclad Blisterback</str>
+    <str id="UIROST.CARD.TITLE.BLISTERBACK.LASTSTAND">Enduring Blisterback</str>
+    <str id="UIROST.CARD.TITLE.BOUNDLESSFURY">Boundless Fury</str>
+    <str id="UIROST.CARD.TITLE.BRUTERIDER">Grunt Riders</str>
+    <str id="UIROST.CARD.TITLE.BUNKERDROP">Bunker Drop</str>
+    <str id="UIROST.CARD.TITLE.CATACLYSM">Cataclysm</str>
+    <str id="UIROST.CARD.TITLE.CHOPPER">Chopper</str>
+    <str id="UIROST.CARD.TITLE.CHOPPER.FEAR">Terror Chopper</str>
+    <str id="UIROST.CARD.TITLE.CLEANSINGBEAM">Glassing Beam</str>
+    <str id="UIROST.CARD.TITLE.CLOAK">Cloaking Field</str>
+    <str id="UIROST.CARD.TITLE.COLOSSUS">Colossus</str>
+    <str id="UIROST.CARD.TITLE.CONDOR">Condor Strike</str>
+    <str id="UIROST.CARD.TITLE.CONDUITOFRAGE">Conduit of Rage</str>
+    <str id="UIROST.CARD.TITLE.CONTROLLEDHEAL">Enduring Will</str>
+    <str id="UIROST.CARD.TITLE.CORRUPTEDENGINEER">Infused Engineer</str>
+    <str id="UIROST.CARD.TITLE.CORRUPTIONBALL">Infusion Wake</str>
+    <str id="UIROST.CARD.TITLE.CRYO.BISON">Bison</str>
+    <str id="UIROST.CARD.TITLE.CRYO.PEGASUS">Frostraven</str>
+    <str id="UIROST.CARD.TITLE.CRYO.TROOPERS">Cryo Troopers</str>
+    <str id="UIROST.CARD.TITLE.CRYOBLAST">Cryo Bomb</str>
+    <str id="UIROST.CARD.TITLE.CRYOMINE">Cryogenic Detonator</str>
+    <str id="UIROST.CARD.TITLE.CRYOSTORM">Glacial Storm</str>
+    <str id="UIROST.CARD.TITLE.CYCLOPS">Cyclops</str>
+    <str id="UIROST.CARD.TITLE.CYCLOPS.REFLECT">Reactive Cyclops</str>
+    <str id="UIROST.CARD.TITLE.CYCLOPS.UPG">Veteran Cyclops</str>
+    <str id="UIROST.CARD.TITLE.DECIMUS">Decimus</str>
+    <str id="UIROST.CARD.TITLE.ELITERANGERS">Elite Rangers</str>
+    <str id="UIROST.CARD.TITLE.ELITERANGERS.RUSH">Assault Elites</str>
+    <str id="UIROST.CARD.TITLE.ELITESQUAD">Elite Enforcers</str>
+    <str id="UIROST.CARD.TITLE.EMPMACBLAST">EMP MAC Blast</str>
+    <str id="UIROST.CARD.TITLE.ENGINEER">Engineer</str>
+    <str id="UIROST.CARD.TITLE.GHOST">Ghost</str>
+    <str id="UIROST.CARD.TITLE.GHOSTINMACH">Ghost in the Machine</str>
+    <str id="UIROST.CARD.TITLE.GOLIATH">Goliath</str>
+    <str id="UIROST.CARD.TITLE.GRIZZLY">Grizzly</str>
+    <str id="UIROST.CARD.TITLE.GRUNTS">Grunts</str>
+    <str id="UIROST.CARD.TITLE.GRUNTS.BLAST">Suicide Grunts</str>
+    <str id="UIROST.CARD.TITLE.GRUNTS.CLOAK">Prowling Grunts</str>
+    <str id="UIROST.CARD.TITLE.GRUNTS.RUSH">Grunt Mob</str>
+    <str id="UIROST.CARD.TITLE.GRUNTS.SIPHON">Bloodfuel Grunts</str>
+    <str id="UIROST.CARD.TITLE.GRUNTSWARM">Cannon Fodder</str>
+    <str id="UIROST.CARD.TITLE.HEAVYGRUNTS">Heavy Grunts</str>
+    <str id="UIROST.CARD.TITLE.HELLBRINGERS">Hellbringers</str>
+    <str id="UIROST.CARD.TITLE.HELLBRINGERS.BLAST">Wild Hellbringers</str>
+    <str id="UIROST.CARD.TITLE.HERO.ALICE130">Alice-130</str>
+    <str id="UIROST.CARD.TITLE.HERO.ATRIOXCHOSEN">Atriox&apos;s Chosen</str>
+    <str id="UIROST.CARD.TITLE.HERO.CORRUPTEDWARLORD">Voridus</str>
+    <str id="UIROST.CARD.TITLE.HERO.DOUGLAS042">Douglas-042</str>
+    <str id="UIROST.CARD.TITLE.HERO.GRUNTGOBLIN">Grunt Goblins</str>
+    <str id="UIROST.CARD.TITLE.HERO.HONORGUARD">Honor Guard</str>
+    <str id="UIROST.CARD.TITLE.HERO.JEROME092">Jerome-092</str>
+    <str id="UIROST.CARD.TITLE.HERO.WARLORD">Warlord</str>
+    <str id="UIROST.CARD.TITLE.HOLODECOY">Holo-Decoy</str>
+    <str id="UIROST.CARD.TITLE.HORNET">Hornet</str>
+    <str id="UIROST.CARD.TITLE.HORNET.LASTSTAND">Trooper Hornet</str>
+    <str id="UIROST.CARD.TITLE.HUGRAOKSWARM">Engineer Swarm</str>
+    <str id="UIROST.CARD.TITLE.HUNTERS">Hunters</str>
+    <str id="UIROST.CARD.TITLE.HUNTERS.GUARD">Ironclad Hunters</str>
+    <str id="UIROST.CARD.TITLE.ICEBLOCK">Ice Barrier</str>
+    <str id="UIROST.CARD.TITLE.IMPERVHUNTER">Hunter Captain</str>
+    <str id="UIROST.CARD.TITLE.JACKRABBIT">Jackrabbit</str>
+    <str id="UIROST.CARD.TITLE.JACKRABBIT.BLAST">Wild Jackrabbit</str>
+    <str id="UIROST.CARD.TITLE.JACKRABBIT.DETECT">Veteran Jackrabbit</str>
+    <str id="UIROST.CARD.TITLE.JEROMELEADER">Commander Jerome</str>
+    <str id="UIROST.CARD.TITLE.JOHNSON">Sergeant Johnson</str>
+    <str id="UIROST.CARD.TITLE.JOHNSONMECH">Sergeant Johnson</str>
+    <str id="UIROST.CARD.TITLE.JUMPPACKBRUTE">Jump Pack Brute</str>
+    <str id="UIROST.CARD.TITLE.JUMPPACKBRUTE.BLAST">Unstable Jump Brutes</str>
+    <str id="UIROST.CARD.TITLE.KODIAK">Kodiak</str>
+    <str id="UIROST.CARD.TITLE.KODIAK.CLOAK">Stealth Kodiak</str>
+    <str id="UIROST.CARD.TITLE.LEKGOLOPILOTING">Vehicle Symbiotes</str>
+    <str id="UIROST.CARD.TITLE.LICHVANGUARD">Lich Vanguard</str>
+    <str id="UIROST.CARD.TITLE.LOCUST">Locust</str>
+    <str id="UIROST.CARD.TITLE.LOCUST.SIPHON">Bloodfuel Locust</str>
+    <str id="UIROST.CARD.TITLE.LOCUSTLASTSTAND">Enduring Locust</str>
+    <str id="UIROST.CARD.TITLE.MACBLAST">MAC Blast</str>
+    <str id="UIROST.CARD.TITLE.MANTIS">Mantis</str>
+    <str id="UIROST.CARD.TITLE.MARAUDER">Marauder</str>
+    <str id="UIROST.CARD.TITLE.MARAUDER.CLOAK">Prowling Marauder</str>
+    <str id="UIROST.CARD.TITLE.MARAUDER.RALLY">Marauder Warchief</str>
+    <str id="UIROST.CARD.TITLE.MARINES">Marines</str>
+    <str id="UIROST.CARD.TITLE.MARINES.GUARD">Armored Marines</str>
+    <str id="UIROST.CARD.TITLE.MARINES.SIPHON">Extractor Marines</str>
+    <str id="UIROST.CARD.TITLE.MASSCLOAKING">Mass Cloaking</str>
+    <str id="UIROST.CARD.TITLE.MECHRESILIENCE">Mech Overcharge</str>
+    <str id="UIROST.CARD.TITLE.MEDDRONES">Restoration Drones</str>
+    <str id="UIROST.CARD.TITLE.MEGATURRET">Mega Turret</str>
+    <str id="UIROST.CARD.TITLE.METHANEBOMBING">Methane Party</str>
+    <str id="UIROST.CARD.TITLE.METHANEWAGON">Methane Wagon</str>
+    <str id="UIROST.CARD.TITLE.MINESCORRUPTION">Infused Mines</str>
+    <str id="UIROST.CARD.TITLE.MINESSCORCH">Scorch Mines</str>
+    <str id="UIROST.CARD.TITLE.MINESSHRAP">Shrapnel Mines</str>
+    <str id="UIROST.CARD.TITLE.MORTARWARLORD">Pavium</str>
+    <str id="UIROST.CARD.TITLE.NIGHTINGALE">Nightingale</str>
+    <str id="UIROST.CARD.TITLE.NIGHTINGALE.LASTSTAND">Trooper Nightingale</str>
+    <str id="UIROST.CARD.TITLE.ODST">ODST</str>
+    <str id="UIROST.CARD.TITLE.ODSTDROP">ODST Drop</str>
+    <str id="UIROST.CARD.TITLE.OMEGATEAM">Omega Team</str>
+    <str id="UIROST.CARD.TITLE.PELICGUNSWEEP">Close Air Support</str>
+    <str id="UIROST.CARD.TITLE.PHANTOM">Phantom</str>
+    <str id="UIROST.CARD.TITLE.PLANETCLEANSING">Eradication</str>
+    <str id="UIROST.CARD.TITLE.PLASMABOLT">Plasma Bolt</str>
+    <str id="UIROST.CARD.TITLE.RALLYTURRET">Victory Turret</str>
+    <str id="UIROST.CARD.TITLE.REAVER">Reaver</str>
+    <str id="UIROST.CARD.TITLE.REAVER.CLOAK">Prowling Reaver</str>
+    <str id="UIROST.CARD.TITLE.REGENSIPHONS">Invigorating Frenzy</str>
+    <str id="UIROST.CARD.TITLE.RESTORATION">Atriox&apos;s Bulwark</str>
+    <str id="UIROST.CARD.TITLE.RETURNTOSENDER">Enduring Salvo</str>
+    <str id="UIROST.CARD.TITLE.SCARAB">Scarab Assault</str>
+    <str id="UIROST.CARD.TITLE.SCATTERBEAMS">Rain of Fire</str>
+    <str id="UIROST.CARD.TITLE.SCORPION">Scorpion</str>
+    <str id="UIROST.CARD.TITLE.SCORPION.FEAR">Lockdown Scorpion</str>
+    <str id="UIROST.CARD.TITLE.SEISMICCHARGE">Seismic Blast</str>
+    <str id="UIROST.CARD.TITLE.SENTINEL">Aggressor Sentinel</str>
+    <str id="UIROST.CARD.TITLE.SHADETURRET">Shade Drop</str>
+    <str id="UIROST.CARD.TITLE.SHIELDTOWER">Gruntdome</str>
+    <str id="UIROST.CARD.TITLE.SIEGETURRETDROP">Siege Turret</str>
+    <str id="UIROST.CARD.TITLE.SIPHONPOOL">Siphon Field</str>
+    <str id="UIROST.CARD.TITLE.SKITTERSWARM">Skitterer Mob</str>
+    <str id="UIROST.CARD.TITLE.SNIPER">Sniper</str>
+    <str id="UIROST.CARD.TITLE.SNIPER.STANCHION">Veteran Sniper</str>
+    <str id="UIROST.CARD.TITLE.SPARTANMORALE">Spartan Morale</str>
+    <str id="UIROST.CARD.TITLE.SPIRITASSAULT">Spirit Assault</str>
+    <str id="UIROST.CARD.TITLE.STASIS">Stasis</str>
+    <str id="UIROST.CARD.TITLE.STUN">Shockwave</str>
+    <str id="UIROST.CARD.TITLE.TELEPORT">Teleport</str>
+    <str id="UIROST.CARD.TITLE.TURRETDROP">Spike Turret</str>
+    <str id="UIROST.CARD.TITLE.ULTRAMINES">Ultra Mines</str>
+    <str id="UIROST.CARD.TITLE.VETERANGRENADIERS">Scarred Grenadiers</str>
+    <str id="UIROST.CARD.TITLE.VETERANHUNTERS">Scarred Hunters</str>
+    <str id="UIROST.CARD.TITLE.VETERANMANTIS">Veteran Mantis</str>
+    <str id="UIROST.CARD.TITLE.VORTEX">Vortex</str>
+    <str id="UIROST.CARD.TITLE.VULTURE">Vulture</str>
+    <str id="UIROST.CARD.TITLE.WALLS">Living Barrier</str>
+    <str id="UIROST.CARD.TITLE.WARTHOG">Warthog</str>
+    <str id="UIROST.CARD.TITLE.WARTHOG.GUARD">Armored Warthog</str>
+    <str id="UIROST.CARD.TITLE.WARTHOG.LASTSTAND">Trooper Warthog</str>
+    <str id="UIROST.CARD.TITLE.WATCHTOWER">Watchtower</str>
+    <str id="UIROST.CARD.TITLE.WOLVERINE">Wolverine</str>
+    <str id="UIROST.CARD.TITLE.WOLVERINE.RUSH">Vanguard Wolverine</str>
+    <str id="UIROST.CARD.TITLE.WRAITH">Wraith</str>
+    <str id="UIROST.CARD.TITLE.WRAITH.FEAR">Terror Wraith</str>
+    <str id="UIROST.CARD.TITLE.WRAITH.GUARD">Ironclad Wraith</str>
+    <str id="UIROST.CARD.TITLE.WRAITHAPC">Wraith Invader</str>
+    <str id="UIROST.CARD.TYPE.AIR">AIR</str>
+    <str id="UIROST.CARD.TYPE.INFANTRY">INFANTRY</str>
+    <str id="UIROST.CARD.TYPE.POWER">POWER</str>
+    <str id="UIROST.CARD.TYPE.POWER.GLOBAL">GLOBAL</str>
+    <str id="UIROST.CARD.TYPE.POWER.INSTANT">INSTANT</str>
+    <str id="UIROST.CARD.TYPE.POWER.TARGETED">TARGETED</str>
+    <str id="UIROST.CARD.TYPE.VEHICLE">VEHICLE</str>
+    <str id="UIROST.CARD.VERSION.DLC0">DLC0</str>
+    <str id="UIROST.CARD.VERSION.DLC1">DLC1</str>
+    <str id="UIROST.CARD.VERSION.DLC2">DLC2</str>
+    <str id="UIROST.CARD.VERSION.DLC3">DLC3</str>
+    <str id="UIROST.CARD.VERSION.DLC4">DLC4</str>
+    <str id="UIROST.CARD.VERSION.DLC5">DLC5</str>
+    <str id="UIROST.CARD.VERSION.DLC6">DLC6</str>
+    <str id="UIROST.CARD.VERSION.DLC7">DLC7</str>
+    <str id="UIROST.CARD.VERSION.EP2">Episode 2</str>
+    <str id="UIROST.CARD.VERSION.HIDDEN">REPORT ME!</str>
+    <str id="UIROST.CARD.VERSION.LAUNCH1">Core</str>
+    <str id="UIROST.CARD.VERSION.LAUNCH2">Release</str>
+    <str id="UIROST.CMD.ADDCARD">@A_LMB@ Add</str>
+    <str id="UIROST.CMD.APPLY">@Y_Button@ Apply</str>
+    <str id="UIROST.CMD.BACK">@B_Button@ Back</str>
+    <str id="UIROST.CMD.BUY">@A_LMB@ Buy</str>
+    <str id="UIROST.CMD.CANCEL">@B_Button@ Cancel</str>
+    <str id="UIROST.CMD.CHANGEROLE">@Y_Button@ Change Starting Army</str>
+    <str id="UIROST.CMD.CLOSE">@B_Button@ Close</str>
+    <str id="UIROST.CMD.CONFIRM">@A_Button@ Confirm</str>
+    <str id="UIROST.CMD.CONTINUE">@A_Button@ Continue</str>
+    <str id="UIROST.CMD.CREATE">@A_LMB@ Create</str>
+    <str id="UIROST.CMD.DECKINFO">@Right_Trigger@ Deck Stats</str>
+    <str id="UIROST.CMD.DECKVIEW">@Left_Trigger@ View Deck</str>
+    <str id="UIROST.CMD.DECKVIEWBACK">@B_Button@ Save &amp; Exit</str>
+    <str id="UIROST.CMD.DELETE">@Right_Stick@ Delete</str>
+    <str id="UIROST.CMD.DONTSAVE">@B_Button@ Exit Without Saving</str>
+    <str id="UIROST.CMD.EDIT">@A_Button@ Edit</str>
+    <str id="UIROST.CMD.EDITDECK">@A_LMB@ Edit Deck</str>
+    <str id="UIROST.CMD.EDITDECKBTN">@A_Button@ Edit Deck</str>
+    <str id="UIROST.CMD.FAVORITE">@Y_Button@ Favorite</str>
+    <str id="UIROST.CMD.FILTERS">@Y_Button@ Filter</str>
+    <str id="UIROST.CMD.FILTERS.ON">@Y_Button@ Filter (active)</str>
+    <str id="UIROST.CMD.INSPECT">@Inspect@ Inspect Card</str>
+    <str id="UIROST.CMD.KEEPEDITING">@A_Button@ Continue Editing</str>
+    <str id="UIROST.CMD.NEXT">@A_Button@ Next</str>
+    <str id="UIROST.CMD.OPEN">@A_LMB@ Open Pack</str>
+    <str id="UIROST.CMD.PACKOPEN">@Y_Button@ Open Packs</str>
+    <str id="UIROST.CMD.PAGINATION">@Left_Bumper@@Right_Bumper@</str>
+    <str id="UIROST.CMD.REMOVECARD">@A_LMB@ Remove</str>
+    <str id="UIROST.CMD.RESET">@Right_Trigger@ Reset</str>
+    <str id="UIROST.CMD.RETRY">@A_Button@ Try Again</str>
+    <str id="UIROST.CMD.REVEAL">@A_LMB@ Reveal</str>
+    <str id="UIROST.CMD.SAVE">@B_Button@ Save &amp; Exit</str>
+    <str id="UIROST.CMD.SELECT">@A_LMB@ Select</str>
+    <str id="UIROST.CMD.SKIP">@Y_RMB@ Skip</str>
+    <str id="UIROST.CMD.STARTINGARMY">@Y_Button@ Starting Army</str>
+    <str id="UIROST.CMD.STORE">@Y_Button@ Store</str>
+    <str id="UIROST.CMD.STOREVISIT">@Y_Button@ Visit the Store</str>
+    <str id="UIROST.CMD.SWAP">@A_LMB@ Swap</str>
+    <str id="UIROST.CMD.YABILITY">@special_power@</str>
+    <str id="UIROST.GAME.NAME">Blitz</str>
+    <str id="UIROST.HUD.CARDHAND.CMD.CARD1.PCPROMPT">@FirstCard@</str>
+    <str id="UIROST.HUD.CARDHAND.CMD.CARD2.PCPROMPT">@SecondCard@</str>
+    <str id="UIROST.HUD.CARDHAND.CMD.CARD3.PCPROMPT">@ThirdCard@</str>
+    <str id="UIROST.HUD.CARDHAND.CMD.CARD4.PCPROMPT">@FourthCard@</str>
+    <str id="UIROST.HUD.CARDHAND.CMD.OPEN">@Open_Hand@ Show Hand</str>
+    <str id="UIROST.HUD.CARDHAND.CMD.PLAYCYCLE">@A_Button@ Play     @X_Button@ Cycle [ &lt;font color=&apos;#fd77ff&apos;&gt;5&lt;/font&gt; @Energy@]</str>
+    <str id="UIROST.HUD.CARDHAND.CMD.PLAYCYCLE_PC">Cycle [ &lt;font color=&apos;#fd77ff&apos;&gt;5&lt;/font&gt; @Energy@]</str>
+    <str id="UIROST.HUD.SCORE.TIMER.DEATH">SUDDEN DEATH</str>
+    <str id="UIROST.KEYWORDS.NAME.BLAST">Blast</str>
+    <str id="UIROST.KEYWORDS.NAME.CLOAK">Cloak</str>
+    <str id="UIROST.KEYWORDS.NAME.DETECT">Detect</str>
+    <str id="UIROST.KEYWORDS.NAME.FEAR">Shock</str>
+    <str id="UIROST.KEYWORDS.NAME.GUARD">Guard</str>
+    <str id="UIROST.KEYWORDS.NAME.LASTSTAND">Last Stand</str>
+    <str id="UIROST.KEYWORDS.NAME.RALLY">Rally</str>
+    <str id="UIROST.KEYWORDS.NAME.REFLECT">Reflect</str>
+    <str id="UIROST.KEYWORDS.NAME.RUSH">Rush</str>
+    <str id="UIROST.KEYWORDS.NAME.SHIELD">Shield</str>
+    <str id="UIROST.KEYWORDS.NAME.SIPHON">Siphon</str>
+    <str id="UIROST.KEYWORDS.NAME.SUPPORT">Support</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.BLAST">This unit explodes violently on death, damaging enemy troops in its radius.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.CLOAK">This unit is hidden and cannot be targeted for a short period, unless revealed by an enemy with Detect.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.DETECT">This unit detects and reveals nearby Cloaked enemies.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.FEAR">This unit intimidates nearby enemy troops, significantly reducing their armor.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.GUARD">This unit covers nearby allies, receiving all damage they would normally take.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.LASTSTAND">When this unit falls in battle, a number of infantry troops jump out to continue the fight.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.RALLY">This unit inspires nearby troops to deal increased damage.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.REFLECT">Half of the damage this unit takes is automatically dealt back to an enemy attacker.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.RUSH">This unit ignores Fatigue when deployed, charging into battle at full strength.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.SHIELD">This unit has energy shield protection that absorbs damage and regenerates when out of combat.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.SIPHON">This unit has special weaponry that steals health from its enemies equal to the damage dealt.</str>
+    <str id="UIROST.KEYWORDS.SHORTDESCR.SUPPORT">This unit cannot attack and instead focuses on support or healing skills to boost your army.</str>
+    <str id="UIROST.LEADER.ROLE.ANDERS.1">Sentinel Swarm</str>
+    <str id="UIROST.LEADER.ROLE.ANDERS.2">Tactician</str>
+    <str id="UIROST.LEADER.ROLE.ANDERS.3">Deadeye</str>
+    <str id="UIROST.LEADER.ROLE.ATRIOX.1">Warlord</str>
+    <str id="UIROST.LEADER.ROLE.ATRIOX.2">Bulletproof</str>
+    <str id="UIROST.LEADER.ROLE.ATRIOX.3">Devastator</str>
+    <str id="UIROST.LEADER.ROLE.CUTTER.1">Phoenix</str>
+    <str id="UIROST.LEADER.ROLE.CUTTER.2">Raider</str>
+    <str id="UIROST.LEADER.ROLE.CUTTER.3">Eagle</str>
+    <str id="UIROST.LEADER.ROLE.DECIMUS.1">Berserker</str>
+    <str id="UIROST.LEADER.ROLE.DECIMUS.2">Vampire</str>
+    <str id="UIROST.LEADER.ROLE.DECIMUS.3">Brawler</str>
+    <str id="UIROST.LEADER.ROLE.ISABEL.1">Hacker</str>
+    <str id="UIROST.LEADER.ROLE.ISABEL.2">Heavy Weapons</str>
+    <str id="UIROST.LEADER.ROLE.ISABEL.3">Dreadnought</str>
+    <str id="UIROST.LEADER.ROLE.SHIPMASTER.1">Assassin</str>
+    <str id="UIROST.LEADER.ROLE.SHIPMASTER.2">Scout</str>
+    <str id="UIROST.LEADER.ROLE.SHIPMASTER.3">Mercenary</str>
+    <str id="UIROST.MAP.NAME">The Proving Grounds</str>
+    <str id="UIROST.MODE">%1v%2</str>
+    <str id="UIROST.MODE.1V1.NAME">Duel</str>
+    <str id="UIROST.MODE.2V2.NAME">Standard</str>
+    <str id="UIROST.MODE.3V3.NAME">Brawl</str>
+    <str id="UIROST.MODE.INFO.MAP">Map   %1</str>
+    <str id="UIROST.MODE.INFO.TIME">Timer   %1</str>
+    <str id="UIROST.MODE.INFO.ZONES">Capture Zones   %1</str>
+    <str id="UIROST.MODE.SONE.2V2RANKED.DESCR">CSR ranks enabled. Team up for a ranked 2v2 Blitz battle, our most competitive tier of play.</str>
+    <str id="UIROST.MODE.SONE.2V2RANKED.TITLE">Ranked Standard</str>
+    <str id="UIROST.MODE.SONE.3V3RANKED.DESCR">CSR ranks enabled. Experience the glorious chaos of ranked 3v3 play as troops collide across the battlefield.</str>
+    <str id="UIROST.MODE.SONE.3V3RANKED.TITLE">Ranked Brawl</str>
+    <str id="UIROST.MODE.SP.FIREFIGHT">Firefight</str>
+    <str id="UIROST.MODE.SP.TRAIN">Training</str>
+    <str id="UIROST.MODE.SP.TUTORIAL">Tutorial</str>
+    <str id="UIROST.MODE.SP.WARMUP">Warmup</str>
+    <str id="UIROST.MSGBOX.REWARD.CHALLENGE.TITLE.DAILY">DAILY CHALLENGE COMPLETE!</str>
+    <str id="UIROST.MSGBOX.REWARD.CHALLENGE.TITLE.WEEKLY">WEEKLY CHALLENGE COMPLETE!</str>
+    <str id="UIROST.MSGBOX.REWARD.GENERAL.TITLE2">NEW CARD PACK</str>
+    <str id="UIROST.MSGBOX.REWARD.LEVELUP.DESCR">This card pack contains Blitz cards. You can open your new pack and play Blitz anytime from the Main Menu.</str>
+    <str id="UIROST.MSGBOX.REWARD.LEVELUP.TITLE">LEVEL UP!</str>
+    <str id="UIROST.MSGBOX.REWARD.LEVELUP.TITLE2">You have achieved rank %1.</str>
+    <str id="UIROST.MSGBOX.REWARD.MISSION.DESCR">For first time completion, you have earned a special Blitz card pack. Enjoy! It can be opened later from the Blitz main menu.</str>
+    <str id="UIROST.MSGBOX.REWARD.MISSION.PACK">Mission Pack</str>
+    <str id="UIROST.MSGBOX.REWARD.MISSION.TITLE">MISSION COMPLETE!</str>
+    <str id="UIROST.NOTIFICATION.BLITZ1">1</str>
+    <str id="UIROST.NOTIFICATION.BLITZ2">2</str>
+    <str id="UIROST.NOTIFICATION.BLITZ3">3</str>
+    <str id="UIROST.NOTIFICATION.CAPTUREZONEABANDONED">Zone %1 up for grabs</str>
+    <str id="UIROST.NOTIFICATION.CAPTUREZONECONTESTED">Zone %1 contested</str>
+    <str id="UIROST.NOTIFICATION.ENEMY.CAPTUREDALLZONES">Enemy has total domination!</str>
+    <str id="UIROST.NOTIFICATION.ENEMY.CAPTUREDZONE">Enemy captured Zone %1</str>
+    <str id="UIROST.NOTIFICATION.ENEMY.SCOREHALFWAY">Enemy is halfway to victory</str>
+    <str id="UIROST.NOTIFICATION.ENEMY.SCORENEARWIN">Enemy has almost won</str>
+    <str id="UIROST.NOTIFICATION.FIRSTBLOOD">%1 got first blood!</str>
+    <str id="UIROST.NOTIFICATION.GAINEDTHELEAD">Gained the lead</str>
+    <str id="UIROST.NOTIFICATION.GAMEOVER">Game Over</str>
+    <str id="UIROST.NOTIFICATION.GAMESTARTWAIT">Warmup Phase</str>
+    <str id="UIROST.NOTIFICATION.GAMESTARTWELCOME">Ready %1 Team</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK.OTHERPLAYER1">Player %1 is killing it!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK.OTHERPLAYER2">Player %1 is untouchable!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK1">Overkill!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK10">Unfriggenbelievable!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK2">Killtacular!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK3">Killtrocity!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK4">Killamanjaro!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK5">Killtastrophe!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK6">Killpocalypse!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK7">Killionaire!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK8">Running riot!</str>
+    <str id="UIROST.NOTIFICATION.KILLSTREAK9">Untouchable!</str>
+    <str id="UIROST.NOTIFICATION.LOSTTHELEAD">Lost the lead</str>
+    <str id="UIROST.NOTIFICATION.MANAACCELERATIONEND">Energy surge over</str>
+    <str id="UIROST.NOTIFICATION.MANAACCELERATIONSTART">Energy surge!</str>
+    <str id="UIROST.NOTIFICATION.MANARESOUCEISHIGH">High energy warning</str>
+    <str id="UIROST.NOTIFICATION.MANARESOUCEISLOW">Low on energy</str>
+    <str id="UIROST.NOTIFICATION.MATCHCOUNTDOWN">Match starts in %1</str>
+    <str id="UIROST.NOTIFICATION.ONEMINSREMAIN">1 minute remaining</str>
+    <str id="UIROST.NOTIFICATION.POPULATIONFULL">Your population is full</str>
+    <str id="UIROST.NOTIFICATION.POPULATIONZERO">You have no units, deploy reinforcements</str>
+    <str id="UIROST.NOTIFICATION.START">Game Start</str>
+    <str id="UIROST.NOTIFICATION.SUDDENDEATH">Sudden Death</str>
+    <str id="UIROST.NOTIFICATION.SUPPLYDROPEVENTSPAWNED">Energy available</str>
+    <str id="UIROST.NOTIFICATION.SUPPLYDROPEVENTSTART">Energy Cores incoming</str>
+    <str id="UIROST.NOTIFICATION.TENSECONDWARNING">10 seconds remaining</str>
+    <str id="UIROST.NOTIFICATION.THIRTYSECONDWARNING">30 seconds remaining</str>
+    <str id="UIROST.NOTIFICATION.TWOMINSREMAIN">2 minutes remaining</str>
+    <str id="UIROST.NOTIFICATION.YOURTEAM.CAPTUREDALLZONES">We have total domination!</str>
+    <str id="UIROST.NOTIFICATION.YOURTEAM.CAPTUREDZONE">We&apos;ve captured Zone %1</str>
+    <str id="UIROST.NOTIFICATION.YOURTEAM.SCOREHALFWAY">We are halfway to victory</str>
+    <str id="UIROST.NOTIFICATION.YOURTEAM.SCORENEARWIN">We have almost won</str>
+    <str id="UIROST.PACK.DESCR.CHALLENGE">Blitz packs contain 5 Blitz cards with at least 1 guaranteed Uncommon or better card.</str>
+    <str id="UIROST.PACK.DESCR.DLC">DLC packs contain 5 Blitz cards specific to the purchased DLC leader.</str>
+    <str id="UIROST.PACK.DESCR.EVENT">The Oct 2016 Press Event pack contains 5 random Captain Cutter and Atriox cards.</str>
+    <str id="UIROST.PACK.DESCR.MISSION">Awarded for first-time Campaign Mission completion, this pack contains 5 specific Blitz cards.</str>
+    <str id="UIROST.PACK.DESCR.PREMIUM">Blitz packs contain 5 Blitz cards with at least 1 guaranteed Rare or Legendary card.</str>
+    <str id="UIROST.PACK.TITLE.CHALLENGE">Challenge Pack</str>
+    <str id="UIROST.PACK.TITLE.DLC">DLC Pack</str>
+    <str id="UIROST.PACK.TITLE.EVENT">Event Pack</str>
+    <str id="UIROST.PACK.TITLE.MISSION">Mission Pack</str>
+    <str id="UIROST.PACK.TITLE.PREMIUM">Blitz Pack</str>
+    <str id="UIROST.SCRN.DECKEDIT.CRUMBS">MAIN MENU/ BLITZ/ SELECT LEADER/ SELECT DECK/</str>
+    <str id="UIROST.SCRN.DECKEDIT.LABEL.ARMY">Starting Army</str>
+    <str id="UIROST.SCRN.DECKEDIT.SAVE.FAILED">Failed to save the deck. Please try again. If you continue to have trouble, contact customer support.</str>
+    <str id="UIROST.SCRN.DECKEDIT.SAVE.INPROGRESS">Saving deck %1. Please wait...</str>
+    <str id="UIROST.SCRN.DECKEDIT.SWAP.CARD.INUSE">IN DECK</str>
+    <str id="UIROST.SCRN.DECKEDIT.SWAP.CARD.SELECTED">DECK FULL!</str>
+    <str id="UIROST.SCRN.DECKEDIT.SWAP.CRUMBS">MAIN MENU/ BLITZ/ SELECT LEADER/ SELECT DECK/ VIEW DECK/</str>
+    <str id="UIROST.SCRN.DECKEDIT.SWAP.EMPTYSLOT">EMPTY SLOT</str>
+    <str id="UIROST.SCRN.DECKEDIT.SWAP.LABEL.GRAPH">Card Energy Cost</str>
+    <str id="UIROST.SCRN.DECKEDIT.SWAP.TITLE">EDIT DECK</str>
+    <str id="UIROST.SCRN.DECKEDIT.TITLE">EDIT DECK</str>
+    <str id="UIROST.SCRN.DECKEDITOR.LEADERSELECT.PURCHASEATTEMPT.FAILED.BODY">Unable to launch the store in order to purchase this leader. Try again later...</str>
+    <str id="UIROST.SCRN.DECKS.CRUMBS">MAIN MENU/ BLITZ/ SELECT LEADER/</str>
+    <str id="UIROST.SCRN.DECKS.DELETE.BODY">Warning: You are about to delete deck %1. Are you sure you want to continue?</str>
+    <str id="UIROST.SCRN.DECKS.DELETE.FAILED">Failed to delete the deck. Please try again. If you continue to have trouble, contact customer support.</str>
+    <str id="UIROST.SCRN.DECKS.DELETE.INPROGRESS">Deleting deck %1. Please wait...</str>
+    <str id="UIROST.SCRN.DECKS.DELETE.SUBTITLE">CANNOT BE REVERSED</str>
+    <str id="UIROST.SCRN.DECKS.DELETE.TITLE">DELETE DECK</str>
+    <str id="UIROST.SCRN.DECKS.LABEL.CREATE">Create New Deck</str>
+    <str id="UIROST.SCRN.DECKS.LABEL.DELETEBUTTON">DELETE</str>
+    <str id="UIROST.SCRN.DECKS.LABEL.EMPTY">Empty Deck</str>
+    <str id="UIROST.SCRN.DECKS.LABEL.FAVORITEBUTTON">FAVORITE</str>
+    <str id="UIROST.SCRN.DECKS.LABEL.ROLE">Starting Army</str>
+    <str id="UIROST.SCRN.DECKS.TITLE">SELECT DECK</str>
+    <str id="UIROST.SCRN.DECKSTATS.HEADER.CARDS">Card Distribution</str>
+    <str id="UIROST.SCRN.DECKSTATS.HEADER.COUNTERS">Unit Counters</str>
+    <str id="UIROST.SCRN.DECKSTATS.HEADER.LEVEL">Avg. Level</str>
+    <str id="UIROST.SCRN.DECKSTATS.HEADER.ROLE">Starting Army</str>
+    <str id="UIROST.SCRN.DECKSTATS.LABEL.POWERS">Powers</str>
+    <str id="UIROST.SCRN.DECKSTATS.LABEL.UNITS">Units</str>
+    <str id="UIROST.SCRN.DECKSTATS.TITLE">DECK STATS</str>
+    <str id="UIROST.SCRN.DECKVIEW.CRUMBS">MAIN MENU/ BLITZ/</str>
+    <str id="UIROST.SCRN.DECKVIEW.TITLE">VIEW DECK</str>
+    <str id="UIROST.SCRN.FF.COOP.DESC">Bring friends along to battle against the A.I. hordes.</str>
+    <str id="UIROST.SCRN.FF.COOP.TITLE">CO-OP</str>
+    <str id="UIROST.SCRN.FF.CRUMBS">MAIN MENU/ BLITZ/ PLAY/</str>
+    <str id="UIROST.SCRN.FF.DS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ BLITZ FIREFIGHT/ SELECT LEADER/</str>
+    <str id="UIROST.SCRN.FF.END.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ BLITZ FIREFIGHT/ SELECT LEADER/ SELECT DECK/</str>
+    <str id="UIROST.SCRN.FF.LS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ BLITZ FIREFIGHT/</str>
+    <str id="UIROST.SCRN.FF.SOLO.DESC">Survive alone against waves of increasingly difficult A.I. enemies.</str>
+    <str id="UIROST.SCRN.FF.SOLO.TITLE">SOLO</str>
+    <str id="UIROST.SCRN.FF.TITLE">BLITZ FIREFIGHT</str>
+    <str id="UIROST.SCRN.FINDMATCH.CRUMBS">MAIN MENU/ BLITZ/ PLAY/</str>
+    <str id="UIROST.SCRN.FINDMATCH.DS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ FIND MATCH/ MATCHMAKE/ SELECT LEADER/</str>
+    <str id="UIROST.SCRN.FINDMATCH.END.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ FIND MATCH/ MATCHMAKE/ SELECT LEADER/ SELECT DECK/</str>
+    <str id="UIROST.SCRN.FINDMATCH.LS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ FIND MATCH/ MATCHMAKE/</str>
+    <str id="UIROST.SCRN.FINDMATCH.MM.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ FIND MATCH/</str>
+    <str id="UIROST.SCRN.FINDMATCH.TITLE">FIND MATCH</str>
+    <str id="UIROST.SCRN.INSPECT.LABEL.LEADER">LEADER RESTRICTION</str>
+    <str id="UIROST.SCRN.INSPECT.LABEL.NONE">None</str>
+    <str id="UIROST.SCRN.INSPECT.LABEL.YABILITY">@Y_Button@</str>
+    <str id="UIROST.SCRN.LEADERS.CRUMBS">MAIN MENU/ BLITZ/</str>
+    <str id="UIROST.SCRN.LEADERS.HEADER.DESC">DESCRIPTION</str>
+    <str id="UIROST.SCRN.LEADERS.TITLE">SELECT LEADER</str>
+    <str id="UIROST.SCRN.LIBRARY.CRUMBS">MAIN MENU/ BLITZ/</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.HEADER.COLLECTED">COLLECTED</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.HEADER.FACTION">FACTION</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.HEADER.RARITY">RARITY</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.HEADER.TYPE">TYPE</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.BNSH">Banished</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.COLLECTED">Collected</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.POWER">Power</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.RARITY.1">Common</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.RARITY.2">Uncommon</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.RARITY.3">Rare</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.RARITY.4">Legendary</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.UNCOLLECTED">Uncollected</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.UNIT">Unit</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.OPTION.UNSC">UNSC</str>
+    <str id="UIROST.SCRN.LIBRARY.FILTER.TITLE">FILTER CARDS</str>
+    <str id="UIROST.SCRN.LIBRARY.LABEL.CARDCOUNT">Cards Collected</str>
+    <str id="UIROST.SCRN.LIBRARY.LABEL.EMPTYFILTER.STRING1">No Matches Found</str>
+    <str id="UIROST.SCRN.LIBRARY.LABEL.EMPTYFILTER.STRING2">Modify your card filters and try again.</str>
+    <str id="UIROST.SCRN.LIBRARY.TITLE">CARD LIBRARY</str>
+    <str id="UIROST.SCRN.LOADMAP.DESC">A fitting arena for endless battle.</str>
+    <str id="UIROST.SCRN.LOADMAP.HEADER">BLITZ</str>
+    <str id="UIROST.SCRN.LOADMAP.LOADING">LOADING</str>
+    <str id="UIROST.SCRN.LOADMAP.TIP1">Capture more zones than your opponent to score.</str>
+    <str id="UIROST.SCRN.LOADMAP.TIP2">Claim energy cores to increase your energy rate.</str>
+    <str id="UIROST.SCRN.LOADMAP.TIP3">Score 200 points to win.</str>
+    <str id="UIROST.SCRN.LOADMAP.TUT.HEADER">BLITZ TUTORIAL</str>
+    <str id="UIROST.SCRN.LOADMAP.TUT.TIP1">Capture more zones than your opponent to score.</str>
+    <str id="UIROST.SCRN.LOADMAP.TUT.TIP2">Claim energy cores to increase your energy rate.</str>
+    <str id="UIROST.SCRN.LOADMAP.TUT.TIP3">Score 200 points to win.</str>
+    <str id="UIROST.SCRN.MAIN.CRUMBS">MAIN MENU/</str>
+    <str id="UIROST.SCRN.MAIN.NAV.DECKS">DECKS</str>
+    <str id="UIROST.SCRN.MAIN.NAV.LIBRARY">CARD LIBRARY</str>
+    <str id="UIROST.SCRN.MAIN.NAV.MULTIPLAYER">PLAY</str>
+    <str id="UIROST.SCRN.MAIN.NAV.SHOP">BUY PACKS</str>
+    <str id="UIROST.SCRN.MAIN.NAV.SHOP.SHORTDESCR">Purchase card packs for the marketplace to use in Blitz.</str>
+    <str id="UIROST.SCRN.MAIN.NAV.SINGLEPLAYER">SOLO</str>
+    <str id="UIROST.SCRN.MAIN.TITLE">BLITZ</str>
+    <str id="UIROST.SCRN.MATCHMAKE.TITLE">MATCHMAKE</str>
+    <str id="UIROST.SCRN.PACKOPEN.LEVELUP">Level Up!</str>
+    <str id="UIROST.SCRN.PACKOPEN.NEWCARD">New Card!</str>
+    <str id="UIROST.SCRN.PACKOPEN.RETRIEVINGDATA">RETRIEVING DATA...</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPARMOR">ARM</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPDAMAGE">DMG</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPDURATION">DUR</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPHEALTH">HP</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPPOWER">PWR</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPRANGE">RNG</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPSHIELD">SHLD</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPSPEED">SPD</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPUNITCOUNT">COUNT</str>
+    <str id="UIROST.SCRN.PACKOPEN.UPWORKRATE">PWR</str>
+    <str id="UIROST.SCRN.PACKS.99PLUS">99+</str>
+    <str id="UIROST.SCRN.PACKS.CRUMBS">MAIN MENU/ BLITZ/</str>
+    <str id="UIROST.SCRN.PACKS.EMPTY.DESCR.LEFT">!REPORT ME!</str>
+    <str id="UIROST.SCRN.PACKS.EMPTY.DESCR.RIGHT">Complete challenges or visit the store to earn more packs.</str>
+    <str id="UIROST.SCRN.PACKS.EMPTY.HEADER">OUT OF PACKS!</str>
+    <str id="UIROST.SCRN.PACKS.EMPTY.LABEL.LEFT">CHALLENGE PACKS</str>
+    <str id="UIROST.SCRN.PACKS.EMPTY.LABEL.RIGHT">BLITZ PACKS</str>
+    <str id="UIROST.SCRN.PACKS.LABEL.STORE">BUY MORE PACKS</str>
+    <str id="UIROST.SCRN.PACKS.TITLE">CARD PACKS</str>
+    <str id="UIROST.SCRN.PACKS.TITLE.SHORTDESCR">Open collected card packs to add them to your card collection.</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.NAME.MULTPACKS">%1 NEW</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.NAME.NOPACKS">NONE</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.NAME.OVER99PACKS">99+ NEW</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.OPEN.LABEL.COMMON">Common</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.OPEN.LABEL.LEGENDARY">Legendary</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.OPEN.LABEL.RARE">Rare</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.OPEN.LABEL.UNCOMMON">Uncommon</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.OPEN.TITLE">Card Collection</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.OPEN.TOTALCARDS">Total cards:</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.SUBNAME.NOPACKS">GET MORE</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.SUBNAME.PACKS">OPEN NOW</str>
+    <str id="UIROST.SCRN.PANEL.PACKS.TITLE">Packs</str>
+    <str id="UIROST.SCRN.PANEL.QM.DESC">Join a 2v2 match with your favorite deck</str>
+    <str id="UIROST.SCRN.PANEL.QM.NAME">QUICK MATCH</str>
+    <str id="UIROST.SCRN.PANEL.QM.OPEN.FAVOURITELEADER">Favorite Leader</str>
+    <str id="UIROST.SCRN.PANEL.QM.TITLE">PLAY</str>
+    <str id="UIROST.SCRN.POSTMATCH.BATTLE.COL.1">Zones Captured</str>
+    <str id="UIROST.SCRN.POSTMATCH.BATTLE.COL.2">Time On zones</str>
+    <str id="UIROST.SCRN.POSTMATCH.BATTLE.COL.3">Energy Gained</str>
+    <str id="UIROST.SCRN.POSTMATCH.BATTLE.COL.4">Energy Spent</str>
+    <str id="UIROST.SCRN.POSTMATCH.BATTLE.COL.5">Enemies Killed</str>
+    <str id="UIROST.SCRN.POSTMATCH.BATTLE.COL.6">Best Killstreak</str>
+    <str id="UIROST.SCRN.POSTMATCH.CARDS.COL.1">Units Played</str>
+    <str id="UIROST.SCRN.POSTMATCH.CARDS.COL.2">Units Lost</str>
+    <str id="UIROST.SCRN.POSTMATCH.CARDS.COL.3">Avg. Population</str>
+    <str id="UIROST.SCRN.POSTMATCH.CARDS.COL.4">Powers Played</str>
+    <str id="UIROST.SCRN.POSTMATCH.CARDS.COL.5">Allies Affected</str>
+    <str id="UIROST.SCRN.POSTMATCH.CARDS.COL.6">Enemies Affected</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.COL.1">Zones Captured</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.COL.2">Energy Collected</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.B1">&lt;font color=&quot;#16e3f0&gt;You&lt;/font&gt; captured the most zones</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.B2">&lt;font color=&quot;#16e3f0&gt;You&lt;/font&gt; held zones the longest</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.B3">You gained the most Energy</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.B4">You spent the most Energy</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.B5">&lt;font color=&quot;#16e3f0&gt;You&lt;/font&gt; killed the most enemy Units</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.B6">&lt;font color=&quot;#16e3f0&gt;You&lt;/font&gt; had the longest Killing Spree</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.C1">&lt;font color=&quot;#16e3f0&gt;You&lt;/font&gt; played the most Unit Cards</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.C2">&lt;font color=&quot;#16e3f0&gt;You&lt;/font&gt; lost the most Units in battle</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.C3">&lt;font color=&quot;#16e3f0&gt;You&lt;/font&gt; had the highest average population</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.C4">&lt;font color=&quot;#16e3f0&gt;You&lt;/font&gt; played the most Power Cards</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.C5">&lt;font color=&quot;#16e3f0&gt;Your&lt;/font&gt; Powers aided your team the most</str>
+    <str id="UIROST.SCRN.POSTMATCH.HOME.RESULTDESCR.C6">&lt;font color=&quot;#16e3f0&gt;Your&lt;/font&gt; Powers harmed the enemy the most</str>
+    <str id="UIROST.SCRN.POSTMATCH.NAV.BATTLE">Battle</str>
+    <str id="UIROST.SCRN.POSTMATCH.NAV.CARDS">Cards</str>
+    <str id="UIROST.SCRN.POSTMATCH.NAV.HOME">Overview</str>
+    <str id="UIROST.SCRN.POSTMATCH.NAV.SCORE">Score</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.CRUMBS">MAIN MENU/ BLITZ/ PLAY/</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.DS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ PRIVATE MATCH/ SELECT LEADER/</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.END.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ PRIVATE MATCH/ SELECT LEADER/ SELECT DECK/</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.LS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ PRIVATE MATCH/</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.STARTMATCH.DESCR">Blitz Match - The Proving Grounds</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.STARTMATCH.HOST.DESCR0">Start Match</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.STARTMATCH.HOST.DESCR1">Go to Leader Selection</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.STARTMATCH.NONHOST.DESCR">In Lobby</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.TEAMS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ PRIVATE MATCH/</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.TEAMS.TITLE">TEAM SETUP</str>
+    <str id="UIROST.SCRN.PRIVATEMATCH.TITLE">PRIVATE MATCH</str>
+    <str id="UIROST.SCRN.QUICKMATCH.DS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ QUICK MATCH/ MATCHMAKE/ SELECT LEADER/</str>
+    <str id="UIROST.SCRN.QUICKMATCH.END.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ QUICK MATCH/ MATCHMAKE/ SELECT LEADER/ SELECT DECK/</str>
+    <str id="UIROST.SCRN.QUICKMATCH.LS.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ QUICK MATCH/ MATCHMAKE/</str>
+    <str id="UIROST.SCRN.QUICKMATCH.MM.CRUMBS">MAIN MENU/ BLITZ/ PLAY/ QUICK MATCH/</str>
+    <str id="UIROST.SCRN.READYUP.TITLE">READY</str>
+    <str id="UIROST.SCRN.SHOP.BUYITEM.FAILED">Error launching the buy process. Try again later...</str>
+    <str id="UIROST.SCRN.SHOP.CRUMBS">MAIN MENU/ BLITZ/</str>
+    <str id="UIROST.SCRN.SHOP.DESCR.TEXT">Select the bundle of your choice to gain new Blitz cards and increase your collection.</str>
+    <str id="UIROST.SCRN.SHOP.DESCR.TITLE">BUY BLITZ PACKS</str>
+    <str id="UIROST.SCRN.SHOP.HEADER">BLITZ PACKS</str>
+    <str id="UIROST.SCRN.SHOP.LABEL.BESTVALUE">BEST VALUE</str>
+    <str id="UIROST.SCRN.SHOP.LABEL.CURRENCY">%1</str>
+    <str id="UIROST.SCRN.SHOP.QUERYITEMS.FAILED">Failed to contact the Store. Please try again. If you continue to have trouble, contact customer support.</str>
+    <str id="UIROST.SCRN.SHOP.QUERYITEMS.INPROGRESS">Contacting the Store, please wait...</str>
+    <str id="UIROST.SCRN.SHOP.SOLDOUT.DESCR.TEXT">Currently no packs are available to purchase.</str>
+    <str id="UIROST.SCRN.SHOP.SOLDOUT.DESCR.TITLE">SOLD OUT</str>
+    <str id="UIROST.SCRN.SHOP.SOLDOUT.TEXT">Your card collection is currently complete! Please check back for new promotions after new content is released.</str>
+    <str id="UIROST.SCRN.SHOP.SOLDOUT.TITLE">SOLD OUT</str>
+    <str id="UIROST.SCRN.SHOP.TITLE">BUY PACKS</str>
+    <str id="UIROST.SCRN.VERSUS.CRUMBS">MAIN MENU/ BLITZ/</str>
+    <str id="UIROST.SCRN.VERSUS.NAV.CUSTOM">PRIVATE MATCH</str>
+    <str id="UIROST.SCRN.VERSUS.NAV.FF">BLITZ FIREFIGHT</str>
+    <str id="UIROST.SCRN.VERSUS.NAV.FIREFIGHT">FIREFIGHT</str>
+    <str id="UIROST.SCRN.VERSUS.NAV.PLAY">FIND MATCH</str>
+    <str id="UIROST.SCRN.VERSUS.TITLE">PLAY</str>
+    <str id="UIROST.SHARED.COUNTX">%1x</str>
+    <str id="UIROST.UIROST.HUD.HAND.CARD0">@FirstCard@</str>
+    <str id="UIROST.UIROST.HUD.HAND.CARD1">@SecondCard@</str>
+    <str id="UIROST.UIROST.HUD.HAND.CARD2">@ThirdCard@</str>
+    <str id="UIROST.UIROST.HUD.HAND.CARD3">@FourthCard@</str>
+    <str id="UIROST.UIROST.SCRN.SHOP.LABEL.BUY">BUY</str>
+</string_table>

@@ -1,0 +1,456 @@
+<TerrainTextureDefs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_snow_metallic_01_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystals_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystal_hardened_glow_01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystal_hardened_glow_edge_01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystal_hardened_glow_edge_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystal_hardened_glow_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystal_hardened_goo_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystal_hardened_pathing_01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystal_hardened_pathing_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_melted_crystal_hardened_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\proto_snow_mid_01_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_blue_path_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_blue_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_green_path_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_green_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_grey_path_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_grey_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_orange_path_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_orange_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_purple_path_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_purple_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_red_path_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_red_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_yellow_path_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\dlc4\whitebox_yellow_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberGravel_01_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_Amber_DrkSnd_1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_Amber_DrkSnd_2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Noisy1_Accent_1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Noisy1_Dark_1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Noisy1_Dark_2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Noisy1_Scar_1_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Noisy1_Scar_2_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Path_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Plain_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Rocky1_DarkSand2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Rocky1_DarkSand_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Rocky1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_NoBT_Rocky2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_Noisy1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_Noisy2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_Path_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_Plain_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_Rocky1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSandTileable_Rocky2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\AmberSand_Dark_3_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_Broken_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_cracked_01_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_Default_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_Desecrated_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_LiamFlood_A_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_LiamFlood_B_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_PlainDarkShallow_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_PlainDark_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Amber_Plain_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\Bedrock1_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\RoughBrokenAmber_1_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_amber\RoughBrokenAmber_2_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refuga_proto\proto_floodgrounding01[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refuga_proto\proto_flood_rock_01[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refuga_proto\proto_flood_rock_02[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refuga_proto\proto_rockbump_blend01[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refugia_halodead\dead_grass_flat_01[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refugia_halodead\dead_grass_flat_02[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refugia_halodead\dead_mud_dry_01_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refugia_halodead\dead_mud_patchy_01_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refugia_halodead\dead_mud_patchy_02_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refugia_halodead\Halo_LiamFlood_A_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\ep2_refugia_halodead\Halo_LiamFlood_B_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AG_AmberDefault_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AG_AmberPlain_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AG_Amber_Broken_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberGravel_01_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Amber1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Amber2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Amber_DrkSnd_1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Amber_DrkSnd_2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Default_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Foliage_01_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Amber1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Amber2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Default_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Noisy1_Accent_1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Noisy1_Dark_1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Noisy1_Dark_2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Noisy1_Scar_1_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Noisy1_Scar_2_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Noisy1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Noisy2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Path_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Plain_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Rocky1_DarkSand2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Rocky1_DarkSand_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Rocky1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_NoBT_Rocky2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Noisy1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Noisy2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_PathDarker_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Path_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Plain_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Rocky1_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberSandTileable_Rocky2_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\AmberTileableAERO_01_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Amber_Broken_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Amber_cracked_01_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Amber_Default_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Amber_Desecrated_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Amber_PlainDarkPath_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Amber_PlainDarkShallow_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Amber_PlainDark_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Amber_Plain_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\amber_var2_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\amber_var3_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Bedrock1_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Bedrock2_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Covenant_PlateformSand01_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Covenant_PlateformSand02_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Covenant_PlateformSand03_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Covenant_PlateformSand04_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Covenant_PlateformSand05_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Fake_Forerunner_[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\RoughBrokenAmber_1_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\RoughBrokenAmber_2_[AL].exr" TileType="Amber" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\SandCrashSite_01_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\SandCrashSite_02_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\SandCrashSite_03_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\SandCrashSite_04_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_amber\Sand_Wet_Default_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_brighter_01_a[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_burned_01[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_burned_02[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_burned_patchy_01[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_dead_01[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_dying_01[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_long[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_dry_02_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\blend_forest_01_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_burned_rocky_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_dying_01_[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_flat_01[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_long_pineneedles_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\grass_patchy_01[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\heathland_path_[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\heathland_[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\ivy_covering_[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_dry_01_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_forerunner_01_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_infantryonly_rocks_01_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_marsh_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_patchy_01_[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_patchy_02_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_wet_01_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_wet_02_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\mud_wet_rock_moss_01_[AL].exr" TileType="Mud" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\PebblesWeed_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\PebblesWet_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\Pebbles_Wet_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\Pebbles_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\quarry_floor_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\quarry_path_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\riverbed_pebbles_[AL].exr" TileType="Water" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\rock_shards_large_01[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_dunegrass[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_flat[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_flat_01[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_rippled_dry_01[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_rippled_wet_01[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_rippled_wet_02[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_rocky_01[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_rocky_02[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_weed[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\sand_wet_01[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\soil_moss[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\soil_moss_01_[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\Soil_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\underwater_mud_01_[AL].exr" TileType="Water" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\underwater_mud_02_[AL].exr" TileType="Water" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\underwater_mud_marsh_[AL].exr" TileType="Water" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\underwater_mud_wet_01_[AL].exr" TileType="Water" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\underwater_sand_flat_01[AL].exr" TileType="Water" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\underwater_sand_flat_02[AL].exr" TileType="Water" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\underwater_sand_rippled_01[AL].exr" TileType="Water" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\Woodland_patchy_01_[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\woodland_path_[AL].exr" TileType="Earth" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_halo\Woodland_[AL].exr" TileType="Turf" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rockbump01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rockflat01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rockflat02_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rockflat03_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_sandswarf01_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_sand_default_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\FM_Proto_SandSwarf01_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\FM_Proto_Sand_Swarf_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_Metal_Default_[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_Tarmac_Default_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_VolcanicRock02_Crystal01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_VolcanicRock02_Crystal02_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_VolcanicRock02_Default_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_VolcanicRock_Crystal01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_VolcanicRock_Crystal02_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_VolcanicRock_Default_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\ProtoTerrain_VolcanicRock_Path_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_crystal_rocks_01[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_crystal_rocks_02[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_meltedcrystal01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rockdefault_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rockmeltedcrystal01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rockmeltedcrystal02_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rockmeltedcrystal03_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\Proto_RockMeltingCrystalIridescent_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rocksand_default_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rocksand_high_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_rocksand_low_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\Proto_Rock_Glow_01_[AL].exr" TileType="Rock" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\refuga_proto\proto_sandmeltedcrystal01_[AL].exr" TileType="Sand" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\Grid_GrayScale3[AL].tga" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\Grid_GrayScale4[AL].tga" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\Grid_GrayScale[AL].tga" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\Black[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\Blue_Cross[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\GrayDark[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\GrayDark_Cross[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\GrayLight[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\Gray[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\Gray_Cross[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+    <TextureDef TextureFile="textures\terrain\Whitebox\Grid_GrayScale2[AL].exr" TileType="Metal" ObstructLand="false">
+    </TextureDef>
+</TerrainTextureDefs>

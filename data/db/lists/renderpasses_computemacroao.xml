@@ -1,0 +1,76 @@
+<RenderPasses>
+    <SetResourceView>
+        <RenderGlobal name="MacroAORV">
+        </RenderGlobal>
+        <Shader type="Compute">
+        </Shader>
+        <Index index="0">
+        </Index>
+        <ReadWrite value="true">
+        </ReadWrite>
+    </SetResourceView>
+    <SetTexture>
+        <RenderGlobal name="TerrainHeightfield">
+        </RenderGlobal>
+        <Shader type="Compute">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SetTexture>
+        <RenderGlobal name="TerrainNormals">
+        </RenderGlobal>
+        <Shader type="Compute">
+        </Shader>
+        <Index index="1">
+        </Index>
+    </SetTexture>
+    <SetTexture>
+        <RenderGlobal name="TerrainAlpha">
+        </RenderGlobal>
+        <Shader type="Compute">
+        </Shader>
+        <Index index="2">
+        </Index>
+    </SetTexture>
+    <SetTexture>
+        <RenderGlobal name="TerrainAlbedo">
+        </RenderGlobal>
+        <Shader type="Compute">
+        </Shader>
+        <Index index="3">
+        </Index>
+    </SetTexture>
+    <SamplerState>
+        <Address u="Wrap" v="Wrap" w="Wrap">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="0">
+        </Index>
+        <Shader type="Compute">
+        </Shader>
+    </SamplerState>
+    <SetShader>
+        <Shader name="MacroAmbientOcclusion">
+        </Shader>
+    </SetShader>
+    <ComputeDispatch>
+        <RenderGlobalGroupCount x="MacroAOComputeGroupX" y="MacroAOComputeGroupY">
+        </RenderGlobalGroupCount>
+        <GroupCount z="1">
+        </GroupCount>
+    </ComputeDispatch>
+    <ResourceBarrier>
+        <RenderGlobal name="MacroAORV">
+        </RenderGlobal>
+    </ResourceBarrier>
+    <UnsetResourceView>
+        <Shader type="Compute">
+        </Shader>
+        <Index index="0">
+        </Index>
+        <ReadWrite value="true">
+        </ReadWrite>
+    </UnsetResourceView>
+</RenderPasses>

@@ -1,0 +1,7 @@
+<vs>
+    <player_unsc_lan>Queue=AutoSignin Queue=MPAutoGotoLAN Queue=&quot;MPAutoJoinLAN=debugip&quot; Queue=&quot;MPAutoScenario=eagle&quot; Queue=&quot;MPAutoLeader=cutter&quot; Queue=&quot;MPAutoTeam=1&quot;</player_unsc_lan>
+    <player_banished_lan>Queue=AutoSignin Queue=MPAutoGotoLAN Queue=&quot;MPAutoJoinLAN=debugip&quot; Queue=&quot;MPAutoScenario=eagle&quot; Queue=&quot;MPAutoLeader=arbiter&quot; Queue=&quot;MPAutoTeam=2&quot;</player_banished_lan>
+    <player_unsc_live>Queue=AutoSignin Queue=MPAutoMatchmake Queue=&quot;MPAutoLeader=cutter&quot;</player_unsc_live>
+    <player_banished_live>Queue=AutoSignin Queue=MPAutoMatchmake Queue=&quot;MPAutoLeader=arbiter&quot;</player_banished_live>
+    <temp>+FrontendMockupEnabled</temp>
+</vs>

@@ -1,0 +1,22 @@
+<RenderPasses>
+    <ConditionalPass group="UIAlpha">
+        <If condition="HDREnabled">
+        </If>
+        <Else>
+            <Include file="renderPasses_SetupTileLightingForPass.xml">
+            </Include>
+            <Include file="renderPasses_SetupAlphaTypePass.xml">
+            </Include>
+            <SetBackbufferRenderTarget group="UI">
+                <CustomDepthTarget name="Depth">
+                </CustomDepthTarget>
+            </SetBackbufferRenderTarget>
+            <DrawRenderItems group="UI">
+                <Priority type="UIAlpha">
+                </Priority>
+                <DrawRenderItem>
+                </DrawRenderItem>
+            </DrawRenderItems>
+        </Else>
+    </ConditionalPass>
+</RenderPasses>

@@ -1,0 +1,16 @@
+<RenderPasses>
+    <SetBoneBuffer group="PrepareShadow">
+    </SetBoneBuffer>
+    <InvalidateShaders group="PrepareShadow">
+    </InvalidateShaders>
+    <SetRenderTargets group="PrepareShadow">
+        <Target name="SpotLightDepth">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="PrepareShadow">
+        <UseParams value="true">
+        </UseParams>
+    </SetViewport>
+    <Include file="renderPasses_Solid.xml">
+    </Include>
+</RenderPasses>

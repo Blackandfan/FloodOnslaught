@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Hydra</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_hydramissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -25,7 +25,7 @@
 	<Weapon>
 		<Name>HydraVehicles</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>390</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_hydramissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -47,7 +47,7 @@
 	<Weapon>
 		<Name>Melee</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>250</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>8</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
@@ -272,7 +272,23 @@
 		<ProtoObject>vfx_dlc2_units_spartanleaderinspiretier2</ProtoObject>
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<PersistentAction>InspireAura</PersistentAction>
 		<PersistentAction>InspireAuraUpgrade</PersistentAction>

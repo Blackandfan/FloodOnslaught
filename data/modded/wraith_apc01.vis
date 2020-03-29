@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="wraith01">
+	<model name="wraith01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2\pack1\units\covenant\vehicles\wraith_apc01\mesh_wraith01</file>
+				<damagefile>episode2/pack1/units/covenant/vehicles/wraith_apc01/wraith_apc01</damagefile>
+			</asset>
+			<attach type="FoliageForceFile" name="Foliage/wraith" tobone="bone_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/OmniBackLightGhost" tobone="bone_vfx_left_Light" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/OmniBackLightGhost" tobone="bone_vfx_Right_Light" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/WraithHoverLight" tobone="bone_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_Right_SpotLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_left_SpotLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/WraithHoverLight" tobone="bone_vfx_DownLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Cover" bone="socketbone_gunslot_right_3" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_right_2" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_right_1" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_right_0" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_left_3" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_left_2" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_left_1" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_left_0" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_center_0" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_center_1" pointData="Metal" />
+			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_right_007" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_right_006" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_right_005" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_right_004" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_left_007" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_left_006" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_left_005" pointData="Metal" />
+			<point pointType="Cover" bone="socketbone_gunslot_left_004" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="bone_vfx_DownLight" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_idle01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack_Right" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack_Left" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_Right_Light" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_left_Light" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_idle01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack_Right" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack_Left" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_Right_Light" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_left_Light" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_idle01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack_Right" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_EngineBack_Left" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_Right_Light" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/WraithEngines" tobone="bone_vfx_left_Light" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="20" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/effects/Unit_FX/unsc/repair_01" tobone="bone_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/hijack_wraith_apc_loop</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="STOP_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_wraith01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0270000007" end="1" name="PLAY_SFX_3D_VEH_BAN_WraithHijackEngineRevs" tobone="GrannyRootBone_wraith01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.122000001" end="1" name="Play_SFX_3D_VEH_MetalShakeShort" tobone="GrannyRootBone_wraith01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.133000001" end="1" name="PLAY_SFX_3D_VEH_HijackVehicleGenericMVSCOV" tobone="GrannyRootBone_wraith01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.504999995" end="1" name="PLAY_SFX_3D_VEH_HijackVehicleGenericMVSCOV" tobone="GrannyRootBone_wraith01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.621999979" end="1" name="Play_SFX_3D_VEH_MetalShakeLong" tobone="GrannyRootBone_wraith01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/hijack_wraith_apc_in</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_BAN_WraithHijackIn" tobone="GrannyRootBone_wraith01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_wraith01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PlasmaAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_fire01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="turret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/covenant/vehicles/wraith_apc01/mesh_turret</file>
+			</asset>
+			<attach type="ModelRef" name="cannon" tobone="socketbone_cannon" frombone="GrannyRootBone_cannon" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_idle01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PlasmaAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_fire01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/hijack_wraith_apc_turret_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/hijack_wraith_apc_turret_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="cannon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/covenant/vehicles/wraith_apc01/mesh_cannon</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_idle01_cannon</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PlasmaAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/wraith_apc_fire01_cannon</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="bone_gun_barrel_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.0250000004" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ProwlerMuzzle" tobone="bone_gun_barrel_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/hijack_wraith_apc_cannon_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/vehicles/wraith_apc01/hijack_wraith_apc_cannon_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="nodespawning.triggerscript" Type="TriggerScript" Tags="" External="false">
+	<TriggerVars>
+		<TriggerVar ID="#8f99a659-6cee-4750-8049-2dddffe2c9c1" Type="Integer" Name="" IsNull="false">99</TriggerVar>
+		<TriggerVar ID="#8752e0a3-ee96-4c15-b14c-75ee021cf2fa" Type="Integer" Name="T1Chance" IsNull="false" />
+		<TriggerVar ID="#59d4a368-8ba0-4bbd-9a4d-698837f6abe9" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="#92cc63aa-91b3-49b0-8185-0a26379edb77" Type="Integer" Name="T2Chance" IsNull="false" />
+		<TriggerVar ID="#cbec0c1b-b325-4eeb-9ca7-bb3c9c35c718" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="#ae287b13-6d7c-4412-9167-b296a2d021b6" Type="Integer" Name="T3Chance" IsNull="false" />
+		<TriggerVar ID="#64dd6b2a-db0e-4f4e-a70a-b51e930be66f" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_battleapc_01</TriggerVar>
+		<TriggerVar ID="#8fe96db3-639c-4611-94c1-0bc318ded474" Type="ProtoSquadList" Name="UNSCT1List" IsNull="false" />
+		<TriggerVar ID="#b1d19e8d-284b-42f2-ae59-62c6dd807cab" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_warthog_01</TriggerVar>
+		<TriggerVar ID="#6d8d5030-ca13-40a0-8dd2-dee7753b0937" Type="ProtoSquadList" Name="UNSCT2List" IsNull="false" />
+		<TriggerVar ID="#f03c5bbd-fc1a-4a9e-b758-03b25b4d15e7" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_scorpion_01</TriggerVar>
+		<TriggerVar ID="#273c1b76-1e33-4ae0-bb7d-23ab2f8772ac" Type="ProtoSquadList" Name="UNSCT3List" IsNull="false" />
+		<TriggerVar ID="#12d00543-0cad-4296-ac39-257c5cc7a1bd" Type="ProtoSquadList" Name="" IsNull="false">cov_veh_wraithapc_01</TriggerVar>
+		<TriggerVar ID="#8220ee61-30ca-483e-ba70-ac3f420f4fd5" Type="ProtoSquadList" Name="BANT1List" IsNull="false" />
+		<TriggerVar ID="#2fd2c4a3-e383-4c2b-9b3e-1d6ab84c74db" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_warthog_01</TriggerVar>
+		<TriggerVar ID="#cc23b3a2-072e-430a-b2ad-f9ce193a69ec" Type="ProtoSquadList" Name="BANT2List" IsNull="false" />
+		<TriggerVar ID="#d72686a4-9053-4266-bfbe-dcb8ca447d99" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_scorpion_01</TriggerVar>
+		<TriggerVar ID="#fc5f7786-d286-4790-b4ec-1b74538e821c" Type="ProtoSquadList" Name="BANT3List" IsNull="false" />
+		<TriggerVar ID="#c413cf0a-026c-49f8-81c8-b580c2704915" Type="Trigger" Name="TriggerVar1" IsNull="false">#b45f3535-2d86-423f-86a7-6c464773ea55</TriggerVar>
+		<TriggerVar ID="#369dca3c-5f9e-4fd6-90f2-d46f0bd65864" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="#eba20c37-00fa-48a1-a187-33601429584c" Type="Integer" Name="Roll" IsNull="false" />
+		<TriggerVar ID="#d70abb2f-cbdf-4b7c-b01d-ecbb6eaddb11" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
+		<TriggerVar ID="#fb41d373-8ca6-475c-8a15-b3633f300213" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
+		<TriggerVar ID="#81dfe2d7-7ea9-4128-9f9f-e2f012b82942" Type="Trigger" Name="TriggerVar3" IsNull="false">#b50d8063-ce97-4265-994c-c8ec6988d499</TriggerVar>
+		<TriggerVar ID="#7c870430-4f85-4af3-9936-09bc985bdeee" Type="Trigger" Name="TriggerVar4" IsNull="false">#fde2c549-25f5-4515-9d33-4127b75486a5</TriggerVar>
+		<TriggerVar ID="#b28491bc-78ff-4129-bb40-cf71db328b90" Type="Trigger" Name="TriggerVar5" IsNull="false">#1dccfaec-69ba-4287-b60c-ffe7b4002a61</TriggerVar>
+		<TriggerVar ID="#03c5d80a-ebba-4dc0-87b3-e27622833fc9" Type="Trigger" Name="TriggerVar6" IsNull="false">#8098e889-86df-4ec7-acde-0fedbc6da61e</TriggerVar>
+		<TriggerVar ID="#95189b98-5fa9-414d-af4c-f83130da5d0a" Type="Trigger" Name="TriggerVar7" IsNull="false">#4f47679b-d6da-4d55-8313-53053bf4060c</TriggerVar>
+		<TriggerVar ID="#3a98f716-d0c4-40c2-ad09-9936df7a90b9" Type="Player" Name="ExternPlayerVar1" IsNull="true" />
+		<TriggerVar ID="#65d1eacc-23e8-4f2f-bead-0fde0d5ed2aa" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+		<TriggerVar ID="#c56c2a88-cb36-47e1-b272-24759f4fe607" Type="Squad" Name="ExternSquadVar1" IsNull="true" />
+		<TriggerVar ID="#307ad7a9-9276-4493-97cb-cf1f7fb485d9" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+		<TriggerVar ID="#097134d6-8dca-4f2c-b44a-ddfef6b01644" Type="Unit" Name="MyUnit" IsNull="false" />
+		<TriggerVar ID="#f2bcd45b-4f0d-4b48-b427-092f5d9109a9" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+		<TriggerVar ID="#06113d62-8df3-4061-8409-e6d0fe2ffadf" Type="Cost" Name="ExternCostVar1" IsNull="true" />
+		<TriggerVar ID="#0bbc3e06-cb19-40f3-845e-0d8ce14a2a79" Type="Squad" Name="KillerSquad" IsNull="false" />
+		<TriggerVar ID="#03c81e1e-3acb-4c2c-88ed-7cc9f4f6fdb6" Type="Squad" Name="MySquad" IsNull="false" />
+		<TriggerVar ID="#db9de462-debd-45d9-92a6-dc1dd4e07f7d" Type="Unit" Name="UnitVar2" IsNull="true" />
+		<TriggerVar ID="#d2f9cbaa-90ac-4c98-85e6-205e7f24c976" Type="Player" Name="PlayerToGift" IsNull="false" />
+		<TriggerVar ID="#d33cbb74-bf98-4518-a61e-dbea39b3cee4" Type="Trigger" Name="TriggerVar8" IsNull="false">#da06d942-0c77-4eac-be42-7c1ff999ca6f</TriggerVar>
+		<TriggerVar ID="#f4bbd5e1-41cb-4a68-93f8-0af31590ae1b" Type="Leader" Name="" IsNull="false">Anders</TriggerVar>
+		<TriggerVar ID="#6cc90cdb-0670-4120-98e3-5154db18ac19" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
+		<TriggerVar ID="#f9d68901-a7c5-47d7-a7c2-95714accd428" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
+		<TriggerVar ID="#abb360ed-1c56-4d1c-b5ac-5317d6e01c00" Type="Trigger" Name="TriggerVar9" IsNull="false">#10339e9a-4452-4d35-bf4e-7c5f984138b7</TriggerVar>
+		<TriggerVar ID="#335ed313-b5fd-4dcf-aaeb-2f8bf6ebcd6c" Type="Trigger" Name="TriggerVar10" IsNull="false">#bfb6b395-108c-492d-9b10-d6ab1a348b57</TriggerVar>
+		<TriggerVar ID="#aee9ec73-6ba7-4f1f-9127-3f935b35321b" Type="Trigger" Name="TriggerVar11" IsNull="false">#0f17d0b3-7b79-448a-bddf-3c439e1452d0</TriggerVar>
+		<TriggerVar ID="#9ecccf64-5a89-4200-8f90-f7b5541511bd" Type="Trigger" Name="TriggerVar12" IsNull="false">#8f7f6566-7fcb-44ce-8b02-06141ae73d32</TriggerVar>
+		<TriggerVar ID="#b80c7031-d522-4469-aa8a-e2f4b06b5f50" Type="Trigger" Name="TriggerVar14" IsNull="false">#8acbd7e0-df48-4e95-a093-50d3967cbaf2</TriggerVar>
+		<TriggerVar ID="#ead5f703-cb4f-4b74-a1dd-beb5602e3f9e" Type="ListPosition" Name="" IsNull="false">Random</TriggerVar>
+		<TriggerVar ID="#7c8d0cce-2b6a-4740-a0b0-89c342e256f8" Type="ProtoSquad" Name="SquadToSpawn" IsNull="false" />
+		<TriggerVar ID="#333ee585-0e74-4043-a515-aea50975439c" Type="ListPosition" Name="" IsNull="false">Random</TriggerVar>
+		<TriggerVar ID="#2c321e35-d974-4d42-bae4-56b0b516cb39" Type="ListPosition" Name="" IsNull="false">Random</TriggerVar>
+		<TriggerVar ID="#485ef890-3290-4c3f-bf14-74b185c3f0a1" Type="ListPosition" Name="" IsNull="false">Random</TriggerVar>
+		<TriggerVar ID="#110d2fa1-a404-48d8-a72b-17fb95300093" Type="ListPosition" Name="" IsNull="false">Random</TriggerVar>
+		<TriggerVar ID="#2df1dcc3-5aa1-412a-bafb-f3fcdd727d4b" Type="ListPosition" Name="" IsNull="false">Random</TriggerVar>
+		<TriggerVar ID="#1aa45439-0d05-48f1-ba5f-7410d7923cd2" Type="Trigger" Name="TriggerVar15" IsNull="false">#f56d52ee-54b7-45dc-8629-4fc39b46fdcf</TriggerVar>
+		<TriggerVar ID="#daf99b30-1eb2-4510-b52c-1c7ef2583d81" Type="Trigger" Name="TriggerVar16" IsNull="false">#f56d52ee-54b7-45dc-8629-4fc39b46fdcf</TriggerVar>
+		<TriggerVar ID="#d412ab21-4fb1-4e1e-a026-0c19266ca247" Type="Trigger" Name="TriggerVar17" IsNull="false">#f56d52ee-54b7-45dc-8629-4fc39b46fdcf</TriggerVar>
+		<TriggerVar ID="#ade24af1-5745-4629-b08b-3bb774f1a878" Type="Trigger" Name="TriggerVar18" IsNull="false">#f56d52ee-54b7-45dc-8629-4fc39b46fdcf</TriggerVar>
+		<TriggerVar ID="#34740f75-f763-4818-ab05-653b0fb73e82" Type="Trigger" Name="TriggerVar19" IsNull="false">#f56d52ee-54b7-45dc-8629-4fc39b46fdcf</TriggerVar>
+		<TriggerVar ID="#482b3746-11d6-4f44-b9c3-5a6ae6c480fe" Type="Trigger" Name="TriggerVar20" IsNull="false">#f56d52ee-54b7-45dc-8629-4fc39b46fdcf</TriggerVar>
+		<TriggerVar ID="#c7122803-2c3f-4675-ba84-ca27ff4d4b44" Type="Vector" Name="FacingVar2" IsNull="true" />
+		<TriggerVar ID="#50e08a17-dd12-4256-9ce0-0bad549a16f7" Type="Vector" Name="FlyInStartVar2" IsNull="true" />
+		<TriggerVar ID="#2a2fcc96-7b7d-4b65-836a-524be26e3f31" Type="Vector" Name="FlyInEndVar2" IsNull="true" />
+		<TriggerVar ID="#a3af9fba-82b9-42ce-a175-50c9fdba421f" Type="Vector" Name="RallyPointVar2" IsNull="true" />
+		<TriggerVar ID="#fa329c53-305d-415d-943c-9f61936466be" Type="Bool" Name="AttackMoveRallyPointVar2" IsNull="true">False</TriggerVar>
+		<TriggerVar ID="#172294c4-944c-4e31-ac2d-34b4089b4add" Type="Squad" Name="CreatedSquadVar1" IsNull="true" />
+		<TriggerVar ID="#56f11330-12f4-44bc-a954-e05473a39531" Type="SquadList" Name="AddToSquadListVar1" IsNull="true" />
+		<TriggerVar ID="#894e2af9-72fb-4668-83a0-fd20dea771f5" Type="Bool" Name="SquadListClearExistingVar1" IsNull="true">False</TriggerVar>
+		<TriggerVar ID="#62ad5e4d-ca88-4d3c-80d1-1d21eb56efd5" Type="Squad" Name="SquadVar3" IsNull="true" />
+		<TriggerVar ID="#7a537d81-e3ca-42b6-9241-678dbab5ad7d" Type="Object" Name="ObjectVar1" IsNull="true" />
+		<TriggerVar ID="#0cd230cb-82d2-4763-bdfe-963e1aa40931" Type="Vector" Name="SpawnLocation" IsNull="false" />
+		<TriggerVar ID="#ff96ef14-2a68-483b-9787-8ca3ff30b7f4" Type="Player" Name="FilterPlayerVar1" IsNull="true" />
+		<TriggerVar ID="#bbd4c0fc-5759-4fce-9fcc-5a90cece8d8e" Type="PlayerList" Name="" IsNull="false">1,2,3,4,5,6</TriggerVar>
+		<TriggerVar ID="#e4603130-6162-407e-b381-3ab573126db8" Type="ProtoSquad" Name="FilterProtoSquadVar1" IsNull="true" />
+		<TriggerVar ID="#59455263-c555-4da0-8739-824bc88447a5" Type="Float" Name="" IsNull="false">7.5</TriggerVar>
+		<TriggerVar ID="#394eefd0-1a5e-46ad-95a5-54e6375b74f0" Type="Vector" Name="FilterBoxForwardVar1" IsNull="true" />
+		<TriggerVar ID="#f918fa02-66cc-4829-a07a-5ca62fe04488" Type="Float" Name="FilterBoxHalfXVar1" IsNull="true" />
+		<TriggerVar ID="#d1793508-eed8-46d2-81bb-853cb282b25e" Type="Float" Name="FilterBoxHalfYVar1" IsNull="true" />
+		<TriggerVar ID="#37f3a94d-885b-4ad3-9a00-ac5c2b1b3143" Type="Float" Name="FilterBoxHalfZVar1" IsNull="true" />
+		<TriggerVar ID="#872606c8-8a63-4f31-b53c-20372ee74e6b" Type="SquadList" Name="FilterSquadListVar1" IsNull="true" />
+		<TriggerVar ID="#4880aaf6-3d33-42ff-a9b0-7e7d0fa39edb" Type="ObjectType" Name="FilterObjectTypeVar1" IsNull="true" />
+		<TriggerVar ID="#87c6c515-f3e5-40d1-8252-61175672613c" Type="Bool" Name="IgnoreAirUnitsVar1" IsNull="true">False</TriggerVar>
+		<TriggerVar ID="#6ac08fbb-358e-49c7-89e7-8686f57ffc8c" Type="ProtoSquadList" Name="ProtoSquadListVar1" IsNull="true" />
+		<TriggerVar ID="#db68fc7d-09e9-41d1-9e73-737693ab22d6" Type="SquadList" Name="FoundSquads" IsNull="false" />
+		<TriggerVar ID="#8539cf9e-fc97-4251-83ec-2c37b418bc87" Type="Integer" Name="FoundSquadCountVar1" IsNull="true" />
+		<TriggerVar ID="#a8863380-56a2-413d-9afa-d0ccd19f2980" Type="ListPosition" Name="" IsNull="false">First</TriggerVar>
+		<TriggerVar ID="#a4c9958e-3c17-4709-9cda-2efc0ced70ba" Type="UnitList" Name="KillUnitListVar1" IsNull="true" />
+		<TriggerVar ID="#e24df61a-f9bb-4551-8415-2a0ac1344e1e" Type="Squad" Name="KillSquadVar1" IsNull="true" />
+		<TriggerVar ID="#5a7c20cd-61ce-4ba0-977a-8b70b983f5c9" Type="SquadList" Name="KillSquadListVar1" IsNull="true" />
+		<TriggerVar ID="#46af12fb-3485-49be-a6f8-7de719b6b1cd" Type="Object" Name="ObjectVar2" IsNull="true" />
+		<TriggerVar ID="#ae54e28d-2bb2-4f72-9c35-76782e900a0d" Type="ObjectList" Name="ObjectListVar1" IsNull="true" />
+		<TriggerVar ID="#d310f30a-0a29-4c32-915d-1701b2fa2783" Type="Leader" Name="" IsNull="false">Atriox</TriggerVar>
+		<TriggerVar ID="#0d43d789-800e-4537-bbfb-edc810a4b21c" Type="Trigger" Name="TriggerVar2" IsNull="false">#e24df887-b419-4aba-a449-0331f929236e</TriggerVar>
+		<TriggerVar ID="#eb7e4994-6b0d-41aa-8d68-e6c009d6d66e" Type="Trigger" Name="TriggerVar21" IsNull="false">#f16043c7-4f8d-4c1d-acd8-ae60c4cfd7ff</TriggerVar>
+		<TriggerVar ID="#0d470eac-d260-44ce-a8d9-fe71f29ef367" Type="Player" Name="" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="#6c470f04-ca34-4b20-9b7d-8e7603528801" Type="PlayerList" Name="PlayerListVar1" IsNull="true" />
+		<TriggerVar ID="#3303a9c1-b8cb-46d5-be18-442100bc0618" Type="String" Name="" IsNull="false">Leader Not Recognised</TriggerVar>
+		<TriggerVar ID="#08d25680-287e-4f25-b445-77b7c53ae35f" Type="MessageIndex" Name="" IsNull="false">3</TriggerVar>
+		<TriggerVar ID="#346be793-304b-4f71-b942-efe3fc69680d" Type="Float" Name="" IsNull="false">50</TriggerVar>
+		<TriggerVar ID="#dda4019c-25fa-4f52-88ef-ddecc483a0cb" Type="Float" Name="" IsNull="false">550</TriggerVar>
+		<TriggerVar ID="#42a19119-502a-481e-a694-cb969f3314ca" Type="MessageJustify" Name="MessageJustifyVar1" IsNull="true" />
+		<TriggerVar ID="#1b1ff9ec-27bb-447d-a3cb-e8360d8cfd71" Type="MessagePoint" Name="MessagePointVar1" IsNull="true" />
+		<TriggerVar ID="#d4073aef-f939-4558-99e6-3e420772fb72" Type="Float" Name="AlphaVar1" IsNull="true" />
+		<TriggerVar ID="#2161922e-7b22-466a-bee3-3df3eb30f784" Type="Color" Name="ColorVar1" IsNull="true" />
+		<TriggerVar ID="#63448bfe-0760-47c4-9822-e5509b5f0b68" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="#93876be0-6d80-4ffd-890e-b1ea39f70b5e" Type="Leader" Name="" IsNull="false">Johnson</TriggerVar>
+		<TriggerVar ID="#e82e9515-4ce9-4a35-996a-7de139786157" Type="Leader" Name="" IsNull="false">LeaderJerome</TriggerVar>
+		<TriggerVar ID="#9f8ad34a-f3b4-4be0-813f-8ffdfc06986f" Type="Leader" Name="" IsNull="false">Serina</TriggerVar>
+		<TriggerVar ID="#c6a86284-24ab-4815-ab8e-1c68a361097a" Type="Leader" Name="" IsNull="false">UNSC Single Player</TriggerVar>
+		<TriggerVar ID="#fc38e71b-2d7e-47ee-9b48-8fa4a45e811a" Type="Leader" Name="" IsNull="false">Lekgolo</TriggerVar>
+		<TriggerVar ID="#71495347-7742-492b-97a4-13e0d2a4ac01" Type="Leader" Name="" IsNull="false">Arbiter</TriggerVar>
+		<TriggerVar ID="#a369d6e4-389d-444c-9af8-c4960cb43f83" Type="Leader" Name="" IsNull="false">GruntGeneral</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger X="0" Y="54" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#d6893924-dc60-4e90-bb03-a8c743c90d65" Name="Start" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#304a3e75-6589-47ef-8e23-a39b82f4b080" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">#3a98f716-d0c4-40c2-ad09-9936df7a90b9</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">#65d1eacc-23e8-4f2f-bead-0fde0d5ed2aa</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">#c56c2a88-cb36-47e1-b272-24759f4fe607</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">#307ad7a9-9276-4493-97cb-cf1f7fb485d9</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">#097134d6-8dca-4f2c-b44a-ddfef6b01644</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">#f2bcd45b-4f0d-4b48-b427-092f5d9109a9</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">#06113d62-8df3-4061-8409-e6d0fe2ffadf</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#4b0a29f1-b22b-4901-b6e1-f7db57dddb23" Type="CopyInt" DBID="98" Version="1" CommentOut="false">
+					<Input Name="IntSource" SigID="1" Optional="false">#8f99a659-6cee-4750-8049-2dddffe2c9c1</Input>
+					<Output Name="IntCopy" SigID="2" Optional="false">#8752e0a3-ee96-4c15-b14c-75ee021cf2fa</Output>
+				</Effect>
+				<Effect ID="#fd32ba65-fd1e-4297-98b7-40ff5a058f73" Type="CopyInt" DBID="98" Version="1" CommentOut="false">
+					<Input Name="IntSource" SigID="1" Optional="false">#59d4a368-8ba0-4bbd-9a4d-698837f6abe9</Input>
+					<Output Name="IntCopy" SigID="2" Optional="false">#92cc63aa-91b3-49b0-8185-0a26379edb77</Output>
+				</Effect>
+				<Effect ID="#51983d76-e336-4a46-9afc-391b8ef16c35" Type="CopyInt" DBID="98" Version="1" CommentOut="false">
+					<Input Name="IntSource" SigID="1" Optional="false">#cbec0c1b-b325-4eeb-9ca7-bb3c9c35c718</Input>
+					<Output Name="IntCopy" SigID="2" Optional="false">#ae287b13-6d7c-4412-9167-b296a2d021b6</Output>
+				</Effect>
+				<Effect ID="#14281bc4-63d2-43cd-bf14-ad6f3bf46849" Type="CopyProtoSquadList" DBID="482" Version="1" CommentOut="false">
+					<Input Name="SourceList" SigID="1" Optional="false">#64dd6b2a-db0e-4f4e-a70a-b51e930be66f</Input>
+					<Output Name="DestList" SigID="2" Optional="false">#8fe96db3-639c-4611-94c1-0bc318ded474</Output>
+				</Effect>
+				<Effect ID="#69145b60-0282-42ec-9486-c2b450812d4c" Type="CopyProtoSquadList" DBID="482" Version="1" CommentOut="false">
+					<Input Name="SourceList" SigID="1" Optional="false">#b1d19e8d-284b-42f2-ae59-62c6dd807cab</Input>
+					<Output Name="DestList" SigID="2" Optional="false">#6d8d5030-ca13-40a0-8dd2-dee7753b0937</Output>
+				</Effect>
+				<Effect ID="#28434279-d011-4374-a221-2a1839028349" Type="CopyProtoSquadList" DBID="482" Version="1" CommentOut="false">
+					<Input Name="SourceList" SigID="1" Optional="false">#f03c5bbd-fc1a-4a9e-b758-03b25b4d15e7</Input>
+					<Output Name="DestList" SigID="2" Optional="false">#273c1b76-1e33-4ae0-bb7d-23ab2f8772ac</Output>
+				</Effect>
+				<Effect ID="#dd96caa2-310d-4ce1-8384-587ea47c44fc" Type="CopyProtoSquadList" DBID="482" Version="1" CommentOut="false">
+					<Input Name="SourceList" SigID="1" Optional="false">#12d00543-0cad-4296-ac39-257c5cc7a1bd</Input>
+					<Output Name="DestList" SigID="2" Optional="false">#8220ee61-30ca-483e-ba70-ac3f420f4fd5</Output>
+				</Effect>
+				<Effect ID="#cc579776-bfbf-41f6-9dc6-e2ef18ea7c34" Type="CopyProtoSquadList" DBID="482" Version="1" CommentOut="false">
+					<Input Name="SourceList" SigID="1" Optional="false">#2fd2c4a3-e383-4c2b-9b3e-1d6ab84c74db</Input>
+					<Output Name="DestList" SigID="2" Optional="false">#cc23b3a2-072e-430a-b2ad-f9ce193a69ec</Output>
+				</Effect>
+				<Effect ID="#1a3d7099-78f5-4fc2-9f92-2672e50faefe" Type="CopyProtoSquadList" DBID="482" Version="1" CommentOut="false">
+					<Input Name="SourceList" SigID="1" Optional="false">#d72686a4-9053-4266-bfbe-dcb8ca447d99</Input>
+					<Output Name="DestList" SigID="2" Optional="false">#fc5f7786-d286-4790-b4ec-1b74538e821c</Output>
+				</Effect>
+				<Effect ID="#f5569032-b6a8-4af0-aac2-fd498a14f650" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#c413cf0a-026c-49f8-81c8-b580c2704915</Input>
+				</Effect>
+				<Effect ID="#764eb2d0-3823-485d-b6cf-b2c9bec5b4b9" Type="GetParentSquad" DBID="519" Version="1" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="false">#097134d6-8dca-4f2c-b44a-ddfef6b01644</Input>
+					<Output Name="ParentSquad" SigID="2" Optional="false">#03c81e1e-3acb-4c2c-88ed-7cc9f4f6fdb6</Output>
+				</Effect>
+				<Effect ID="#358030ed-544a-4132-89ed-fdf28333642c" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">#097134d6-8dca-4f2c-b44a-ddfef6b01644</Input>
+					<Input Name="Squad" SigID="2" Optional="true">#62ad5e4d-ca88-4d3c-80d1-1d21eb56efd5</Input>
+					<Input Name="Object" SigID="4" Optional="true">#7a537d81-e3ca-42b6-9241-678dbab5ad7d</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">#0cd230cb-82d2-4763-bdfe-963e1aa40931</Output>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="330" Y="57" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#b45f3535-2d86-423f-86a7-6c464773ea55" Name="Get one creep player" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#c41356cd-fccc-453e-a35d-1f0439d56dee" Type="RandomInt" DBID="178" Version="1" CommentOut="false">
+					<Input Name="Min" SigID="1" Optional="true">#369dca3c-5f9e-4fd6-90f2-d46f0bd65864</Input>
+					<Input Name="Max" SigID="2" Optional="true">#ae287b13-6d7c-4412-9167-b296a2d021b6</Input>
+					<Output Name="Random" SigID="3" Optional="false">#eba20c37-00fa-48a1-a187-33601429584c</Output>
+				</Effect>
+				<Effect ID="#5071ab1c-fa10-405b-b2aa-5c387a5a3473" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#95189b98-5fa9-414d-af4c-f83130da5d0a</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="331" Y="195" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#4f47679b-d6da-4d55-8313-53053bf4060c" Name="When I die, Spawn a unit" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#ba113c02-0999-440b-bb55-0a13033d688d" Type="CanGetSquads" DBID="4" Version="10" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">#ff96ef14-2a68-483b-9787-8ca3ff30b7f4</Input>
+						<Input Name="FilterPlayerList" SigID="12" Optional="true">#bbd4c0fc-5759-4fce-9fcc-5a90cece8d8e</Input>
+						<Input Name="FilterProtoSquad" SigID="6" Optional="true">#e4603130-6162-407e-b381-3ab573126db8</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">#0cd230cb-82d2-4763-bdfe-963e1aa40931</Input>
+						<Input Name="FilterRadius" SigID="2" Optional="true">#59455263-c555-4da0-8739-824bc88447a5</Input>
+						<Input Name="FilterBoxForward" SigID="15" Optional="true">#394eefd0-1a5e-46ad-95a5-54e6375b74f0</Input>
+						<Input Name="FilterBoxHalfX" SigID="16" Optional="true">#f918fa02-66cc-4829-a07a-5ca62fe04488</Input>
+						<Input Name="FilterBoxHalfY" SigID="17" Optional="true">#d1793508-eed8-46d2-81bb-853cb282b25e</Input>
+						<Input Name="FilterBoxHalfZ" SigID="18" Optional="true">#37f3a94d-885b-4ad3-9a00-ac5c2b1b3143</Input>
+						<Input Name="FilterSquadList" SigID="10" Optional="true">#872606c8-8a63-4f31-b53c-20372ee74e6b</Input>
+						<Input Name="FilterObjectType" SigID="11" Optional="true">#4880aaf6-3d33-42ff-a9b0-7e7d0fa39edb</Input>
+						<Input Name="IgnoreAirUnits" SigID="19" Optional="true">#87c6c515-f3e5-40d1-8252-61175672613c</Input>
+						<Input Name="ProtoSquadList" SigID="20" Optional="true">#6ac08fbb-358e-49c7-89e7-8686f57ffc8c</Input>
+						<Output Name="FoundSquads" SigID="9" Optional="true">#db68fc7d-09e9-41d1-9e73-737693ab22d6</Output>
+						<Output Name="FoundSquadCount" SigID="7" Optional="true">#8539cf9e-fc97-4251-83ec-2c37b418bc87</Output>
+					</Condition>
+					<Condition ID="#bf8dda2d-e93f-4725-9fc4-686c48ac2a85" Type="CanGetOneSquad" DBID="357" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="SquadList" SigID="1" Optional="false">#db68fc7d-09e9-41d1-9e73-737693ab22d6</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">#a8863380-56a2-413d-9afa-d0ccd19f2980</Input>
+						<Output Name="FoundSquad" SigID="3" Optional="false">#0bbc3e06-cb19-40f3-845e-0d8ce14a2a79</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#3d1dc9f4-09ee-47e5-89ca-b4df5849f874" Type="GetOwner" DBID="193" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">#db9de462-debd-45d9-92a6-dc1dd4e07f7d</Input>
+					<Input Name="Squad" SigID="2" Optional="true">#0bbc3e06-cb19-40f3-845e-0d8ce14a2a79</Input>
+					<Output Name="Owner" SigID="3" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Output>
+				</Effect>
+				<Effect ID="#4a2ab6d8-00b3-48f4-a9c5-f3dcc2d103a1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#d33cbb74-bf98-4518-a61e-dbea39b3cee4</Input>
+				</Effect>
+				<Effect ID="#4c28bb49-6855-4b0f-86c6-e39bc5aa4e26" Type="Kill" DBID="37" Version="4" CommentOut="false">
+					<Input Name="KillUnit" SigID="3" Optional="true">#097134d6-8dca-4f2c-b44a-ddfef6b01644</Input>
+					<Input Name="KillUnitList" SigID="4" Optional="true">#a4c9958e-3c17-4709-9cda-2efc0ced70ba</Input>
+					<Input Name="KillSquad" SigID="5" Optional="true">#e24df61a-f9bb-4551-8415-2a0ac1344e1e</Input>
+					<Input Name="KillSquadList" SigID="6" Optional="true">#5a7c20cd-61ce-4ba0-977a-8b70b983f5c9</Input>
+					<Input Name="Object" SigID="7" Optional="true">#46af12fb-3485-49be-a6f8-7de719b6b1cd</Input>
+					<Input Name="ObjectList" SigID="8" Optional="true">#ae54e28d-2bb2-4f72-9c35-76782e900a0d</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="1077" Y="488" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#f16043c7-4f8d-4c1d-acd8-ae60c4cfd7ff" Name="Generate contents; T1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#72722844-1865-4682-8a8b-9a91e5e1837f" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstInteger" SigID="1" Optional="false">#eba20c37-00fa-48a1-a187-33601429584c</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">#d70abb2f-cbdf-4b7c-b01d-ecbb6eaddb11</Input>
+						<Input Name="SecondInteger" SigID="3" Optional="false">#8752e0a3-ee96-4c15-b14c-75ee021cf2fa</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#e94e6fac-9571-4ec6-8ab1-ff3efa5ba3ae" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#7c870430-4f85-4af3-9936-09bc985bdeee</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="#d819cfee-b920-4563-8442-7d8642047f70" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#81dfe2d7-7ea9-4128-9f9f-e2f012b82942</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger X="1083" Y="636" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#b50d8063-ce97-4265-994c-c8ec6988d499" Name="Generate contents; T2 / 3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#a78dd4a5-a319-4a2d-aa1f-118032b11748" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstInteger" SigID="1" Optional="false">#eba20c37-00fa-48a1-a187-33601429584c</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">#fb41d373-8ca6-475c-8a15-b3633f300213</Input>
+						<Input Name="SecondInteger" SigID="3" Optional="false">#92cc63aa-91b3-49b0-8185-0a26379edb77</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#626fe2f8-81a0-4e20-b8b0-f67652d513ca" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#b28491bc-78ff-4129-bb40-cf71db328b90</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="#77eb8f92-95b1-4aa4-a432-3357edbf023e" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#03c5d80a-ebba-4dc0-87b3-e27622833fc9</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger X="1460" Y="488" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#fde2c549-25f5-4515-9d33-4127b75486a5" Name="T1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#ff99b6f8-c9e4-47e5-aa46-ff65794fb17d" Type="CanGetOneProtoSquad" DBID="486" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ProtoSquadList" SigID="1" Optional="false">#8220ee61-30ca-483e-ba70-ac3f420f4fd5</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">#485ef890-3290-4c3f-bf14-74b185c3f0a1</Input>
+						<Output Name="ProtoSquad" SigID="3" Optional="false">#7c8d0cce-2b6a-4740-a0b0-89c342e256f8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#cf466007-0b58-4c95-93b2-1c2b6bb9abc0" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#ade24af1-5745-4629-b08b-3bb774f1a878</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="1461" Y="626" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#1dccfaec-69ba-4287-b60c-ffe7b4002a61" Name="T2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#d75b8e07-4f58-4428-ba12-486201c629a3" Type="CanGetOneProtoSquad" DBID="486" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ProtoSquadList" SigID="1" Optional="false">#cc23b3a2-072e-430a-b2ad-f9ce193a69ec</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">#110d2fa1-a404-48d8-a72b-17fb95300093</Input>
+						<Output Name="ProtoSquad" SigID="3" Optional="false">#7c8d0cce-2b6a-4740-a0b0-89c342e256f8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#f143cb04-01c7-4b9b-9ec6-34811ebde2e8" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#34740f75-f763-4818-ab05-653b0fb73e82</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="1464" Y="769" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#8098e889-86df-4ec7-acde-0fedbc6da61e" Name="T3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#5c2e28ae-3873-4f45-a72d-bcd5c7999f75" Type="CanGetOneProtoSquad" DBID="486" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ProtoSquadList" SigID="1" Optional="false">#fc5f7786-d286-4790-b4ec-1b74538e821c</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">#2df1dcc3-5aa1-412a-bafb-f3fcdd727d4b</Input>
+						<Output Name="ProtoSquad" SigID="3" Optional="false">#7c8d0cce-2b6a-4740-a0b0-89c342e256f8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#6722e25d-8e33-4ce0-bc89-2e61bfcef178" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#482b3746-11d6-4f44-b9c3-5a6ae6c480fe</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="673" Y="195" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#da06d942-0c77-4eac-be42-7c1ff999ca6f" Name="UNSC?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<Or>
+					<Condition ID="#308c4929-ed35-47de-95f5-b0fd4fe66109" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#f4bbd5e1-41cb-4a68-93f8-0af31590ae1b</Input>
+					</Condition>
+					<Condition ID="#58da2494-38aa-40c7-aab1-62612b4f0c52" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#93876be0-6d80-4ffd-890e-b1ea39f70b5e</Input>
+					</Condition>
+					<Condition ID="#ffe4d6e2-e8fd-4fe1-93d6-e65b16226817" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#e82e9515-4ce9-4a35-996a-7de139786157</Input>
+					</Condition>
+					<Condition ID="#83d3b50f-7051-4316-a44c-8c1e783927e1" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#9f8ad34a-f3b4-4be0-813f-8ffdfc06986f</Input>
+					</Condition>
+					<Condition ID="#acd5ce5b-dfee-49d7-94bb-43f02dee2bb9" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#c6a86284-24ab-4815-ab8e-1c68a361097a</Input>
+					</Condition>
+				</Or>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#ab59a69e-33e6-4261-a287-afde3a7d7518" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#b80c7031-d522-4469-aa8a-e2f4b06b5f50</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="#db62d725-8cb5-4f14-8e6b-333c2baf6801" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#0d43d789-800e-4537-bbfb-edc810a4b21c</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger X="1461" Y="329" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#8f7f6566-7fcb-44ce-8b02-06141ae73d32" Name="T3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#2cae6278-175d-49dc-a672-e07241c0d138" Type="CanGetOneProtoSquad" DBID="486" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ProtoSquadList" SigID="1" Optional="false">#273c1b76-1e33-4ae0-bb7d-23ab2f8772ac</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">#2c321e35-d974-4d42-bae4-56b0b516cb39</Input>
+						<Output Name="ProtoSquad" SigID="3" Optional="false">#7c8d0cce-2b6a-4740-a0b0-89c342e256f8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#9f51d105-a246-458d-ab18-465fe0e8849c" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#d412ab21-4fb1-4e1e-a026-0c19266ca247</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="1458" Y="191" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#0f17d0b3-7b79-448a-bddf-3c439e1452d0" Name="T2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#aa123c1d-22c8-4403-a4ec-0888b36ba56a" Type="CanGetOneProtoSquad" DBID="486" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ProtoSquadList" SigID="1" Optional="false">#6d8d5030-ca13-40a0-8dd2-dee7753b0937</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">#333ee585-0e74-4043-a515-aea50975439c</Input>
+						<Output Name="ProtoSquad" SigID="3" Optional="false">#7c8d0cce-2b6a-4740-a0b0-89c342e256f8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#7c55fd27-1bff-47f2-81a2-7df09fe9be02" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#daf99b30-1eb2-4510-b52c-1c7ef2583d81</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="1459" Y="50" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#bfb6b395-108c-492d-9b10-d6ab1a348b57" Name="T1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#610a75a3-0be0-42c7-9f84-d88258b3de55" Type="CanGetOneProtoSquad" DBID="486" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ProtoSquadList" SigID="1" Optional="false">#8fe96db3-639c-4611-94c1-0bc318ded474</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">#ead5f703-cb4f-4b74-a1dd-beb5602e3f9e</Input>
+						<Output Name="ProtoSquad" SigID="3" Optional="false">#7c8d0cce-2b6a-4740-a0b0-89c342e256f8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#958a6ea2-3612-49a3-a233-76289f4ed99f" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#1aa45439-0d05-48f1-ba5f-7410d7923cd2</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="1096" Y="197" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#10339e9a-4452-4d35-bf4e-7c5f984138b7" Name="Generate contents; T2 / 3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#a78dd4a5-a319-4a2d-aa1f-118032b11748" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstInteger" SigID="1" Optional="false">#eba20c37-00fa-48a1-a187-33601429584c</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">#f9d68901-a7c5-47d7-a7c2-95714accd428</Input>
+						<Input Name="SecondInteger" SigID="3" Optional="false">#92cc63aa-91b3-49b0-8185-0a26379edb77</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#626fe2f8-81a0-4e20-b8b0-f67652d513ca" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#aee9ec73-6ba7-4f1f-9127-3f935b35321b</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="#77eb8f92-95b1-4aa4-a432-3357edbf023e" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#9ecccf64-5a89-4200-8f90-f7b5541511bd</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger X="1090" Y="49" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#8acbd7e0-df48-4e95-a093-50d3967cbaf2" Name="Generate contents; T1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And>
+					<Condition ID="#72722844-1865-4682-8a8b-9a91e5e1837f" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstInteger" SigID="1" Optional="false">#eba20c37-00fa-48a1-a187-33601429584c</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">#6cc90cdb-0670-4120-98e3-5154db18ac19</Input>
+						<Input Name="SecondInteger" SigID="3" Optional="false">#8752e0a3-ee96-4c15-b14c-75ee021cf2fa</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#e94e6fac-9571-4ec6-8ab1-ff3efa5ba3ae" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#335ed313-b5fd-4dcf-aaeb-2f8bf6ebcd6c</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="#d819cfee-b920-4563-8442-7d8642047f70" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#abb360ed-1c56-4d1c-b5ac-5317d6e01c00</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger X="1853" Y="412" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#f56d52ee-54b7-45dc-8629-4fc39b46fdcf" Name="Spawn The Squad" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#880463d9-f9d5-48f2-946a-d7660ced1162" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+					<Input Name="ProtoSquad" SigID="1" Optional="false">#7c8d0cce-2b6a-4740-a0b0-89c342e256f8</Input>
+					<Input Name="CreateLocation" SigID="2" Optional="false">#0cd230cb-82d2-4763-bdfe-963e1aa40931</Input>
+					<Input Name="Facing" SigID="12" Optional="true">#c7122803-2c3f-4675-ba84-ca27ff4d4b44</Input>
+					<Input Name="SquadOwner" SigID="3" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+					<Input Name="FlyInStart" SigID="8" Optional="true">#50e08a17-dd12-4256-9ce0-0bad549a16f7</Input>
+					<Input Name="FlyInEnd" SigID="9" Optional="true">#2a2fcc96-7b7d-4b65-836a-524be26e3f31</Input>
+					<Input Name="RallyPoint" SigID="10" Optional="true">#a3af9fba-82b9-42ce-a175-50c9fdba421f</Input>
+					<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">#fa329c53-305d-415d-943c-9f61936466be</Input>
+					<Output Name="CreatedSquad" SigID="4" Optional="true">#172294c4-944c-4e31-ac2d-34b4089b4add</Output>
+					<Output Name="AddToSquadList" SigID="5" Optional="true">#56f11330-12f4-44bc-a954-e05473a39531</Output>
+					<Output Name="SquadListClearExisting" SigID="6" Optional="true">#894e2af9-72fb-4668-83a0-fd20dea771f5</Output>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger X="683" Y="566" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#e24df887-b419-4aba-a449-0331f929236e" Name="Ban?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+			<TriggerConditions>
+				<Or>
+					<Condition ID="#c831b69b-43f0-483d-ac36-2a5f4657b995" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#d310f30a-0a29-4c32-915d-1701b2fa2783</Input>
+					</Condition>
+					<Condition ID="#3d5259b3-ff2d-4f6b-8c1a-eccc1925ce27" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#fc38e71b-2d7e-47ee-9b48-8fa4a45e811a</Input>
+					</Condition>
+					<Condition ID="#837798de-87fa-44a1-92f7-2e23a79ceb3c" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#71495347-7742-492b-97a4-13e0d2a4ac01</Input>
+					</Condition>
+					<Condition ID="#009f0f45-4139-4ad2-9d57-bdadcddf9194" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+						<Input Name="Leader" SigID="2" Optional="false">#a369d6e4-389d-444c-9af8-c4960cb43f83</Input>
+					</Condition>
+				</Or>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="#613386a4-3801-4435-a879-a0910dab2487" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#eb7e4994-6b0d-41aa-8d68-e6c009d6d66e</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="#f1092fbf-d6c6-40fc-9de0-f55219f92ec7" Type="UserMessage" DBID="164" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="11" Optional="true">#0d470eac-d260-44ce-a8d9-fe71f29ef367</Input>
+					<Input Name="PlayerList" SigID="1" Optional="true">#6c470f04-ca34-4b20-9b7d-8e7603528801</Input>
+					<Input Name="String" SigID="2" Optional="true">#3303a9c1-b8cb-46d5-be18-442100bc0618</Input>
+					<Input Name="MessageIndex" SigID="3" Optional="false">#08d25680-287e-4f25-b445-77b7c53ae35f</Input>
+					<Input Name="XPos" SigID="4" Optional="true">#346be793-304b-4f71-b942-efe3fc69680d</Input>
+					<Input Name="YPos" SigID="5" Optional="true">#dda4019c-25fa-4f52-88ef-ddecc483a0cb</Input>
+					<Input Name="MessageJustify" SigID="6" Optional="true">#42a19119-502a-481e-a694-cb969f3314ca</Input>
+					<Input Name="MessagePoint" SigID="7" Optional="true">#1b1ff9ec-27bb-447d-a3cb-e8360d8cfd71</Input>
+					<Input Name="Alpha" SigID="8" Optional="true">#d4073aef-f939-4558-99e6-3e420772fb72</Input>
+					<Input Name="Color" SigID="9" Optional="true">#2161922e-7b22-466a-bee3-3df3eb30f784</Input>
+					<Input Name="Enabled" SigID="10" Optional="false">#63448bfe-0760-47c4-9822-e5509b5f0b68</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

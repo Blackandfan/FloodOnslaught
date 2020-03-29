@@ -1,0 +1,21 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="DLC31JOH.CODEX.UNITSUNSC.BODY.COLOSSUS">H</str>
+    <str id="DLC31JOH.CODEX.UNITSUNSC.BODY.JOHNSON">T</str>
+    <str id="DLC31JOH.CODEX.UNITSUNSC.BODY.JOHNSONMECH">L</str>
+    <str id="DLC31JOH.CODEX.UNITSUNSC.BODY.MANTIS">M</str>
+    <str id="DLC31JOH.CODEX.UNITSUNSC.TITLE.COLOSSUS">Colossus</str>
+    <str id="DLC31JOH.CODEX.UNITSUNSC.TITLE.GREENMACHINE">Green Machine</str>
+    <str id="DLC31JOH.CODEX.UNITSUNSC.TITLE.JOHNSON">Sergeant Johnson</str>
+    <str id="DLC31JOH.CODEX.UNITSUNSC.TITLE.JOHNSONMECH">Green Machine</str>
+    <str id="DLC31JOH.CODEX.UNITSUNSC.TITLE.MANTIS">Mantis</str>
+    <str id="DLC31JOH.LEADERSELECT.BODY.DROPBUNKER">Home away from home.
+
+The Bunker Drop is an air-droppable garrison building used by the UNSC. It is permanent, but does cost population capacity. It has enough fire points for squads, and has a built-in table for card games while the troops wait for enemies to wander by. The Reinforced Bunker upgrade increases its infantry capacity and adds a shield.</str>
+    <str id="DLC31JOH.LEADERSELECT.ROLE01.JOHNSON">Mech Offense</str>
+    <str id="DLC31JOH.LEADERSELECT.ROLE02.JOHNSON">Bunker Down</str>
+    <str id="DLC31JOH.LEADERSELECT.ROLE03.JOHNSON">Titan</str>
+    <str id="DLC31JOH.LEADERSELECT.SHORTDESCR.JOHNSON">Sergeant Major Avery Johnson, a hero of the Covenant War, geared up for battle. He&apos;s a dangerous adversary due to his powerful mechs and solid command.</str>
+    <str id="DLC31JOH.LEADERSELECT.SHORTDESCR.JOHNSON.BLITZ">Sergeant Major Avery Johnson, a hero of the Covenant War, geared up for battle. He&apos;s a dangerous adversary due to his powerful mechs and solid command.</str>
+    <str id="DLC31JOH.LEADERSELECT.TITLE.DROPBUNKER">Bunker Drop</str>
+    <str id="DLC31JOH.LEADERSELECT.TITLE.JOHNSON">Sergeant Johnson</str>
+</string_table>

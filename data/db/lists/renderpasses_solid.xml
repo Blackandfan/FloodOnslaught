@@ -1,0 +1,20 @@
+<RenderPasses>
+    <DrawRenderItems group="SolidUnitOccludee">
+        <Priority type="SolidUnitOccludee">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <DrawRenderItems group="SolidUnitOccluder">
+        <Priority type="SolidUnitOccluder">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <DrawRenderItems group="Solid">
+        <Priority type="Solid">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+</RenderPasses>

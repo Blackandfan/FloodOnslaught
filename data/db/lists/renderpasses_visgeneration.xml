@@ -1,0 +1,180 @@
+<RenderPasses>
+    <SetRenderTargets group="FogOfWarGeneration">
+        <Target name="VisibilityTextureCurr">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="FogOfWarGeneration">
+        <Coords x="0" y="0" width="512" height="512">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="FogOfWarGeneration">
+        <Coords x="0" y="0" width="512" height="512">
+        </Coords>
+    </SetScissorRect>
+    <SetRenderTargets group="FogOfWarGeneration">
+        <Target name="VisibilityTextureCurr">
+        </Target>
+        <Target name="VisibilityTexturePrev">
+        </Target>
+    </SetRenderTargets>
+    <GenerateFoW group="FogOfWarGeneration">
+    </GenerateFoW>
+    <GeneratePlayableBoundary group="FogOfWarGeneration">
+    </GeneratePlayableBoundary>
+    <SetRenderTargets group="FogOfWarGeneration">
+        <Target name="FogOfWarUI">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="FogOfWarGeneration">
+        <Coords x="0" y="0" width="512" height="512">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="FogOfWarGeneration">
+        <Coords x="0" y="0" width="512" height="512">
+        </Coords>
+    </SetScissorRect>
+    <SetTexture group="FogOfWarGeneration">
+        <Target name="VisibilityTextureCurr">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="11">
+        </Index>
+    </SetTexture>
+    <SetTexture group="FogOfWarGeneration">
+        <Target name="VisibilityTexturePrev">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="13">
+        </Index>
+    </SetTexture>
+    <SetTexture group="FogOfWarGeneration">
+        <RenderGlobal name="PlayableBoundaryTexture">
+        </RenderGlobal>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="14">
+        </Index>
+    </SetTexture>
+    <SamplerState group="FogOfWarGeneration">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="14">
+        </Index>
+        <Shader type="Pixel">
+        </Shader>
+    </SamplerState>
+    <SamplerState group="FogOfWarGeneration">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="11">
+        </Index>
+        <Shader type="Pixel">
+        </Shader>
+    </SamplerState>
+    <SamplerState group="FogOfWarGeneration">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="13">
+        </Index>
+        <Shader type="Pixel">
+        </Shader>
+    </SamplerState>
+    <SetShader group="FogOfWarGeneration">
+        <Shader name="fogOfWarUI">
+        </Shader>
+    </SetShader>
+    <SetConstantBuffer group="FogOfWarGeneration">
+        <Buffer name="PerFrameMiscSC">
+        </Buffer>
+        <Shader type="Pixel">
+        </Shader>
+    </SetConstantBuffer>
+    <DrawNoVertexBuffer group="FogOfWarGeneration">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <UnsetTexture group="FogOfWarGeneration">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="11">
+        </Index>
+    </UnsetTexture>
+    <UnsetTexture group="FogOfWarGeneration">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="13">
+        </Index>
+    </UnsetTexture>
+    <SetRenderTargets group="FogOfWarGeneration">
+        <Target name="PlayableBoundaryUI">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="FogOfWarGeneration">
+        <Coords x="0" y="0" width="512" height="512">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="FogOfWarGeneration">
+        <Coords x="0" y="0" width="512" height="512">
+        </Coords>
+    </SetScissorRect>
+    <SetTexture group="FogOfWarGeneration">
+        <EngineTexture name="Minimap_Map_DashedLines">
+        </EngineTexture>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="10">
+        </Index>
+    </SetTexture>
+    <SetTexture group="FogOfWarGeneration">
+        <RenderGlobal name="PlayableBoundaryTexture">
+        </RenderGlobal>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="14">
+        </Index>
+    </SetTexture>
+    <SamplerState group="FogOfWarGeneration">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="14">
+        </Index>
+        <Shader type="Pixel">
+        </Shader>
+    </SamplerState>
+    <SetShader group="FogOfWarGeneration">
+        <Shader name="playableBoundaryUI">
+        </Shader>
+    </SetShader>
+    <SetConstantBuffer group="FogOfWarGeneration">
+        <Buffer name="PerFrameMiscSC">
+        </Buffer>
+        <Shader type="Pixel">
+        </Shader>
+    </SetConstantBuffer>
+    <DrawNoVertexBuffer group="FogOfWarGeneration">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <UnsetTexture group="FogOfWarGeneration">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="14">
+        </Index>
+    </UnsetTexture>
+</RenderPasses>

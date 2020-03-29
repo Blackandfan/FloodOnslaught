@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverPlasmaPistol</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>14</DamagePerSecond>
+		<DamagePerSecond>17.5</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaPistol_01</Projectile>
 		<ImpactEffect size="small">PlasmaPistolImpact</ImpactEffect>
@@ -25,7 +25,7 @@
 	<Weapon>
 		<Name>PlasmaPistol</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>14</DamagePerSecond>
+		<DamagePerSecond>17.5</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaPistol_01</Projectile>
 		<ImpactEffect size="small">PlasmaPistolImpact</ImpactEffect>
@@ -50,7 +50,7 @@
 	<Weapon>
 		<Name>AirPlasmaPistol</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>14</DamagePerSecond>
+		<DamagePerSecond>17.5</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaPistol_01</Projectile>
 		<ImpactEffect size="small">PlasmaPistolImpact</ImpactEffect>

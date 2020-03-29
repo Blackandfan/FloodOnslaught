@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Claws</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>840</DamagePerSecond>
+		<DamagePerSecond>1500</DamagePerSecond>
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
@@ -43,7 +43,7 @@
 	<Weapon>
 		<Name>RazorClaws</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>840</DamagePerSecond>
+		<DamagePerSecond>1500</DamagePerSecond>
 		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>3</MaxRange>
@@ -84,7 +84,7 @@
 	<Weapon>
 		<Name>RazorClawsVehicle</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>940</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>3</MaxRange>
@@ -125,7 +125,7 @@
 	<Weapon>
 		<Name>Ram</Name>
 		<WeaponType>InfantryRam</WeaponType>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>1200</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -160,7 +160,7 @@
 	<Weapon>
 		<Name>RamSecondary</Name>
 		<WeaponType>InfantryRam</WeaponType>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>1200</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -175,6 +175,67 @@
 		<ReflectDamageFactor>0</ReflectDamageFactor>
 		<Filter>Medium</Filter>
 	</Weapon>
+	<Weapon>
+		<Name>RazorClawsPull</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<PullUnits />
+		<MinPullRange>5</MinPullRange>
+		<MaxPullRange>70</MaxPullRange>
+	</Weapon>
+	<Action>
+		<Name>RazorClawsPullAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">PullIntro</Anim>
+		<Weapon>RazorClawsPull</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<ReactionAnim>Flail</ReactionAnim>
+		<VelocityScalar>22</VelocityScalar>
+		<FollowTarget />
+		<FollowDistance>10</FollowDistance>
+		<MinRelativeHeight>6</MinRelativeHeight>
+		<MaxRelativeHeight>9</MaxRelativeHeight>
+		<Chargable />
+		<ProtoObject bone="bone_vfx_HammerPoint">fx_decimuspullbeam</ProtoObject>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" />
+	</Action>
 	<Action>
 		<Name>RepairOther</Name>
 		<ActionType>RepairOther</ActionType>
@@ -330,9 +391,14 @@
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
 			<TargetType>Infantry</TargetType>
 			<Action>RamAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>RazorClawsPullAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

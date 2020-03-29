@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>chimeraBeam</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<DamagePerSecond>350</DamagePerSecond>
 		<WeaponType>Beam</WeaponType>
 		<Projectile>fx_proj_chimeraBeam_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>

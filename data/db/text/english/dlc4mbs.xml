@@ -1,0 +1,13 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="DLC4MBS_M01_TEX_INTELREPORT_01">Vaughan&apos;s ODST troops are armed with EMP ordnance to neutralize Sentinels.</str>
+    <str id="DLC4MBS_M01_TEX_SUMMARY_01">Disable the cloaking field to expose the Banished operation site.</str>
+    <str id="DLC4MBS_M02_PIP_QUIN_01">They&apos;re using Engineers to hack into the Ark&apos;s local systems to prep the ship for launch.</str>
+    <str id="DLC4MBS_M02_PIP_QUIN_03">Spirit of Fire scans show there&apos;s a terminal near the ship itself. I&apos;ve got a decryption package, I&apos;ll do what I can.</str>
+    <str id="DLC4MBS_M02_PIP_ROM_01">When Isabel and Jerome destroyed the Enduring Conviction, the Banished became as stranded as we were.</str>
+    <str id="DLC4MBS_M02_PIP_ROM_02">And now they&apos;ve found a way to break the stalemate.</str>
+    <str id="DLC4MBS_M02_PIP_ROM_03">If we find those systems, can you stop those Engineers, Quinn?</str>
+    <str id="DLC4MBS_M02_PIP_ROM_04">Ok, that&apos;ll be our back-up plan. We&apos;ll try a Condor assault first.</str>
+    <str id="DLC4MBS_M02_PIP_ROM_05">I&apos;m leaving some troops to guard the gate;  Now, let&apos;s move out.  We can&apos;t have much time left.</str>
+    <str id="DLC4MBS_M02_TEX_INTELREPORT_01">Pelican Transport can be used to quickly move your army around the battlefield.</str>
+    <str id="DLC4MBS_M02_TEX_SUMMARY_01">Stop the Forerunner ship from launching.</str>
+</string_table>

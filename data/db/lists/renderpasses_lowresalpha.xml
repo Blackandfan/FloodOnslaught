@@ -1,0 +1,132 @@
+<RenderPasses>
+    <Include file="renderPasses_SetupTileLightingForPass.xml">
+    </Include>
+    <Include file="renderPasses_SetupAlphaTypePass.xml">
+    </Include>
+    <SetRenderTargets group="LowResAlpha">
+        <Target name="QuarterResColour">
+        </Target>
+        <Target name="QuarterResAlpha">
+        </Target>
+        <Target name="QuarterResDepth">
+        </Target>
+    </SetRenderTargets>
+    <SetTexture group="LowResAlpha">
+        <Target name="DepthCopy">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="7">
+        </Index>
+    </SetTexture>
+    <SetViewport group="LowResAlpha">
+        <Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="LowResAlpha">
+        <Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5">
+        </Coords>
+    </SetScissorRect>
+    <DrawRenderItems group="LowResAlpha">
+        <Priority type="AlphaLowRes">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <SetRenderTargets group="LowResAlpha">
+        <Target name="LightAccumulation">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="LowResAlpha">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="LowResAlpha">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+    </SetScissorRect>
+    <SetTexture group="LowResAlpha">
+        <Target name="QuarterResColour">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SetTexture group="LowResAlpha">
+        <Target name="Depth">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="1">
+        </Index>
+    </SetTexture>
+    <SetTexture group="LowResAlpha">
+        <Target name="QuarterResDepth">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="2">
+        </Index>
+    </SetTexture>
+    <SetTexture group="LowResAlpha">
+        <Target name="QuarterResAlpha">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="3">
+        </Index>
+    </SetTexture>
+    <SamplerState group="LowResAlpha">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="0">
+        </Index>
+    </SamplerState>
+    <SamplerState group="LowResAlpha">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Point" mag="Point" mip="Point">
+        </Filter>
+        <Index index="1">
+        </Index>
+    </SamplerState>
+    <SetShader group="LowResAlpha">
+        <Shader name="PFXLowResDepthComposite">
+        </Shader>
+    </SetShader>
+    <DrawNoVertexBuffer group="LowResAlpha">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <UnsetTexture group="LowResAlpha">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="1">
+        </Index>
+    </UnsetTexture>
+    <UnsetTexture group="LowResAlpha">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="2">
+        </Index>
+    </UnsetTexture>
+    <UnsetTexture group="LowResAlpha">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="3">
+        </Index>
+    </UnsetTexture>
+    <UnsetTexture group="LowResAlpha">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="6">
+        </Index>
+    </UnsetTexture>
+</RenderPasses>

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="us-ascii"?>
 <DeathManager>
-	<DeathSpecial>
-		<Type>RocketDeath</Type>
-		<MaxChance>0.850000024</MaxChance>
-		<MinChance>-0.0599999987</MinChance>
-		<ChanceGrowth>0.0599999987</ChanceGrowth>
-	</DeathSpecial>
+    <DeathSpecial>
+        <Type>RocketDeath</Type>
+        <MaxChance>0.8500000000000001</MaxChance>
+        <MinChance>-0.060000000000000005</MinChance>
+        <ChanceGrowth>0.060000000000000005</ChanceGrowth>
+    </DeathSpecial>
 </DeathManager>

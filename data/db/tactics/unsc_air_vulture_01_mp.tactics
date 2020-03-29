@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>LeftMissileLauncher</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>60.5</DamagePerSecond>
+		<DamagePerSecond>70</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MissileImpact</ImpactEffect>
@@ -16,7 +16,7 @@
 	<Weapon>
 		<Name>RightMissileLauncher</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>60.5</DamagePerSecond>
+		<DamagePerSecond>70</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MissileImpact</ImpactEffect>
@@ -29,7 +29,7 @@
 	<Weapon>
 		<Name>LeftCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>141</DamagePerSecond>
+		<DamagePerSecond>162</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
 		<ImpactEffect size="Medium">AutoCannonImpact</ImpactEffect>
@@ -59,7 +59,7 @@
 	<Weapon>
 		<Name>RightCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>141</DamagePerSecond>
+		<DamagePerSecond>162</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
 		<ImpactEffect size="Medium">AutoCannonImpact</ImpactEffect>
@@ -89,7 +89,7 @@
 	<Weapon>
 		<Name>NukeWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>7200</DamagePerSecond>
+		<DamagePerSecond>8280</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Ultimates</WeaponType>
 		<Projectile>fx_proj_vultureNuke_01</Projectile>
@@ -135,7 +135,7 @@
 	<Weapon>
 		<Name>AirNukeWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>7200</DamagePerSecond>
+		<DamagePerSecond>8280</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_vultureNuke_01</Projectile>

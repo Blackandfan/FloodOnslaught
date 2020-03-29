@@ -1,0 +1,136 @@
+<RenderPasses>
+    <UnsetTexture>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </UnsetTexture>
+    <SetRenderTargets group="ObscuringUnits">
+        <Target name="LightAccumulation">
+        </Target>
+        <Target name="Depth">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="PostProcessing">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetShader group="ObscuringUnits">
+        <Shader name="ObscuringUnitsColour">
+        </Shader>
+    </SetShader>
+    <ObscuringUnitRender group="ObscuringUnits">
+    </ObscuringUnitRender>
+    <SetViewport group="PostProcessing">
+        <Coords x="0" y="0" relativeWidth="0.25" relativeHeight="0.25">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetRenderTargets group="PostProcessing">
+        <Target name="Bloom4x4">
+        </Target>
+    </SetRenderTargets>
+    <SetTexture group="PostProcessing">
+        <Target name="Downsampled2x2">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SamplerState group="PostProcessing">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="0">
+        </Index>
+    </SamplerState>
+    <SetShader group="PostProcessing">
+        <Shader name="Threshold">
+        </Shader>
+    </SetShader>
+    <DrawNoVertexBuffer group="PostProcessing">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <WidthIndependentGaussian group="PostProcessing">
+        <BlurSource name="Bloom4x4">
+        </BlurSource>
+        <BlurIntermediate name="BlurIntermediate">
+        </BlurIntermediate>
+        <BlurOutput name="BlurWideOutput">
+        </BlurOutput>
+    </WidthIndependentGaussian>
+    <SetViewport group="PostProcessing">
+        <Coords x="0" y="0" relativeWidth="0.25" relativeHeight="0.25">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetRenderTargets group="PostProcessing">
+        <Target name="Bloom4x4Temp">
+        </Target>
+    </SetRenderTargets>
+    <SetTexture group="PostProcessing">
+        <Target name="Bloom4x4">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SamplerState group="PostProcessing">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="0">
+        </Index>
+    </SamplerState>
+    <SetShader group="PostProcessing">
+        <Shader name="BloomGaussianBlur9H">
+        </Shader>
+    </SetShader>
+    <DrawNoVertexBuffer group="PostProcessing">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <UnSetTexture group="PostProcessing">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </UnSetTexture>
+    <SetRenderTargets group="PostProcessing">
+        <Target name="Bloom4x4">
+        </Target>
+    </SetRenderTargets>
+    <SetTexture group="PostProcessing">
+        <Target name="Bloom4x4Temp">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SamplerState group="PostProcessing">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="0">
+        </Index>
+    </SamplerState>
+    <SetShader group="PostProcessing">
+        <Shader name="BloomGaussianBlur9V">
+        </Shader>
+    </SetShader>
+    <DrawNoVertexBuffer group="PostProcessing">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+</RenderPasses>

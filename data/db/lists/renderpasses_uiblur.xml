@@ -1,0 +1,50 @@
+<RenderPasses>
+    <SetViewport group="UIBlur">
+        <Coords x="0" y="0" width="480" height="270">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetRenderTargets group="UIBlur">
+        <Target name="UIBlurDownsample4x4">
+        </Target>
+    </SetRenderTargets>
+    <SetTexture group="UIBlur">
+        <Target name="PostProcessFinal">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SetShader group="UIBlur">
+        <Shader name="UIBlurDownsample">
+        </Shader>
+    </SetShader>
+    <DrawNoVertexBuffer group="UIBlur">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <UnsetRenderTarget group="UIBlur">
+    </UnsetRenderTarget>
+    <WidthIndependentGaussian group="UIBlur">
+        <BlurSource name="UIBlurDownsample4x4">
+        </BlurSource>
+        <BlurIntermediate name="UIBlurIntermediate">
+        </BlurIntermediate>
+        <BlurOutput name="UIBlurOutput">
+        </BlurOutput>
+        <RenderGlobalKernalSize name="UIBlurKernalSize">
+        </RenderGlobalKernalSize>
+        <ManualSRGBOutputForScaleform enabled="false">
+        </ManualSRGBOutputForScaleform>
+    </WidthIndependentGaussian>
+    <SetViewport group="UIBlur">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetBackbufferRenderTarget group="UIBlur">
+    </SetBackbufferRenderTarget>
+</RenderPasses>

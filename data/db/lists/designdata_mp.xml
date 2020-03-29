@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="us-ascii"?>
 <GameData>
-	<UnscSupplyPadBonus>0.709999979</UnscSupplyPadBonus>
-	<UnscSupplyPadBreakEvenPoint>11</UnscSupplyPadBreakEvenPoint>
-	<CovSupplyPadBonus>0.709999979</CovSupplyPadBonus>
-	<CovSupplyPadBreakEvenPoint>11</CovSupplyPadBreakEvenPoint>
-	<AutoCaptureDistance>10</AutoCaptureDistance>
-	<FatalityMinInterval>150</FatalityMinInterval>
+    <UnscSupplyPadBonus>0.7100000000000001</UnscSupplyPadBonus>
+    <UnscSupplyPadBreakEvenPoint>11</UnscSupplyPadBreakEvenPoint>
+    <CovSupplyPadBonus>0.7100000000000001</CovSupplyPadBonus>
+    <CovSupplyPadBreakEvenPoint>11</CovSupplyPadBreakEvenPoint>
+    <AutoCaptureDistance>10</AutoCaptureDistance>
+    <FatalityMinInterval>150</FatalityMinInterval>
 </GameData>

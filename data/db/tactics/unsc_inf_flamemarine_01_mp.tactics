@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Flamethrower1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>32</DamagePerSecond>
+		<DamagePerSecond>41</DamagePerSecond>
 		<Projectile>fx_proj_flamerBeam_01</Projectile>
 		<WeaponType>AntiBuildingFire</WeaponType>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -39,7 +39,7 @@
 	<Weapon>
 		<Name>InCoverFlamethrower1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>32</DamagePerSecond>
+		<DamagePerSecond>41</DamagePerSecond>
 		<Projectile>fx_proj_flamerBeam_01</Projectile>
 		<WeaponType>AntiBuildingFire</WeaponType>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -75,7 +75,7 @@
 	<Weapon>
 		<Name>NapFlamethrower1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>43.333333333330003</DamagePerSecond>
+		<DamagePerSecond>48</DamagePerSecond>
 		<Projectile>fx_proj_flamerBeamNapalm_01</Projectile>
 		<WeaponType>AntiBuildingFire</WeaponType>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -112,7 +112,7 @@
 	<Weapon>
 		<Name>InCoverNapFlamethrower1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>43.333333333333002</DamagePerSecond>
+		<DamagePerSecond>48</DamagePerSecond>
 		<Projectile>fx_proj_flamerBeamNapalm_01</Projectile>
 		<WeaponType>AntiBuildingFire</WeaponType>
 		<MaxVelocityLead>15</MaxVelocityLead>

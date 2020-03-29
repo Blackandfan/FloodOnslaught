@@ -49,7 +49,7 @@
 	<Weapon>
 		<Name>PlasmaMortar</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>190</DamagePerSecond>
+		<DamagePerSecond>260</DamagePerSecond>
 		<WeaponType>WraithExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaMortar_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumPlasmaExplosion</ImpactEffect>

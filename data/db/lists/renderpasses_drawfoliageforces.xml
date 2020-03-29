@@ -1,0 +1,98 @@
+<RenderPasses>
+    <ConditionalPass group="ForceRender">
+        <If condition="FoliageEnabled">
+            <SetViewport group="ForceRender">
+                <Coords x="0" y="0" renderGlobalWidth="FoliageForceMapWidth" renderGlobalHeight="FoliageForceMapHeight">
+                </Coords>
+                <Depth minZ="0" maxZ="1">
+                </Depth>
+            </SetViewport>
+            <SetScissorRect group="Visibility">
+                <Coords x="0" y="0" renderGlobalWidth="FoliageForceMapWidth" renderGlobalHeight="FoliageForceMapHeight">
+                </Coords>
+            </SetScissorRect>
+            <SetShader group="ForceRender">
+                <Shader name="FoliageForces">
+                </Shader>
+            </SetShader>
+            <SetRenderTargets group="ForceRender">
+                <RenderGlobal name="FoliageFireAndForgetForceMap">
+                </RenderGlobal>
+            </SetRenderTargets>
+            <DrawFireAndForgetFoliageForces group="ForceRender">
+            </DrawFireAndForgetFoliageForces>
+            <SetRenderTargets group="ForceRender">
+                <RenderGlobal name="FoliageForceMap">
+                </RenderGlobal>
+            </SetRenderTargets>
+            <Clear group="ForceRender">
+                <RenderGlobal name="FoliageForceMap">
+                </RenderGlobal>
+                <Color r="0" g="0" b="0" a="0">
+                </Color>
+            </Clear>
+            <DrawManagedFoliageForces group="ForceRender">
+            </DrawManagedFoliageForces>
+            <SetTexture group="EndForceRender">
+                <RenderGlobal name="FoliageFireAndForgetForceMap">
+                </RenderGlobal>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="0">
+                </Index>
+            </SetTexture>
+            <SamplerState group="EndForceRender">
+                <Address u="Mirror" v="Mirror" w="Mirror">
+                </Address>
+                <Filter min="Linear" mag="Linear" mip="Linear">
+                </Filter>
+                <Index index="0">
+                </Index>
+            </SamplerState>
+            <SetShader group="EndForceRender">
+                <Shader name="BlendAdditiveR8G8">
+                </Shader>
+            </SetShader>
+            <DrawNoVertexBuffer group="EndForceRender">
+                <Primitive type="TriList" count="1">
+                </Primitive>
+            </DrawNoVertexBuffer>
+            <SetTexture group="EndForceRender">
+                <RenderGlobal name="FoliageForceMap">
+                </RenderGlobal>
+                <Shader type="Vertex">
+                </Shader>
+                <Index index="12">
+                </Index>
+            </SetTexture>
+            <SetTextureMultiStage group="EndForceRender">
+                <RenderGlobal name="TerrainHeightfield">
+                </RenderGlobal>
+                <Shader type="Pixel" index="6">
+                </Shader>
+                <Shader type="Vertex" index="6">
+                </Shader>
+                <Shader type="Domain" index="6">
+                </Shader>
+                <Shader type="Compute" index="6">
+                </Shader>
+            </SetTextureMultiStage>
+            <SetTextureMultiStage group="EndForceRender">
+                <RenderGlobal name="TerrainAlbedo">
+                </RenderGlobal>
+                <Shader type="Pixel" index="7">
+                </Shader>
+                <Shader type="Compute" index="7">
+                </Shader>
+            </SetTextureMultiStage>
+            <SetTextureMultiStage group="EndForceRender">
+                <RenderGlobal name="TerrainNormals">
+                </RenderGlobal>
+                <Shader type="Pixel" index="8">
+                </Shader>
+                <Shader type="Compute" index="8">
+                </Shader>
+            </SetTextureMultiStage>
+        </If>
+    </ConditionalPass>
+</RenderPasses>

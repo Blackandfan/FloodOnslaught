@@ -1,0 +1,46 @@
+<RenderPasses>
+    <SetRenderTargets group="AlphaShadows">
+        <Target name="AlphaShadowAccum">
+        </Target>
+        <Target name="DirectionalLightDepth">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="AlphaShadows">
+        <Coords renderGlobalX="DirectionalShadowMapRes" y="0" renderGlobalWidth="DirectionalShadowMapRes" renderGlobalHeight="DirectionalShadowMapRes">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="AlphaShadows">
+        <Coords renderGlobalX="DirectionalShadowMapRes" y="0" renderGlobalWidth="DirectionalShadowMapRes" renderGlobalHeight="DirectionalShadowMapRes">
+        </Coords>
+    </SetScissorRect>
+    <ConditionalPass group="AlphaShadows">
+        <If condition="CloudShadowsEnabled" texturecondition="CloudMap">
+            <SetTexture group="AlphaShadows">
+                <RenderGlobal name="CloudMap">
+                </RenderGlobal>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="1">
+                </Index>
+            </SetTexture>
+            <SamplerState group="AlphaShadows">
+                <Address u="Wrap" v="Wrap" w="Wrap">
+                </Address>
+                <Filter min="Linear" mag="Linear" mip="Linear">
+                </Filter>
+                <Index index="1">
+                </Index>
+            </SamplerState>
+            <SetShader group="AlphaShadows">
+                <Shader name="CloudShadows">
+                </Shader>
+            </SetShader>
+            <DrawNoVertexBuffer group="AlphaShadows">
+                <Primitive type="TriList" count="1">
+                </Primitive>
+            </DrawNoVertexBuffer>
+        </If>
+    </ConditionalPass>
+</RenderPasses>

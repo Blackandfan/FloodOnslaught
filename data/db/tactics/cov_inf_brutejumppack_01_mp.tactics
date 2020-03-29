@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Hammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>320</DamagePerSecond>
+		<DamagePerSecond>465</DamagePerSecond>
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>2</MaxRange>
 		<ThrowUnits />
@@ -33,7 +33,7 @@
 	<Weapon>
 		<Name>JumpAttackHammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>800</DamagePerSecond>
 		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
 		<UseDPSasDPA />
 		<WeaponType>Melee</WeaponType>
@@ -196,6 +196,7 @@
 		<LandingDelay>0.400000006</LandingDelay>
 		<JumpArcLerpWindow>0.200000003</JumpArcLerpWindow>
 		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>LongRangeJumpAttackAction</Name>
@@ -227,7 +228,6 @@
 		<LandingDelay>0.400000006</LandingDelay>
 		<JumpArcLerpWindow>0.200000003</JumpArcLerpWindow>
 		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
-		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>RM_JumpAttackBombLineAction</Name>

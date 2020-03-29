@@ -43,7 +43,7 @@
 	<Weapon>
 		<Name>Artillery</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>104</DamagePerSecond>
+		<DamagePerSecond>130</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">SmallPlasmaExplosion</ImpactEffect>

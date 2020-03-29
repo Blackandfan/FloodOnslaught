@@ -1,40 +1,140 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>PlasmaMine</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
+		<Name>Bomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
 		<UseDPSasDPA />
+		<WeaponType>SuicideGrunt</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
-		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
+		<MaxRange>10</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>18</Radius>
+				<Radius>10</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
+				<DamageAllGarrisoned>True</DamageAllGarrisoned>
 			</Hitbox>
 		</AOEData>
-		<WeaponType>Basic</WeaponType>
-		<Apply>0</Apply>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>14</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>14</AOERadius>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<Filter>Medium</Filter>
+		<InfectionTargetType>Infantry</InfectionTargetType>
+	</Weapon>
+	<Weapon>
+		<Name>BombUpgrade</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>1500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SuicideGrunt</WeaponType>
+		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<MaxRange>10</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<DamageAllGarrisoned>True</DamageAllGarrisoned>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>14</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>14</AOERadius>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<Filter>Medium</Filter>
+		<InfectionTargetType>Military</InfectionTargetType>
 	</Weapon>
 	<Action>
-		<Name>ExplosiveManager</Name>
-		<ActionType>ExplosiveManager</ActionType>
-		<FuseType>Proximity</FuseType>
-		<WorkRange>8</WorkRange>
-		<Weapon>PlasmaMine</Weapon>
+		<Name>SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<Infection />
+		<AutoDetonate AutoDetonateIdleTime="0" AutoDetonateAggroRange="35" />
+		<Weapon>Bomb</Weapon>
+		<FullBodyAttackAnim />
 		<DontAutoRestart />
-		<ExplodeOnDeath />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+	</Action>
+	<Action>
+		<Name>SprintSuicideBombUpgrade</Name>
+		<ActionType>Detonate</ActionType>
+		<Infection />
+		<AutoDetonate AutoDetonateIdleTime="0" AutoDetonateAggroRange="35" />
+		<Weapon>BombUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
 	</Action>
 	<Tactic>
-		<PersistentAction>ExplosiveManager</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SprintSuicideBomb</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SprintSuicideBomb</Action>
+		</TargetRule>
 	</Tactic>
 </TacticData>

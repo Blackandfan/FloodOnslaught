@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
-	<Action>
-		<Name>HotDrop</Name>
-		<ActionType>HotDrop</ActionType>
-		<UseTeleporter />
-		<AlertWhenComplete />
-		<WorkRange>2</WorkRange>
-	</Action>
-	<Tactic>
-		<PersistentAction>HotDrop</PersistentAction>
-	</Tactic>
+    <Action>
+        <Name>HotDrop</Name>
+        <ActionType>HotDrop</ActionType>
+        <UseTeleporter>
+        </UseTeleporter>
+        <AlertWhenComplete>
+        </AlertWhenComplete>
+        <WorkRange>2</WorkRange>
+    </Action>
+    <Tactic>
+        <PersistentAction>HotDrop</PersistentAction>
+    </Tactic>
 </TacticData>

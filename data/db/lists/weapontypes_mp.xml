@@ -126,10 +126,10 @@
 	</WeaponType>
 	<WeaponType>
 		<Name>AntiVehicle</Name>
-		<DamageModifier rating="1" type="Light">0.400000006</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.200000003</DamageModifier>
-		<DamageModifier rating="1" type="LightRush">0.400000006</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">0.400000006</DamageModifier>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.600000003</DamageModifier>
+		<DamageModifier rating="1" type="LightRush">1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">0.9</DamageModifier>
 		<DamageModifier rating="1" type="Medium">2.5</DamageModifier>
 		<DamageModifier rating="1" type="MediumAA">2.9000001</DamageModifier>
 		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
@@ -315,5 +315,16 @@
 		<DamageModifier rating="1" type="HunterShield">0.699999988</DamageModifier>
 		<DamageModifier rating="1" type="Heavy">0.600000024</DamageModifier>
 		<DamageModifier rating="1" type="Building">1.39999998</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>CorruptedGrenadier</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="MediumScout">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumHero">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAA">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.600000024</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
 	</WeaponType>
 </WeaponTypes>

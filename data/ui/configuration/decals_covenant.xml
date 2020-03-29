@@ -387,4 +387,8 @@
 	<Icon type="uniticon" name="Air" SizeX="9" SizeZ="9" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_air_infected_phantom_01_base">-1</Icon>
 	<Icon type="uniticon" name="Air" SizeX="5" SizeZ="5" Intensity1="1" Intensity2="2" Intensity3="2" owner="episode2_for_air_spawnersentinel_01">-1</Icon>
 	<Icon type="uniticon" name="Air" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="episode2_for_air_spawnersentinel_02">-1</Icon>
+	<Icon type="uniticon" name="Vehicle" SizeX="12" SizeZ="12" Intensity1="1" Intensity2="2" Intensity3="2" owner="hook_bldg_EnergyCapturePoint_base_01_base">-1</Icon>
+	<Icon type="uniticon" name="Vehicle" SizeX="8" SizeZ="8" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_veh_infected_grizzly_01_base">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_inf_singlehunter_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_inf_specialhonor_01">-1</Icon>
 </FlashMovieDefinition>

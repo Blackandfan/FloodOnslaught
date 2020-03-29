@@ -1,0 +1,46 @@
+<TerrainTileTypes>
+    <TerrainTileType name="UNDEFINED" EditorColor="0xAA000000" CamouflageColor="2852126720">
+    </TerrainTileType>
+    <TerrainTileType name="Sand" EditorColor="0xAA9DA02F" CamouflageColor="2862456879">
+    </TerrainTileType>
+    <TerrainTileType name="Earth" EditorColor="0xAA2FA049" CamouflageColor="2855247945">
+    </TerrainTileType>
+    <TerrainTileType name="Turf" EditorColor="0xAA46614D" CamouflageColor="2856739149">
+    </TerrainTileType>
+    <TerrainTileType name="Rock" EditorColor="0xAAC1DA52" CamouflageColor="2864831058">
+    </TerrainTileType>
+    <TerrainTileType name="Metal" EditorColor="0xAAB8BCA6" CamouflageColor="2864233638">
+    </TerrainTileType>
+    <TerrainTileType name="Mud" EditorColor="0xAA7D6B1A" CamouflageColor="2860346138">
+    </TerrainTileType>
+    <TerrainTileType name="Water" EditorColor="0xAA719FC8" CamouflageColor="2859573192" SnapToTopHeightMap="true" PreWaterAlpha="true">
+    </TerrainTileType>
+    <TerrainTileType name="Snow" EditorColor="0xAAD4E0EB" CamouflageColor="2866077931">
+    </TerrainTileType>
+    <TerrainTileType name="Ice" EditorColor="0xAA76BAF6" CamouflageColor="2859907830">
+    </TerrainTileType>
+    <TerrainTileType name="Flesh" EditorColor="0xAA76BA00" CamouflageColor="2859907584">
+    </TerrainTileType>
+    <TerrainTileType name="Wood" EditorColor="0xAA92864D" CamouflageColor="2861729357">
+    </TerrainTileType>
+    <TerrainTileType name="Lava" EditorColor="0xAAD6715F" CamouflageColor="2866180447">
+    </TerrainTileType>
+    <TerrainTileType name="Shield" EditorColor="0xAAAB5FD6" CamouflageColor="2863357910">
+    </TerrainTileType>
+    <TerrainTileType name="Crystal" EditorColor="0xAACC5FD6" CamouflageColor="2865520598">
+    </TerrainTileType>
+    <TerrainTileType name="Plasma" EditorColor="0xAAB700F0" CamouflageColor="2864120048">
+    </TerrainTileType>
+    <TerrainTileType name="GruntFlesh" EditorColor="0xAA000000" CamouflageColor="2852126720">
+    </TerrainTileType>
+    <TerrainTileType name="EliteFlesh" EditorColor="0xAA000000" CamouflageColor="2852126720">
+    </TerrainTileType>
+    <TerrainTileType name="FloodFlesh" EditorColor="0xAA000000" CamouflageColor="2852126720">
+    </TerrainTileType>
+    <TerrainTileType name="WallShield" EditorColor="0xAA000000" CamouflageColor="2852126720">
+    </TerrainTileType>
+    <TerrainTileType name="HunterFlesh" EditorColor="0xAA000000" CamouflageColor="2852126720">
+    </TerrainTileType>
+    <TerrainTileType name="Amber" EditorColor="0xAADD0000" CamouflageColor="2866610176">
+    </TerrainTileType>
+</TerrainTileTypes>

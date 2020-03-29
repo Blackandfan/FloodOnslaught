@@ -1,0 +1,402 @@
+<RenderPasses>
+    <ConditionalPass group="SAO">
+        <If condition="SAOEnabled">
+            <Include file="renderPasses_SAO.xml">
+            </Include>
+        </If>
+        <Else>
+            <ConditionalPass group="AmbientOcclusion">
+                <If condition="AOEnabled">
+                    <SetViewport group="AmbientOcclusion">
+                        <Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5">
+                        </Coords>
+                        <Depth minZ="0" maxZ="1">
+                        </Depth>
+                    </SetViewport>
+                    <SetRenderTargets group="AmbientOcclusion">
+                        <Target name="AmbientOcclusion">
+                        </Target>
+                    </SetRenderTargets>
+                    <SetShader group="AmbientOcclusion">
+                        <Shader name="AmbientOcclusion">
+                        </Shader>
+                    </SetShader>
+                    <SamplerState group="AmbientOcclusion">
+                        <Address u="Mirror" v="Mirror" w="Mirror">
+                        </Address>
+                        <Filter min="Linear" mag="Linear" mip="Linear">
+                        </Filter>
+                        <Index index="0">
+                        </Index>
+                    </SamplerState>
+                    <SetTexture group="AmbientOcclusion">
+                        <Target name="DepthCopy">
+                        </Target>
+                        <Shader type="Pixel">
+                        </Shader>
+                        <Index index="0">
+                        </Index>
+                    </SetTexture>
+                    <SamplerState group="AmbientOcclusion">
+                        <Address u="Clamp" v="Clamp" w="Clamp">
+                        </Address>
+                        <Filter min="Linear" mag="Linear" mip="Linear">
+                        </Filter>
+                        <Index index="1">
+                        </Index>
+                    </SamplerState>
+                    <SetTexture group="AmbientOcclusion">
+                        <Target name="GBufferRT1">
+                        </Target>
+                        <Shader type="Pixel">
+                        </Shader>
+                        <Index index="1">
+                        </Index>
+                    </SetTexture>
+                    <SamplerState group="AmbientOcclusion">
+                        <Address u="Clamp" v="Clamp" w="Clamp">
+                        </Address>
+                        <Filter min="Linear" mag="Linear" mip="Linear">
+                        </Filter>
+                        <Index index="2">
+                        </Index>
+                    </SamplerState>
+                    <SetTexture group="AmbientOcclusion">
+                        <EngineTexture name="Noise64x64">
+                        </EngineTexture>
+                        <Shader type="Pixel">
+                        </Shader>
+                        <Index index="2">
+                        </Index>
+                    </SetTexture>
+                    <SamplerState group="AmbientOcclusion">
+                        <Address u="Clamp" v="Clamp" w="Clamp">
+                        </Address>
+                        <Filter min="Linear" mag="Linear" mip="Linear">
+                        </Filter>
+                        <Index index="3">
+                        </Index>
+                    </SamplerState>
+                    <SetTexture group="AmbientOcclusion">
+                        <RenderGlobal name="MacroAORT">
+                        </RenderGlobal>
+                        <Shader type="Pixel">
+                        </Shader>
+                        <Index index="3">
+                        </Index>
+                    </SetTexture>
+                    <SamplerState group="AmbientOcclusion">
+                        <Address u="Clamp" v="Clamp" w="Clamp">
+                        </Address>
+                        <Filter min="Linear" mag="Linear" mip="Linear">
+                        </Filter>
+                        <Index index="4">
+                        </Index>
+                    </SamplerState>
+                    <SetTexture group="AmbientOcclusion">
+                        <RenderGlobal name="TerrainHeightfield">
+                        </RenderGlobal>
+                        <Shader type="Pixel">
+                        </Shader>
+                        <Index index="4">
+                        </Index>
+                    </SetTexture>
+                    <DrawNoVertexBuffer group="AmbientOcclusion">
+                        <Primitive type="TriList" count="1">
+                        </Primitive>
+                    </DrawNoVertexBuffer>
+                    <SetRenderTargets group="AmbientOcclusion">
+                        <Target name="AmbientOcclusionTMP">
+                        </Target>
+                    </SetRenderTargets>
+                    <SetTexture group="AmbientOcclusion">
+                        <Target name="AmbientOcclusion">
+                        </Target>
+                        <Shader type="Pixel">
+                        </Shader>
+                        <Index index="0">
+                        </Index>
+                    </SetTexture>
+                    <SetShader group="AmbientOcclusion">
+                        <Shader name="GaussianBlur9H_AmbOcc">
+                        </Shader>
+                    </SetShader>
+                    <DrawNoVertexBuffer group="AmbientOcclusion">
+                        <Primitive type="TriList" count="1">
+                        </Primitive>
+                    </DrawNoVertexBuffer>
+                    <UnSetTexture group="AmbientOcclusion">
+                        <Shader type="Pixel">
+                        </Shader>
+                        <Index index="0">
+                        </Index>
+                    </UnSetTexture>
+                    <SetRenderTargets group="AmbientOcclusion">
+                        <Target name="AmbientOcclusion">
+                        </Target>
+                    </SetRenderTargets>
+                    <SetTexture group="AmbientOcclusion">
+                        <Target name="AmbientOcclusionTMP">
+                        </Target>
+                        <Shader type="Pixel">
+                        </Shader>
+                        <Index index="0">
+                        </Index>
+                    </SetTexture>
+                    <SetShader group="AmbientOcclusion">
+                        <Shader name="GaussianBlur9V_AmbOcc">
+                        </Shader>
+                    </SetShader>
+                    <DrawNoVertexBuffer group="AmbientOcclusion">
+                        <Primitive type="TriList" count="1">
+                        </Primitive>
+                    </DrawNoVertexBuffer>
+                </If>
+            </ConditionalPass>
+        </Else>
+    </ConditionalPass>
+    <SetViewport group="LightingPrologue">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetRenderTargets group="LightingPrologue">
+        <Target name="LightAccumulation">
+        </Target>
+        <Target name="Depth">
+        </Target>
+    </SetRenderTargets>
+    <Clear group="LightingPrologue">
+        <Target name="LightAccumulation">
+        </Target>
+        <Flags flags="Color">
+        </Flags>
+        <Color r="0" g="0" b="0" a="0">
+        </Color>
+    </Clear>
+    <SetTexture group="LightingPrologue">
+        <Target name="GBufferRT0">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SamplerState group="LightingPrologue">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="0">
+        </Index>
+    </SamplerState>
+    <SetTexture group="LightingPrologue">
+        <Target name="GBufferRT1">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="1">
+        </Index>
+    </SetTexture>
+    <SamplerState group="LightingPrologue">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="1">
+        </Index>
+    </SamplerState>
+    <SetTexture group="LightingPrologue">
+        <Target name="GBufferRT2">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="2">
+        </Index>
+    </SetTexture>
+    <SamplerState group="LightingPrologue">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="2">
+        </Index>
+    </SamplerState>
+    <SetTexture group="LightingPrologue">
+        <Target name="GBufferRT3">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="3">
+        </Index>
+    </SetTexture>
+    <SamplerState group="LightingPrologue">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="3">
+        </Index>
+    </SamplerState>
+    <SetTexture group="LightingPrologue">
+        <Target name="DepthCopy">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="7">
+        </Index>
+    </SetTexture>
+    <SamplerState group="LightingPrologue">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="7">
+        </Index>
+    </SamplerState>
+    <SetTexture group="FullScreenLightAccumulation">
+        <Target name="AO_Depth_ShadowMask">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="5">
+        </Index>
+    </SetTexture>
+    <SamplerState group="FullScreenLightAccumulation">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Comparison function="LessEqual" enabled="1">
+        </Comparison>
+        <Index index="5">
+        </Index>
+    </SamplerState>
+    <SetTexture group="FullScreenLightAccumulation">
+        <Target name="AlphaShadowAccum">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="14">
+        </Index>
+    </SetTexture>
+    <SamplerState group="FullScreenLightAccumulation">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="14">
+        </Index>
+    </SamplerState>
+    <SamplerState group="FullScreenLightAccumulation">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="4">
+        </Index>
+    </SamplerState>
+    <ConditionalPass group="FullScreenLightAccumulation">
+        <If condition="SAOEnabled">
+            <SetTexture group="FullScreenLightAccumulation">
+                <Target name="AO_Depth_ShadowMask">
+                </Target>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="4">
+                </Index>
+            </SetTexture>
+            <SetShader group="FullScreenLightAccumulation">
+                <Shader name="FullScreenLightAccumulationSAO">
+                </Shader>
+            </SetShader>
+        </If>
+        <Else>
+            <SetTexture group="FullScreenLightAccumulation">
+                <Target name="AmbientOcclusion">
+                </Target>
+                <Shader type="Pixel">
+                </Shader>
+                <Index index="4">
+                </Index>
+            </SetTexture>
+            <ConditionalPass group="FullScreenLightAccumulation">
+                <If condition="AOEnabled">
+                    <SetShader group="FullScreenLightAccumulation">
+                        <Shader name="FullScreenLightAccumulation">
+                        </Shader>
+                    </SetShader>
+                </If>
+                <Else>
+                    <SetShader group="FullScreenLightAccumulation">
+                        <Shader name="FullScreenLightAccumulationNoAO">
+                        </Shader>
+                    </SetShader>
+                </Else>
+            </ConditionalPass>
+        </Else>
+    </ConditionalPass>
+    <DrawNoVertexBuffer group="FullScreenLightAccumulation">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <ConditionalPass group="LightingDeferred">
+        <If condition="ParticleLightsEnabled">
+            <DrawRenderItems group="LightingDeferred">
+                <Priority type="ParticleLights">
+                </Priority>
+                <DrawRenderItem>
+                </DrawRenderItem>
+            </DrawRenderItems>
+        </If>
+    </ConditionalPass>
+    <SetTexture group="LightingDeferred">
+        <Target name="SpotLightDepth">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="5">
+        </Index>
+    </SetTexture>
+    <SamplerState group="LightingDeferred">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Comparison function="LessEqual" enabled="1">
+        </Comparison>
+        <Index index="5">
+        </Index>
+    </SamplerState>
+    <SamplerState group="LightingDeferred">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="13">
+        </Index>
+    </SamplerState>
+    <SetStencilRef group="LightingDeferred">
+        <StencilRef value="128">
+        </StencilRef>
+    </SetStencilRef>
+    <DrawRenderItems group="LightingDeferred">
+        <Priority type="Light">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <DrawRenderItems group="LightingDeferred">
+        <Priority type="LightInside">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+    <DrawRenderItems group="Skydome">
+        <Priority type="Skydome">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+</RenderPasses>

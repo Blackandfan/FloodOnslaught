@@ -1,0 +1,114 @@
+<RenderGlobals>
+    <RenderGlobal name="False" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="True" boolValue="true">
+    </RenderGlobal>
+    <RenderGlobal name="DirectionalShadowMapRes" integerValue="2048">
+    </RenderGlobal>
+    <RenderGlobal name="FullDirectionalShadowMapWidth" integerValue="4096">
+    </RenderGlobal>
+    <RenderGlobal name="OrderIndependentTransparency" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="SMAAEnabled" boolValue="true">
+    </RenderGlobal>
+    <RenderGlobal name="AOEnabled" boolValue="true">
+    </RenderGlobal>
+    <RenderGlobal name="DOFEnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="SceneLUT" engineTextureValue="DefaultLUT">
+    </RenderGlobal>
+    <RenderGlobal name="TileLightingTileBuffer">
+    </RenderGlobal>
+    <RenderGlobal name="TileLightingNumTiles" integerValue="16">
+    </RenderGlobal>
+    <RenderGlobal name="MacroAOUpdateEnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="MacroAORV">
+    </RenderGlobal>
+    <RenderGlobal name="MacroAORT">
+    </RenderGlobal>
+    <RenderGlobal name="MacroAOWidth">
+    </RenderGlobal>
+    <RenderGlobal name="MacroAOHeight">
+    </RenderGlobal>
+    <RenderGlobal name="MacroAOComputeGroupX">
+    </RenderGlobal>
+    <RenderGlobal name="MacroAOComputeGroupY">
+    </RenderGlobal>
+    <RenderGlobal name="TerrainHeightfield">
+    </RenderGlobal>
+    <RenderGlobal name="TerrainAlbedo">
+    </RenderGlobal>
+    <RenderGlobal name="TerrainNormals">
+    </RenderGlobal>
+    <RenderGlobal name="TerrainAlpha">
+    </RenderGlobal>
+    <RenderGlobal name="FoliageSpawnDataBuffer">
+    </RenderGlobal>
+    <RenderGlobal name="FoliageSpawnOffsetsBuffer">
+    </RenderGlobal>
+    <RenderGlobal name="FoliageFireAndForgetForceMap">
+    </RenderGlobal>
+    <RenderGlobal name="FoliageForceMap">
+    </RenderGlobal>
+    <RenderGlobal name="FoliageForceMapWidth">
+    </RenderGlobal>
+    <RenderGlobal name="FoliageForceMapHeight">
+    </RenderGlobal>
+    <RenderGlobal name="SpotShadowMapRes" integerValue="512">
+    </RenderGlobal>
+    <RenderGlobal name="HistogramBuckets" integerValue="512">
+    </RenderGlobal>
+    <RenderGlobal name="TonemapData">
+    </RenderGlobal>
+    <RenderGlobal name="AccumulatedVolumeFog">
+    </RenderGlobal>
+    <RenderGlobal name="ParametersVolumeFog">
+    </RenderGlobal>
+    <RenderGlobal name="VolumeFogEnabled" boolValue="true">
+    </RenderGlobal>
+    <RenderGlobal name="LightVisualisationEnabled">
+    </RenderGlobal>
+    <RenderGlobal name="AlphaVisualisationEnabled">
+    </RenderGlobal>
+    <RenderGlobal name="TileRenderingVisualisationEnabled">
+    </RenderGlobal>
+    <RenderGlobal name="LevelHeightfield">
+    </RenderGlobal>
+    <RenderGlobal name="CloudMap">
+    </RenderGlobal>
+    <RenderGlobal name="CloudShadowsEnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="ParticleShadowsEnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="ParticleLightsEnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="PlayableBoundaryTexture">
+    </RenderGlobal>
+    <RenderGlobal name="UIBlurKernalSize" floatValue="6">
+    </RenderGlobal>
+    <RenderGlobal name="FrontEndBlurKernalSize" floatValue="0">
+    </RenderGlobal>
+    <RenderGlobal name="MotionVectorsEnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="SAOEnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="VolumetricLightingEnabled" boolValue="true">
+    </RenderGlobal>
+    <RenderGlobal name="ScreenSpaceReflectionsEnabled" boolValue="true">
+    </RenderGlobal>
+    <RenderGlobal name="PlanarReflectionsEnabled" boolValue="true">
+    </RenderGlobal>
+    <RenderGlobal name="FoliageEnabled" boolValue="true">
+    </RenderGlobal>
+    <RenderGlobal name="PlayingInGameCinematic" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="HDREnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="HDRCalibrationEnabled" boolValue="false">
+    </RenderGlobal>
+    <RenderGlobal name="HDRCalibrationWindowY" integerValue="0">
+    </RenderGlobal>
+    <RenderGlobal name="HDRCalibrationWindowX" integerValue="0">
+    </RenderGlobal>
+</RenderGlobals>

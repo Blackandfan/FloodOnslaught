@@ -2,6 +2,31 @@
 <group>
 	<group name="entities">
 		<entry>
+			<key>cov_inf_specialhonor_01</key>
+			<value>banished_unit_infantry</value>
+			<value>1</value>
+		</entry>
+		<entry>
+			<key>cov_inf_singlehunter_01</key>
+			<value>banished_unit_infantry</value>
+			<value>1</value>
+		</entry>
+		<entry>
+			<key>flood_veh_infected_grizzly_01_base</key>
+			<value>unsc_unit_vehicle</value>
+			<value>3</value>
+		</entry>
+		<entry>
+			<key>hook_bldg_EnergyCapturePoint_base_01_base</key>
+			<value>banished_unit_vehicle</value>
+			<value>0</value>
+		</entry>
+		<entry>
+			<key>cov_bldg_builder_01_hive</key>
+			<value>EP2_FloodBase</value>
+			<value>3</value>
+		</entry>
+		<entry>
 			<key>dlc4_maps_mcstopthesignal_m02controltowers</key>
 			<value>conduits</value>
 			<value>1</value>
@@ -1024,11 +1049,6 @@
 		<entry>
 			<key>hook_bldg_miniBase_01</key>
 			<value>mini_base_slot</value>
-			<value>4</value>
-		</entry>
-		<entry>
-			<key>game_base_Socket_01</key>
-			<value>base_slot</value>
 			<value>4</value>
 		</entry>
 		<entry>

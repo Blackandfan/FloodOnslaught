@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Brutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>463</DamagePerSecond>
+		<DamagePerSecond>529</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_bruteshot_01</Projectile>
 		<ImpactEffect size="small">BruteShotImpact</ImpactEffect>
@@ -34,7 +34,7 @@
 	<Weapon>
 		<Name>AOEBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>463</DamagePerSecond>
+		<DamagePerSecond>529</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_bruteshot_02</Projectile>
 		<ImpactEffect size="small">BruteShotImpact2</ImpactEffect>
@@ -89,7 +89,7 @@
 	<Weapon>
 		<Name>AOEDOTBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>463</DamagePerSecond>
+		<DamagePerSecond>529</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_bruteshot_03</Projectile>
 		<ImpactEffect doShockwaveAction="true">BruteShotImpact3</ImpactEffect>
@@ -144,7 +144,7 @@
 	<Weapon>
 		<Name>LongAOEDOTBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>463</DamagePerSecond>
+		<DamagePerSecond>529</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_bruteshot_03</Projectile>
 		<ImpactEffect doShockwaveAction="true">BruteShotImpact3</ImpactEffect>
@@ -199,7 +199,7 @@
 	<Weapon>
 		<Name>AirBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>463</DamagePerSecond>
+		<DamagePerSecond>529</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_bruteshot_01</Projectile>
 		<ImpactEffect size="small">BruteShotImpactAir</ImpactEffect>
@@ -227,7 +227,7 @@
 	<Weapon>
 		<Name>AirAOEBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>463</DamagePerSecond>
+		<DamagePerSecond>529</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_bruteshot_02</Projectile>
 		<ImpactEffect size="small">BruteShotImpactAir2</ImpactEffect>
@@ -279,7 +279,7 @@
 	<Weapon>
 		<Name>AirAOEDOTBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>463</DamagePerSecond>
+		<DamagePerSecond>529</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_bruteshot_03</Projectile>
 		<ImpactEffect size="small">BruteShotImpactAir3</ImpactEffect>
@@ -331,7 +331,7 @@
 	<Weapon>
 		<Name>AirLongAOEDOTBrutegun</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>463</DamagePerSecond>
+		<DamagePerSecond>529</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_bruteshot_03</Projectile>
 		<ImpactEffect size="small">BruteShotImpactAir3</ImpactEffect>
@@ -544,7 +544,23 @@
 		<ActionType>EnergyShield</ActionType>
 		<ProtoObject>cov_locustshield</ProtoObject>
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<Relation>Ally</Relation>

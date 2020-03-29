@@ -1,0 +1,38 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIDLC2.CODEX.UNITSBAN.BODY.ARBITER">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.BODY.ARBITERHERO">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.BODY.ELITEASSAULTTEAM">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.BODY.ELITEGRUNTSQUAD">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.BODY.PHANTOM">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.TITLE.ARBITER">The Arbiter</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.TITLE.ARBITERHERO">The Arbiter</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.TITLE.ELITEASSAULTTEAM">Elite Enforcers</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.TITLE.ELITEGRUNTSQUAD">Grunts</str>
+    <str id="UIDLC2.CODEX.UNITSBAN.TITLE.PHANTOM">Phantom</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.BODY.BATTLEAPC">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.BODY.COMMANDERJEROME">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.BODY.COMMANDMANTIS">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.BODY.HEROJEROME">&lt;b&gt;&lt;i&gt;UNSC Expeditionary Force Commander&lt;/b&gt;&lt;/i&gt;
+
+Commander Jerome has proven himself to be an inspirational and highly capable leader, though some aspects of his Spartan conditioning conflict with his strategic instincts. Among these is a preference for direct action. On the battlefield, Commander Jerome can &lt;b&gt;Inspire&lt;/b&gt; nearby troops and take the fight to the enemy with a custom Hydra &lt;b&gt;missile launcher&lt;/b&gt;, shrugging off attacks with his &lt;b&gt;energy shield&lt;/b&gt;. 
+
+Commander Jerome cannot hijack vehicles, but he can deploy his personal Command Mantis onto the battlefield from the Spirit of Fire. Upgrades include increasing the radius of his Inspire ability and adding a suppressing orbital barrage to the Command Mantis.</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.BODY.OMEGATEAM">&lt;</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.TITLE.BATTLEAPC">Mastodon</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.TITLE.COMMANDERJEROME">Commander Jerome</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.TITLE.COMMANDMANTIS">Command Mantis</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.TITLE.HEROJEROME">Commander Jerome</str>
+    <str id="UIDLC2.CODEX.UNITSUNSC.TITLE.OMEGATEAM">Omega Team</str>
+    <str id="UIDLC2.LEADERSELECT.ROLE01.ARBITER">Elite Assault</str>
+    <str id="UIDLC2.LEADERSELECT.ROLE01.COMMANDERJEROME">Mechanized Force</str>
+    <str id="UIDLC2.LEADERSELECT.ROLE02.ARBITER">Vicious Blade</str>
+    <str id="UIDLC2.LEADERSELECT.ROLE02.COMMANDERJEROME">Special Operations</str>
+    <str id="UIDLC2.LEADERSELECT.ROLE03.ARBITER">Covert Ops</str>
+    <str id="UIDLC2.LEADERSELECT.ROLE03.COMMANDERJEROME">Final Stand</str>
+    <str id="UIDLC2.LEADERSELECT.SHORTDESCR.ARBITER">The Arbiter Ripa &apos;Moramee utilizes special stasis fields to trap enemies and control the battlefield.</str>
+    <str id="UIDLC2.LEADERSELECT.SHORTDESCR.ARBITER.BLITZ">The Arbiter Ripa &apos;Moramee utilizes special stasis fields to trap enemies and control the battlefield.</str>
+    <str id="UIDLC2.LEADERSELECT.SHORTDESCR.COMMANDERJEROME">Omega Team&apos;s leader and a veteran Spartan of the Spirit of Fire, Jerome inspires and bolsters troops under his command.</str>
+    <str id="UIDLC2.LEADERSELECT.SHORTDESCR.COMMANDERJEROME.BLITZ">Omega Team&apos;s leader and a veteran Spartan of the Spirit of Fire, Jerome inspires and bolsters troops under his command.</str>
+    <str id="UIDLC2.LEADERSELECT.TITLE.ARBITER">The Arbiter</str>
+    <str id="UIDLC2.LEADERSELECT.TITLE.COMMANDERJEROME">Commander Jerome</str>
+</string_table>

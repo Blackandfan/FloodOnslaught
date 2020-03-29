@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Sword</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>580</DamagePerSecond>
+		<DamagePerSecond>1000</DamagePerSecond>
 		<WeaponType>HeroMelee</WeaponType>
 		<MaxRange>2.5</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
@@ -115,7 +115,6 @@
 		<ActionType>StealthManager</ActionType>
 		<StealthType>Cloak</StealthType>
 		<RechargeDelay>3</RechargeDelay>
-		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>GarrisonHotDrop</Name>

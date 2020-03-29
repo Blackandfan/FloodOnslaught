@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="us-ascii"?>
 <Analytics>
-	<Channels>
-		<Channel name="TriggerLog">
-			<Log>Elastic</Log>
-		</Channel>
-		<Channel name="DialogueLog">
-			<Log>DialogueLogLocal</Log>
-			<Log>Elastic</Log>
-		</Channel>
-	</Channels>
+    <Channels>
+        <Channel name="TriggerLog">
+            <Log>Elastic</Log>
+        </Channel>
+        <Channel name="DialogueLog">
+            <Log>DialogueLogLocal</Log>
+            <Log>Elastic</Log>
+        </Channel>
+    </Channels>
 </Analytics>

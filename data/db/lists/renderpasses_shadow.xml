@@ -1,0 +1,8 @@
+<RenderPasses>
+    <Include file="renderPasses_Solid.xml">
+    </Include>
+    <Include file="renderPasses_DrawFoliage.xml">
+    </Include>
+    <Include file="renderPasses_TerrainShadows.xml">
+    </Include>
+</RenderPasses>

@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>CryoMortar</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>350</DamagePerSecond>
+		<DamagePerSecond>550</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_cryoMortar_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoShellBlast1</ImpactEffect>
@@ -57,7 +57,7 @@
 	<Weapon>
 		<Name>CryoMortarAir</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>350</DamagePerSecond>
+		<DamagePerSecond>550</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_cryoMortar_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoShellBlastAir1</ImpactEffect>
@@ -111,7 +111,7 @@
 	<Weapon>
 		<Name>CryoMortarUpgrade</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>350</DamagePerSecond>
+		<DamagePerSecond>550</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_cryoMortar_02</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoShellBlast1</ImpactEffect>
@@ -165,7 +165,7 @@
 	<Weapon>
 		<Name>CryoMortarUpgradeAir</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>350</DamagePerSecond>
+		<DamagePerSecond>550</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_cryoMortar_02</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoShellBlastAir1</ImpactEffect>
@@ -447,7 +447,23 @@
 		<WorkRange>8</WorkRange>
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ChillAura</PersistentAction>
 		<PersistentAction>ChillAuraBuildings</PersistentAction>
 		<PersistentAction>ChillAuraUpgrade</PersistentAction>

@@ -1,0 +1,230 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIEP2FIRE.FIREFIGHTHUD.BONUS.TITLE">BONUS</str>
+    <str id="UIEP2FIRE.FIREFIGHTHUD.DEPLOYING.TITLE">DEPLOYING</str>
+    <str id="UIEP2FIRE.FIREFIGHTHUD.TIMER.TITLE">Wave Timer:</str>
+    <str id="UIEP2FIRE.HUD.NEXUS">Terminus</str>
+    <str id="UIEP2FIRE.HUD.NEXUSPROTECT">Defend the Terminus</str>
+    <str id="UIEP2FIRE.HUD.WAVEPROGRESS.ENEMIESREMAIN">ENEMIES REMAINING:</str>
+    <str id="UIEP2FIRE.INTRO.TUTTEXT1">Welcome to Terminus Firefight</str>
+    <str id="UIEP2FIRE.INTRO.TUTTEXT2">This is the Terminus.</str>
+    <str id="UIEP2FIRE.INTRO.TUTTEXT3">If it is destroyed, you lose the game.</str>
+    <str id="UIEP2FIRE.INTRO.TUTTEXT4">Build an army, defenses and barricades.</str>
+    <str id="UIEP2FIRE.INTRO.TUTTEXT5">Defend against the ever increasing horde of enemies!</str>
+    <str id="UIEP2FIRE.INTRO.TUTTEXT6">Good luck!</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.DONOTOWNDLC">%1 does not own this DLC</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.GOTOSTORE">Press @Y_Button@ to be taken to the store page for the DLC.</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.INVITEDECLINED">INVITE DECLINED</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.INVITERECEIVED">INVITE RECEIVED</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.OTHERPLAYERLEFT">Other player has left squad.</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.PLAYERDOESNOTOWNDLC">does not own this DLC.</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.PRESSCANCELTODISMISS">Press @B_Button@ to dismiss this warning.</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.TWOPLAYERSREQUIRED">Two players required.</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.UNABLETOJOIN">UNABLE TO JOIN</str>
+    <str id="UIEP2FIRE.INVITE.NOTIFICATION.YOUDONOTOWNDLC">You do not own this DLC</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.HEADER">FIREFIGHT</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.MAPNAME">The Last Bastion</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.MAPNAME.DESC">Protect the Terminus from the onslaught of enemies</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.MODENAME">TERMINUS FIREFIGHT</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIP1">Protect the Terminus from being attacked!</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIP2">Defend against an ever increasing horde of enemies using barricades, turrets and units!</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIP3">Build minibases to unlock turret slots and increase your score multiplier</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.BARRICADES">Use a combination of barricades, barriers and traps to slow the enemies approach or damage their units.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.BARRICADES2">Remember: Much like turrets: many barricades are upgradeable!</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.BARRICADES3">Use blocking barricades to control the flow of the enemy into heavily fortified points.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.BARRICADES4">The enemy will not attack barricades unless there are no valid routes to the Terminus. Use this to your advantage.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.BONUSWAVES">After defeating a boss wave, you will receive a bonus along with a brief respite before the next round starts.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.CYCLELANES">Every new round the enemy will attempt to use more routes to get to the Terminus, so check your flanks!</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.CYCLES">There are 5 waves in a round, each round makes enemies gradually tougher.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.DIFFICULTY">Changing the base difficulty will increase your base score multiplier</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.DIFFICULTY2">Harder difficulties in Terminus Firefight increase the damage and health of the enemy.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.MINIBASETURRETS">Building minibases will reveal new turret slots tied to it. Watch out, if the minibase is destroyed, the turrets are destroyed along with it!</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.NEXUSPLACEMENT">The enemy will mostly prioritize the Spires and Terminus over your base, which is tucked away safely from the lanes.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.PATHS">The path the enemy takes to the Terminus is only changed every round, not every wave. Use this time to prepare your forces.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.PATHS2">You will be able to see the route the enemy will take to the Terminus on your minimap.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.PATHS3">After every round, the amount of possible paths the enemy will take will increase by 1.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.SPECIALWAVES">Every 4th wave in a round is a special wave, these are oddball waves that do not follow the normal wave rules. Keep on alert!</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.SPIRES">Protect your Spires. Your units will no longer benefit from their healing capabilities once they are gone.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.SUPPLYDROPS">Bonus containers drop after every wave in a random territory per player.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.SUPPLYDROPS2">Bonus containers can contain supplies, power or even increase a unit&apos;s experience!</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.TERRITORY">Expanding out and capturing mini bases will increase your score multiplier.</str>
+    <str id="UIEP2FIRE.LOADINGSCREEN.TIPS.TERRITORYSPLIT">Building out to the furthest minibase plots can help split up the strength of enemy forces, lightening the load on other front-lines.</str>
+    <str id="UIEP2FIRE.MENU.OPTIONS.DIFFICULTY.SHORTDESCR">Choose the firefight difficulty.</str>
+    <str id="UIEP2FIRE.MENU.POSTBATTLE.SCOREBONUS">Bonus Score</str>
+    <str id="UIEP2FIRE.MENU.POSTBATTLE.SCOREKILLS">Kills Score</str>
+    <str id="UIEP2FIRE.MENU.POSTBATTLE.SCORESUPPLIES">Supplies Score</str>
+    <str id="UIEP2FIRE.MENU.POSTBATTLE.SCORETERRITORY">Territory Score</str>
+    <str id="UIEP2FIRE.MENU.POSTBATTLE.SCORETIME">Time Score</str>
+    <str id="UIEP2FIRE.MENU.POSTBATTLE.SCORETOTAL">Total Score</str>
+    <str id="UIEP2FIRE.MENU.POSTBATTLE.SCOREWAVE">Wave Score</str>
+    <str id="UIEP2FIRE.MENU.POSTBATTLE.TIMEHEADER">TIME</str>
+    <str id="UIEP2FIRE.NOTIFICATION.ADDSCOREMULTIPLIER">&lt;font color=&apos;#00e5c7&apos; size=&apos;18&apos;&gt;TERRITORY GAINED!&lt;/font&gt;&lt;br&gt;SCORE MULTIPLIER &lt;font color=&apos;#00e5c7&apos; size=&apos;26&apos;&gt;[+ %1]&lt;/font&gt;</str>
+    <str id="UIEP2FIRE.NOTIFICATION.BONUS.REINFORCEMENTSCORE">&lt;font size=&apos;18&apos;&gt;NO FREE POP FOR REINFORCEMENTS! &lt;/font&gt;&lt;br&gt;+BONUS +%1 SCORE</str>
+    <str id="UIEP2FIRE.NOTIFICATION.BONUS.SCORE">&lt;font size=&apos;18&apos;&gt;BONUS SCORE!&lt;/font&gt;&lt;br&gt;+%1</str>
+    <str id="UIEP2FIRE.NOTIFICATION.BONUSEARNED">BONUS EARNED!</str>
+    <str id="UIEP2FIRE.NOTIFICATION.BONUSWAVE">BONUS WAVE STARTING:</str>
+    <str id="UIEP2FIRE.NOTIFICATION.BOSSWAVE">BOSS WAVE APPROACHING:</str>
+    <str id="UIEP2FIRE.NOTIFICATION.BOSSWAVECLEARED">BOSS WAVE CLEARED!</str>
+    <str id="UIEP2FIRE.NOTIFICATION.CIV.BANISHED">&lt;font size=&apos;18&apos;&gt;ROUND FACTION&lt;/font&gt;&lt;br&gt;BANISHED</str>
+    <str id="UIEP2FIRE.NOTIFICATION.CIV.FLOOD">&lt;font size=&apos;18&apos;&gt;ROUND FACTION&lt;/font&gt;&lt;br&gt;FLOOD</str>
+    <str id="UIEP2FIRE.NOTIFICATION.CIV.FORERUNNER">&lt;font size=&apos;18&apos;&gt;ROUND FACTION&lt;/font&gt;&lt;br&gt;FORERUNNER</str>
+    <str id="UIEP2FIRE.NOTIFICATION.CIV.UNSC">&lt;font size=&apos;18&apos;&gt;ROUND FACTION&lt;/font&gt;&lt;br&gt;UNSC</str>
+    <str id="UIEP2FIRE.NOTIFICATION.ENEMYBUFF">&lt;font size=&apos;18&apos;&gt;ENEMY TOUGHNESS&lt;/font&gt;&lt;br&gt; DAMAGE: %1 | HEALTH: %2</str>
+    <str id="UIEP2FIRE.NOTIFICATION.FIREFIGHTSTARTSIN">TERMINUS FIREFIGHT STARTS IN:</str>
+    <str id="UIEP2FIRE.NOTIFICATION.MULTIPLIERDOWN">MULTIPLIER DOWN</str>
+    <str id="UIEP2FIRE.NOTIFICATION.MULTIPLIERUP">MULTIPLIER UP</str>
+    <str id="UIEP2FIRE.NOTIFICATION.NEWCIVPARAM">&lt;font size=&apos;18&apos;&gt;ROUND FACTION&lt;/font&gt;&lt;br&gt;%1</str>
+    <str id="UIEP2FIRE.NOTIFICATION.NEWCYCLE">NEW ROUND STARTING:</str>
+    <str id="UIEP2FIRE.NOTIFICATION.NEWWAVE">NEW WAVE APPROACHING:</str>
+    <str id="UIEP2FIRE.NOTIFICATION.NEXUS.BONUSSCORE">BONUS +%1</str>
+    <str id="UIEP2FIRE.NOTIFICATION.NEXUS.BOSSCLEARBONUS">&lt;font size=&apos;18&apos;&gt;BOSS CLEARED!&lt;/font&gt;&lt;br&gt;BONUS +%1</str>
+    <str id="UIEP2FIRE.NOTIFICATION.NEXUS.LOWHEALTH">Terminus has low health!</str>
+    <str id="UIEP2FIRE.NOTIFICATION.NEXUS.UNDERATTACK">Terminus is under attack!</str>
+    <str id="UIEP2FIRE.NOTIFICATION.NEXUS.WAVECLEARBONUS">&lt;font size=&apos;18&apos;&gt;WAVE CLEARED!&lt;/font&gt;&lt;br&gt;BONUS +%1</str>
+    <str id="UIEP2FIRE.NOTIFICATION.PREPARE">PREPARE YOUR DEFENSES!</str>
+    <str id="UIEP2FIRE.NOTIFICATION.REMOVESCOREMULTIPLIER">&lt;font color=&apos;#ef5e58&apos; size=&apos;18&apos;&gt;TERRITORY LOST! &lt;/font&gt;&lt;br&gt;SCORE MULTIPLIER &lt;font color=&apos;#ef5e58&apos; size=&apos;26&apos;&gt;[- %1]&lt;/font&gt;</str>
+    <str id="UIEP2FIRE.NOTIFICATION.SCOREMULTIPLIERDOWN">SCORE MULTIPLIER DOWN</str>
+    <str id="UIEP2FIRE.NOTIFICATION.SCOREMULTIPLIERUP">SCORE MULTIPLIER UP</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;%1</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.DISRUPTION">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;DISRUPTION FIELD</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.DODGING">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;DODGING</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.GATHERING">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;GATHERING</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.GRENADES">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;GRENADE THROW</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.HEALING">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;SMART HEALING</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.HIJACK">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;HIJACK</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.JUMPING">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;JUMP ATTACKS</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.MINES">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;MINE LAYING</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.MISSILES">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;MISSILE ABILITIES</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.RAMMING">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;RAMMING</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TECHUPGRADE.SMOKEBOMB">&lt;font size=&apos;18&apos;&gt;ENEMY UPGRADED:&lt;/font&gt;&lt;br&gt;SMOKEBOMB</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TERRITORYGAINED">TERRITORY GAINED!</str>
+    <str id="UIEP2FIRE.NOTIFICATION.TERRITORYLOST">TERRITORY LOST!</str>
+    <str id="UIEP2FIRE.NOTIFICATION.WARMUP">WARMUP</str>
+    <str id="UIEP2FIRE.NOTIFICATION.WAVE">WAVE</str>
+    <str id="UIEP2FIRE.NOTIFICATION.WAVECLEARED">&lt;font size=&apos;18&apos;&gt;%1 %2&lt;/font&gt;&lt;br&gt;CLEARED</str>
+    <str id="UIEP2FIRE.NOTIFICATION.WAVECLEAREDPERFECT">PERFECT WAVE</str>
+    <str id="UIEP2FIRE.NOTIFICATION.WAVESTART">&lt;font size=&apos;18&apos;&gt;%1 %2&lt;/font&gt;&lt;br&gt;%3</str>
+    <str id="UIEP2FIRE.NOTIFICATION.WAVESTART2">%1 : &lt;br&gt; %2</str>
+    <str id="UIEP2FIRE.OBJECTS.SUPPLYDROP.DAMAGE">Damage Bonus</str>
+    <str id="UIEP2FIRE.OBJECTS.SUPPLYDROP.HEALTH">Health Bonus</str>
+    <str id="UIEP2FIRE.OBJECTS.SUPPLYDROP.POWER">Power Bonus</str>
+    <str id="UIEP2FIRE.OBJECTS.SUPPLYDROP.SPEED">Speed Bonus</str>
+    <str id="UIEP2FIRE.OBJECTS.SUPPLYDROP.SUPPLIES">Supply Bonus</str>
+    <str id="UIEP2FIRE.OBJECTS.SUPPLYDROP.VETERANCY">Veterancy Bonus</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.BARRELS">Unstable Barrels</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.BARRELS.DESC">Attack these barrels to cause massive one-shot damage in a large area.</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.BARRELS.DETONATE">DETONATE</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.BARRELS.DETONATE.DESC">Make things go boom</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.BARRELS2">Unstable Barrel Stack</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.BARRELS2.DESC">Double down on your crazy idea. Attack them to trigger them.</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.CALTROPS">Floor Blades</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.CALTROPS.DESC">Razor sharp blades arranged in a menacing pattern. Slows and lightly damages enemy ground units that pass over them. Tread carefully.</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.ENHSHIELD">Enhanced Shield Barrier</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.ENHSHIELD.DESC">An enhanced shield capable of sustaining a lot more punishment</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.REFLECT">Reflection Barrier</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.REFLECT.DESC">A shield barrier able to reflect damage back on those who attack it</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.SHIELD">Shield Barrier</str>
+    <str id="UIEP2FIRE.STRUCTURES.BAN.BARRICADE.SHIELD.DESC">An energy barrier capable of regenerating its shields</str>
+    <str id="UIEP2FIRE.STRUCTURES.BARRICADE">Barricade</str>
+    <str id="UIEP2FIRE.STRUCTURES.BARRICADESLOT">Barricade Slot</str>
+    <str id="UIEP2FIRE.STRUCTURES.MINIBASE">Minibase</str>
+    <str id="UIEP2FIRE.STRUCTURES.MINIBASESLOT">Minibase Slot</str>
+    <str id="UIEP2FIRE.STRUCTURES.NEXUS">Terminus</str>
+    <str id="UIEP2FIRE.STRUCTURES.SPIRE">Terminus Spire</str>
+    <str id="UIEP2FIRE.STRUCTURES.TURRET">Turret</str>
+    <str id="UIEP2FIRE.STRUCTURES.TURRETSLOT">Turret Slot</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.BUNKER">Bunker Barricade</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.BUNKER.DESC">A barricade that can be garrisoned by infantry</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.ELECTRICFENCE">Electric Trap</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.ELECTRICFENCE.DESC">A traversable, high tech trap that can shock and stun foes every so often</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.FENCE">Fence</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.FENCE.DESC">A weak fence that can block areas</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.FORTIFIED">Fortified Barricade</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.FORTIFIED.DESC">A fortified blocking wall that can sustain tremendous amounts of damage</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.MINES">Lotus Minefield</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.MINES.DESC">Creates a disposable patch of lotus mines</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.NANO">Regen Barricade</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.NANO.DESC">A strong wall capable or slowly repairing itself and nearby objects.</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.NORMAL">Barricade</str>
+    <str id="UIEP2FIRE.STRUCTURES.UNSC.BARRICADE.NORMAL.DESC">A strong wall capable of withstanding a lot of damage</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.BAN">HEAVY AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.FLOOD">HEAVY AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.FR">HEAVY AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.UNSC">HEAVY AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVYMIX.FR">HEAVY AIR MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.BAN">LIGHT AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.FLOOD">LIGHT AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.FR">LIGHT AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.UNSC">LIGHT AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHTMIX.FR">LIGHT AIR MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRMEDIUM.BAN">MEDIUM AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRMEDIUM.FLOOD">MEDIUM AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRMEDIUM.FR">MEDIUM AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.AIRMEDIUM.UNSC">MEDIUM AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.ANTITURRET.BAN">ANTI TURRET</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.ANTITURRET.UNSC">ANTI TURRET</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.COMBIHEAVY.BAN">HEAVY MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.COMBIHEAVY.UNSC">HEAVY MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.COMBILIGHT.BAN">LIGHT MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.COMBILIGHT.UNSC">LIGHT MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.COMBIMEDIUM.BAN">MEDIUM MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.COMBIMEDIUM.UNSC">MEDIUM MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.FLAME.UNSC">FLAME MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.GROUNDHEAVY.FLOOD">HEAVY GROUND</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.GROUNDLIGHT.FLOOD">LIGHT GROUND</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.GROUNDMEDIUM.FLOOD">MEDIUM GROUND</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYANTIAIR">ANTI-AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYANTITANK.BAN">ANTI-TANK INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYANTITANK.UNSC">ANTI-TANK INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.BAN">GRUNTS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.FLOOD">LIGHT INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.UNSC">MARINES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYHEAVY.BAN">HEAVY INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYHEAVY.UNSC">HEAVY INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYLIGHT.BAN">LIGHT INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYLIGHT.UNSC">LIGHT INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMEDIUM.BAN">MEDIUM INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMEDIUM.FLOOD">MEDIUM INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMEDIUM.UNSC">MEDIUM INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMELEE.BAN">MELEE INFANTRY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYSNIPER.BAN">SNIPERS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYSNIPER.UNSC">SNIPERS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.MIXHEAVY.FLOOD">HEAVY MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.MIXLIGHT.FLOOD">LIGHT MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.MIXMEDIUM.FLOOD">MEDIUM MIX</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.SENTINELSWARM.FR">SENTINEL SWARM</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLEHEAVY.BAN">HEAVY VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLEHEAVY.FLOOD">HEAVY VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLEHEAVY.UNSC">HEAVY VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.BAN">LIGHT VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.FLOOD">LIGHT VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.UNSC">LIGHT VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLEMEDIUM.BAN">MEDIUM VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLEMEDIUM.FLOOD">MEDIUM VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLEMEDIUM.UNSC">MEDIUM VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESCORPS.UNSC">SCORPIONS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESPEED.BAN">FAST VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESPEED.UNSC">FAST VEHICLES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BONUS.HEALING">HEALING BONUS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BONUS.REINFORCEMENTS">REINFORCEMENT BONUS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BONUS.VETERANCY">VETERANCY BONUS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.BIG3">HEROES</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.BIGGUNS">BIG GUNS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.INFECTOR">SPAWNER INFECTORS</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY">LEADER ARMY</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT">UBER UNIT</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.CONDOR">CONDOR</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.FLOOD">ABOMINATION</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.HIVECOMMANDER">HIVE COMMANDER</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.RETRIEVER">RETRIEVER</str>
+    <str id="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.SCARAB">SCARAB</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.ARKDEFENSE">ARK DEFENSE BEACONS</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.BANDITRAID">BANDIT RAID</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.CLEANSINGBEAM">CLEANSING BEACONS</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.DIRECTAIR">DIRECT AIR</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.INFECTORAIR">AIR INFECTORS</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.INFECTORINF">INFANTRY INFECTORS</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.INFECTORVEH">VEHICLE INFECTORS</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.ODST">ODST DROP</str>
+    <str id="UIEP2FIRE.WAVETITLES.MINIBOSS.SUICIDE">SUICIDE GRUNTS</str>
+    <str id="UIEP2FIRE.WAVETITLES.MISC.WARMUP">Warmup</str>
+</string_table>

@@ -1,43 +1,23 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <servers>
-	<server name="hw2_scprel_2017_10_18-pc">
-		<sandbox name="L343.13">623910c5-866a-403a-8bd6-777980e630ca</sandbox>
+	<server name="hw2_isbender_2018_03_01d_singleTenant_r-pc">
+		<sandbox name="L343.13">3713b57d-d394-45e9-bf3e-8e0eabb16442</sandbox>
 		<sandbox name="L343.14">00000000-0000-0000-0000-000000000000</sandbox>
-		<sandbox name="L343.17">98e9e62a-6213-4d78-8b6b-23617d810ff1</sandbox>
-		<sandbox name="L343.99">00000000-0000-0000-0000-000000000000</sandbox>
-		<sandbox name="CERT.DEBUG">05fb7b00-de12-4ec8-9248-249dcdb91f43</sandbox>
-		<sandbox name="CERT">bec7c98f-d27b-44f4-a4f9-eb4fd6b0fec1</sandbox>
-		<sandbox name="RETAIL">40698458-595a-4b49-86cf-801687e0fc04</sandbox>
-		<sandbox name="default">40698458-595a-4b49-86cf-801687e0fc04</sandbox>
-	</server>
-	<server name="hw2_scprel_2017_10_18-xo">
-		<sandbox name="L343.13">12106f79-3664-4182-81cd-c294b0a5c1e8</sandbox>
-		<sandbox name="L343.14">00000000-0000-0000-0000-000000000000</sandbox>
-		<sandbox name="L343.17">108c4ad6-dfce-4ba6-bf75-c8a241a5ccbc</sandbox>
-		<sandbox name="L343.99">00000000-0000-0000-0000-000000000000</sandbox>
-		<sandbox name="CERT.DEBUG">05b0788b-8a45-4b4c-aba0-b1c3a7c48b83</sandbox>
-		<sandbox name="CERT">4f3526f2-5264-4e29-b6c5-caf591eb71fa</sandbox>
-		<sandbox name="RETAIL">91ae1f7c-108b-42a8-8766-a2f9dd6757ed</sandbox>
-		<sandbox name="default">91ae1f7c-108b-42a8-8766-a2f9dd6757ed</sandbox>
-	</server>
-	<server name="hw2_isbender_2018_02_23_13-pc">
-		<sandbox name="L343.13">a9d84859-4623-4a86-82f1-dc05b461c373</sandbox>
-		<sandbox name="L343.14">00000000-0000-0000-0000-000000000000</sandbox>
-		<sandbox name="L343.17">bf3f3ac2-ed1a-42da-b193-9be28e1582de</sandbox>
+		<sandbox name="L343.17">92a55497-f0d4-4c89-82e8-da59332ba234</sandbox>
 		<sandbox name="L343.99">00000000-0000-0000-0000-000000000000</sandbox>
 		<sandbox name="CERT.DEBUG">00000000-0000-0000-0000-000000000000</sandbox>
 		<sandbox name="CERT">00000000-0000-0000-0000-000000000000</sandbox>
-		<sandbox name="RETAIL">ee121e0e-b961-4def-ae4c-d7f7dcc6319b</sandbox>
+		<sandbox name="RETAIL">fe29901b-0333-4bde-ab53-aa4b078840f8</sandbox>
 		<sandbox name="default">00000000-0000-0000-0000-000000000000</sandbox>
 	</server>
-	<server name="hw2_isbender_2018_02_23_13-xo">
-		<sandbox name="L343.13">99b5e8d9-6879-475b-8dfa-39bf67554bb3</sandbox>
+	<server name="hw2_isbender_2018_03_01d_singleTenant_r-xo">
+		<sandbox name="L343.13">3713b57d-d394-45e9-bf3e-8e0eabb16442</sandbox>
 		<sandbox name="L343.14">00000000-0000-0000-0000-000000000000</sandbox>
-		<sandbox name="L343.17">ad5044b5-eb7f-4b9c-8fc2-e8d98c6aa57a</sandbox>
+		<sandbox name="L343.17">6928516f-bf93-4e3d-9f4b-8aec6219d5ff</sandbox>
 		<sandbox name="L343.99">00000000-0000-0000-0000-000000000000</sandbox>
 		<sandbox name="CERT.DEBUG">00000000-0000-0000-0000-000000000000</sandbox>
 		<sandbox name="CERT">00000000-0000-0000-0000-000000000000</sandbox>
-		<sandbox name="RETAIL">7da14a7c-f034-4699-a0de-529f97340b50</sandbox>
+		<sandbox name="RETAIL">fe29901b-0333-4bde-ab53-aa4b078840f8</sandbox>
 		<sandbox name="default">00000000-0000-0000-0000-000000000000</sandbox>
 	</server>
 	<titleid>35758393</titleid>

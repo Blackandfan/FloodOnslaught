@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Sword</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>580</DamagePerSecond>
+		<DamagePerSecond>629</DamagePerSecond>
 		<WeaponType>HeroMelee</WeaponType>
 		<MaxRange>2.5</MaxRange>
 		<ThrowUnits />
@@ -34,7 +34,7 @@
 	<Weapon>
 		<Name>RageSword</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>800</DamagePerSecond>
+		<DamagePerSecond>1000</DamagePerSecond>
 		<WeaponType>HeroMelee</WeaponType>
 		<MaxRange>2.5</MaxRange>
 		<ThrowUnits />
@@ -121,7 +121,7 @@
 	<Weapon>
 		<Name>RageSwordLifeSteal</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>800</DamagePerSecond>
+		<DamagePerSecond>1200</DamagePerSecond>
 		<WeaponType>HeroMelee</WeaponType>
 		<MaxRange>2.5</MaxRange>
 		<ThrowUnits />
@@ -384,7 +384,23 @@
 		<ActionType>EnergyShield</ActionType>
 		<ProtoObject>cov_locustshield</ProtoObject>
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<PersistentAction>RageBuff</PersistentAction>
 		<PersistentSquadAction>FiendishReturn</PersistentSquadAction>

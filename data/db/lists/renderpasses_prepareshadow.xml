@@ -1,0 +1,18 @@
+<RenderPasses>
+    <SetBoneBuffer group="PrepareShadow">
+    </SetBoneBuffer>
+    <InvalidateShaders group="PrepareShadow">
+    </InvalidateShaders>
+    <SetRenderTargets group="PrepareShadow">
+        <Target name="SpotLightDepth">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="PrepareShadow">
+        <UseParams value="true">
+        </UseParams>
+    </SetViewport>
+    <SetScissorRect group="AlphaShadows">
+        <UseParams value="true">
+        </UseParams>
+    </SetScissorRect>
+</RenderPasses>

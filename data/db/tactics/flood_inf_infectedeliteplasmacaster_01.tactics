@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaCaster</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>50</DamagePerSecond>
+		<DamagePerSecond>175</DamagePerSecond>
 		<WeaponType>PlasmaCaster</WeaponType>
 		<Projectile>vfx_dlc2_units_plasmacaster</Projectile>
 		<ImpactEffect size="Medium">PlasmaCasterImpact</ImpactEffect>
@@ -23,55 +23,6 @@
 		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
 		<PostAttackCooldownMax>1</PostAttackCooldownMax>
 		<VisualAmmo>4</VisualAmmo>
-		<Hardpoint>Torso</Hardpoint>
-	</Weapon>
-	<Weapon>
-		<Name>MeleeAttack</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>4</MaxRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<TargetPriority type="Infantry">20</TargetPriority>
-		<TargetPriority type="groundVehicle">15</TargetPriority>
-		<TargetPriority type="TurretBuilding">10</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<Hardpoint>Torso</Hardpoint>
-		<Filter>Medium</Filter>
-		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
-	</Weapon>
-	<Weapon>
-		<Name>JumpAttackHammer</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>1.84500003</MaxRange>
-		<MinRange>0</MinRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<Hardpoint>Torso</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-		</AOEData>
-		<Filter>Medium</Filter>
 	</Weapon>
 	<Action>
 		<Name>PlasmaCasterAttackAction</Name>
@@ -84,46 +35,168 @@
 		<FindBetterAction />
 	</Action>
 	<Action>
-		<Name>MeleeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>MeleeAttack</Anim>
-		<Weapon>MeleeAttack</Weapon>
-		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" />
-		<FindBetterAction />
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
 	<Action>
-		<Name>JumpAttackAction</Name>
-		<ActionType>JumpAttack</ActionType>
-		<StartAnim noInterrupt="true" motionExtraction="true">LeapTakeOff</StartAnim>
-		<Anim>LeapArc</Anim>
-		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">LeapLanding</EndAnim>
-		<Weapon>JumpAttackHammer</Weapon>
-		<MaxDistance>40</MaxDistance>
-		<MinRelativeHeight>8</MinRelativeHeight>
-		<MaxRelativeHeight>12</MaxRelativeHeight>
-		<VelocityScalar>35</VelocityScalar>
-		<LandingDelay>0.400000006</LandingDelay>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
 	</Action>
 	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>PlasmaCasterAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>MeleeAttackAction</Action>
-			<TargetType>NonFlying</TargetType>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
 		</TargetRule>
 		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>JumpAttackAction</Action>
-			<TargetsGround />
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
 		</TargetRule>
 		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<Action>JumpAttackAction</Action>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>

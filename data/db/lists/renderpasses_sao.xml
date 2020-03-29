@@ -1,0 +1,62 @@
+<RenderPasses>
+    <SetupSAOPass group="SAO">
+        <Target name="AO_Depth_ShadowMask">
+        </Target>
+    </SetupSAOPass>
+    <SetRenderTargets group="SAO">
+        <Target name="AO_Depth_ShadowMask">
+        </Target>
+    </SetRenderTargets>
+    <SetViewport group="SAO">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissor group="SAO">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+    </SetScissor>
+    <SetTexture group="SAO">
+        <Target name="CsZBuffer">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SetTexture group="SAO">
+        <Target name="GBufferRT1">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="1">
+        </Index>
+    </SetTexture>
+    <ConditionalPass>
+        <If condition="PlatformXBoxOne">
+            <SetShader>
+                <Shader name="sao_main_low">
+                </Shader>
+            </SetShader>
+        </If>
+        <Else>
+            <SetShader>
+                <Shader name="sao_main">
+                </Shader>
+            </SetShader>
+        </Else>
+    </ConditionalPass>
+    <DrawNoVertexBuffer group="SAO">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <BlurSAO>
+        <Shader name="sao_main_blur">
+        </Shader>
+        <Target name="AO_Depth_ShadowMask">
+        </Target>
+        <IntermediateTarget name="BlurredFrameBuffer">
+        </IntermediateTarget>
+    </BlurSAO>
+</RenderPasses>

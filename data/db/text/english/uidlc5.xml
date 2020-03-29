@@ -1,0 +1,21 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIDLC5.CEASEFIRETIMER.TITLE">Please Don&apos;t Shoot Me!</str>
+    <str id="UIDLC5.CODEX.UNITBAN.BODY.CANNONFODDER">Q</str>
+    <str id="UIDLC5.CODEX.UNITBAN.BODY.GRUNTGOBLIN">L</str>
+    <str id="UIDLC5.CODEX.UNITBAN.BODY.GRUNTRIDERS">B</str>
+    <str id="UIDLC5.CODEX.UNITBAN.BODY.HEAVYGRUNTS">T</str>
+    <str id="UIDLC5.CODEX.UNITBAN.BODY.METHANEWAGON">F</str>
+    <str id="UIDLC5.CODEX.UNITBAN.BODY.YAPYAP">E</str>
+    <str id="UIDLC5.CODEX.UNITBAN.TITLE.CANNONFODDER">Cannon Fodder</str>
+    <str id="UIDLC5.CODEX.UNITBAN.TITLE.GRUNTGOBLIN">Grunt Goblin</str>
+    <str id="UIDLC5.CODEX.UNITBAN.TITLE.GRUNTRIDERS">Grunt Riders</str>
+    <str id="UIDLC5.CODEX.UNITBAN.TITLE.HEAVYGRUNTS">Heavy Grunts</str>
+    <str id="UIDLC5.CODEX.UNITBAN.TITLE.METHANEWAGON">Methane Wagon</str>
+    <str id="UIDLC5.CODEX.UNITBAN.TITLE.YAPYAP">Yapyap THE DESTROYER</str>
+    <str id="UIDLC5.LEADERSELECT.ROLE01.GRUNT">The Stinky Bunch</str>
+    <str id="UIDLC5.LEADERSELECT.ROLE02.GRUNT">Blast Off</str>
+    <str id="UIDLC5.LEADERSELECT.ROLE03.GRUNT">Driving Lessons</str>
+    <str id="UIDLC5.LEADERSELECT.SHORTDESCR.GRUNT">At last, a Grunt rises to become a mighty leader. Or at least outnumber the enemy with an endless supply of cheap, expendable units!</str>
+    <str id="UIDLC5.LEADERSELECT.SHORTDESCR.GRUNT.BLITZ">At last, a Grunt rises to become a mighty leader. Or at least outnumber the enemy with an endless supply of cheap, expendable units!</str>
+    <str id="UIDLC5.LEADERSELECT.TITLE.GRUNT">Yapyap THE DESTROYER</str>
+</string_table>

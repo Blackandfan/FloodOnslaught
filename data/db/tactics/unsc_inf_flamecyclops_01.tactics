@@ -507,7 +507,23 @@
 		<Anim noInterrupt="true">OrbitalDropLoop</Anim>
 		<EndAnim noInterrupt="true" motionExtraction="false">OrbitalLanding</EndAnim>
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>

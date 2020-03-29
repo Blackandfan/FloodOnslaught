@@ -1,0 +1,36 @@
+<RenderPasses>
+    <SetViewport group="PostProcessing">
+        <Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetRenderTargets group="PostProcessing">
+        <Target name="Downsampled2x2">
+        </Target>
+    </SetRenderTargets>
+    <SetTexture group="PostProcessing">
+        <Target name="LightAccumulation">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SamplerState group="PostProcessing">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Index index="0">
+        </Index>
+    </SamplerState>
+    <SetShader group="PostProcessing">
+        <Shader name="PassThrough">
+        </Shader>
+    </SetShader>
+    <DrawNoVertexBuffer group="PostProcessing">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+</RenderPasses>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="us-ascii"?>
 <Analytics>
-	<Channels>
-		<Channel name="NetworkLog">
-			<Log>Elastic</Log>
-		</Channel>
-	</Channels>
+    <Channels>
+        <Channel name="NetworkLog">
+            <Log>Elastic</Log>
+        </Channel>
+    </Channels>
 </Analytics>

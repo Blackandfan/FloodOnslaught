@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
-	<Weapon>
-		<Name>Artillery</Name>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>leaderpower</WeaponType>
-		<Projectile>unsc_air_odstPodhelldrop</Projectile>
-		<UseDPSasDPA />
-		<ImpactEffect size="Medium">ODSTHellDrop</ImpactEffect>
-		<MaxRange>92.25</MaxRange>
-	</Weapon>
-	<Action>
-		<Default>true</Default>
-		<Name>GenericInfoAttackAction</Name>
-		<Weapon>Artillery</Weapon>
-		<ProjectileInvokePower>UnscUnstableCon3</ProjectileInvokePower>
-	</Action>
-	<Tactic />
+    <Weapon>
+        <Name>Artillery</Name>
+        <DamagePerSecond>0</DamagePerSecond>
+        <WeaponType>leaderpower</WeaponType>
+        <Projectile>unsc_air_odstPodhelldrop</Projectile>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <ImpactEffect size="Medium">ODSTHellDrop</ImpactEffect>
+        <MaxRange>92.25</MaxRange>
+    </Weapon>
+    <Action>
+        <Default>true</Default>
+        <Name>GenericInfoAttackAction</Name>
+        <Weapon>Artillery</Weapon>
+        <ProjectileInvokePower>UnscUnstableCon3</ProjectileInvokePower>
+    </Action>
+    <Tactic>
+    </Tactic>
 </TacticData>

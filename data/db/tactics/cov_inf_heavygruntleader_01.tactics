@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverPlasmaPistol</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>27</DamagePerSecond>
+		<DamagePerSecond>32</DamagePerSecond>
 		<WeaponType>MissileSmallArms</WeaponType>
 		<Projectile>vfx_dlc5_units_HeavyGruntFuelRod</Projectile>
 		<ImpactEffect size="small">HeavyGruntFuelRodImpact</ImpactEffect>
@@ -25,7 +25,7 @@
 	<Weapon>
 		<Name>PlasmaPistol</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>27</DamagePerSecond>
+		<DamagePerSecond>32</DamagePerSecond>
 		<WeaponType>MissileSmallArms</WeaponType>
 		<Projectile>vfx_dlc5_units_HeavyGruntFuelRod</Projectile>
 		<ImpactEffect size="small">HeavyGruntFuelRodImpact</ImpactEffect>
@@ -51,7 +51,7 @@
 	<Weapon>
 		<Name>AirPlasmaPistol</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>27</DamagePerSecond>
+		<DamagePerSecond>32</DamagePerSecond>
 		<WeaponType>MissileSmallArms</WeaponType>
 		<Projectile>vfx_dlc5_units_HeavyGruntFuelRod</Projectile>
 		<ImpactEffect size="small">HeavyGruntFuelRodImpact</ImpactEffect>

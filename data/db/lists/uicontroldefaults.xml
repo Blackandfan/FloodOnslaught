@@ -1,0 +1,302 @@
+<ControlList>
+    <UIListControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="StickLeftUp" command="prev" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="StickLeftDown" command="next" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadUp" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadDown" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyUp" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyDown" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+            </Mode>
+            <Mode name="Horizontal">
+                <Control name="StickLeftLeft" command="prev" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="StickLeftRight" command="next" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadLeft" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadRight" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyLeft" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KEyRight" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <Next>PLAY_SFX_2D_UI_FrontEndCursor</Next>
+            <Prev>PLAY_SFX_2D_UI_FrontEndCursor</Prev>
+            <StopBegin>PLAY_SFX_2D_UI_FrontEndMenuBackOut</StopBegin>
+            <StopEnd>PLAY_SFX_2D_UI_FrontEndMenuBackOut</StopEnd>
+        </Sounds>
+    </UIListControl>
+    <UIButtonControl>
+        <Controls name="Null">
+            <Mode name="Main">
+                <Control name="ButtonA" command="click" event="start" sound="Null">
+                </Control>
+                <Control name="KeyEnter" command="click" event="start" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <Press>PLAY_SFX_2D_UI_FrontEndEnterMenu</Press>
+        </Sounds>
+    </UIButtonControl>
+    <UIMenuItemControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="ButtonA" command="accept" event="start" sound="Null">
+                </Control>
+                <Control name="KeyEnter" command="accept" event="start" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+    </UIMenuItemControl>
+    <UICheckedMenuItemControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="ButtonA" command="accept" event="start" sound="Null">
+                </Control>
+                <Control name="KeyEnter" command="accept" event="start" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+    </UICheckedMenuItemControl>
+    <UIScrollableTextFieldControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="StickRightUp" command="scrollUp" event="start stop" digital="Null" threshold="0.9" sound="Null">
+                </Control>
+                <Control name="StickRightDown" command="scrollDown" event="start stop" digital="Null" threshold="0.9" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+    </UIScrollableTextFieldControl>
+    <UIScrollingListControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="StickLeftUp" command="prev" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="StickLeftDown" command="next" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadUp" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadDown" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyUp" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyDown" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <Next>PLAY_SFX_2D_UI_FrontEndCursor</Next>
+            <Prev>PLAY_SFX_2D_UI_FrontEndCursor</Prev>
+            <StopBegin>PLAY_SFX_2D_UI_FrontEndMenuBackOut</StopBegin>
+            <StopEnd>PLAY_SFX_2D_UI_FrontEndMenuBackOut</StopEnd>
+            <ListTopEvent>PLAY_SFX_2D_UI_FrontEndMenuBackOut</ListTopEvent>
+            <ListBottomEvent>PLAY_SFX_2D_UI_FrontEndMenuBackOut</ListBottomEvent>
+        </Sounds>
+    </UIScrollingListControl>
+    <UITabControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="TriggerLeft" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="TriggerRight" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="ButtonShoulderLeft" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="ButtonShoulderRight" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+    </UITabControl>
+    <UICheckboxControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="ButtonA" command="toggle" event="start">
+                </Control>
+                <Control name="KeyEnter" command="toggle" event="start">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <Check>PLAY_SFX_2D_UI_FrontEndPositive</Check>
+            <Uncheck>PLAY_SFX_2D_UI_FrontEndNegative</Uncheck>
+        </Sounds>
+    </UICheckboxControl>
+    <UISliderControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="StickLeftLeft" command="stepDown" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2">
+                </Control>
+                <Control name="StickLeftRight" command="stepUp" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2">
+                </Control>
+                <Control name="DpadLeft" command="stepDown" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2">
+                </Control>
+                <Control name="DpadRight" command="stepUp" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2">
+                </Control>
+                <Control name="KeyLeft" command="stepDown" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2">
+                </Control>
+                <Control name="KEyRight" command="stepUp" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <ValueChanged>PLAY_SFX_2D_UI_FrontEndPositive</ValueChanged>
+        </Sounds>
+    </UISliderControl>
+    <UIOptionsMenuItemControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="ButtonB" command="cancel" event="start">
+                </Control>
+                <Control name="KeyEscape" command="cancel" event="start">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <FlyoutOpen>PLAY_SFX_2D_UI_FrontEndEnterMenu</FlyoutOpen>
+            <FlyoutClose>PLAY_SFX_2D_UI_FrontEndMenuBackOut</FlyoutClose>
+        </Sounds>
+    </UIOptionsMenuItemControl>
+    <UIMoviePlayerControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="StickLeftLeft" command="prev" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="StickLeftRight" command="next" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadLeft" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadRight" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyLeft" command="prev" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyRight" command="next" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+    </UIMoviePlayerControl>
+    <UIGridControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="StickLeftUp" command="up" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="StickLeftDown" command="down" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadUp" command="up" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadDown" command="down" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyUp" command="up" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KEyDown" command="down" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="StickLeftLeft" command="left" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="StickLeftRight" command="right" event="start" digital="Null" threshold="0.9" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadLeft" command="left" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="DpadRight" command="right" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyLeft" command="left" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+                <Control name="KeyRight" command="right" event="start" repeat="Null" delay="0.5" rate="0.2" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <NextVertical>PLAY_SFX_2D_UI_FrontEndCursor</NextVertical>
+            <PrevVertical>PLAY_SFX_2D_UI_FrontEndCursor</PrevVertical>
+            <NextHorizontal>PLAY_SFX_2D_UI_FrontEndCursor</NextHorizontal>
+            <PrevHorizontal>PLAY_SFX_2D_UI_FrontEndCursor</PrevHorizontal>
+            <StopTop>PLAY_SFX_2D_UI_FrontEndNegative</StopTop>
+            <StopBottom>PLAY_SFX_2D_UI_FrontEndNegative</StopBottom>
+            <StopLeft>PLAY_SFX_2D_UI_FrontEndNegative</StopLeft>
+            <StopRight>PLAY_SFX_2D_UI_FrontEndNegative</StopRight>
+        </Sounds>
+    </UIGridControl>
+    <UIGridCellControl>
+        <Controls name="Null">
+            <Mode name="Main">
+                <Control name="ButtonA" command="click" event="start" sound="Null">
+                </Control>
+                <Control name="KeyEnter" command="click" event="start" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <ItemSelected>PLAY_SFX_2D_UI_FrontEndPositive/ItemSelected</ItemSelected>
+        </Sounds>
+    </UIGridCellControl>
+    <UITwoColumnScrollTextFieldControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="StickRightUp" command="scrollDown" event="start stop" digital="Null" threshold="0.9" sound="Null">
+                </Control>
+                <Control name="StickRightDown" command="scrollUp" event="start stop" digital="Null" threshold="0.9" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+    </UITwoColumnScrollTextFieldControl>
+    <UIFlyoutListControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="ButtonA" command="select" event="start">
+                </Control>
+                <Control name="ButtonB" command="cancel" event="start">
+                </Control>
+                <Control name="KeyEnter" command="select" event="start">
+                </Control>
+                <Control name="KeyEscape" command="cancel" event="start">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <Open>PLAY_SFX_2D_UI_FrontEndPositive</Open>
+            <Close>PLAY_SFX_2D_UI_FrontEndMenuBackOut</Close>
+        </Sounds>
+    </UIFlyoutListControl>
+    <UITimelineEventControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="ButtonA" command="accept" event="start" sound="Null">
+                </Control>
+                <Control name="KeyEnter" command="accept" event="start" sound="Null">
+                </Control>
+            </Mode>
+        </Controls>
+    </UITimelineEventControl>
+    <UIInfoDialog>
+        <Controls>
+            <Mode name="Main">
+                <Control name="ButtonX" command="close" event="start">
+                </Control>
+            </Mode>
+        </Controls>
+    </UIInfoDialog>
+    <UILeaderboardREcordControl>
+        <Controls>
+            <Mode name="Main">
+                <Control name="ButtonA" command="select" event="start">
+                </Control>
+                <Control name="KeyEnter" command="select" event="start">
+                </Control>
+            </Mode>
+        </Controls>
+        <Sounds>
+            <Selected>PLAY_SFX_2D_UI_FrontEndPositive</Selected>
+        </Sounds>
+    </UILeaderboardREcordControl>
+</ControlList>

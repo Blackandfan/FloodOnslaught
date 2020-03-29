@@ -52,7 +52,7 @@
 	<Weapon>
 		<Name>Bomb</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>750</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>SuicideGrunt</WeaponType>
 		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>

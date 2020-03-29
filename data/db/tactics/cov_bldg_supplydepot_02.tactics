@@ -12,7 +12,25 @@
 		<Name>GatherSuppliesSquad</Name>
 		<ActionType>SquadActionGather</ActionType>
 	</Action>
+	<Action>
+		<Name>SpawnSpawner</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>flood_inf_spawner_01</SquadType>
+		<WorkRate>600</WorkRate>
+		<WorkRateVariance>100</WorkRateVariance>
+		<Anim>Gather</Anim>
+	</Action>
+	<Action>
+		<Name>SpawnCommander</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>flood_inf_commander_01</SquadType>
+		<WorkRate>2100</WorkRate>
+		<WorkRateVariance>500</WorkRateVariance>
+		<Anim>Gather</Anim>
+	</Action>
 	<Tactic>
+		<PersistentSquadAction>SpawnSpawner</PersistentSquadAction>
 		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+		<PersistentSquadAction>SpawnCommander</PersistentSquadAction>
 	</Tactic>
 </TacticData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="prologue_basebuilding_dome">
+	<model name="prologue_basebuilding_dome">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>archetypes\unsc\building\prologue_basebuilding_dome\mesh_prologue_basebuilding_dome</file>
+			</asset>
+		</component>
+	</model>
+	<model name="banished_antenna">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>hook\bldg\antenna\banished_antenna\mesh_banished_antenna</file>
+				<damagefile>hook/bldg/antenna/banished_antenna/banished_antenna</damagefile>
+			</asset>
+		</component>
+	</model>
+	<logic type="Tech">
+		<logicdata value="unsc_instant_upgrade" modelref="prologue_basebuilding_dome" weight="1" />
+		<logicdata value="cov_instant_upgrade" modelref="banished_antenna" weight="1" />
+	</logic>
+</visual>

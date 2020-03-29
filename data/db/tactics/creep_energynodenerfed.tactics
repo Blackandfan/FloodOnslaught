@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>0.4</WorkRate>
+		<WorkRange>2</WorkRange>
+		<ShareResourcesWithTeam />
+	</Action>
+    <Action>
+        <Name>GatherSupplies</Name>
+        <ActionType>Gather</ActionType>
+        <Anim>Gather</Anim>
+        <Resource>Power</Resource>
+        <WorkRate>0.4</WorkRate>
+        <WorkRange>2</WorkRange>
+        <ShareResourcesWithTeam />
+    </Action>
+	<Action>
+		<Name>GatherSuppliesSquad</Name>
+		<ActionType>SquadActionGather</ActionType>
+	</Action>
+	<Action>
+		<Name>ActionDrone</Name>
+		<ActionType>Drone</ActionType>
+		<Vivacity>2</Vivacity>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<WorkRange>22</WorkRange>
+		<MaxCharge>80</MaxCharge>
+		<RechargeDelay>3</RechargeDelay>
+	</Action>
+	<Tactic>
+		<PersistentAction>GatherPower</PersistentAction>
+        <PersistentAction>GatherSupplies</PersistentAction>
+		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>StealthManager</PersistentAction>
+		<PersistentAction>ActionDrone</PersistentAction>
+	</Tactic>
+</TacticData>

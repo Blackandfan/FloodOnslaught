@@ -1,0 +1,48 @@
+<RenderPasses>
+    <SetViewport group="CopyDepth">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+        <Depth minZ="0" maxZ="1">
+        </Depth>
+    </SetViewport>
+    <SetScissorRect group="CopyDepth">
+        <Coords x="0" y="0" relativeWidth="1" relativeHeight="1">
+        </Coords>
+    </SetScissorRect>
+    <SetRenderTargets group="CopyDepth">
+        <Target name="DepthCopy">
+        </Target>
+        <Target name="CsZBuffer">
+        </Target>
+    </SetRenderTargets>
+    <SetShader group="CopyDepth">
+        <Shader name="CopyDepthWithLinear">
+        </Shader>
+    </SetShader>
+    <SetTexture group="CopyDepth">
+        <Target name="Depth">
+        </Target>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </SetTexture>
+    <SamplerState group="CopyDepth">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Point" mag="Point" mip="Point">
+        </Filter>
+        <Index index="0">
+        </Index>
+    </SamplerState>
+    <DrawNoVertexBuffer group="CopyDepth">
+        <Primitive type="TriList" count="1">
+        </Primitive>
+    </DrawNoVertexBuffer>
+    <UnsetTexture group="CopyDepth">
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="0">
+        </Index>
+    </UnsetTexture>
+</RenderPasses>

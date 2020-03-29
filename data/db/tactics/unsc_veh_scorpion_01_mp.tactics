@@ -29,7 +29,7 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<DamagePerSecond>300</DamagePerSecond>
 		<WeaponType>ScorpionExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>

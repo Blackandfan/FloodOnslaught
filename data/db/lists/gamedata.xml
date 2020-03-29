@@ -311,10 +311,10 @@
 	<ChanceToRocket>0.100000001</ChanceToRocket>
 	<BuildingSelfDestructTime>3</BuildingSelfDestructTime>
 	<GlobalBuildingXPGrantLimit>5</GlobalBuildingXPGrantLimit>
-	<TributeAmountSupplies>200</TributeAmountSupplies>
-	<TributeCostSupplies>0.5</TributeCostSupplies>
-	<TributeAmountPower>200</TributeAmountPower>
-	<TributeCostPower>0.5</TributeCostPower>
+	<TributeAmountSupplies>50</TributeAmountSupplies>
+	<TributeCostSupplies>0</TributeCostSupplies>
+	<TributeAmountPower>50</TributeAmountPower>
+	<TributeCostPower>0</TributeCostPower>
 	<AirStrikeLoiterTime>5</AirStrikeLoiterTime>
 	<MaxDamageBankPctAdjust>0.300000012</MaxDamageBankPctAdjust>
 	<DamageBankTimer>7</DamageBankTimer>
@@ -329,74 +329,106 @@
 	</GoodAgainstReticle>
 	<MaxNumCorpses>75</MaxNumCorpses>
 	<MaxCorpseDisposalCount>10</MaxCorpseDisposalCount>
-	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
+	<InfantryCorpseDecayTime>9999999999999</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
 	<InfectionMap>
+		<InfectionMapEntry targetUnit="cov_inf_specialhonor_01">
+			<Infected weight="1" infectedUnit="cov_inf_specialhonor_01" infectedSquad="cov_inf_specialhonor_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_bruteHonour_01">
+			<Infected weight="1" infectedUnit="cov_inf_bruteHonour_01" infectedSquad="cov_inf_bruteHonour_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_omegateam_august_01">
+			<Infected weight="1" infectedUnit="unsc_inf_omegateam_august_01" infectedSquad="unsc_inf_omegateam_august_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_omegateam_leon_01">
+			<Infected weight="1" infectedUnit="unsc_inf_omegateam_leon_01" infectedSquad="unsc_inf_omegateam_leon_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_omegateam_robert_01">
+			<Infected weight="1" infectedUnit="unsc_inf_omegateam_robert_01" infectedSquad="unsc_inf_omegateam_robert_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_flamecyclops_01">
+			<Infected weight="1" infectedUnit="unsc_inf_flamecyclops_01" infectedSquad="unsc_inf_flamecyclops_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_jerome_mantis_01">
+			<Infected weight="1" infectedUnit="unsc_veh_jerome_mantis_01" infectedSquad="unsc_veh_jerome_mantis_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_gruntgoblin01">
+			<Infected weight="1" infectedUnit="cov_inf_gruntgoblin01" infectedSquad="cov_inf_gruntgoblin01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_johnson_hero_01">
+			<Infected weight="1" infectedUnit="unsc_inf_johnson_hero_01" infectedSquad="unsc_inf_johnson_hero_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_omegateam_jerome_01">
+			<Infected weight="1" infectedUnit="unsc_inf_omegateam_jerome_01" infectedSquad="unsc_inf_omegateam_jerome_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_serina_cryoleaderspawned_01">
+			<Infected weight="2" infectedUnit="unsc_inf_serina_cryoleaderspawned_01" infectedSquad="unsc_inf_serina_cryoleaderspawned_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_atrioxchosen_01">
+			<Infected weight="2" infectedUnit="cov_inf_atrioxchosen_01" infectedSquad="cov_inf_atrioxchosen_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_impervioushunter_01">
+			<Infected weight="2" infectedUnit="cov_inf_impervioushunter_01" infectedSquad="cov_inf_impervioushunter_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_arbiter_01">
+			<Infected weight="2" infectedUnit="cov_inf_arbiter_01" infectedSquad="cov_inf_arbiter_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_eliteCommando_01">
+			<Infected weight="2" infectedUnit="cov_inf_eliteCommando_01" infectedSquad="cov_inf_eliteCommando_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_generic_malemarine_01">
 			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_01" infectedSquad="flood_inf_infected_assaultrifle_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_02" infectedSquad="flood_inf_infected_assaultrifle_02" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_generic_femalemarine_01">
 			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_01" infectedSquad="flood_inf_infected_assaultrifle_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_02" infectedSquad="flood_inf_infected_assaultrifle_02" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_generic_engineer_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_rocket_01" infectedSquad="flood_inf_infected_rocket_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_odst_01">
-			<Infected weight="2" infectedUnit="flood_inf_infected_odst_01_base" infectedSquad="flood_inf_infected_odst_01_base" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
+			<Infected weight="15" infectedUnit="flood_inf_infected_assaultrifle_02" infectedSquad="flood_inf_infected_assaultrifle_02" deathByInfectionAnim="Transform" />
+			<Infected weight="10" infectedUnit="flood_inf_infected_odst_01_base" infectedSquad="flood_inf_infected_odst_01_base" deathByInfectionAnim="Transform" />
+			<Infected weight="10" infectedUnit="flood_inf_infected_rocket_01" infectedSquad="flood_inf_infected_rocket_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_sniper_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_sniper_01_base" infectedSquad="flood_inf_infected_sniper_01_base" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_flameMarine_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_hellbr_01" infectedSquad="flood_inf_infected_hellbr_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_flameMarine_02">
 			<Infected weight="2" infectedUnit="flood_inf_infected_hellbr_01" infectedSquad="flood_inf_infected_hellbr_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_cyclops_01">
-			<Infected weight="1" infectedUnit="flood_inf_infected_cyclops_01_base" infectedSquad="flood_inf_infected_cyclops_01_base" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="unsc_inf_cyclops_01" infectedSquad="unsc_inf_cyclops_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_serina_cryomarines_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_serina_cryomarines_01" infectedSquad="flood_inf_infected_serina_cryomarines_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_bruteLeader_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_brutemelee_01" infectedSquad="flood_inf_infected_brutemelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_arbiter_eliteLeader_01">
+		<InfectionMapEntry targetUnit="cov_inf_generic_arbiter_eliteLeader_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_elitemelee_01" infectedSquad="flood_inf_infected_elitemelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_arbiter_assaultteamleader_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_eliteplasmacaster_01" infectedSquad="flood_inf_infected_eliteplasmacaster_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_elitemelee_01" infectedSquad="flood_inf_infected_elitemelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_bruteJumpPack_01">
-			<Infected weight="1" infectedUnit="flood_inf_infected_brutemelee_01" infectedSquad="flood_inf_infected_brutemelee_01" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_jackal_01">
-			<Infected weight="2" infectedUnit="flood_inf_infected_elitecarbine_01" infectedSquad="flood_inf_infected_elitecarbine_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_elitemelee_01" infectedSquad="flood_inf_infected_elitemelee_01" deathByInfectionAnim="Transform" />
+			<Infected weight="2" infectedUnit="flood_inf_infected_elitecarbine_01" infectedSquad="flood_inf_infected_elitecarbine_01_single" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_arbiter_assaultteam_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
-			<Infected weight="1" infectedUnit="flood_inf_infected_elitemelee_01" infectedSquad="flood_inf_infected_elitemelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_bruterider_01">
-			<Infected weight="9" infectedUnit="flood_inf_infected_brutemelee_01" infectedSquad="flood_inf_infected_brutemelee_01" deathByInfectionAnim="Transform" />
+			<Infected weight="9" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_brutegrenadier_01">
-			<Infected weight="1" infectedUnit="flood_inf_infected_brutemelee_01" infectedSquad="flood_inf_infected_brutemelee_01" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_warthog_01">
 			<Infected weight="1" infectedUnit="flood_veh_infected_warthog_01_base" infectedSquad="flood_veh_infected_warthog_01_base" deathByInfectionAnim="Transform" />
@@ -405,28 +437,28 @@
 			<Infected weight="1" infectedUnit="flood_veh_infected_scorpion_01_base" infectedSquad="flood_veh_infected_scorpion_01_base" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_grizzly_01">
-			<Infected weight="1" infectedUnit="flood_veh_infected_grizzlybase_01" infectedSquad="flood_veh_infected_grizzlybase_01" deathByInfectionAnim="DeathByInfection" />
+			<Infected weight="1" infectedUnit="flood_veh_infected_grizzly_01_base" infectedSquad="flood_veh_infected_grizzly_01_base" deathByInfectionAnim="DeathByInfection" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_flamehog_01">
-			<Infected weight="1" infectedUnit="flood_veh_infected_flamehog_01" infectedSquad="flood_veh_infected_flamehog_01" deathByInfectionAnim="DeathByInfection" />
+			<Infected weight="1" infectedUnit="unsc_veh_flamehog_01" infectedSquad="unsc_veh_flamehog_01" deathByInfectionAnim="DeathByInfection" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_johnson_mantis_01">
-			<Infected weight="1" infectedUnit="flood_veh_infected_johnson_mantis_01" infectedSquad="flood_veh_infected_johnson_mantis_01" deathByInfectionAnim="DeathByInfection" />
+			<Infected weight="1" infectedUnit="unsc_veh_johnson_mantis_01" infectedSquad="unsc_veh_johnson_mantis_01" deathByInfectionAnim="DeathByInfection" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_johnson_colossus_01">
-			<Infected weight="1" infectedUnit="flood_veh_infected_johnson_colossus_01" infectedSquad="flood_veh_infected_johnson_colossus_01" deathByInfectionAnim="DeathByInfection" />
+			<Infected weight="1" infectedUnit="unsc_veh_johnson_colossus_01" infectedSquad="unsc_veh_johnson_colossus_01" deathByInfectionAnim="DeathByInfection" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_wolverine_01">
-			<Infected weight="1" infectedUnit="flood_veh_infected_wolverine_01_base" infectedSquad="flood_veh_infected_wolverine_01_base" deathByInfectionAnim="DeathByInfection" />
+			<Infected weight="1" infectedUnit="unsc_veh_wolverine_01" infectedSquad="unsc_veh_wolverine_01" deathByInfectionAnim="DeathByInfection" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_foxcannon_01">
-			<Infected weight="1" infectedUnit="flood_veh_infected_foxcannon_01_base" infectedSquad="flood_veh_infected_foxcannon_01_base" deathByInfectionAnim="DeathByInfection" />
+			<Infected weight="1" infectedUnit="unsc_veh_foxcannon_01" infectedSquad="unsc_veh_foxcannon_01" deathByInfectionAnim="DeathByInfection" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_battleapc_01">
-			<Infected weight="1" infectedUnit="flood_veh_infected_mastodon_01" infectedSquad="flood_veh_infected_mastodon_01" deathByInfectionAnim="DeathByInfection" />
+			<Infected weight="1" infectedUnit="unsc_veh_battleapc_01" infectedSquad="unsc_veh_battleapc_01" deathByInfectionAnim="DeathByInfection" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_veh_ghost_01">
-			<Infected infectedUnit="flood_veh_infected_ghost_01_base" infectedSquad="flood_veh_infected_ghost_01_base" deathByInfectionAnim="HijackLoop" />
+			<Infected infectedUnit="cov_veh_ghost_01" infectedSquad="cov_veh_ghost_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_veh_brutechopper_01">
 			<Infected infectedUnit="flood_veh_infected_bruteChopper_01_base" infectedSquad="flood_veh_infected_bruteChopper_01_base" deathByInfectionAnim="Transform" />
@@ -438,36 +470,39 @@
 			<Infected infectedUnit="flood_veh_infected_wraith_01_base" infectedSquad="flood_veh_infected_wraith_01_base" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_veh_gorgon_01">
-			<Infected infectedUnit="flood_veh_infected_gorgon_01_base" infectedSquad="flood_veh_infected_gorgon_01_base" deathByInfectionAnim="HijackLoop" />
+			<Infected infectedUnit="cov_veh_gorgon_01" infectedSquad="cov_veh_gorgon_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_veh_locust_01">
-			<Infected infectedUnit="flood_veh_infected_locust_01_base" infectedSquad="flood_veh_infected_locust_01_base" deathByInfectionAnim="HijackLoop" />
+			<Infected infectedUnit="cov_veh_locust_01" infectedSquad="cov_veh_locust_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_veh_grunt_methanewagon_01">
-			<Infected infectedUnit="flood_veh_infected_grunt_methanewagon_01" infectedSquad="flood_veh_infected_grunt_methanewagon_01" deathByInfectionAnim="HijackLoop" />
+			<Infected infectedUnit="cov_veh_grunt_methanewagon_01" infectedSquad="cov_veh_grunt_methanewagon_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_air_hornet_01">
-			<Infected infectedUnit="flood_air_infected_hornet_01_base" infectedSquad="flood_air_infected_hornet_01_base" deathByInfectionAnim="Transform" />
+		<InfectionMapEntry targetUnit="cov_inf_gruntswarmleader_01">
+			<Infected infectedUnit="flood_inf_infected_gruntmelee_01" infectedSquad="flood_inf_infected_gruntmelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_air_vulture_01">
-			<Infected infectedUnit="flood_air_infected_vulture_01_base" infectedSquad="flood_air_infected_vulture_01_base" deathByInfectionAnim="Transform" />
+		<InfectionMapEntry targetUnit="cov_inf_gruntswarm_01">
+			<Infected infectedUnit="flood_inf_infected_gruntmelee_01" infectedSquad="flood_inf_infected_gruntmelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_air_serina_pegasus_01">
-			<Infected infectedUnit="flood_air_infected_serina_pegasus_01" infectedSquad="flood_air_infected_serina_pegasus_01" deathByInfectionAnim="Transform" />
+		<InfectionMapEntry targetUnit="cov_inf_grunt_01">
+			<Infected infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_air_banshee_01">
-			<Infected infectedUnit="flood_air_infected_banshee_01_base" infectedSquad="flood_air_infected_banshee_01_base" deathByInfectionAnim="Transform" />
+		<InfectionMapEntry targetUnit="cov_inf_generic_elitegrunt_01">
+			<Infected infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_air_blisterback_01">
-			<Infected infectedUnit="flood_air_infected_blisterback_01_base" infectedSquad="flood_air_infected_blisterback_01_base" deathByInfectionAnim="Transform" />
+		<InfectionMapEntry targetUnit="cov_inf_heavygruntLeader_01">
+			<Infected infectedUnit="flood_inf_infected_gruntfuelrod_01" infectedSquad="flood_inf_infected_gruntfuelrod_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_air_phantom_01">
-			<Infected infectedUnit="flood_air_infected_phantom_01_base" infectedSquad="flood_air_infected_phantom_01_base" deathByInfectionAnim="Transform" />
+		<InfectionMapEntry targetUnit="cov_inf_heavygruntsubleader_01">
+			<Infected infectedUnit="flood_inf_infected_gruntfuelrod_01" infectedSquad="flood_inf_infected_gruntfuelrod_01" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="flood_inf_infected_heavygruntpistol_01">
+			<Infected infectedUnit="flood_inf_infected_heavygruntpistol_01" infectedSquad="flood_inf_infected_heavygruntpistol_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
 	</InfectionMap>
 	<MaxSquadPathsPerFrame>100</MaxSquadPathsPerFrame>
 	<MaxPlatoonPathsPerFrame>100</MaxPlatoonPathsPerFrame>
-	<DamageReceivedXPFactor>0.200000003</DamageReceivedXPFactor>
+	<DamageReceivedXPFactor>0</DamageReceivedXPFactor>
 	<FatalityMinInterval>40</FatalityMinInterval>
 	<FatalityTransitionScale>0.25</FatalityTransitionScale>
 	<FatalityMaxTransitionTime>1</FatalityMaxTransitionTime>
@@ -482,7 +517,7 @@
 		<BurningEffectLimitEntry Limit="3">Aircraft</BurningEffectLimitEntry>
 		<BurningEffectLimitEntry Limit="5">Building</BurningEffectLimitEntry>
 	</BurningEffectLimits>
-	<BaseRebuildTimer>30</BaseRebuildTimer>
+	<BaseRebuildTimer>120</BaseRebuildTimer>
 	<ObjectiveArrowRadialOffset>35</ObjectiveArrowRadialOffset>
 	<ObjectiveArrowSwitchOffset>30</ObjectiveArrowSwitchOffset>
 	<ObjectiveArrowMaxIndex>6</ObjectiveArrowMaxIndex>
@@ -540,7 +575,7 @@
 	<Dot small="4" medium="7" />
 	<DefaultCamoRevealRate>50</DefaultCamoRevealRate>
 	<CamoRechargeRate>100</CamoRechargeRate>
-	<MaxStealthDetectionRange>100</MaxStealthDetectionRange>
+	<MaxStealthDetectionRange>1000000</MaxStealthDetectionRange>
 	<StealthDetectionCheckInterval>0.200000003</StealthDetectionCheckInterval>
 	<SquadHPSCap>0.0500000007</SquadHPSCap>
 	<SquadHPSCapRosterMode>0.0500000007</SquadHPSCapRosterMode>

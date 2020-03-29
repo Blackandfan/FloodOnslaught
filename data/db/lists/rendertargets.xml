@@ -1,0 +1,332 @@
+<RenderTargets>
+    <RenderTarget name="GBufferRT0" group="GBuffer">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <Esram group="0" slot="0">
+        </Esram>
+        <ClearColor r="0" g="0" b="0" a="0.117">
+        </ClearColor>
+    </RenderTarget>
+    <RenderTarget name="GBufferRT1" group="GBuffer">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <Esram group="1" slot="0">
+        </Esram>
+        <ClearColor r="0.5" g="0.5" b="0.5" a="0.137">
+        </ClearColor>
+    </RenderTarget>
+    <RenderTarget name="GBufferRT2" group="GBuffer">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <ClearColor r="0" g="0" b="0" a="0.156">
+        </ClearColor>
+    </RenderTarget>
+    <RenderTarget name="GBufferRT3" group="GBuffer">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <ClearColor r="0" g="0" b="0" a="0">
+        </ClearColor>
+    </RenderTarget>
+    <DepthBuffer name="Depth" group="Depth">
+        <Format format="D32FS8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <DepthClear value="1">
+        </DepthClear>
+        <StencilClear value="0">
+        </StencilClear>
+    </DepthBuffer>
+    <RenderTarget name="DepthCopy" group="Depth">
+        <Format format="R32F">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <Esram group="2" slot="0">
+        </Esram>
+    </RenderTarget>
+    <DepthBuffer name="QuarterResDepth" group="Depth">
+        <Format format="D32FS8">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+        <DepthClear value="1">
+        </DepthClear>
+        <StencilClear value="0">
+        </StencilClear>
+    </DepthBuffer>
+    <DepthBuffer name="DirectionalLightDepth" group="Lighting">
+        <Format format="D16" amdFormat="D32">
+        </Format>
+        <Dimensions renderGlobalWidth="FullDirectionalShadowMapWidth" renderGlobalHeight="DirectionalShadowMapRes">
+        </Dimensions>
+    </DepthBuffer>
+    <DepthBuffer name="SpotLightDepth" group="Lighting">
+        <Format format="D16" amdFormat="D32">
+        </Format>
+        <Dimensions renderGlobalWidth="SpotShadowMapRes" renderGlobalHeight="SpotShadowMapRes">
+        </Dimensions>
+    </DepthBuffer>
+    <RenderTarget name="AlphaShadowAccum" group="Lighting">
+        <Format format="R8">
+        </Format>
+        <Dimensions renderGlobalWidth="FullDirectionalShadowMapWidth" renderGlobalHeight="DirectionalShadowMapRes">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="LightAccumulation" group="Lighting">
+        <Format format="R11G11B10F">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <Esram group="3" slot="0">
+        </Esram>
+    </RenderTarget>
+    <RenderTarget name="WaterRefraction" group="Water">
+        <Format format="R11G11B10F">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <Esram group="0" slot="1">
+        </Esram>
+    </RenderTarget>
+    <MipRenderTarget name="ScreenSpaceRefl" group="Lighting">
+        <Format format="R16G16B16A16F">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5" relativeMips="0.4">
+        </Dimensions>
+    </MipRenderTarget>
+    <MipRenderTarget name="ScreenSpaceReflTemp" group="Lighting">
+        <Format format="R16G16B16A16F">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+    </MipRenderTarget>
+    <RenderTarget name="QuarterResColour" group="Particles">
+        <Format format="R11G11B10F">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="QuarterResAlpha" group="Particles">
+        <Format format="R8">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="DistortionTarget" group="Particles">
+        <Format format="R16G16F">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="Downsampled2x2" group="PostProcessing">
+        <Format format="R11G11B10F">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="Bloom4x4" group="PostProcessing">
+        <Format format="R11G11B10F">
+        </Format>
+        <Dimensions relativeWidth="0.25" relativeHeight="0.25">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="Bloom4x4Temp" group="PostProcessing">
+        <Format format="R11G11B10F">
+        </Format>
+        <Dimensions relativeWidth="0.25" relativeHeight="0.25">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="BlurIntermediate" group="PostProcessing">
+        <Format format="R16G16B16A16F">
+        </Format>
+        <Dimensions width="480" height="270">
+        </Dimensions>
+        <UnorderedAccessView unorderedAccessView="true">
+        </UnorderedAccessView>
+    </RenderTarget>
+    <RenderTarget name="BlurWideOutput" group="PostProcessing">
+        <Format format="R16G16B16A16F">
+        </Format>
+        <Dimensions width="480" height="270">
+        </Dimensions>
+        <UnorderedAccessView unorderedAccessView="true">
+        </UnorderedAccessView>
+    </RenderTarget>
+    <RenderTarget name="PostProcessFinalHDRPreAA" group="PostProcessing">
+        <Format format="R11G11B10F">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <Esram group="1" slot="1">
+        </Esram>
+    </RenderTarget>
+    <RenderTarget name="Histogram" group="PostProcessing">
+        <Format format="R32U">
+        </Format>
+        <Dimensions renderGlobalWidth="HistogramBuckets" height="1">
+        </Dimensions>
+        <UnorderedAccessView unorderedAccessView="true">
+        </UnorderedAccessView>
+        <Esram group="1" slot="2">
+        </Esram>
+    </RenderTarget>
+    <Buffer name="HistogramDX12" group="PostProcessing">
+        <Format format="R32U">
+        </Format>
+        <Dimensions renderGlobalWidth="HistogramBuckets">
+        </Dimensions>
+        <UnorderedAccessView unorderedAccessView="true">
+        </UnorderedAccessView>
+    </Buffer>
+    <RenderTarget name="PostProcessFinal" group="PostProcessing">
+        <Format format="R8G8B8A8">
+        </Format>
+        <AliasFormat format="R8G8B8A8_SRGB">
+        </AliasFormat>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <Esram group="0" slot="3">
+        </Esram>
+    </RenderTarget>
+    <RenderTarget name="UIHDRIntermediate" group="PostProcessing">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <CrossAdapter crossAdapter="true" doubleBuffered="true">
+        </CrossAdapter>
+    </RenderTarget>
+    <RenderTarget name="PostProcessFinalHDR" group="PostProcessing">
+        <Format format="R11G11B10F">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="UIBlurDownsample4x4" group="UIBlur">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions width="480" height="270">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="UIBlurIntermediate" group="UIBlur">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions width="480" height="270">
+        </Dimensions>
+        <UnorderedAccessView unorderedAccessView="true">
+        </UnorderedAccessView>
+    </RenderTarget>
+    <RenderTarget name="UIBlurOutput" group="UIBlur">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions width="480" height="270">
+        </Dimensions>
+        <UnorderedAccessView unorderedAccessView="true">
+        </UnorderedAccessView>
+    </RenderTarget>
+    <RenderTarget name="SMAAEdge" group="PostProcessing">
+        <Format format="R8G8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="SMAABlendWeights" group="PostProcessing">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <Esram group="3" slot="1">
+        </Esram>
+    </RenderTarget>
+    <RenderTarget name="VisibilityTextureCurr" group="Visibility">
+        <Format format="R16F">
+        </Format>
+        <Dimensions width="512" height="512">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="VisibilityTexturePrev" group="Visibility">
+        <Format format="R16F">
+        </Format>
+        <Dimensions width="512" height="512">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="FogOfWarUI" group="Visibility">
+        <Format format="R8G8B8A8_SRGB">
+        </Format>
+        <Dimensions width="512" height="512">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="PlayableBoundaryUI" group="Visibility">
+        <Format format="R8G8B8A8_SRGB">
+        </Format>
+        <Dimensions width="512" height="512">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="FullsizeRGBZ" group="DOF">
+        <Format format="R16G16B16A16F">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="HalfsizeRGBZ" group="DOF">
+        <Format format="R16G16B16A16F">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="DOFColour" group="DOF">
+        <Format format="R16G16B16A16F">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="1.375" relativeWidthBias="32" relativeHeightBias="96">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="AO_Depth_ShadowMask" group="SSAO">
+        <Format format="A8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <ClearColor r="1" g="1" b="1" a="0">
+        </ClearColor>
+    </RenderTarget>
+    <RenderTarget name="BlurredFrameBuffer" group="SSAO">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1">
+        </Dimensions>
+        <ClearColor r="1" g="1" b="1" a="0">
+        </ClearColor>
+        <Esram group="3" slot="2">
+        </Esram>
+    </RenderTarget>
+    <RenderTarget name="AmbientOcclusion" group="Lighting">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+    </RenderTarget>
+    <RenderTarget name="AmbientOcclusionTMP" group="Lighting">
+        <Format format="R8G8B8A8">
+        </Format>
+        <Dimensions relativeWidth="0.5" relativeHeight="0.5">
+        </Dimensions>
+    </RenderTarget>
+    <MipRenderTarget name="CsZBuffer" group="SSAO">
+        <Format format="R32F">
+        </Format>
+        <Dimensions relativeWidth="1" relativeHeight="1" relativeMips="0.5">
+        </Dimensions>
+        <ClearColor r="0" g="0" b="0" a="0">
+        </ClearColor>
+        <Esram group="2" slot="0">
+        </Esram>
+    </MipRenderTarget>
+</RenderTargets>

@@ -1,0 +1,90 @@
+<RenderPasses>
+    <SetTileLightingConstantBuffer group="SetupTileRendering">
+    </SetTileLightingConstantBuffer>
+    <SetTextureMultiStage group="SetupTileRendering">
+        <Target name="SpotLightDepth">
+        </Target>
+        <Shader type="Pixel" index="13">
+        </Shader>
+        <Shader type="Vertex" index="13">
+        </Shader>
+        <Shader type="Compute" index="13">
+        </Shader>
+    </SetTextureMultiStage>
+    <SamplerState group="SetupTileRendering">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Comparison function="LessEqual" enabled="1">
+        </Comparison>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="13">
+        </Index>
+    </SamplerState>
+    <SamplerState group="SetupTileRendering">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Comparison function="LessEqual" enabled="1">
+        </Comparison>
+        <Shader type="Vertex">
+        </Shader>
+        <Index index="13">
+        </Index>
+    </SamplerState>
+    <SamplerState group="SetupTileRendering">
+        <Address u="Mirror" v="Mirror" w="Mirror">
+        </Address>
+        <Filter min="Linear" mag="Linear" mip="Linear">
+        </Filter>
+        <Comparison function="LessEqual" enabled="1">
+        </Comparison>
+        <Shader type="Compute">
+        </Shader>
+        <Index index="13">
+        </Index>
+    </SamplerState>
+    <SetTextureMultiStage group="SetupTileRendering">
+        <RenderGlobal name="TileLightingTileBuffer">
+        </RenderGlobal>
+        <Shader type="Pixel" index="15">
+        </Shader>
+        <Shader type="Vertex" index="15">
+        </Shader>
+        <Shader type="Compute" index="15">
+        </Shader>
+    </SetTextureMultiStage>
+    <SamplerState group="SetupTileRendering">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Point" mag="Point" mip="Point">
+        </Filter>
+        <Shader type="Pixel">
+        </Shader>
+        <Index index="15">
+        </Index>
+    </SamplerState>
+    <SamplerState group="SetupTileRendering">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Point" mag="Point" mip="Point">
+        </Filter>
+        <Shader type="Vertex">
+        </Shader>
+        <Index index="15">
+        </Index>
+    </SamplerState>
+    <SamplerState group="SetupTileRendering">
+        <Address u="Clamp" v="Clamp" w="Clamp">
+        </Address>
+        <Filter min="Point" mag="Point" mip="Point">
+        </Filter>
+        <Shader type="Compute">
+        </Shader>
+        <Index index="15">
+        </Index>
+    </SamplerState>
+</RenderPasses>

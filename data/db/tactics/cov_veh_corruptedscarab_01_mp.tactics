@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>ShadeTurret</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>290</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
@@ -28,7 +28,7 @@
 		<Corruption />
 		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMedium</ImpactEffect>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>1500</DamagePerSecond>
+		<DamagePerSecond>7500</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_Corruptedscarabbeam_mp</Projectile>
 		<DOTrate>60</DOTrate>

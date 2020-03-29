@@ -1,0 +1,23 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="BVOFHOGG_CALLOUT_ALLY_DOWN_INFANTRY_01">They took out our ground troops.</str>
+    <str id="BVOFHOGG_CALLOUT_ALLY_DOWN_INFANTRY_02">Looks like we lost some infantry.</str>
+    <str id="BVOFHOGG_CALLOUT_ALLY_DOWN_INFANTRY_03">Enemy&apos;s wiped out our ground troops.</str>
+    <str id="BVOFHOGG_CALLOUT_SENTINELS_ON_GUARD_01">Got eyes on Sentinels.</str>
+    <str id="BVOFHOGG_CALLOUT_SENTINELS_ON_GUARD_02">We got sentinels, over.</str>
+    <str id="BVOFHOGG_CALLOUT_SENTINELS_ON_GUARD_03">Sentinels in the area.</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_01_BSL01">Just warming up the turret.</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_01_BSL03">Turret&apos;s hot!</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_02_BSL01">Going in hot.</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_02_BSL03">Toastin&apos; time!</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_03_BSL01">Finger&apos;s on the trigger.</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_03_BSL03">Burn baby burn!</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_04_BSL01">Let&apos;s light this place up!</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_04_BSL03">They&apos;re gonna burn!</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_05_BSL01">Gonna get real hot!</str>
+    <str id="BVOFHOGG_ORDER_ATTACK_05_BSL03">Let&apos;s burn them out!</str>
+    <str id="BVOFHOGG_ORDER_MOVE_TO_POSITION_01_BSL03">Get me in close and I&apos;ll do the rest.</str>
+    <str id="BVOFHOGG_ORDER_MOVE_TO_POSITION_02_BSL03">Lemme get them in my sights.</str>
+    <str id="BVOFHOGG_ORDER_MOVE_TO_POSITION_03_BSL03">Turret is tracking.</str>
+    <str id="BVOFHOGG_ORDER_MOVE_TO_POSITION_04_BSL03">The closer the better.</str>
+    <str id="BVOFHOGG_ORDER_MOVE_TO_POSITION_05_BSL03">Time to get personal!</str>
+</string_table>

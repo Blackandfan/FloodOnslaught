@@ -1,0 +1,15 @@
+<string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.BODY.BISON">&lt;</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.BODY.CRYOLEADER">&lt;</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.BODY.CRYOTROOPER">&lt;</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.BODY.ICEBARRIER">&lt;</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.BODY.PEGASUS">&lt;</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.TITLE.BISON">Bison</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.TITLE.CRYOLEADER">Serina</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.TITLE.CRYOTROOPER">Cryo Trooper</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.TITLE.ICEBARRIER">Ice Barrier</str>
+    <str id="UIDLC41SER.CODEX.UNITSUNSC.TITLE.PEGASUS">Frostraven</str>
+    <str id="UIDLC41SER.LEADERSELECT.ROLE.CRYO.1">Hail Storm</str>
+    <str id="UIDLC41SER.LEADERSELECT.ROLE.CRYO.2">Counter Chill</str>
+    <str id="UIDLC41SER.LEADERSELECT.TITLE.CRYOLEADER">Serina</str>
+</string_table>

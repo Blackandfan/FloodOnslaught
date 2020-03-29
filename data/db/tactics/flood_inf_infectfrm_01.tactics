@@ -6,7 +6,7 @@
 		<WeaponType>InfectionForm</WeaponType>
 		<TimeToInfect>1</TimeToInfect>
 		<InfectionJumpDelay>0.25</InfectionJumpDelay>
-		<InfectionTargetType>Infantry</InfectionTargetType>
+		<InfectionTargetType>Military</InfectionTargetType>
 		<TargetPriority type="Infantry">8</TargetPriority>
 		<TargetPriority type="GroundVehicle">-1</TargetPriority>
 		<TargetPriority type="TurretBuilding">-1</TargetPriority>
@@ -18,7 +18,7 @@
 		<WeaponType>Basic</WeaponType>
 		<TimeToInfect>0.100000001</TimeToInfect>
 		<InfectionJumpDelay>0.25</InfectionJumpDelay>
-		<InfectionTargetType>Infantry</InfectionTargetType>
+		<InfectionTargetType>Military</InfectionTargetType>
 		<TargetPriority type="Infantry">-1</TargetPriority>
 		<TargetPriority type="GroundVehicle">5</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>

@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>MeleeAttack</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
+		<DamagePerSecond>800</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<MaxVelocityLead>18.4500008</MaxVelocityLead>
 		<MaxRange>25</MaxRange>

@@ -1,0 +1,8 @@
+<RenderPasses>
+    <DrawRenderItems group="AlphaShadows">
+        <Priority type="AlphaShadows">
+        </Priority>
+        <DrawRenderItem>
+        </DrawRenderItem>
+    </DrawRenderItems>
+</RenderPasses>
