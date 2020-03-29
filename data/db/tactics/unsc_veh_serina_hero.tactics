@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CryoMortar</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>350</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_cryoMortar_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoShellBlast1</ImpactEffect>
+		<MaxVelocityLead>30.2250004</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Hardpoint>CryoTurret</Hardpoint>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<Filter>Heavy</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0</PostAttackCooldownMax>
+		<Chill Amount="14" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="14" TargetType="GroundVehicle" />
+		<Chill Amount="14" TargetType="Aircraft" />
+		<Chill Amount="14" TargetType="BasicAircraft" />
+		<Chill Amount="9" TargetType="CryoBuilding" />
+		<Chill Amount="9" TargetType="TurretBuilding" />
+	</Weapon>
+	<Weapon>
+		<Name>CryoMortarAir</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>350</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_cryoMortar_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoShellBlastAir1</ImpactEffect>
+		<MaxVelocityLead>30.2250004</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Hardpoint>CryoTurret</Hardpoint>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<Filter>Heavy</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0</PostAttackCooldownMax>
+		<Chill Amount="14" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="14" TargetType="GroundVehicle" />
+		<Chill Amount="14" TargetType="Aircraft" />
+		<Chill Amount="14" TargetType="BasicAircraft" />
+		<Chill Amount="9" TargetType="CryoBuilding" />
+		<Chill Amount="9" TargetType="TurretBuilding" />
+	</Weapon>
+	<Weapon>
+		<Name>CryoMortarUpgrade</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>350</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_cryoMortar_02</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoShellBlast1</ImpactEffect>
+		<MaxVelocityLead>30.2250004</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Hardpoint>CryoTurret</Hardpoint>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<Filter>Heavy</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0</PostAttackCooldownMax>
+		<Chill Amount="16" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="16" TargetType="GroundVehicle" />
+		<Chill Amount="16" TargetType="Aircraft" />
+		<Chill Amount="16" TargetType="BasicAircraft" />
+		<Chill Amount="10" TargetType="CryoBuilding" />
+		<Chill Amount="10" TargetType="TurretBuilding" />
+	</Weapon>
+	<Weapon>
+		<Name>CryoMortarUpgradeAir</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>350</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_cryoMortar_02</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoShellBlastAir1</ImpactEffect>
+		<MaxVelocityLead>30.2250004</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Hardpoint>CryoTurret</Hardpoint>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Flying">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<Filter>Heavy</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0</PostAttackCooldownMax>
+		<Chill Amount="16" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="16" TargetType="GroundVehicle" />
+		<Chill Amount="16" TargetType="Aircraft" />
+		<Chill Amount="16" TargetType="BasicAircraft" />
+		<Chill Amount="10" TargetType="CryoBuilding" />
+		<Chill Amount="10" TargetType="TurretBuilding" />
+	</Weapon>
+	<Action>
+		<Name>CryoMortarAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>attack</Anim>
+		<Weapon>CryoMortar</Weapon>
+	</Action>
+	<Action>
+		<Name>CryoMortarAttackActionAir</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>attack</Anim>
+		<Weapon>CryoMortarAir</Weapon>
+	</Action>
+	<Action>
+		<Name>CryoMortarUpgradeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>attack</Anim>
+		<Weapon>CryoMortarUpgrade</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>CryoMortarUpgradeAttackActionAir</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>attack</Anim>
+		<Weapon>CryoMortarUpgradeAir</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>LockdownMove</Name>
+		<ActionType>Move</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Unlock</Name>
+		<ActionType>ChangeMode</ActionType>
+		<SquadMode>Normal</SquadMode>
+	</Action>
+	<Action>
+		<Name>ChillAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>55</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="13.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_cryoaura_01</ProtoObject>
+		<SquadMode>Lockdown</SquadMode>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ChillAuraBuildings</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>55</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="6.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject />
+		<SquadMode>Lockdown</SquadMode>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ChillAuraUpgrade</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>75</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="15.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_cryoaura_02</ProtoObject>
+		<SquadMode>Lockdown</SquadMode>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ChillAuraUpgradeBuildings</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>75</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="7.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject />
+		<SquadMode>Lockdown</SquadMode>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RMChillAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>30</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="10.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_cryoauratierblock_02</ProtoObject>
+		<SquadMode>Lockdown</SquadMode>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RMChillAuraBuildings</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>30</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="5.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_nanobots01</ProtoObject>
+		<SquadMode>Lockdown</SquadMode>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>8.61000061</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>8</WorkRange>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>ChillAura</PersistentAction>
+		<PersistentAction>ChillAuraBuildings</PersistentAction>
+		<PersistentAction>ChillAuraUpgrade</PersistentAction>
+		<PersistentAction>ChillAuraUpgradeBuildings</PersistentAction>
+		<PersistentAction>RMChillAura</PersistentAction>
+		<PersistentAction>RMChillAuraBuildings</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>CryoMortarAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>CryoMortarAttackActionAir</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>CryoMortarUpgradeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>CryoMortarUpgradeAttackActionAir</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Any</Relation>
+			<Action>Unlock</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>Unlock</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<Action>Unlock</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Any</Relation>
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

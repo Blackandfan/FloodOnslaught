@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MacCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_cannon_03</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>MacCannon</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>SpecialMacCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>9000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Ultimates</WeaponType>
+		<Projectile>fx_proj_condormac_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">CondorMacImpact</ImpactEffect>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>MacCannon</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>TargetingLaser</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_reddotsightupgraded_01</Projectile>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>95</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<Hardpoint>Laser</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>RelocateJump</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>FrontCentreGun</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>FrontCentreGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>FrontCentreGun</Hardpoint>
+		<UseGroupRange />
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.300000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>FrontRightGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>FrontRightGun</Hardpoint>
+		<UseGroupRange />
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.300000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>FrontLeftGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>FrontLeftGun</Hardpoint>
+		<UseGroupRange />
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.300000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>RearRightGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>RearRightGun</Hardpoint>
+		<UseGroupRange />
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.300000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>RearLeftGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>RearLeftGun</Hardpoint>
+		<UseGroupRange />
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.300000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>TargetingLaserAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LaserAttack</Anim>
+		<Weapon>TargetingLaser</Weapon>
+		<Beam collideWithUnits="true" collideWithTerrain="false" />
+		<Strafing maxDistance="100" turnRate="180" trackingSpeed="50" jitter="0" />
+	</Action>
+	<Action>
+		<Name>SpecialMacCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SpecialMacCannonAttack</Anim>
+		<Weapon>SpecialMacCannon</Weapon>
+		<DontAutoRestart />
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<SlaveAttackAction>TargetingLaserAction</SlaveAttackAction>
+	</Action>
+	<Action>
+		<Name>MacCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MacCannonAttack</Anim>
+		<Weapon>MacCannon</Weapon>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+	</Action>
+	<Action>
+		<Name>FrontCentreGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FrontCentreLaserAttack</Anim>
+		<Weapon>FrontCentreGun</Weapon>
+	</Action>
+	<Action>
+		<Name>FrontRightGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FrontRightLaserAttack</Anim>
+		<Weapon>FrontRightGun</Weapon>
+	</Action>
+	<Action>
+		<Name>FrontLeftGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FrontLeftLaserAttack</Anim>
+		<Weapon>FrontLeftGun</Weapon>
+	</Action>
+	<Action>
+		<Name>RearRightGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RearRightLaserAttack</Anim>
+		<Weapon>RearRightGun</Weapon>
+	</Action>
+	<Action>
+		<Name>RearLeftGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RearLeftLaserAttack</Anim>
+		<Weapon>RearLeftGun</Weapon>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Relocate</Name>
+		<ActionType>Jump</ActionType>
+		<Weapon>RelocateJump</Weapon>
+		<MaxRelativeHeight>150</MaxRelativeHeight>
+		<MinRelativeHeight>100</MinRelativeHeight>
+		<MaxJumpAnimDuration>15.0f</MaxJumpAnimDuration>
+		<MaxDistance>3000</MaxDistance>
+		<MinDistance>100</MinDistance>
+		<VelocityScalar>30</VelocityScalar>
+		<StartAnim noInterrupt="true" motionExtraction="true">Takeoff</StartAnim>
+		<Anim noInterrupt="true">RelocateLoop</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="true">Landing</EndAnim>
+	</Action>
+	<Tactic>
+		<PersistentAction>FrontCentreGunAttackAction</PersistentAction>
+		<PersistentAction>FrontRightGunAttackAction</PersistentAction>
+		<PersistentAction>FrontLeftGunAttackAction</PersistentAction>
+		<PersistentAction>RearRightGunAttackAction</PersistentAction>
+		<PersistentAction>RearLeftGunAttackAction</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SpecialMacCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MacCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontCentreGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontRightGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontLeftGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RearRightGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RearLeftGunAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

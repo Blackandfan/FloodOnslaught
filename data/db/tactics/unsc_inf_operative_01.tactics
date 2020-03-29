@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>StasisBeam</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Beam</WeaponType>
+		<Projectile>fx_proj_EMPbeam_01</Projectile>
+		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
+		<MaxVelocityLead>999</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Daze>
+		<Slow TargetType="Unit" MovementModifier="0.100000001" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Slow>
+		<HardPoint>Torso</HardPoint>
+	</Weapon>
+	<Weapon>
+		<Name>PlacedScoutBeacon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_bomb_01</Projectile>
+		<ImpactEffect size="Small">fuelrod_01</ImpactEffect>
+		<Mine>fx_mine_scoutBeacon_01</Mine>
+		<AlwaysReplaceTargetWithItsPosition />
+		<MaxRange>1.5</MaxRange>
+		<MaxPlantRange>10</MaxPlantRange>
+	</Weapon>
+	<Weapon>
+		<Name>BeaconEMP</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<ImpactEffect size="Medium" doShockwaveAction="true">OperativeEMP</ImpactEffect>
+		<AOERadius>35</AOERadius>
+		<Daze TargetType="Unit" MovementModifier="0" AffectsBuildings="true" SmartTargeting="false">2.0f</Daze>
+		<Shockwave duration="12" />
+	</Weapon>
+	<Weapon>
+		<Name>BaseEMP</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<ImpactEffect size="Medium" doShockwaveAction="true">OperativeEMP</ImpactEffect>
+		<AOERadius>35</AOERadius>
+		<Daze TargetType="Unit" MovementModifier="0" AffectsBuildings="true" SmartTargeting="false">2.0f</Daze>
+		<Shockwave duration="12" />
+	</Weapon>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<RechargeDelay>3</RechargeDelay>
+	</Action>
+	<Action>
+		<Name>StasisBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>HackAttack</Anim>
+		<Weapon>StasisBeam</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<DisableStealthWhileWorking />
+	</Action>
+	<Action>
+		<Name>PlaceBeaconAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Beacon</Anim>
+		<Weapon>PlacedScoutBeacon</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<DisableStealthWhileWorking />
+		<LoopAnim>BeaconLooping</LoopAnim>
+		<Duration>7</Duration>
+		<DeployUnit DestroyBuiltUnitOnInterrupt="true" StartDeployAnim="Emerge" DeployedAnim="Deploy" />
+	</Action>
+	<Action>
+		<Name>BrainstormAction</Name>
+		<ActionType>Brainstorm</ActionType>
+		<Weapon>BeaconEMP</Weapon>
+		<SecondaryWeapon>BaseEMP</SecondaryWeapon>
+		<WorkRange>50</WorkRange>
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
+		<SpecificData>
+			<HackingDuration>8</HackingDuration>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>0.5</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>unsc_air_pelican_01</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>unsc_air_pelican_01</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>MainBaseBuilding</TargetType>
+			<Action>BrainstormAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>PlaceBeaconAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>StasisBeamAttackAction</Action>
+		</TargetRule>
+		<PersistentAction>StealthManager</PersistentAction>
+	</Tactic>
+</TacticData>

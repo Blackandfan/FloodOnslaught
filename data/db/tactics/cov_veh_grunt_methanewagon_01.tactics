@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>TargetingLaser</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_reddotsight_01</Projectile>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<Hardpoint>Dummy</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>DriverAttack</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_plasmaPistol_01</Projectile>
+		<ImpactEffect size="small">PlasmaPistolImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>8</VisualAmmo>
+		<Hardpoint>Grunt_left</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>CrewAttack</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_plasmaPistol_01</Projectile>
+		<ImpactEffect size="small">PlasmaPistolImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>8</VisualAmmo>
+		<Hardpoint>Grunt_right</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>MethaneBeacon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1260</DamagePerSecond>
+		<UseDPSasDPA />
+		<Hardpoint>MethaneLauncher</Hardpoint>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<Mine>fx_mine_methaneBeacon_01</Mine>
+		<MaxRange>60</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>MethaneBeaconAlly</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1200</DamagePerSecond>
+		<UseDPSasDPA />
+		<Hardpoint>MethaneLauncher</Hardpoint>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<Mine>fx_mine_methaneBeacon_01</Mine>
+		<MaxRange>60</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AlwaysReplaceTargetWithItsPosition />
+	</Weapon>
+	<Weapon>
+		<Name>MethaneBeaconUpgrade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1300</DamagePerSecond>
+		<UseDPSasDPA />
+		<Hardpoint>MethaneLauncher</Hardpoint>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<Mine>fx_mine_methaneBeacon_02</Mine>
+		<MaxRange>60</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<StartDisabled />
+	</Weapon>
+	<Weapon>
+		<Name>MethaneBeaconUpgradeAlly</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1300</DamagePerSecond>
+		<UseDPSasDPA />
+		<Hardpoint>MethaneLauncher</Hardpoint>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<Mine>fx_mine_methaneBeacon_02</Mine>
+		<MaxRange>60</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<StartDisabled />
+		<AlwaysReplaceTargetWithItsPosition />
+	</Weapon>
+	<Weapon>
+		<Name>StandardDetonate</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>1600</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<MaxRange>14</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>14</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+				<IgnoreY />
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+				<IgnoreY />
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="true" SmartTargeting="false">3.0f</Daze>
+	</Weapon>
+	<Action>
+		<Name>StandardDetonateAction</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>StandardDetonate</Weapon>
+		<Anim>Death</Anim>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<DetonateOnDeath />
+		<ExplodeOnDeath />
+		<PlayDeathAnimation />
+	</Action>
+	<Action>
+		<Name>TargetingLaserAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>DummyAttack</Anim>
+		<Weapon>TargetingLaser</Weapon>
+		<Beam collideWithUnits="true" collideWithTerrain="false" />
+		<Strafing maxDistance="100" turnRate="180" trackingSpeed="50" jitter="0" />
+	</Action>
+	<Action>
+		<Name>DriverAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack1</Anim>
+		<Weapon>DriverAttack</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>CrewAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack2</Anim>
+		<Weapon>CrewAttack</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>25</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.800000012" DamageDealtModifier="1.20000005">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Grunt</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_MethaneAura2</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AreaDebuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>25</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneDebuff" DamageMitigationScalar="1.20000005" SlowModifier="0.800000012">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>AreaBuffUpgrade</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>35</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.800000012" DamageDealtModifier="1.20000005">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Grunt</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_MethaneAura3</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AreaDebuffUpgrade</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>35</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneDebuff" DamageMitigationScalar="1.20000005" SlowModifier="0.800000012">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MethaneBeaconAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">RangedAttack</Anim>
+		<Weapon>MethaneBeacon</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>MethaneBeaconAllyAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">RangedAttack</Anim>
+		<Weapon>MethaneBeaconAlly</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>MethaneBeaconUpgradeAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">RangedAttack</Anim>
+		<Weapon>MethaneBeaconUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MethaneBeaconUpgradeAllyAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">RangedAttack</Anim>
+		<Weapon>MethaneBeaconUpgradeAlly</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>AreaBuff</PersistentAction>
+		<PersistentAction>AreaBuffUpgrade</PersistentAction>
+		<PersistentAction>AreaDebuff</PersistentAction>
+		<PersistentAction>AreaDebuffUpgrade</PersistentAction>
+		<PersistentAction>CrewAttackAction</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>DriverAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>CrewAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>MethaneBeaconAction</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>MethaneBeaconAllyAction</Action>
+			<ExcludeTargetType>cov_veh_grunt_methanewagon_01</ExcludeTargetType>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>MethaneBeaconAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>MethaneBeaconUpgradeAction</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>MethaneBeaconUpgradeAllyAction</Action>
+			<ExcludeTargetType>cov_veh_grunt_methanewagon_01</ExcludeTargetType>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>MethaneBeaconUpgradeAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Hammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>320</DamagePerSecond>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>2</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<Filter>Medium</Filter>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>JumpAttackHammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
+		<UseDPSasDPA />
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<MinRange>0</MinRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<Daze TargetType="nonflying" MovementModifier="0.150000006" AOEEffect="true" SmartTargeting="false">4.0f</Daze>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>JumpAttackBombLineHammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>700</DamagePerSecond>
+		<Projectile>fx_proj_mineBruteFalling</Projectile>
+		<ImpactEffect size="Medium">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_jumpBrute_01</Mine>
+		<UseDPSasDPA />
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<MinRange>0.100000001</MinRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<Daze TargetType="nonflying" MovementModifier="0.150000006" AOEDaze="true" SmartTargeting="false" FromMeleeOnly="true">2.0f</Daze>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>RM_JumpAttackBombLineHammer</Name>
+		<Projectile>fx_proj_mineBruteFalling</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_jumpBrute_01_RM</Mine>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>800</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<MinRange>0.100000001</MinRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<Daze TargetType="infantry" MovementModifier="0.150000006" AOEDaze="true" SmartTargeting="false" FromMeleeOnly="true">2.0f</Daze>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Action>
+		<Name>HammerAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">MeleeAttack</Anim>
+		<Weapon>Hammer</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<Fatality attacker="fatality_jpbrute01_v_brutehon01_attacker_01" target="fatality_jpbrute01_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_elitehon01_attacker_01" target="fatality_jpbrute01_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_brute01_attacker_01" target="fatality_jpbrute01_v_brute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_eliteranger01_attacker_01" target="fatality_jpbrute01_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_spartan03_attacker_01" target="fatality_jpbrute01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_jpbrute01_attacker_01" target="fatality_jpbrute01_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_spartan04_attacker_01" target="fatality_jpbrute01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_spartan05_attacker_01" target="fatality_jpbrute01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_spartan03_attacker_01" target="fatality_jpbrute01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_spartan04_attacker_01" target="fatality_jpbrute01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_spartan05_attacker_01" target="fatality_jpbrute01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_marine01_attacker_01" target="fatality_jpbrute01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_marine01_attacker_01" target="fatality_jpbrute01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_marine01_attacker_01" target="fatality_jpbrute01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_marine01_attacker_01" target="fatality_jpbrute01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_flamer01_attacker_01" target="fatality_jpbrute01_v_flamer01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_fmarine01_attacker_01" target="fatality_jpbrute01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_fmarine01_attacker_01" target="fatality_jpbrute01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_odst01_attacker_01" target="fatality_jpbrute01_v_odst01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_sniper01_attacker_01" target="fatality_jpbrute01_v_sniper01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_spartan02_attacker_01" target="fatality_jpbrute01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
+		<Fatality attacker="fatality_jpbrute01_v_spartan02_attacker_01" target="fatality_jpbrute01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>JumpAttackAction</Name>
+		<ActionType>JumpAttack</ActionType>
+		<StartAnim noInterrupt="true" motionExtraction="true">JumpAttackTakeOff</StartAnim>
+		<Anim>JumpAttackArc</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">JumpAttackLand</EndAnim>
+		<Weapon>JumpAttackHammer</Weapon>
+		<MaxDistance>120</MaxDistance>
+		<MinRelativeHeight>27</MinRelativeHeight>
+		<MaxRelativeHeight>29</MaxRelativeHeight>
+		<VelocityScalar>40</VelocityScalar>
+		<LandingDelay>0.400000006</LandingDelay>
+		<JumpArcLerpWindow>0.200000003</JumpArcLerpWindow>
+		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
+	</Action>
+	<Action>
+		<Name>LongRangeJumpAttackAction</Name>
+		<ActionType>JumpAttack</ActionType>
+		<StartAnim noInterrupt="true" motionExtraction="true">JumpAttackTakeOff</StartAnim>
+		<Anim>JumpAttackArc</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">JumpAttackLand</EndAnim>
+		<Weapon>JumpAttackHammer</Weapon>
+		<MaxDistance>250</MaxDistance>
+		<MinRelativeHeight>27</MinRelativeHeight>
+		<MaxRelativeHeight>29</MaxRelativeHeight>
+		<VelocityScalar>40</VelocityScalar>
+		<LandingDelay>0.400000006</LandingDelay>
+		<JumpArcLerpWindow>0.200000003</JumpArcLerpWindow>
+		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>JumpAttackBombLineAction</Name>
+		<ActionType>JumpAttackBombLine</ActionType>
+		<StartAnim noInterrupt="true" motionExtraction="true">JumpAttackTakeOff</StartAnim>
+		<Anim>JumpAttackArc</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">JumpAttackLand</EndAnim>
+		<Weapon>JumpAttackBombLineHammer</Weapon>
+		<MaxDistance>120</MaxDistance>
+		<MinRelativeHeight>27</MinRelativeHeight>
+		<MaxRelativeHeight>29</MaxRelativeHeight>
+		<VelocityScalar>40</VelocityScalar>
+		<LandingDelay>0.400000006</LandingDelay>
+		<JumpArcLerpWindow>0.200000003</JumpArcLerpWindow>
+		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RM_JumpAttackBombLineAction</Name>
+		<ActionType>JumpAttackBombLine</ActionType>
+		<StartAnim noInterrupt="true">JumpAttackTakeOff</StartAnim>
+		<Anim>JumpAttackArc</Anim>
+		<EndAnim noInterrupt="true" endAnimBlendPosToGroundPoint="0.449999988">JumpAttackLand</EndAnim>
+		<Weapon>RM_JumpAttackBombLineHammer</Weapon>
+		<MaxDistance>120</MaxDistance>
+		<MinRelativeHeight>27</MinRelativeHeight>
+		<MaxRelativeHeight>29</MaxRelativeHeight>
+		<VelocityScalar>40</VelocityScalar>
+		<LandingDelay>0.400000006</LandingDelay>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture02</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture02</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>HammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>JumpAttackAction</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>JumpAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>LongRangeJumpAttackAction</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>LongRangeJumpAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>JumpAttackBombLineAction</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>JumpAttackBombLineAction</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RM_JumpAttackBombLineAction</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>RM_JumpAttackBombLineAction</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
+	</Tactic>
+</TacticData>

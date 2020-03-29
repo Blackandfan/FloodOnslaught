@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>orbitaleye_targetpaint</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>60</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="PaintTarget" DamageMitigationScalar="1.14999998" SlowModifier="0.800000012">0.5f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+				<Relation>Neutral</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc2_units_masterchiefinspire</ProtoObject>
+	</Action>
+	<Action>
+		<Name>orbitaleye_targetpaintBuilding</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>60</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="PaintTarget" DamageMitigationScalar="1.04999995">0.5f</BuffParams>
+			<TargetTypes>
+				<Type>Building</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+				<Relation>Neutral</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc2_units_masterchiefinspire</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>orbitaleye_targetpaint</PersistentAction>
+		<PersistentAction>orbitaleye_targetpaintBuilding</PersistentAction>
+	</Tactic>
+</TacticData>

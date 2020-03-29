@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<SquadInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MergedSquads>
+		<MainSquadToMerge>unsc_inf_spartan_01</MainSquadToMerge>
+		<SquadsToMergeInto>
+			<MergedSquad>unsc_inf_marine_01</MergedSquad>
+			<MergedSquad>unsc_inf_odst_01</MergedSquad>
+			<MergedSquad>unsc_inf_flamemarine_01</MergedSquad>
+		</SquadsToMergeInto>
+	</MergedSquads>
+	<ShieldBubbleTypes>
+		<DefaultShieldBubbleSquadType>sys_bubbleshield_small_01</DefaultShieldBubbleSquadType>
+		<OverridesForSpecificTypes>
+			<ShieldBubble target="unsc_air_vulture_01">sys_bubbleshield_med_01</ShieldBubble>
+			<ShieldBubble target="unsc_veh_scorpion_01">sys_bubbleshield_med_01</ShieldBubble>
+			<ShieldBubble target="unsc_veh_grizzly_01">sys_bubbleshield_med_01</ShieldBubble>
+			<ShieldBubble target="cov_veh_scarab_01">sys_bubbleshield_large_01</ShieldBubble>
+		</OverridesForSpecificTypes>
+	</ShieldBubbleTypes>
+</SquadInfo>

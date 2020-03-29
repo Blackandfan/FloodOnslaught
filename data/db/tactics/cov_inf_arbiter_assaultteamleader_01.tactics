@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>InCoverPlasmaCaster</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>PlasmaCaster</WeaponType>
+		<Projectile>vfx_dlc2_units_plasmacaster</Projectile>
+		<ImpactEffect size="small">PlasmaCasterImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>10.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<VisualAmmo>4</VisualAmmo>
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaCaster</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>PlasmaCaster</WeaponType>
+		<Projectile>vfx_dlc2_units_plasmacaster</Projectile>
+		<ImpactEffect size="Medium">PlasmaCasterImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>10.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<VisualAmmo>4</VisualAmmo>
+	</Weapon>
+	<Weapon>
+		<Name>AirPlasmaCaster</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>PlasmaCaster</WeaponType>
+		<Projectile>vfx_dlc2_units_plasmacaster</Projectile>
+		<ImpactEffect size="Medium">PlasmaCasterImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>10.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Flying">10</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<VisualAmmo>4</VisualAmmo>
+	</Weapon>
+	<Weapon>
+		<Name>Grenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>33</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>vfx_dlc2_units_plasmagrenadetrail</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">PlasmaGrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>9</Radius>
+				<DamageRatio>20</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>4</PreAttackCooldownMax>
+		<PostAttackCooldownMin>8</PostAttackCooldownMin>
+		<PostAttackCooldownMax>8</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverGrenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>33</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>vfx_dlc2_units_plasmagrenadetrail</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">PlasmaGrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>9</Radius>
+				<DamageRatio>20</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>4</PreAttackCooldownMax>
+		<PostAttackCooldownMin>8</PostAttackCooldownMin>
+		<PostAttackCooldownMax>8</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>StasisGrenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>vfx_dlc2_units_stasisgrenadetrail</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">StasisGrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<ThrowUnits />
+		<TargetPriority type="Flying">-1</TargetPriority>
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Filter>Light</Filter>
+		<Buff TargetType="TurretBuilding" BuffType="ArbiterStasis">2.5f</Buff>
+		<Buff TargetType="UberUnit" BuffType="ArbiterStasis">2.5f</Buff>
+		<Buff TargetType="Hero" BuffType="ArbiterStasis">2.5f</Buff>
+		<Buff TargetType="BasicInfantry" BuffType="ArbiterStasis">5.0f</Buff>
+		<Buff TargetType="BasicVehicle" BuffType="ArbiterStasis">5.0f</Buff>
+		<Buff TargetType="Building" BuffType="ArbiterStasis">5.0f</Buff>
+	</Weapon>
+	<Action>
+		<Name>InCoverPlasmaCasterAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>InCoverPlasmaCaster</Weapon>
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>AirPlasmaCasterAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<Weapon>AirPlasmaCaster</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>PlasmaCasterAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<Weapon>PlasmaCaster</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>InCoverGrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AttackGrenade</Anim>
+		<Weapon>InCoverGrenade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AttackGrenade</Anim>
+		<Weapon>Grenade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<FindBetterAction />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>StasisGrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>StasisGrenade</Anim>
+		<SupportAnim>CombatIdle</SupportAnim>
+		<Weapon>StasisGrenade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverGrenadeAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverPlasmaCasterAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirPlasmaCasterAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>PlasmaCasterAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>StasisGrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetType>NonFlying</TargetType>
+			<Action>StasisGrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverGrenadeAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+	</Tactic>
+</TacticData>

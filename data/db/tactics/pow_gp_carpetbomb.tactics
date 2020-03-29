@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>bombingRun</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_carpetbomb</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>6.1500001</MaxRange>
+		<Accuracy>0.330000013</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
+		<MovingAccuracy>0.330000013</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4.9000001</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>bombingRunAttackAction</Name>
+		<Weapon>bombingRun</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

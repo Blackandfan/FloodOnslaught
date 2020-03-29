@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Brutegun</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_bruteGun_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>4.92000008</MaxVelocityLead>
+		<MaxRange>21.5249996</MaxRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>8</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1.23000002</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Brutegun</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

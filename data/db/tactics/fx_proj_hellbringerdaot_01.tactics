@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>NapalmBurn</Name>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>AntiBuildingFire</WeaponType>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="5" />
+		<AOERadius>7</AOERadius>
+	</Weapon>
+	<Action>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>NapalmBurn</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

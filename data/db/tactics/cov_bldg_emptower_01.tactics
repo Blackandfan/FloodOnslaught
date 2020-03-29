@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>EMPWeapon</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Grenade</WeaponType>
+		<MaxRange>45</MaxRange>
+		<Projectile>fx_proj_empweapon_01</Projectile>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<Hardpoint>PlasmaCannonLeftTurret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>45</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>false</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<AlwaysReplaceTargetWithItsPosition />
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Daze TargetType="Forerunner" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.5f</Daze>
+	</Weapon>
+	<Action>
+		<Name>EMPWeaponAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PulseAttack</Anim>
+		<Weapon>EMPWeapon</Weapon>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+	</Action>
+	<Action>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>45</WorkRange>
+		<ProtoObject>fx_nanobots02</ProtoObject>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Forerunner</TargetType>
+			<Action>EMPWeaponAction</Action>
+		</TargetRule>
+		<PersistentAction>EMPWeaponAction</PersistentAction>
+		<PersistentAction>AreaBuff</PersistentAction>
+	</Tactic>
+</TacticData>

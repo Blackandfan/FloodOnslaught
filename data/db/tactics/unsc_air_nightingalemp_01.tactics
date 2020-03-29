@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SmokeBombWeapon</Name>
+		<AttackRate>30</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_smokeMissileMP_01</Projectile>
+		<ImpactEffect size="Medium" doShockwaveAction="true" alwaysHorizontal="true">NightgaleSmokeBomb</ImpactEffect>
+		<MaxRange>50</MaxRange>
+		<Hardpoint>SmokeGun</Hardpoint>
+		<AlwaysReplaceTargetWithItsPosition />
+	</Weapon>
+	<Action>
+		<Name>SmokeBombAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>SmokeBombWeapon</Weapon>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<DontAutoRestart />
+		<DontCheckOrientTolerance />
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>12</WorkRange>
+		<WorkRate>0.0179999992</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="35" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<AttachmentName>nightingaleDrone_Body_01</AttachmentName>
+					<BoneName>bone_vfx_CameraPoint</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>15</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<UseMainHealingTargetWhenAvailable />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<AttachmentName>nightingaleDrone_Body_02</AttachmentName>
+					<BoneName>bone_vfx_CameraPoint</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>15</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<AttachmentName>nightingaleDrone_Body_03</AttachmentName>
+					<BoneName>bone_vfx_CameraPoint</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>15</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<PrioritiseByHp />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1.84500003</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Any</Relation>
+			<TargetType>Military</TargetType>
+			<Action>SmokeBombAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Any</Relation>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>SmokeBombAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<Action>RepairOther</Action>
+			<TargetType>Military</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>RepairOther</PersistentAction>
+	</Tactic>
+</TacticData>

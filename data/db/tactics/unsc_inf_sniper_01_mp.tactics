@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SniperRifle</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">AutoCannonImpact</ImpactEffect>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Mine">1</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+		<TargetPriority type="GroundVehicle">-1</TargetPriority>
+		<TargetPriority type="Turretbuilding">-1</TargetPriority>
+		<TargetPriority type="building">-1</TargetPriority>
+		<VisualAmmo>1</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.89999998</PostAttackCooldownMax>
+		<RequirePreciseAiming />
+	</Weapon>
+	<Weapon>
+		<Name>StanchionRifle</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>157.5</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>140</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Mine">1</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+		<TargetPriority type="GroundVehicle">-1</TargetPriority>
+		<TargetPriority type="Turretbuilding">-1</TargetPriority>
+		<TargetPriority type="building">-1</TargetPriority>
+		<VisualAmmo>1</VisualAmmo>
+		<Slow TargetType="Infantry" MovementModifier="0.600000024" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.0f</Slow>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.29999995</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<RequirePreciseAiming />
+	</Weapon>
+	<Weapon>
+		<Name>FireFlare</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_sniperflare_01</Projectile>
+		<ImpactEffect size="Small">GrenadeExplosion</ImpactEffect>
+		<Mine>fx_mine_sniperrevealer_01</Mine>
+		<MaxRange>125</MaxRange>
+		<AlwaysReplaceTargetWithItsPosition />
+		<RequirePreciseAiming />
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverSniperRifle</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">AutoCannonImpact</ImpactEffect>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>140</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Turretbuilding">3</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<VisualAmmo>1</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverStanchionRifle</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>140</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Turretbuilding">3</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<VisualAmmo>1</VisualAmmo>
+		<Slow TargetType="Infantry" MovementModifier="0.600000024" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.0f</Slow>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>SniperRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SniperRifleAttack</Anim>
+		<MoveAnim>JogSniperRifleAttack</MoveAnim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>SniperRifle</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>StanchionRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>StanchionRifleAttack</Anim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>StanchionRifle</Weapon>
+		<MoveAnim>JogStanchionRifleAttack</MoveAnim>
+		<FullBodyAttackAnim />
+		<StartDisabled />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>FireFlareAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SniperRifleFlareAttack</Anim>
+		<Weapon>FireFlare</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>InCoverSniperRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>InCoverSniperRifleAttack</Anim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>SniperRifle</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>InCoverStanchionRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>InCoverStanchionRifleAttack</Anim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>StanchionRifle</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>PersonalCloak</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>LockdownMove</Name>
+		<ActionType>Move</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Unlock</Name>
+		<ActionType>ChangeMode</ActionType>
+		<SquadMode>Normal</SquadMode>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>8.61000061</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>0.600000024</CaptureRate>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>unsc_veh_sniperdrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>SniperRifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>StanchionRifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>InCoverSniperRifleAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>InCoverStanchionRifleAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Mine</TargetType>
+			<Action>SniperRifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Mine</TargetType>
+			<Action>StanchionRifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Mine</TargetType>
+			<Action>InCoverSniperRifleAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Mine</TargetType>
+			<Action>InCoverStanchionRifleAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>SniperRifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>StanchionRifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>OpenGarrison</TargetType>
+			<Action>SniperRifleAttackAction</Action>
+		</TargetRule>
+		<PersistentAction>PersonalCloak</PersistentAction>
+		<PersistentAction>SpawnDrone</PersistentAction>
+	</Tactic>
+</TacticData>

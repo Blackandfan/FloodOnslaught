@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Pelican</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>2</DeliveryDelay>
+		<AllowDuplicate />
+	</Action>
+	<Tactic />
+</TacticData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<fogOfWarConfig>
+	<exploredBrightness>0.5</exploredBrightness>
+	<unexploredBrightness>0.180000007</unexploredBrightness>
+	<maskBrightness>0.230000004</maskBrightness>
+	<edgeOfWorldTransition>14</edgeOfWorldTransition>
+	<unexploredMaskUVMultiplier>0.075000003</unexploredMaskUVMultiplier>
+	<exploredBrightnessUI>0.699999988</exploredBrightnessUI>
+	<unexploredBrightnessUI>0.35f</unexploredBrightnessUI>
+	<exploredSaturation>0.449999988</exploredSaturation>
+	<occupiedBlurDistance>8</occupiedBlurDistance>
+	<unoccupiedBlurDistance>8</unoccupiedBlurDistance>
+	<maskBlurDistance>8</maskBlurDistance>
+	<tintColour r="1" g="1" b="1" />
+	<fowTransition transition="reveal">
+		<duration>1</duration>
+		<toggleObjectTime>1</toggleObjectTime>
+		<fadeBeginTime>0</fadeBeginTime>
+		<fadeEndTime>0</fadeEndTime>
+	</fowTransition>
+	<fowTransition transition="hide">
+		<duration>1</duration>
+		<toggleObjectTime>0</toggleObjectTime>
+		<fadeBeginTime>0</fadeBeginTime>
+		<fadeEndTime>0</fadeEndTime>
+	</fowTransition>
+</fogOfWarConfig>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ThrowAttack</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>4</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_grenadeodst_01</Projectile>
+		<ImpactEffect size="Medium">GruntSwarmGrenadeImpact</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>10</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Aircraft">2</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>ThrowAttackUpgrade</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>11</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_gruntSwarmGrenadeTrailUpgrade</Projectile>
+		<ImpactEffect size="Medium">GruntSwarmGrenadeImpactUpgrade</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>10</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Aircraft">2</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Melee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>5</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<MaxRange>3</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Vehicle">4</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>MeleeUpgrade</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>15</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<MaxRange>3</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Vehicle">4</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<Slow TargetType="Unit" MovementModifier="0.600000024" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.0f</Slow>
+	</Weapon>
+	<Action>
+		<Name>ThrowAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaGrenadeAttack</Anim>
+		<Weapon>ThrowAttack</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>ThrowAttackUpgradeAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaGrenadeAttack</Anim>
+		<Weapon>ThrowAttackUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<StartDisabled />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Weapon>Melee</Weapon>
+		<FullBodyAttackAnim />
+		<Anim>PlasmaPistolAttack</Anim>
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>MeleeUpgradeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>UpgradeAttack</Anim>
+		<Weapon>MeleeUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>0.5</CaptureRate>
+		<DecaptureRate>0.649999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>HealthRegen</Name>
+		<ActionType>SquadHealthRegen</ActionType>
+		<WorkRate>50</WorkRate>
+		<ReviveHealth>50</ReviveHealth>
+		<RegenDelay>3</RegenDelay>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MeleeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MeleeUpgradeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ThrowAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ThrowAttackUpgradeAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ThrowAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ThrowAttackUpgradeAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

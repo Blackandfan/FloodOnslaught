@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LightCannon1</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>750</DamagePerSecond>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_chainGun_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Turretbuilding">1</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>LightCannon1AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>LightCannon1</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20" />
+		<Duration DurationSpread="0.5">2.5</Duration>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<ForceAttachmentAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ChillAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>25</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="10.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc4_units_cryoauratierdefence</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<PersistentAction>ChillAura</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LightCannon1AttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

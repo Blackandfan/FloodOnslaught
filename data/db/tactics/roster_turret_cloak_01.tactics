@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>CloakArea</Name>
+		<ActionType>UnitCloakArea</ActionType>
+		<CloakAreaTarget>Unit</CloakAreaTarget>
+		<WorkRange>50</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>CloakArea</PersistentAction>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Claws</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>840</DamagePerSecond>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>RazorClaws</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>840</DamagePerSecond>
+		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>RazorClawsVehicle</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>940</DamagePerSecond>
+		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>Ram</Name>
+		<WeaponType>InfantryRam</WeaponType>
+		<DamagePerSecond>700</DamagePerSecond>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactEffect size="medium">RamImpact</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<MaxDamagePerRam>2500</MaxDamagePerRam>
+		<ReflectDamageFactor>1</ReflectDamageFactor>
+		<Filter>Medium</Filter>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<MaxInfantrySquadsPerRam>7</MaxInfantrySquadsPerRam>
+	</Weapon>
+	<Weapon>
+		<Name>RamSecondary</Name>
+		<WeaponType>InfantryRam</WeaponType>
+		<DamagePerSecond>700</DamagePerSecond>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactEffect size="medium">RamImpactInfantry</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.200000003" yawpitchstrength="0.400000006" rollstrength="0.200000003" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<MaxDamagePerRam>2500</MaxDamagePerRam>
+		<ReflectDamageFactor>0</ReflectDamageFactor>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>500</WorkRange>
+		<WorkRate>1.00000034E-06</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="true" AutoRepairIdleTime="0" AutoRepairSearchDistance="500" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
+					<BoneName>bone_spine_03</BoneName>
+					<MaxHealingDistance>500</MaxHealingDistance>
+					<TargetType>dlc4_archetypes_m02impervioushunter_01</TargetType>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<UseMainHealingTargetWhenAvailable />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>ClawAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">Attack</Anim>
+		<Weapon>Claws</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>RazorClawVehicleAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">AttackUpgrade</Anim>
+		<Weapon>RazorClawsVehicle</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RazorClawAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">AttackUpgrade</Anim>
+		<Weapon>RazorClaws</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<State>
+		<Name>RamState</Name>
+		<WalkAnim>Run</WalkAnim>
+		<RunAnim>Run</RunAnim>
+		<JogAnim>Run</JogAnim>
+	</State>
+	<Action>
+		<Name>RamAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>PersistentCollisionAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>Ram</Weapon>
+		<SecondaryWeapon>RamSecondary</SecondaryWeapon>
+		<NewTacticState>RamState</NewTacticState>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture02</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<PersistentAction>RepairOther</PersistentAction>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>dlc4_archetypes_m02impervioushunter_01</TargetType>
+			<Action>RepairOther</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Infantry</TargetType>
+			<Action>RamAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture02</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ClawAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>RazorClawVehicleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>RazorClawAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>AirToAirMissileLauncher</Name>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_obj_firestarter_grunt</Projectile>
+		<ImpactEffect size="Large">FirestarterGrunt</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>16</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>DAOTweapon</Name>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_obj_firestarter_grunt</Projectile>
+		<ImpactEffect size="Large" doShockwaveAction="true">FirestarterGrunt</ImpactEffect>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="10" />
+		<AOERadius>15</AOERadius>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>AirToAirMissileLauncher</Weapon>
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>DAOTweapon</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

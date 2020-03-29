@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FoxyWeapon</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<PostAttackCooldownMin>6.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>6.5</PostAttackCooldownMax>
+		<WeaponType>Artillery</WeaponType>
+		<Projectile>fx_proj_foxcannon_01</Projectile>
+		<ImpactEffect size="Medium">LargeExplosionImpact</ImpactEffect>
+		<MaxVelocityLead>28</MaxVelocityLead>
+		<MaxRange>270</MaxRange>
+		<MinRange>50</MinRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>FoxyWeaponChill</Name>
+		<Chill Amount="12" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="12" TargetType="GroundVehicle" />
+		<Chill Amount="12" TargetType="CryoBuilding" />
+		<Chill Amount="12" TargetType="TurretBuilding" />
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<PostAttackCooldownMin>6.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>6.5</PostAttackCooldownMax>
+		<WeaponType>Artillery</WeaponType>
+		<Projectile>fx_proj_foxcannon_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoBlast1</ImpactEffect>
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>270</MaxRange>
+		<MinRange>50</MinRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Mine>unsc_bldg_siegeicecloud_01</Mine>
+	</Weapon>
+	<Action>
+		<Name>FoxyFireAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FoxyWeapon</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>FoxyFireChillAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FoxyWeaponChill</Weapon>
+		<FullBodyAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SiegegunLureBeaconAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FoxyWeapon</Weapon>
+		<ProjectileInvokePower>UnscLureBeaconProc</ProjectileInvokePower>
+		<FullBodyAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Pelican</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>20</DeliveryDelay>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ChillAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>25</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="20.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc4_units_cryoauratierdefence</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<PersistentAction>ChillAura</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FoxyFireAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FoxyFireChillAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SiegegunLureBeaconAttack</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

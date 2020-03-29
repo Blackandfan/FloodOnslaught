@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ShadePlasma</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>216</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_shadeplasma_01</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>HeavyNeedler</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>75.5</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_heavyNeedler_01</Projectile>
+		<ImpactEffect size="Medium">cov_heavyneedler_01</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<UseGroupRange />
+		<Hardpoint>AddOnTurret</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>ShadePlasmaAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShadePlasmaAttack</Anim>
+		<Weapon>ShadePlasma</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>HeavyNeedlerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShadePlasmaAttack</Anim>
+		<Weapon>HeavyNeedler</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShadePlasmaAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>HeavyNeedlerAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

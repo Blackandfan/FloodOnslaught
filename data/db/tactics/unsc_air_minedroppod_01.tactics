@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>unsc_air_odstPod_01</Projectile>
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">MineImpact</ImpactEffect>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>1</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>1</AOEDistanceFactor>
+		<AOEDamageFactor>1</AOEDamageFactor>
+		<WeaponType>LeaderPower</WeaponType>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Artillery</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

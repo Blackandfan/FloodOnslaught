@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Analytics>
+	<Logs>
+		<DeclareLocalLog name="LocalHeatMap">
+			<Append />
+			<LevelName />
+			<Buffer />
+			<Flush />
+		</DeclareLocalLog>
+		<DeclareLocalLog name="TriggerLog">
+			<LevelName />
+			<Buffer />
+			<TimeStamp />
+		</DeclareLocalLog>
+		<DeclareLocalLog name="TriggerLog_Detailed">
+			<LevelName />
+			<Buffer />
+			<TimeStamp />
+		</DeclareLocalLog>
+		<DeclareLocalLog name="DebugLog">
+			<Buffer />
+			<TimeStamp />
+		</DeclareLocalLog>
+		<DeclareLocalLog name="SyncLog">
+			<LevelName />
+			<UserName />
+			<TimeStamp />
+			<Lazy />
+		</DeclareLocalLog>
+		<DeclareLocalLog name="SyncLogOld">
+			<LevelName />
+			<UserName />
+			<TimeStamp />
+			<Lazy />
+		</DeclareLocalLog>
+		<DeclareLocalLog name="TechnicalLogLocal">
+			<LevelName />
+			<TimeStamp />
+		</DeclareLocalLog>
+		<DeclareLocalLog name="DialogueLogLocal">
+			<LevelName />
+			<TimeStamp />
+		</DeclareLocalLog>
+		<DeclareRemoteLog name="Elastic">
+			<Protocol>Redshift</Protocol>
+			<IPv4>4c981739-b24f-43e9-94d7-f3ba03561eb2.creative-assembly.com</IPv4>
+			<PortNo>443</PortNo>
+			<DocumentLocation>/api/1.0/metrics/</DocumentLocation>
+			<Key>D39E581C2034DF35207C</Key>
+		</DeclareRemoteLog>
+	</Logs>
+	<InactiveLogs />
+	<Channels>
+		<Channel name="TriggerLog">
+			<Log>TriggerLog</Log>
+			<Log>TriggerLog_Detailed</Log>
+		</Channel>
+		<Channel name="TriggerDetailedLog">
+			<Log>TriggerLog_Detailed</Log>
+		</Channel>
+		<Channel name="DebugData">
+			<Log>DebugLog</Log>
+		</Channel>
+		<Channel name="SyncLog">
+			<Log>SyncLog</Log>
+		</Channel>
+		<Channel name="SyncLogOld">
+			<Log>SyncLog</Log>
+		</Channel>
+		<Channel name="TechnicalLog">
+			<Log>TechnicalLogLocal</Log>
+			<Log>Elastic</Log>
+		</Channel>
+		<Channel name="MovementHeatmap">
+			<Log>LocalHeatMap</Log>
+		</Channel>
+	</Channels>
+	<AnalyticsConfigValues>
+		<SquadPosition sample_time="10" sample_distance="20" />
+		<CameraPosition sample_time="5" sample_distance="20" sample_angle_deg="1" />
+		<Technical frame_rate_frames="1800" />
+	</AnalyticsConfigValues>
+</Analytics>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>0.61500001</WorkRange>
+		<ShareResourcesWithTeam />
+	</Action>
+	<Action>
+		<Name>CaptureFade</Name>
+		<ActionType>CaptureFade</ActionType>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1</DecaptureRate>
+	</Action>
+	<Action>
+		<Name>GatherSuppliesSquad</Name>
+		<ActionType>SquadActionGather</ActionType>
+	</Action>
+	<Action>
+		<Name>ChillAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>55</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="3.5f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_cryoaura_01</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>GatherSupplies</PersistentAction>
+		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+		<PersistentAction>ChillAura</PersistentAction>
+	</Tactic>
+</TacticData>

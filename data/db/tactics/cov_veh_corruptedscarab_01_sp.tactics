@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>scarabBeam</Name>
+		<Corruption />
+		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>900</DamagePerSecond>
+		<WeaponType>ScarabBeam</WeaponType>
+		<Projectile>fx_proj_Corruptedscarabbeam</Projectile>
+		<DOTrate>60</DOTrate>
+		<DOTduration>7</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrowerlg_01</DOTEffect>
+		<Slow TargetType="Military" MovementModifier="0.899999976" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">7f</Slow>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MinRange>6</MinRange>
+		<MaxRange>60</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>wuvwooscarabBeam</Name>
+		<Corruption />
+		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>900</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_corruptedwuvwoobeam_01</Projectile>
+		<DOTrate>60</DOTrate>
+		<DOTduration>7</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrowerlg_01</DOTEffect>
+		<Slow TargetType="Military" MovementModifier="0.899999976" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">7f</Slow>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MinRange>6</MinRange>
+		<MaxRange>60</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>scarabBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>scarabBeam</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<CanOrientOwner>true</CanOrientOwner>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>wuvwooscarabBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>wuvwooscarabBeam</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<CanOrientOwner>true</CanOrientOwner>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>scarabBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>wuvwooscarabBeamAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

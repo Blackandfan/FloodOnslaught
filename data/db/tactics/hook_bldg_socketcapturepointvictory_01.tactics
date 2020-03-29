@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>CaptureFade</Name>
+		<ActionType>CaptureFade</ActionType>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1</DecaptureRate>
+	</Action>
+	<Tactic />
+</TacticData>

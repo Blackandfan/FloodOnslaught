@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SmokeScreen</Name>
+		<AllowFriendlyFire />
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="15" />
+		<AOERadius>15</AOERadius>
+		<Buff TargetType="Unit" BuffType="SmokeScreen" NormalAttacksDisabled="true" StealthAction="AppliedStealthAction">1</Buff>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>SmokeScreenAction</Name>
+		<Weapon>SmokeScreen</Weapon>
+	</Action>
+	<Action>
+		<Name>AppliedStealthAction</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<RechargeDelay>3</RechargeDelay>
+	</Action>
+	<Tactic />
+</TacticData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Grenade</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_democharge_01</Projectile>
+		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
+		<MaxVelocityLead>2.46000004</MaxVelocityLead>
+		<MaxRange>12.3000002</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1.89999998</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Grenade</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

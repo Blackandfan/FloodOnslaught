@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>HealingArea</Name>
+		<ActionType>AoeHealOverTime</ActionType>
+		<WorkRange>20</WorkRange>
+		<WorkRate>0.449999988</WorkRate>
+	</Action>
+	<Action>
+		<Name>InspireAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>20</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="Rage" slowModifier="1.25" DamageDealtModifier="1.14999998">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Mine</Type>
+				<Type>Drone</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject />
+	</Action>
+	<Tactic>
+		<PersistentAction>HealingArea</PersistentAction>
+		<PersistentAction>InspireAura</PersistentAction>
+	</Tactic>
+</TacticData>

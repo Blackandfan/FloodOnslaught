@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<SkirmishSettings>
+	<Difficulty />
+	<BuildManager>
+		<UNSCCommandCentre>unsc_bldg_command_01</UNSCCommandCentre>
+		<CovenantCommandCentre>cov_bldg_builder_01</CovenantCommandCentre>
+	</BuildManager>
+	<TrainManager>
+		<NotValidCounter>unsc_inf_spartan_01</NotValidCounter>
+		<NotValidCounter>unsc_veh_warthog_01</NotValidCounter>
+		<NotValidCounter>unsc_inf_cyclops_01</NotValidCounter>
+		<CurrentSquadCappedUnits>unsc_inf_spartan_01</CurrentSquadCappedUnits>
+		<CurrentSquadCappedUnits>unsc_veh_warthog_01</CurrentSquadCappedUnits>
+	</TrainManager>
+</SkirmishSettings>

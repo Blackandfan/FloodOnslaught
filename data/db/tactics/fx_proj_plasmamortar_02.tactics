@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ScorchMortarShockwave</Name>
+		<DamagePerSecond>225</DamagePerSecond>
+		<WeaponType>TankExplosive</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="10" />
+		<AOERadius>10</AOERadius>
+	</Weapon>
+	<Action>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>ScorchMortarShockwave</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

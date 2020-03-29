@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>unsc_air_vehiclepod_01</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="5.5" rollstrength="3.9000001" rotationfrequency="10" translationstrength="0" translationfrequency="6" />
+		<ImpactRumble leftRumbleType="Decline" leftStrength="3" rightRumbleType="Decline" rightStrength="3" duration="0.899999976" />
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">VehicleHellDrop</ImpactEffect>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<MaxRange>92.25</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Artillery</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

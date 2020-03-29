@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ForerunnerBeam</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_retrieversmallbeam_01</Projectile>
+		<ImpactEffect size="Medium">RetreiverSmallLaserBeam</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Turret</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.10000002</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+	</Weapon>
+	<Action>
+		<Name>ForerunnerBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>ForerunnerBeam</Weapon>
+		<PersistBetweenOpps />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>UberUnit</TargetType>
+			<Action>ForerunnerBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ForerunnerBeamAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

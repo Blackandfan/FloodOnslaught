@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CorruptionDamageOverTime</Name>
+		<DamagePerSecond>110</DamagePerSecond>
+		<WeaponType>Corruption</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="90" />
+		<AOERadius>40</AOERadius>
+		<Corruption overlap="1.1f" />
+		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.800000012">0.5</Buff>
+		<Buff targetType="GroundVehicle" buffType="CorruptionDebuff" slowModifier="0.649999976">0.5</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>RM_CorruptionDamageOverTime</Name>
+		<DamagePerSecond>110</DamagePerSecond>
+		<WeaponType>Corruption</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="45" />
+		<AOERadius>40</AOERadius>
+		<Corruption overlap="1.1f" />
+		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.75">0.5</Buff>
+		<Buff targetType="GroundVehicle" buffType="CorruptionDebuff" slowModifier="0.550000012">0.5</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>CorruptionMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>5000</DamagePerSecond>
+		<UseDPSasDPA />
+		<ImpactEffect size="Large" doShockwaveAction="true">CorruptionXLMine</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>32</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Mines</WeaponType>
+		<Apply>6</Apply>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>CorruptionMineReduced</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<UseDPSasDPA />
+		<ImpactEffect size="Large" doShockwaveAction="true">CorruptionXLMine</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>32</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Mines</WeaponType>
+		<Apply>1.5</Apply>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>CorruptionDamageOverTimeAction</Name>
+		<Weapon>CorruptionDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Name>RM_CorruptionDamageOverTimeAction</Name>
+		<Weapon>RM_CorruptionDamageOverTime</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<StartOnCooldown />
+		<RechargeDelay>4</RechargeDelay>
+		<WorkRange>22</WorkRange>
+		<MaxCharge>200</MaxCharge>
+	</Action>
+	<Action>
+		<Name>ExplosiveManager2</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>0</WorkRange>
+		<Weapon>CorruptionMineReduced</Weapon>
+		<DontAutoRestart />
+		<ExplodeOnDeath />
+	</Action>
+	<Action>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>24</WorkRange>
+		<Weapon>CorruptionMine</Weapon>
+		<DontAutoRestart />
+	</Action>
+	<Tactic>
+		<PersistentAction>StealthManager</PersistentAction>
+		<PersistentAction>ExplosiveManager</PersistentAction>
+		<PersistentAction>ExplosiveManager2</PersistentAction>
+	</Tactic>
+</TacticData>

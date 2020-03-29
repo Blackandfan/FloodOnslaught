@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>dlc4_pack1_units_unsc_aerial_iceblockbomb</Projectile>
+		<ImpactAdvancedCameraShake fadein="0" duration="0" fadeout="0.200000003" yawpitchstrength="2" rollstrength="1.5" rotationfrequency="4" translationstrength="0" translationfrequency="4" />
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">IceBlockBomb</ImpactEffect>
+		<MaxRange>92.25</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Artillery</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

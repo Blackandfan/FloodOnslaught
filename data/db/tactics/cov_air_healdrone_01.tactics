@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther1</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>26</WorkRange>
+		<WorkRate>0.200000003</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
+					<BoneName>bone_root</BoneName>
+					<TargetType>_Building</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<AutoReapairOn />
+					<HealOnTheMove />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>RepairOther2</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>26</WorkRange>
+		<WorkRate>0.25</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
+					<BoneName>bone_root</BoneName>
+					<TargetType>_Building</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<AutoReapairOn />
+					<HealOnTheMove />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RepairOther3</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>26</WorkRange>
+		<WorkRate>0.300000012</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
+					<BoneName>bone_root</BoneName>
+					<TargetType>_Building</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<AutoReapairOn />
+					<HealOnTheMove />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RepairOther4</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>26</WorkRange>
+		<WorkRate>0.349999994</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
+					<BoneName>bone_root</BoneName>
+					<TargetType>_Building</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<AutoReapairOn />
+					<HealOnTheMove />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ActionDrone</Name>
+		<ActionType>Drone</ActionType>
+		<Vivacity>1</Vivacity>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>_Building</TargetType>
+			<TargetState>Damaged</TargetState>
+			<Action>RepairOther4</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>_Building</TargetType>
+			<TargetState>Damaged</TargetState>
+			<Action>RepairOther3</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>_Building</TargetType>
+			<TargetState>Damaged</TargetState>
+			<Action>RepairOther2</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>_Building</TargetType>
+			<TargetState>Damaged</TargetState>
+			<Action>RepairOther1</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>RepairOther1</PersistentAction>
+		<PersistentAction>RepairOther2</PersistentAction>
+		<PersistentAction>RepairOther3</PersistentAction>
+		<PersistentAction>RepairOther4</PersistentAction>
+		<PersistentAction>ActionDrone</PersistentAction>
+	</Tactic>
+</TacticData>

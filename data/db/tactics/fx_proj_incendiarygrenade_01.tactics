@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>GrenadeBurn</Name>
+		<AllowFriendlyFire>false</AllowFriendlyFire>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>KinsanoGrenadeFire</WeaponType>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="2" />
+		<AOERadius>4</AOERadius>
+	</Weapon>
+	<Action>
+		<Name>GrenadeBurnDamageOverTimeAction</Name>
+		<Weapon>GrenadeBurn</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

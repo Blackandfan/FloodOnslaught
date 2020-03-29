@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="FirefightScores">
+		<Value Name="WaveCompleteScoreBase" Type="int" Value="1000" />
+		<Value Name="WaveEarlyClearScoreMultiplier" Type="int" Value="2" />
+		<Value Name="WavePerfectClearScoreMultiplier" Type="int" Value="2" />
+		<Value Name="BossCompleteBase" Type="int" Value="10000" />
+		<Value Name="BossEarlyClearScoreMultiplier" Type="int" Value="2" />
+		<Value Name="BossPerfectClearScoreMultiplier" Type="int" Value="2" />
+		<Value Name="MiniBaseTerritoryScore" Type="int" Value="100" />
+		<Value Name="UnitScoreMultiplierBase" Type="int" Value="10" />
+		<Value Name="BonusDropKilledBaseScore" Type="int" Value="500" />
+		<Value Name="SupplyScoreMultiplier" Type="int" Value="10" />
+		<Value Name="PowerScoreMultiplier" Type="int" Value="25" />
+	</Table>
+	<Table Name="FirefightMultipliers">
+		<Value Name="EasyBaseMultiplier" Type="float" Value="0.5" />
+		<Value Name="NormalBaseMultiplier" Type="float" Value="1" />
+		<Value Name="HardBaseMultiplier" Type="float" Value="2" />
+		<Value Name="LegendaryBaseMultiplier" Type="float" Value="3" />
+		<Value Name="MultiplierPerTerritory" Type="float" Value="0.5" />
+		<Value Name="MultiplierPerKillStreakTier" Type="float" Value="0.100000001" />
+		<Value Name="KillStreakMultiplierTimeout" Type="int" Value="10000" />
+	</Table>
+	<Table Name="FirefightGameRules">
+		<Value Name="StartingWave" Type="int" Value="1" />
+		<Value Name="EndingWave" Type="int" Value="5" />
+		<Value Name="WavesInACycle" Type="int" Value="5" />
+		<Value Name="WarmupTime" Type="int" Value="30000" />
+		<Value Name="CycleIntermissionTime" Type="int" Value="10000" />
+		<Value Name="WaveCompletedGraceTime" Type="int" Value="5000" />
+		<Value Name="TimeBetweenWaves" Type="int" Value="60000" />
+		<Value Name="PreWaveIntermissionTime" Type="int" Value="10000" />
+		<Value Name="PreWaveIntermissionTimeCountdownAt" Type="int" Value="5000" />
+		<Value Name="IncrementBetweenWaves?" Type="bool" Value="false" />
+		<Value Name="TimeBetweenwaveIncrement" Type="int" Value="5000" />
+		<Value Name="BossTimeout" Type="int" Value="120000" />
+		<Value Name="BonusWaveTime" Type="int" Value="10000" />
+		<Value Name="TerritoryHoldTickTime" Type="int" Value="15000" />
+		<Value Name="BasicWaveClearThresholdPercent" Type="float" Value="0.0500000007" />
+		<Value Name="BasicWaveClearThresholdAmount" Type="int" Value="5" />
+		<Value Name="BasicWaveClearThresholdTimer" Type="int" Value="10000" />
+	</Table>
+	<Table Name="FirefightPlayerRules">
+		<Value Name="TechLevelToStart" Type="int" Value="3" />
+		<Value Name="StartingSupplyDepots" Type="int" Value="1" />
+		<Value Name="StartingPowerGenerators" Type="int" Value="1" />
+		<Value Name="StartingUpgradedResources?" Type="bool" Value="true" />
+		<Value Name="StartingBarracks?" Type="bool" Value="false" />
+		<Value Name="StartingGarages?" Type="bool" Value="true" />
+		<Value Name="StartingAirpads?" Type="bool" Value="false" />
+		<Value Name="StartingArmoury?" Type="bool" Value="false" />
+		<Value Name="ExtraStartingUnits?" Type="bool" Value="true" />
+		<Value Name="ExtraUnitsUNSC" Type="protosquad">
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_air_nightingale_01</Entry>
+		</Value>
+		<Value Name="ExtraUnitsBAN" Type="protosquad">
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_inf_engineer_01</Entry>
+			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_inf_engineer_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightNexusRules">
+		<Value Name="NexusHitpoints" Type="int" Value="50000" />
+		<Value Name="SpireHitpoints" Type="int" Value="25000" />
+		<Value Name="SpireHealingHealPerTick" Type="float" Value="0.0299999993" />
+		<Value Name="SpireHealingTickRate" Type="int" Value="200" />
+	</Table>
+	<Table Name="DamageOut">
+		<Value Name="BaseDamageOut" Type="float" Value="0.800000012" />
+		<Value Name="DamageOutStep" Type="float" Value="0.200000003" />
+		<Value Name="DamageOutMultiplierEasy" Type="float" Value="0.899999976" />
+		<Value Name="DamageOutMultiplierNormal" Type="float" Value="1" />
+		<Value Name="DamageOutMultiplierHeroic" Type="float" Value="1.10000002" />
+		<Value Name="DamageOutMultiplierLegendary" Type="float" Value="1.20000005" />
+	</Table>
+	<Table Name="DamageIn">
+		<Value Name="BaseDamageIn" Type="float" Value="4" />
+		<Value Name="DamageInStep" Type="float" Value="0.800000012" />
+		<Value Name="DamageInMultiplierEasy" Type="float" Value="1.5" />
+		<Value Name="DamageInMultiplierNormal" Type="float" Value="1" />
+		<Value Name="DamageInMultiplierHeroic" Type="float" Value="0.899999976" />
+		<Value Name="DamageInMultiplierLegendary" Type="float" Value="0.800000012" />
+	</Table>
+	<Table Name="DebugHUD">
+		<Value Name="WaveProgressBarSize" Type="int" Value="20" />
+		<Value Name="WaveProgressCharToUse" Type="string" Value="|" />
+		<Value Name="NewWaveNotificationTime" Type="int" Value="8000" />
+	</Table>
+	<Table Name="FirefightHUD">
+		<Value Name="NewWaveNotificationTime" Type="float" Value="10" />
+	</Table>
+	<Table Name="FirefightSupplyDrops">
+		<Value Name="CratesPerDrop" Type="int" Value="3" />
+		<Value Name="CrateTimeout" Type="int" Value="60000" />
+		<Value Name="PowerPerCrate" Type="float" Value="50" />
+		<Value Name="SupplyPerCrate" Type="float" Value="100" />
+		<Value Name="LevelsPerCrate" Type="float" Value="1" />
+	</Table>
+	<Table Name="FirefightWaveGrowth">
+		<Value Name="WaveBaseSize" Type="int" Value="6" />
+		<Value Name="WaveSizeIncreasePerWave" Type="int" Value="3" />
+		<Value Name="WaveSizeMultiplierEasy" Type="float" Value="0.800000012" />
+		<Value Name="WaveSizeMultiplierNormal" Type="float" Value="1" />
+		<Value Name="WaveSizeMultiplierHeroic" Type="float" Value="1.20000005" />
+		<Value Name="WaveSizeMultiplierLegendary" Type="float" Value="1.39999998" />
+	</Table>
+	<Table Name="BarricadeBanCaltrops">
+		<Value Name="DamageTickRate" Type="int" Value="1000" />
+		<Value Name="Damage" Type="float" Value="200" />
+		<Value Name="DazeDuration" Type="float" Value="3.0999999" />
+		<Value Name="DazeSpeedModifier" Type="float" Value="0.5" />
+	</Table>
+	<Table Name="FirefightHighLevelRules">
+		<Value Name="IncludeBonusWavesInNumbering" Type="bool" Value="false" />
+		<Value Name="UseUNSC" Type="bool" Value="true" />
+		<Value Name="UseCovenant" Type="bool" Value="true" />
+		<Value Name="UseFlood" Type="bool" Value="false" />
+		<Value Name="UseForeRunner" Type="bool" Value="false" />
+	</Table>
+	<Table Name="FirefightWaveLists">
+		<Value Name="BasicWavesUNSC" Type="triggerscript">
+			<Entry>Firefight\Waves_Basic\UNSC\WaveCombinedLight.triggerscript</Entry>
+			<Entry>Firefight\Waves_Basic\UNSC\WaveInfBasic.triggerscript</Entry>
+			<Entry>Firefight\Waves_Basic\UNSC\WaveVehLight.triggerscript</Entry>
+			<Entry>Firefight\Waves_Basic\UNSC\WaveVehSpeed.triggerscript</Entry>
+		</Value>
+		<Value Name="BasicWavesBAN" Type="triggerscript">
+			<Entry>Firefight\Waves_Basic\Banished\WaveCombinedLight.triggerscript</Entry>
+			<Entry>Firefight\Waves_Basic\Banished\WaveInfBasic.triggerscript</Entry>
+			<Entry>Firefight\Waves_Basic\Banished\WaveVehLight.triggerscript</Entry>
+			<Entry>Firefight\Waves_Basic\Banished\WaveVehSpeed.triggerscript</Entry>
+			<Entry>Firefight\Waves_Basic\Banished\WaveInfMeleeBasic.triggerscript</Entry>
+		</Value>
+		<Value Name="BasicWavesFR" Type="triggerscript">
+			<Entry>Firefight\Waves_Basic\Banished\WaveCombinedLight.triggerscript</Entry>
+		</Value>
+		<Value Name="BasicWavesFLD" Type="triggerscript">
+			<Entry>Firefight\Waves_Basic\Banished\WaveCombinedLight.triggerscript</Entry>
+		</Value>
+		<Value Name="MiniBossWavesUNSC" Type="triggerscript">
+			<Entry>Firefight\Waves_Basic\Flood\WaveE3InfantryOnly.triggerscript</Entry>
+		</Value>
+		<Value Name="MiniBossWavesBAN" Type="triggerscript">
+			<Entry>Firefight\Waves_Basic\Flood\WaveE3InfantryOnly.triggerscript</Entry>
+		</Value>
+		<Value Name="MiniBossWavesFR" Type="triggerscript">
+			<Entry>Firefight\Waves_Basic\Flood\WaveE3InfantryOnly.triggerscript</Entry>
+		</Value>
+		<Value Name="MiniBossWavesFLD" Type="triggerscript">
+			<Entry>Firefight\Waves_Basic\Flood\WaveE3InfantryOnly.triggerscript</Entry>
+		</Value>
+		<Value Name="BossWavesUNSC" Type="triggerscript">
+			<Entry>Firefight\Waves_Boss\Flood\WaveE3InfantryInfectorBoss.triggerscript</Entry>
+		</Value>
+		<Value Name="BossWavesBAN" Type="triggerscript">
+			<Entry>Firefight\Waves_Boss\Flood\WaveE3InfantryInfectorBoss.triggerscript</Entry>
+		</Value>
+		<Value Name="BossWavesFR" Type="triggerscript">
+			<Entry>Firefight\Waves_Boss\Flood\WaveE3InfantryInfectorBoss.triggerscript</Entry>
+		</Value>
+		<Value Name="BossWavesFLD" Type="triggerscript">
+			<Entry>Firefight\Waves_Boss\Flood\WaveE3InfantryInfectorBoss.triggerscript</Entry>
+		</Value>
+		<Value Name="BonusWaves" Type="triggerscript">
+			<Entry>Firefight\Waves_Bonus\WaveHealing.triggerscript</Entry>
+			<Entry>Firefight\Waves_Bonus\WaveVeterancy.triggerscript</Entry>
+			<Entry>Firefight\Waves_Bonus\WaveReinforcements.triggerscript</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicAirHeavyUNSC">
+		<Value Name="StartWave" Type="int" Value="10" />
+		<Value Name="EndWave" Type="int" Value="40" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.400000006" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_air_hornet_01</Entry>
+			<Entry>unsc_air_hornet_01</Entry>
+			<Entry>unsc_air_vulture_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicAirHeavyBAN">
+		<Value Name="StartWave" Type="int" Value="10" />
+		<Value Name="EndWave" Type="int" Value="40" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.400000006" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_air_blisterback_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicAirLightUNSC">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.5" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_air_hornet_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicAirLightBAN">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.5" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_air_banshee_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicAirLightFR">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.699999988" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.800000012" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRLIGHT.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>for_air_sentinel_01</Entry>
+			<Entry>for_air_sentinel_01</Entry>
+			<Entry>for_air_sentinel_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicAntiTurretUNSC">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.400000006" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.ANTITURRET.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.ANTITURRET.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_air_hornet_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicAntiTurretBAN">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.400000006" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.ANTITURRET.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.ANTITURRET.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_veh_locust_01</Entry>
+			<Entry>cov_veh_locust_01</Entry>
+			<Entry>cov_veh_locust_01</Entry>
+			<Entry>cov_veh_wraith_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicCombinedLightUNSC">
+		<Value Name="StartWave" Type="int" Value="3" />
+		<Value Name="EndWave" Type="int" Value="10" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.800000012" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.COMBILIGHT.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.COMBILIGHT.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicCombinedLightBAN">
+		<Value Name="StartWave" Type="int" Value="3" />
+		<Value Name="EndWave" Type="int" Value="10" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.800000012" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.COMBILIGHT.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.COMBILIGHT.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_air_banshee_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicCombinedMediumUNSC">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.600000024" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.COMBIMEDIUM.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.COMBIMEDIUM.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_air_hornet_01</Entry>
+			<Entry>unsc_air_nightingale_01</Entry>
+			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicCombinedMediumBAN">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.600000024" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.COMBIMEDIUM.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.COMBIMEDIUM.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_veh_locust_01</Entry>
+			<Entry>cov_veh_prowler_01</Entry>
+			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_inf_engineer_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicFlame">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.800000012" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="2" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.FLAME.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.FLAME.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_veh_flamehog_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_flamecyclops_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfBasicUNSC">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="3" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marine_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfBasicBAN">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="3" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1.20000005" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfBasicFLD">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="3" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="2" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>flood_inf_infected_assaultrifle_01</Entry>
+			<Entry>flood_inf_infected_assaultrifle_02</Entry>
+			<Entry>flood_inf_infected_brutemelee_01</Entry>
+			<Entry>flood_inf_infected_brutespiker_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfMeleeBasic">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="10" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1.29999995" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMELEE.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMELEE.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_brutejumppack_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfHeavyUNSC">
+		<Value Name="StartWave" Type="int" Value="10" />
+		<Value Name="EndWave" Type="int" Value="30" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.600000024" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYHEAVY.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYHEAVY.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_odst_01</Entry>
+			<Entry>unsc_inf_odst_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_inf_sniper_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfHeavyBAN">
+		<Value Name="StartWave" Type="int" Value="10" />
+		<Value Name="EndWave" Type="int" Value="30" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.800000012" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYHEAVY.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYHEAVY.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_inf_hunter_01</Entry>
+			<Entry>cov_inf_hunter_01</Entry>
+			<Entry>cov_inf_engineer_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfMediumUNSC">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMEDIUM.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMEDIUM.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_odst_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfMediumBAN">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMEDIUM.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYMEDIUM.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_inf_engineer_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfSniper">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="20" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.5" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="3" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYSNIPER.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYSNIPER.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_sniper_01</Entry>
+			<Entry>unsc_inf_sniper_01</Entry>
+			<Entry>unsc_inf_odst_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfTankKillerUNSC">
+		<Value Name="StartWave" Type="int" Value="10" />
+		<Value Name="EndWave" Type="int" Value="40" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.5" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="1" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYANTITANK.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYANTITANK.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicInfTankKillerBAN">
+		<Value Name="StartWave" Type="int" Value="10" />
+		<Value Name="EndWave" Type="int" Value="40" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.5" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="1" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYANTITANK.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYANTITANK.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_hunter_01</Entry>
+			<Entry>cov_inf_hunter_01</Entry>
+			<Entry>cov_inf_hunter_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicVehLightUNSC">
+		<Value Name="StartWave" Type="int" Value="2" />
+		<Value Name="EndWave" Type="int" Value="15" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="vehicle" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_veh_mongoose_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_mongoose_01</Entry>
+			<Entry>unsc_veh_wolverine_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicVehLightBAN">
+		<Value Name="StartWave" Type="int" Value="2" />
+		<Value Name="EndWave" Type="int" Value="15" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.699999988" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="vehicle" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicVehLightFLD">
+		<Value Name="StartWave" Type="int" Value="2" />
+		<Value Name="EndWave" Type="int" Value="15" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.800000012" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLELIGHT.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="vehicle" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>flood_veh_infected_ghost_01_base</Entry>
+			<Entry>flood_veh_infected_warthog_01_base</Entry>
+			<Entry>flood_veh_infected_mongoose_01_base</Entry>
+			<Entry>flood_veh_infected_brutechopper_01_base</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicVehMedUNSC">
+		<Value Name="StartWave" Type="int" Value="10" />
+		<Value Name="EndWave" Type="int" Value="25" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.600000024" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="vehicle" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_veh_wolverine_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicVehMedBAN">
+		<Value Name="StartWave" Type="int" Value="10" />
+		<Value Name="EndWave" Type="int" Value="25" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.600000024" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLEMEDIUM.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLEMEDIUM.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="vehicle" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_veh_prowler_01</Entry>
+			<Entry>cov_veh_prowler_01</Entry>
+			<Entry>cov_veh_gorgon_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicVehScorps">
+		<Value Name="StartWave" Type="int" Value="15" />
+		<Value Name="EndWave" Type="int" Value="40" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.5" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESCORPS.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESCORPS.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="vehicle" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_veh_scorpion_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicVehSpeedUNSC">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="15" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.600000024" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.699999988" />
+		<Value Name="AddDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESPEED.UNSC" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESPEED.UNSC.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_veh_mongoose_01</Entry>
+			<Entry>unsc_veh_mongoose_01</Entry>
+			<Entry>unsc_veh_mongoose_01</Entry>
+			<Entry>unsc_veh_mongoose_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBasicVehSpeedBAN">
+		<Value Name="StartWave" Type="int" Value="5" />
+		<Value Name="EndWave" Type="int" Value="15" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="0.600000024" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.699999988" />
+		<Value Name="AddDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESPEED.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.VEHICLESPEED.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_brutechopper_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesMiniBossBanditRaidUNSC">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="BanditUnit" Type="protosquad" Value="unsc_air_pelican_01" />
+		<Value Name="BaseBanditCount" Type="int" Value="1" />
+		<Value Name="BanditsPerCycle" Type="int" Value="1" />
+		<Value Name="BanditsSupplySuctionRate" Type="float" Value="20" />
+		<Value Name="BanditsPowerSuctionRate" Type="float" Value="10" />
+		<Value Name="BanditsSpeedMultiplier" Type="float" Value="1" />
+		<Value Name="BanditsHealthLeftBeforeEscape" Type="float" Value="0.25" />
+		<Value Name="BanditsTimesToSteal" Type="int" Value="20" />
+		<Value Name="BanditsTimeBetweenSteals" Type="int" Value="1000" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.BANDITRAID" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.BANDITRAID.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+	</Table>
+	<Table Name="FirefightWavesMiniBossBanditRaidBAN">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="BanditUnit" Type="protosquad" Value="cov_air_spirit_01" />
+		<Value Name="BaseBanditCount" Type="int" Value="1" />
+		<Value Name="BanditsPerCycle" Type="int" Value="1" />
+		<Value Name="BanditsSupplySuctionRate" Type="float" Value="20" />
+		<Value Name="BanditsPowerSuctionRate" Type="float" Value="10" />
+		<Value Name="BanditsSpeedMultiplier" Type="float" Value="1" />
+		<Value Name="BanditsHealthLeftBeforeEscape" Type="float" Value="0.25" />
+		<Value Name="BanditsTimesToSteal" Type="int" Value="20" />
+		<Value Name="BanditsTimeBetweenSteals" Type="int" Value="1000" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.BANDITRAID" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.BANDITRAID.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+	</Table>
+	<Table Name="FirefightWavesMiniBossBanditRaidFR">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="BanditUnit" Type="protosquad" Value="for_air_sentinel_01" />
+		<Value Name="BaseBanditCount" Type="int" Value="4" />
+		<Value Name="BanditsPerCycle" Type="int" Value="2" />
+		<Value Name="BanditsSupplySuctionRate" Type="float" Value="10" />
+		<Value Name="BanditsPowerSuctionRate" Type="float" Value="5" />
+		<Value Name="BanditsSpeedMultiplier" Type="float" Value="1" />
+		<Value Name="BanditsHealthLeftBeforeEscape" Type="float" Value="0.5" />
+		<Value Name="BanditsTimesToSteal" Type="int" Value="5" />
+		<Value Name="BanditsTimeBetweenSteals" Type="int" Value="500" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.BANDITRAID" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.BANDITRAID.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+	</Table>
+	<Table Name="FirefightWavesMiniBossCleansingBeacon">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="BeaconUnit" Type="protosquad" Value="cov_inf_engineer_01" />
+		<Value Name="BaseBeaconCount" Type="int" Value="4" />
+		<Value Name="BeaconsPerCycle" Type="int" Value="2" />
+		<Value Name="BeaconSpeedMultiplier" Type="float" Value="1.5" />
+		<Value Name="BeaconDamageIntake" Type="float" Value="3" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.CLEANSINGBEAM" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.CLEANSINGBEAM.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+	</Table>
+	<Table Name="FirefightWavesMiniBossArcDefenseBeacons">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="BeaconUnit" Type="protosquad" Value="for_air_sentinel_01" />
+		<Value Name="BaseBeaconCount" Type="int" Value="2" />
+		<Value Name="BeaconsPerCycle" Type="int" Value="1" />
+		<Value Name="BeaconSpeedMultiplier" Type="float" Value="1" />
+		<Value Name="BeaconDamageIntake" Type="float" Value="3" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.CLEANSINGBEAM" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.CLEANSINGBEAM.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+	</Table>
+	<Table Name="FirefightWavesMiniBossODST">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="ODSTBaseSize" Type="int" Value="1" />
+		<Value Name="ODSTSizeIncPerCycle" Type="int" Value="2" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.ODST" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.ODST.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+	</Table>
+	<Table Name="FirefightWavesMiniBossSuicideGrunts">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="2" />
+		<Value Name="BaseUnitsToSpawn" Type="int" Value="6" />
+		<Value Name="BaseUnitsPerCycle" Type="int" Value="4" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.SUICIDE" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.MINIBOSS.SUICIDE.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_suicidegrunt_01</Entry>
+			<Entry>cov_inf_suicidegrunt_01</Entry>
+			<Entry>cov_inf_suicidegrunt_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossUberUnitUNSC">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_air_destroyer_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossUberUnitBAN">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_veh_scarab_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossUberUnitFR">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>for_air_sentinel_03</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossUberUnitFLD">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="1" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.UBERUNIT.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>flood_inf_commander_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossLeaderArmyUNSC">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="BaseArmySize" Type="int" Value="10" />
+		<Value Name="ArmySizeAddPerCycle" Type="int" Value="5" />
+		<Value Name="AddLeaderDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddLeaderOutCycles" Type="int" Value="2" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="1" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_wolverine_01</Entry>
+			<Entry>unsc_veh_wolverine_01</Entry>
+			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_air_hornet_01</Entry>
+			<Entry>unsc_air_hornet_01</Entry>
+		</Value>
+		<Value Name="Leaders" Type="protosquad">
+			<Entry>unsc_inf_spartan_chaingun_01</Entry>
+			<Entry>unsc_inf_spartan_laser_01</Entry>
+			<Entry>unsc_inf_spartan_rocket_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossLeaderArmyBAN">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="BaseArmySize" Type="int" Value="10" />
+		<Value Name="ArmySizeAddPerCycle" Type="int" Value="5" />
+		<Value Name="AddLeaderDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddLeaderOutCycles" Type="int" Value="2" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="1" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_prowler_01</Entry>
+			<Entry>cov_veh_prowler_01</Entry>
+			<Entry>cov_veh_prowler_01</Entry>
+			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_air_banshee_01</Entry>
+		</Value>
+		<Value Name="Leaders" Type="protosquad">
+			<Entry>cov_inf_elitecommando_01</Entry>
+			<Entry>cov_inf_brutehonour_01</Entry>
+			<Entry>cov_inf_atrioxchosen_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossLeaderArmyFLD">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="BaseArmySize" Type="int" Value="10" />
+		<Value Name="ArmySizeAddPerCycle" Type="int" Value="10" />
+		<Value Name="AddLeaderDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddLeaderOutCycles" Type="int" Value="2" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="1" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>flood_veh_infected_brutechopper_01_base</Entry>
+			<Entry>flood_veh_infected_ghost_01_base</Entry>
+			<Entry>flood_veh_infected_gorgon_01_base</Entry>
+			<Entry>flood_veh_infected_locust_01_base</Entry>
+			<Entry>flood_veh_infected_mongoose_01_base</Entry>
+			<Entry>flood_veh_infected_prowler_01_base</Entry>
+			<Entry>flood_veh_infected_scorpion_01_base</Entry>
+			<Entry>flood_veh_infected_warthog_01_base</Entry>
+			<Entry>flood_veh_infected_wolverine_01_base</Entry>
+			<Entry>flood_veh_infected_wraith_01_base</Entry>
+			<Entry>flood_inf_infected_assaultrifle_01</Entry>
+			<Entry>flood_inf_infected_assaultrifle_02</Entry>
+			<Entry>flood_inf_infected_brutemelee_01</Entry>
+			<Entry>flood_inf_infected_brutespiker_01</Entry>
+			<Entry>flood_inf_infected_elitecarbine_01</Entry>
+			<Entry>flood_inf_infected_elitemelee_01</Entry>
+			<Entry>flood_inf_infected_eliteplasmacaster_01</Entry>
+			<Entry>flood_inf_infected_eliteplasmarifle_01</Entry>
+			<Entry>flood_inf_infected_hellbr_01</Entry>
+			<Entry>flood_inf_infected_humelee_01</Entry>
+			<Entry>flood_inf_infected_odst_01_base</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>flood_inf_infected_sniper_01_base</Entry>
+		</Value>
+		<Value Name="Leaders" Type="protosquad">
+			<Entry>flood_inf_commander_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossBig3UNSC">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="5" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="3" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.BIG3" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.BIG3.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_spartan_mpalice_01</Entry>
+			<Entry>unsc_inf_spartan_mpdoug_01</Entry>
+			<Entry>unsc_inf_spartan_mpjerome_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossBig3BAN">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="5" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="3" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.BIG3" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.BIG3.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>cov_inf_elitecommando_01</Entry>
+			<Entry>cov_inf_brutehonour_01</Entry>
+			<Entry>cov_inf_atrioxchosen_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBossBigGunsUNSC">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="WaveBaseSize" Type="int" Value="2" />
+		<Value Name="WaveBaseSizeIncPer" Type="int" Value="1" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.BIGGUNS" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.BIGGUNS.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_veh_grizzly_01</Entry>
+			<Entry>unsc_veh_grizzly_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesMiniBossFloodInfectors">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="1" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="1" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="BaseWaveSize" Type="int" Value="15" />
+		<Value Name="WaveSizeAddPerCycle" Type="int" Value="10" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.BIGGUNS" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.BIGGUNS.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_assaultrifle_02</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_brutemelee_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_assaultrifle_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_brutespiker_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBonusHealing">
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BONUS.HEALING" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BONUS.HEALING.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="TimesToHealPerInc" Type="int" Value="2" />
+	</Table>
+	<Table Name="FirefightWavesBonusReinforcements">
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BONUS.REINFORCEMENTS" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BONUS.REINFORCEMENTS.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="BaseNumberOfReinforcements" Type="int" Value="4" />
+		<Value Name="ReinforcementsPerInc" Type="int" Value="2" />
+		<Value Name="FreePopPercentToReinforce" Type="float" Value="0.400000006" />
+		<Value Name="ScoreToGiveIfNoPop" Type="int" Value="1000" />
+		<Value Name="ReinforcementsUNSC" Type="protosquad">
+			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_odst_01</Entry>
+			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_air_hornet_01</Entry>
+			<Entry>unsc_veh_wolverine_01</Entry>
+			<Entry>unsc_veh_scorpion_01</Entry>
+		</Value>
+		<Value Name="ReinforcementsBAN" Type="protosquad">
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_veh_ghost_01</Entry>
+			<Entry>cov_veh_locust_01</Entry>
+			<Entry>cov_inf_hunter_01</Entry>
+			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_veh_gorgon_01</Entry>
+			<Entry>cov_veh_wraith_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesBonusVeterancy">
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BONUS.VETERANCY" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BONUS.VETERANCY.DESC" />
+		<Value Name="Icon" Type="string" Value="mixed" />
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="5000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="BaseTimesToLevelup" Type="int" Value="4" />
+		<Value Name="TimesToLevelUpPerInc" Type="int" Value="2" />
+		<Value Name="TimesToFail" Type="int" Value="20" />
+	</Table>
+	<Table Name="FirefightWavesE3InfantryFLD">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="20000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="1000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="3" />
+		<Value Name="AttackMoveChance" Type="float" Value="0.899999976" />
+		<Value Name="AddDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="2" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="true" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.BAN" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.INFANTRYBASIC.BAN.DESC" />
+		<Value Name="Icon" Type="string" Value="infantry" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>flood_inf_infected_assaultrifle_01</Entry>
+			<Entry>flood_inf_infected_assaultrifle_02</Entry>
+			<Entry>flood_inf_infected_brutemelee_01</Entry>
+			<Entry>flood_inf_infected_brutespiker_01</Entry>
+		</Value>
+	</Table>
+	<Table Name="FirefightWavesE3InfantryInfectorBossFLD">
+		<Value Name="StartWave" Type="int" Value="1" />
+		<Value Name="EndWave" Type="int" Value="100" />
+		<Value Name="DeployTimeBase" Type="int" Value="10000" />
+		<Value Name="DeployTimePerInc" Type="int" Value="5000" />
+		<Value Name="WaveSizeMultiplier" Type="float" Value="1" />
+		<Value Name="BaseArmySize" Type="int" Value="50" />
+		<Value Name="ArmySizeAddPerCycle" Type="int" Value="10" />
+		<Value Name="AddLeaderDamageInCycles" Type="int" Value="2" />
+		<Value Name="AddLeaderOutCycles" Type="int" Value="2" />
+		<Value Name="AttackMoveChance" Type="float" Value="1" />
+		<Value Name="AddDamageInCycles" Type="int" Value="0" />
+		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
+		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
+		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY" />
+		<Value Name="Description" Type="string" Value="UIEP2FIRE.WAVETITLES.BOSS.LEADERARMY.DESC" />
+		<Value Name="Icon" Type="string" Value="boss" />
+		<Value Name="Composition" Type="protosquad">
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_assaultrifle_02</Entry>
+			<Entry>flood_inf_infected_assaultrifle_02</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_brutemelee_01</Entry>
+			<Entry>flood_inf_infected_brutemelee_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_assaultrifle_01</Entry>
+			<Entry>flood_inf_infected_assaultrifle_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_brutespiker_01</Entry>
+			<Entry>flood_inf_infected_brutespiker_01</Entry>
+		</Value>
+		<Value Name="Leaders" Type="protosquad">
+			<Entry>flood_inf_commander_01</Entry>
+		</Value>
+	</Table>
+</Tables>

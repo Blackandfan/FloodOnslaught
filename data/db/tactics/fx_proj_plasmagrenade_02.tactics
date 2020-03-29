@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Grenade</Name>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>SuicideGrunt</WeaponType>
+		<MaxVelocityLead>2.46000004</MaxVelocityLead>
+		<MaxRange>12.3000002</MaxRange>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="10" />
+		<AOERadius>10</AOERadius>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Grenade</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

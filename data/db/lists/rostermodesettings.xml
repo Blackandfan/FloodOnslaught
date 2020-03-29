@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RosterMode>
+	<MainBudget>6000</MainBudget>
+	<ReinforcementBudget>2000</ReinforcementBudget>
+	<DefaultTime>180</DefaultTime>
+</RosterMode>

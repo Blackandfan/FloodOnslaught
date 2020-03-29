@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DamageTypes>
+	<DamageType AttackRating="true" BaseType="true">Light</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightRush</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightArmored</DamageType>
+	<DamageType AttackRating="true" BaseType="true">SentinelLight</DamageType>
+	<DamageType AttackRating="true" BaseType="true">CovenantLeader</DamageType>
+	<DamageType AttackRating="true" BaseType="true">CovenantLeaderInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightArmoredInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumScout</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Medium</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumHero</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumAA</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumAir</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyInfantry</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Heavy</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyAir</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Building</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Flood</DamageType>
+	<DamageType AttackRating="true" BaseType="true">CampaignBlocker</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumsArms</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Plasma</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyPlasma</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Cannon</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Needler</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyNeedler</DamageType>
+	<DamageType AttackRating="true" BaseType="true">EnergyCore</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Beam</DamageType>
+	<DamageType AttackRating="true" BaseType="true">EnforcerShield</DamageType>
+	<DamageType AttackRating="true" BaseType="true">EnforcerArmour</DamageType>
+	<DamageType AttackRating="true">HunterShield</DamageType>
+	<DamageType Shielded="true">Shielded</DamageType>
+	<DamageType>Sprint</DamageType>
+</DamageTypes>

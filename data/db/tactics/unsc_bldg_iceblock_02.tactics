@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>PlasmaMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<Chill Amount="250" TargetType="Unit" />
+		<ImpactEffect size="Large">CryoBlast2</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>24</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Basic</WeaponType>
+		<Apply>0</Apply>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>0</WorkRange>
+		<Weapon>PlasmaMine</Weapon>
+		<DontAutoRestart />
+		<ExplodeOnDeath />
+	</Action>
+	<Action>
+		<Name>ChillAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>30</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="10.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_cryoauratierblock_02</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>ChillAura</PersistentAction>
+		<PersistentAction>ExplosiveManager</PersistentAction>
+	</Tactic>
+</TacticData>

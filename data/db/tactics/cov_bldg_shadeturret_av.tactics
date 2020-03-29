@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ShadePlasma</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>216</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_shadeplasma_01</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>FuelRod</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>75.5</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1.79999995</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>400</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>ShadePlasmaAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShadePlasmaAttack</Anim>
+		<Weapon>ShadePlasma</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>FuelRodAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShadePlasmaAttack</Anim>
+		<Weapon>FuelRod</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShadePlasmaAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FuelRodAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

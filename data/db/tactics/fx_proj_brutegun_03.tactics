@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ScorchMortarShockwave</Name>
+		<DamagePerSecond>115</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="3" />
+		<AOERadius>6</AOERadius>
+	</Weapon>
+	<Action>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>ScorchMortarShockwave</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

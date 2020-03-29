@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Pelican</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryCallDeployName>_Unit</DeliveryCallDeployName>
+		<MinTime>0</MinTime>
+		<MaxTime>5</MaxTime>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>DeliverSupplies</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Darter</Hardpoint>
+		<Hardpoint2>Crate</Hardpoint2>
+		<DeliveryType>Resources</DeliveryType>
+		<AllowDuplicate />
+		<AlwaysRun />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>5</WorkRate>
+		<WorkRange>0.61500001</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSuppliesSquad</Name>
+		<ActionType>SquadActionGather</ActionType>
+	</Action>
+	<Tactic>
+		<PersistentAction>DeliverSupplies</PersistentAction>
+		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+	</Tactic>
+</TacticData>

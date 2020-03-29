@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>megaTurret</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>4000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_megaTurret</Projectile>
+		<ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>9999</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0.25</Accuracy>
+		<MaxDeviation>100</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>25</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PostAttackCooldownMin>9</PostAttackCooldownMin>
+		<PostAttackCooldownMax>10</PostAttackCooldownMax>
+	</Weapon>
+	<Action>
+		<Name>megaTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>megaTurret</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurretAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

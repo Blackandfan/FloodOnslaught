@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Railgun</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>AntiVehicle</WeaponType>
+		<Projectile>fx_proj_gaussCannon_01</Projectile>
+		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>StandardGun</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_gaussCannon_01</Projectile>
+		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="Flying">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+	</Weapon>
+	<Action>
+		<Name>RailgunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>Railgun</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>StandardGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>StandardGun</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>ChillAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>25</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="10.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc4_units_cryoauratierdefence</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>ChillAura</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>RailgunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>StandardGunAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

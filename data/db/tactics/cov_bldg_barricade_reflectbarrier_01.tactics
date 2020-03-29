@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>FiendishReturn</Name>
+		<ActionType>ReflectDamage</ActionType>
+		<WorkRate>0.150000006</WorkRate>
+	</Action>
+	<Tactic>
+		<PersistentSquadAction>FiendishReturn</PersistentSquadAction>
+	</Tactic>
+</TacticData>

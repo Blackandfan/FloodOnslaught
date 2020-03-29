@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>BombingRunDamageOverTime</Name>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>LeaderPowerNonFlying</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="12" />
+		<AOERadius>16</AOERadius>
+	</Weapon>
+	<Weapon>
+		<Name>BombingRunMissile</Name>
+		<DamagePerSecond>1300</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>pow_proj_bombingrunmissile_03</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.5" yawpitchstrength="2" rollstrength="2" rotationfrequency="10" translationstrength="0" translationfrequency="4" />
+		<ImpactEffect size="Medium" doShockwaveAction="true">BombingRunL3Impact</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<Slow TargetType="cpgnh_spdecimusm4_01" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">30f</Slow>
+		<Daze TargetType="cpgnh_spdecimusm4_01" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">30f</Daze>
+	</Weapon>
+	<Action>
+		<Name>BombingRunDamageOverTimeAction</Name>
+		<Weapon>BombingRunDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>BombingRunAttackAction</Name>
+		<Weapon>BombingRunMissile</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

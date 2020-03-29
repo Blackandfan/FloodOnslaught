@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CryoDamageOverTime</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>LeaderPowerNonFlying</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="40" />
+		<AOERadius>25</AOERadius>
+		<AOEExpandingRadiusMax rate="4">40</AOEExpandingRadiusMax>
+		<Chill Amount="6" TargetType="AirCraft" />
+		<Chill Amount="6" TargetType="BasicAirCraft" />
+		<Chill Amount="7" TargetType="Infantry" />
+		<Chill Amount="7" TargetType="GroundVehicle" />
+		<Chill Amount="2" TargetType="CryoBuilding" />
+		<Chill Amount="2.5" TargetType="TurretBuilding" />
+	</Weapon>
+	<Weapon>
+		<Name>CryoStorm</Name>
+		<DamagePerSecond>900</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>pow_proj_cryostorm_01</Projectile>
+		<Chill Amount="50" TargetType="AirCraft" />
+		<Chill Amount="50" TargetType="BasicAirCraft" />
+		<Chill Amount="50" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="50" TargetType="GroundVehicle" />
+		<Chill Amount="50" TargetType="CryoBuilding" />
+		<Chill Amount="50" TargetType="TurretBuilding" />
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1.39999998" yawpitchstrength="4" rollstrength="2" rotationfrequency="5" translationstrength="0" translationfrequency="4" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.800000012" />
+		<ImpactEffect size="Large" doShockwaveAction="true">Cryostorm_01</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>40</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>CryoDamageOverTimeAction</Name>
+		<Weapon>CryoDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>CryoAttackAction</Name>
+		<Weapon>CryoStorm</Weapon>
+		<ProjectileInvokePower>Serina_CryoStorm_Extended</ProjectileInvokePower>
+	</Action>
+	<Tactic />
+</TacticData>

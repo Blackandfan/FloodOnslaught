@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>28</WorkRange>
+		<WorkRate>0.0260000005</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="35" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>28</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+	</Action>
+	<Tactic>
+		<PersistentAction>RepairOther</PersistentAction>
+	</Tactic>
+</TacticData>

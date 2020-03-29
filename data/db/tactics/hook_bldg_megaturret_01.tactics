@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>megaTurret</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>8400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Beam</WeaponType>
+		<Projectile>pow_gp_megaTurret</Projectile>
+		<ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>3075</MaxRange>
+		<Accuracy>0.25</Accuracy>
+		<MaxDeviation>100</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12.3000002</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>megaTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>megaTurret</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurretAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

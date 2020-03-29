@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<GameModes>
+	<GameMode>
+		<Name>Deathmatch</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>8002</DisplayNameID>
+		<DescriptionID>26027</DescriptionID>
+		<LongDescriptionID>26027</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>Domination</Name>
+		<WorldScript>DominationWorld.triggerscript</WorldScript>
+		<PlayerScript>DominationPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>26130</DisplayNameID>
+		<DescriptionID>26131</DescriptionID>
+		<LongDescriptionID>26131</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>CapFlag</Name>
+		<WorldScript>CapFlagWorld.triggerscript</WorldScript>
+		<PlayerScript>CapFlagPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>26012</DisplayNameID>
+		<DescriptionID>26013</DescriptionID>
+		<LongDescriptionID>26069</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>Roster</Name>
+		<WorldScript>RosterModeWorld.triggerscript</WorldScript>
+		<PlayerScript>RosterModePlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>26016</DisplayNameID>
+		<DescriptionID>26017</DescriptionID>
+		<LongDescriptionID>26018</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>QuickBuild</Name>
+		<WorldScript>QuickBuildWorld.triggerscript</WorldScript>
+		<PlayerScript>QuickBuildPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>27567</DisplayNameID>
+		<DescriptionID>27568</DescriptionID>
+		<LongDescriptionID>27569</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>Strongholds</Name>
+		<WorldScript>DeathMatchWorld.triggerscript</WorldScript>
+		<PlayerScript>DeathMatchPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>27718</DisplayNameID>
+		<DescriptionID>26028</DescriptionID>
+		<LongDescriptionID>26028</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>BlitzFirefight</Name>
+		<WorldScript>RosterModeHordeWorld.triggerscript</WorldScript>
+		<PlayerScript>RosterModeHordePlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>UIROST.SCRN.LOADMAP.FIRE.HEADER</DisplayNameID>
+		<DescriptionID>26028</DescriptionID>
+		<LongDescriptionID>26028</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>Firefight</Name>
+		<WorldScript>Firefight/World.triggerscript</WorldScript>
+		<PlayerScript>Firefight/Player.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>27718</DisplayNameID>
+		<DescriptionID>26028</DescriptionID>
+		<LongDescriptionID>26028</LongDescriptionID>
+		<NPC />
+	</GameMode>
+</GameModes>

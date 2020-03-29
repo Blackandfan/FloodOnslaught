@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Cleansing</Name>
+		<WeaponType>leaderPower</WeaponType>
+		<Projectile>pow_proj_laser_01</Projectile>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>CleansingAttackAction</Name>
+		<Weapon>Cleansing</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

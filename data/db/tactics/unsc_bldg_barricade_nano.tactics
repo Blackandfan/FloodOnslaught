@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>18</WorkRange>
+		<WorkRate>0.0149999997</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="35" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto />
+					<BoneName>b_fan_01</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>20</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>25</WorkRate>
+		<MinIdleDuration>0</MinIdleDuration>
+	</Action>
+	<Tactic>
+		<PersistentAction>RepairOther</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
+	</Tactic>
+</TacticData>

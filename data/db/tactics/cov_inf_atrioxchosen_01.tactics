@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Brutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_01</Projectile>
+		<ImpactEffect size="small">BruteShotImpact</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>AOEBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_02</Projectile>
+		<ImpactEffect size="small">BruteShotImpact2</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>AOEDOTBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect doShockwaveAction="true">BruteShotImpact3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>LongAOEDOTBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect doShockwaveAction="true">BruteShotImpact3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>AirBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_01</Projectile>
+		<ImpactEffect size="small">BruteShotImpactAir</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="Flying">7</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>AirAOEBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_02</Projectile>
+		<ImpactEffect size="small">BruteShotImpactAir2</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="Flying">7</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>AirAOEDOTBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect size="small">BruteShotImpactAir3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="Flying">7</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>AirLongAOEDOTBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect size="small">BruteShotImpactAir3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="Flying">7</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>AOEBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AOEBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>BrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>Brutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>AOEDOTBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AOEDOTBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>LongAOEDOTBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LongAttack</Anim>
+		<MoveAnim>LongAttackJog</MoveAnim>
+		<Weapon>LongAOEDOTBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AirAOEBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AirAOEBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AirBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AirBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>AirAOEDOTBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AirAOEDOTBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AirLongAOEDOTBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LongAttack</Anim>
+		<MoveAnim>LongAttackJog</MoveAnim>
+		<Weapon>AirLongAOEDOTBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>PersonalCloak</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>0.600000024</CaptureRate>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_locustshield</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>LongAOEDOTBrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>AOEDOTBrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>AOEBrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>BrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirLongAOEDOTBrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirAOEDOTBrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirAOEBrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirBrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>PersonalCloak</PersistentAction>
+	</Tactic>
+</TacticData>

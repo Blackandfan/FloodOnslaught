@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>OnDeathDamageContained</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Explosive</WeaponType>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>35</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>OnDeathDamageContained</Name>
+		<ActionType>Detonate</ActionType>
+		<DetonateDamageContainedOnly />
+		<Weapon>OnDeathDamageContained</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

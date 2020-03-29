@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>5</WorkRate>
+		<WorkRange>0.61500001</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSuppliesSquad</Name>
+		<ActionType>SquadActionGather</ActionType>
+	</Action>
+	<Tactic>
+		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+	</Tactic>
+</TacticData>

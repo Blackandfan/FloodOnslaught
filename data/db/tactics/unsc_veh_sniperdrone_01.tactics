@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>DroneLaser</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_reddotsight_01</Projectile>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>150</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>DroneMGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>DroneLaser2</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_reddotsightupgraded_01</Projectile>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>150</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>DroneMGTurret</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>ActionDrone</Name>
+		<ActionType>Drone</ActionType>
+		<Vivacity>2</Vivacity>
+	</Action>
+	<Action>
+		<Name>DroneLaserAction2</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Beam collideWithUnits="true" collideWithTerrain="false" />
+		<Weapon>DroneLaser2</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="40" jitter="20" />
+		<CanOrientOwner>true</CanOrientOwner>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>DroneLaserAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Beam collideWithUnits="true" collideWithTerrain="false" />
+		<Weapon>DroneLaser</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="40" jitter="20" />
+		<CanOrientOwner>true</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<WorkRange>22</WorkRange>
+		<MaxCharge>80</MaxCharge>
+		<RechargeDelay>3</RechargeDelay>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>DroneLaserAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>DroneLaserAction2</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>StealthManager</PersistentAction>
+		<PersistentAction>ActionDrone</PersistentAction>
+	</Tactic>
+</TacticData>

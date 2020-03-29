@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<DamagePerSecond>800</DamagePerSecond>
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>cov_air_megaturretpod_01</Projectile>
+		<UseDPSasDPA />
+		<ImpactEffect size="Large">BunkerDropImpact</ImpactEffect>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>17</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Artillery</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

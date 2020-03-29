@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CorruptionDamageOverTime</Name>
+		<DamagePerSecond>25</DamagePerSecond>
+		<WeaponType>Corruption</WeaponType>
+		<ImpactEffect size="Medium">CorruptionMedium</ImpactEffect>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="40" />
+		<AOERadius>20</AOERadius>
+		<Corruption overlap="1.1f" overwrite="false" />
+		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.649999976">2</Buff>
+		<Buff targetType="GroundVehicle" buffType="CorruptionDebuff" slowModifier="0.649999976">2</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>scarabBeamProj</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Corruption</WeaponType>
+		<Projectile>fx_proj_Corruptedscarabbeam</Projectile>
+		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<MaxVelocityLead>2.46000004</MaxVelocityLead>
+		<MaxRange>46.125</MaxRange>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2.5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>CorruptionDamageOverTimeAction</Name>
+		<Weapon>CorruptionDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>scarabBeamProj</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

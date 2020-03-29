@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>PlasmaMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>3000</DamagePerSecond>
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">PlasmaMineExplosion02</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.899999976" yawpitchstrength="2.5" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>24</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Basic</WeaponType>
+		<Apply>8</Apply>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<StartOnCooldown />
+		<RechargeDelay>8</RechargeDelay>
+		<WorkRange>22</WorkRange>
+		<MaxCharge>200</MaxCharge>
+	</Action>
+	<Action>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>8</WorkRange>
+		<Weapon>PlasmaMine</Weapon>
+	</Action>
+	<Tactic>
+		<PersistentAction>StealthManager</PersistentAction>
+		<PersistentAction>ExplosiveManager</PersistentAction>
+	</Tactic>
+</TacticData>

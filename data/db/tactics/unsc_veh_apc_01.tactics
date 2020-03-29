@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>OnDeathDamageContained</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Explosive</WeaponType>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>OnDeathDamageContained</Name>
+		<ActionType>Detonate</ActionType>
+		<DetonateDamageContainedOnly />
+		<Weapon>OnDeathDamageContained</Weapon>
+	</Action>
+	<Action>
+		<Name>UnloadContained</Name>
+		<ActionType>UnloadContained</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>LoadTarget</Name>
+		<ActionType>LoadTarget</ActionType>
+		<WorkRange>10</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<ContainsUnits />
+			<Action>UnloadContained</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<Action>LoadTarget</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Civs>
+	<Civ>
+		<Name>Gaia</Name>
+	</Civ>
+	<Civ>
+		<Name>UNSC</Name>
+		<CivTech>unsc_basic</CivTech>
+		<DisplayNameID>22200</DisplayNameID>
+		<CommandAckObject>sys_marker_command_01</CommandAckObject>
+		<CommandAltAckObject>vfx_ui_command_01_commandmarkerred</CommandAltAckObject>
+		<RallyPointObject>sys_marker_rally_01</RallyPointObject>
+		<LocalRallyPointObject>sys_marker_localRally_01</LocalRallyPointObject>
+		<ExpandHull>0</ExpandHull>
+		<TerrainPushOff>0</TerrainPushOff>
+		<BuildingMagnetRange>6</BuildingMagnetRange>
+		<Transport>unsc_air_pelican_01</Transport>
+		<TransportTrigger>unsc_air_pelican_01</TransportTrigger>
+		<SoundBank />
+		<LeaderMenuNameID>118</LeaderMenuNameID>
+		<PowerFromHero>false</PowerFromHero>
+		<UIControlBackground>img://art\ui\flash\shared\textures\civ\CivPict_unsc.ddx</UIControlBackground>
+		<SkinEntitlementId>1a1bd8ee94b643568a497c5001a60072</SkinEntitlementId>
+	</Civ>
+	<Civ Alpha="0">
+		<Name>Covenant</Name>
+		<DisplayNameID>22201</DisplayNameID>
+		<CivTech>cov_basic</CivTech>
+		<CommandAckObject>sys_marker_command_01</CommandAckObject>
+		<CommandAltAckObject>vfx_ui_command_01_commandmarkerred</CommandAltAckObject>
+		<RallyPointObject>sys_marker_rally_cov</RallyPointObject>
+		<LocalRallyPointObject>sys_marker_localRally_cov</LocalRallyPointObject>
+		<ExpandHull>0</ExpandHull>
+		<TerrainPushOff>0</TerrainPushOff>
+		<BuildingMagnetRange>6</BuildingMagnetRange>
+		<Transport>cov_air_spirit_01</Transport>
+		<TransportTrigger>cov_air_spirit_01</TransportTrigger>
+		<SoundBank />
+		<LeaderMenuNameID>119</LeaderMenuNameID>
+		<PowerFromHero>false</PowerFromHero>
+		<UIControlBackground>img://art\ui\flash\shared\textures\civ\CivPict_covenant.ddx</UIControlBackground>
+		<SkinEntitlementId>1a1bd8ee94b643568a497c5001a60072</SkinEntitlementId>
+	</Civ>
+	<Civ Alpha="0">
+		<Name>Flood</Name>
+		<DisplayNameID>22201</DisplayNameID>
+		<CivTech>cov_basic</CivTech>
+		<CommandAckObject>sys_marker_command_01</CommandAckObject>
+		<CommandAltAckObject>vfx_ui_command_01_commandmarkerred</CommandAltAckObject>
+		<RallyPointObject>sys_marker_rally_cov</RallyPointObject>
+		<LocalRallyPointObject>sys_marker_localRally_cov</LocalRallyPointObject>
+		<ExpandHull>0</ExpandHull>
+		<TerrainPushOff>0</TerrainPushOff>
+		<BuildingMagnetRange>6</BuildingMagnetRange>
+		<Transport>cov_air_spirit_01</Transport>
+		<TransportTrigger>cov_air_spirit_01</TransportTrigger>
+		<SoundBank />
+		<LeaderMenuNameID>119</LeaderMenuNameID>
+		<PowerFromHero>false</PowerFromHero>
+		<UIControlBackground>img://art\ui\flash\shared\textures\civ\CivPict_covenant.ddx</UIControlBackground>
+		<SkinEntitlementId>1a1bd8ee94b643568a497c5001a60072</SkinEntitlementId>
+	</Civ>
+</Civs>

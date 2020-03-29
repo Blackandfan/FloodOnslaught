@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>20</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.800000012" DamageDealtModifier="1.20000005">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Grunt</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>AreaDebuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>20</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneDebuff" DamageMitigationScalar="1.20000005" SlowModifier="0.800000012">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+	</Action>
+	<Tactic>
+		<PersistentAction>AreaBuff</PersistentAction>
+		<PersistentAction>AreaDebuff</PersistentAction>
+	</Tactic>
+</TacticData>

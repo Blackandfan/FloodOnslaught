@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Config>
+	<SelectionMarquee civ="UNSC">
+		<Texture name="textures\ui\UI_PCMarqueeSelection.ddx" />
+		<Tint r="0.899999976" g="0.899999976" b="0.899999976" a="0.5" />
+		<Border size="16" />
+	</SelectionMarquee>
+	<SelectionMarquee civ="Banished">
+		<Texture name="textures\ui\UI_PCMarqueeSelection.ddx" />
+		<Tint r="0.899999976" g="0.899999976" b="0.899999976" a="0.5" />
+		<Border size="16" />
+	</SelectionMarquee>
+</Config>

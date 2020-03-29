@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>BruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>GruntMine</WeaponType>
+		<ImpactEffect size="Medium">BruteMineExplosion</ImpactEffect>
+		<Slow TargetType="Infantry" MovementModifier="0.899999976" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">4</Slow>
+		<Slow TargetType="GroundVehicle" MovementModifier="0.5" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">4</Slow>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Apply>0.5</Apply>
+	</Weapon>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<RechargeDelay>3</RechargeDelay>
+	</Action>
+	<Action>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>7</WorkRange>
+		<ChargeType>Shrapnel</ChargeType>
+		<Weapon>BruteShrapnelMine</Weapon>
+	</Action>
+	<Tactic>
+		<PersistentAction>StealthManager</PersistentAction>
+		<PersistentAction>ExplosiveManager</PersistentAction>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Lich</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>25</DeliveryDelay>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>HQAnimTeleport</Name>
+		<ActionType>HQAnimTeleport</ActionType>
+		<Hardpoint>Teleporter</Hardpoint>
+		<Duration>60</Duration>
+	</Action>
+	<Action>
+		<Name>TrainedSquadDoor</Name>
+		<ActionType>TrainedSquadDoor</ActionType>
+		<Hardpoint>Door</Hardpoint>
+	</Action>
+	<Action>
+		<Name>Base</Name>
+		<ActionType>Base</ActionType>
+	</Action>
+	<Tactic>
+		<PersistentAction>HQAnimTeleport</PersistentAction>
+		<PersistentAction>TrainedSquadDoor</PersistentAction>
+		<PersistentAction>Base</PersistentAction>
+	</Tactic>
+</TacticData>

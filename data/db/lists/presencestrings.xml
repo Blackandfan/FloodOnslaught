@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<awards>
+	<presence game_id="PRESENCE_CAMPAIGN_LOBBY" live_id="0" one_id="CA_PRESENCE_CAMPAIGN_LOBBY" />
+	<presence game_id="PRESENCE_CAMPAIGN_MISSION_COOP" live_id="1" one_id="CA_PRESENCE_CAMPAIGN_MISSION_COOP" />
+	<presence game_id="PRESENCE_CAMPAIGN_MISSION_SOLO" live_id="2" one_id="CA_PRESENCE_CAMPAIGN_MISSION_SOLO" />
+	<presence game_id="PRESENCE_CAREER" live_id="3" one_id="CA_PRESENCE_CAREER" />
+	<presence game_id="PRESENCE_CHALLENGES" live_id="4" one_id="CA_PRESENCE_CHALLENGES" />
+	<presence game_id="PRESENCE_CODEX" live_id="5" one_id="CA_PRESENCE_CODEX" />
+	<presence game_id="PRESENCE_IDLE" live_id="6" one_id="CA_PRESENCE_IDLE" />
+	<presence game_id="PRESENCE_MAIN_MENU" live_id="7" one_id="CA_PRESENCE_MAIN_MENU" />
+	<presence game_id="PRESENCE_MULTIPLAYER_IN_GAME" live_id="8" one_id="CA_PRESENCE_MULTIPLAYER_IN_GAME" />
+	<presence game_id="PRESENCE_MULTIPLAYER_MENU" live_id="9" one_id="CA_PRESENCE_MULTIPLAYER_MENU" />
+	<presence game_id="PRESENCE_MULTIPLAYER_SEARCHING" live_id="10" one_id="CA_PRESENCE_MULTIPLAYER_SEARCHING" />
+	<presence game_id="PRESENCE_MULTIPLAYER_ROSTER_DECKS" live_id="11" one_id="CA_PRESENCE_ROSTER_DECKS" />
+	<presence game_id="PRESENCE_ROSTER_MODE_MENU" live_id="12" one_id="CA_PRESENCE_ROSTER_MODE_MENU" />
+	<presence game_id="PRESENCE_SKIRMISH" live_id="13" one_id="CA_PRESENCE_SKIRMISH" />
+	<presence game_id="PRESENCE_SKIRMISH_LOBBY" live_id="14" one_id="CA_PRESENCE_SKIRMISH_LOBBY" />
+	<presence game_id="PRESENCE_THEATRE" live_id="17" one_id="CA_PRESENCE_THEATRE" />
+	<presence game_id="PRESENCE_TUTORIAL" live_id="18" one_id="CA_PRESENCE_TUTORIAL" />
+	<presence game_id="PRESENCE_BLITZ_LOBBY" live_id="19" one_id="CA_PRESENCE_BLITZ_LOBBY" />
+	<presence game_id="PRESENCE_FIREFIGHT" live_id="20" one_id="CA_PRESENCE_FIREFIGHT" />
+	<presence game_id="PRESENCE_BASE_FIREFIGHT" live_id="21" one_id="CA_PRESENCE_BASE_FIREFIGHT" />
+	<presence game_id="PRESENCE_SPECTATING_DELAYED" live_id="22" one_id="CA_PRESENCE_SPECTATING_DELAYED" />
+	<statistic stat_type="TUTORIAL" game_id="0" one_id="TUTORIAL_BASIC_CONTROLS" />
+	<statistic stat_type="TUTORIAL" game_id="1" one_id="TUTORIAL_BASIC_COMBAT" />
+	<statistic stat_type="TUTORIAL" game_id="2" one_id="TUTORIAL_ADVANCED_CONTROLS" />
+	<statistic stat_type="TUTORIAL" game_id="3" one_id="TUTORIAL_ADVANCED_COMBAT" />
+	<statistic stat_type="TUTORIAL" game_id="4" one_id="TUTORIAL_ROSTER_MODE" />
+</awards>

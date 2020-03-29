@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>PlasmaCannon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>Chaingun</WeaponType>
+		<Projectile>fx_proj_plasmaCannon_01</Projectile>
+		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Hardpoint>PlasmaCannon</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.800000012</PostAttackCooldownMax>
+		<Filter>Medium</Filter>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="Flying">7</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>OnDeathDamageContained</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>8000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Explosive</WeaponType>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>OnDeathDamageContained</Name>
+		<ActionType>Detonate</ActionType>
+		<DetonateDamageContainedOnly />
+		<Weapon>OnDeathDamageContained</Weapon>
+	</Action>
+	<Action>
+		<MaxPitch>0</MaxPitch>
+		<MaxRoll>30</MaxRoll>
+	</Action>
+	<Action>
+		<Name>PlasmaCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>PlasmaCannon</Weapon>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1.84500003</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>UnloadContained</Name>
+		<ActionType>UnloadContained</ActionType>
+		<WorkRange>8</WorkRange>
+	</Action>
+	<Action>
+		<Name>LoadTarget</Name>
+		<ActionType>LoadTarget</ActionType>
+		<WorkRange>10</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PlasmaCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+			<RequireHavingGarrisonedSquads />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<ContainsUnits />
+			<Action>UnloadContained</Action>
+			<SquadMode>Normal</SquadMode>
+			<RequireHavingGarrisonedSquads />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<Action>UnloadContained</Action>
+			<RequireHavingGarrisonedSquads />
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<Action>LoadTarget</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CarpetBomb</Name>
+		<DamagePerSecond>3500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_proj_cleansing_01</Projectile>
+		<ImpactCameraShake duration="0.200000003" strength="0.200000003" />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6.1500001</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>50</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>70</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>CarpetBombingAttackAction</Name>
+		<Weapon>CarpetBomb</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

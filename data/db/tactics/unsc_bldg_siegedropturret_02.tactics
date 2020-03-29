@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FoxyWeapon</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>140</DamagePerSecond>
+		<PostAttackCooldownMin>3.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>3.5</PostAttackCooldownMax>
+		<WeaponType>Artillery</WeaponType>
+		<Projectile>fx_proj_foxcannon_01</Projectile>
+		<ImpactEffect size="Medium">LargeExplosionImpact</ImpactEffect>
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>150</MaxRange>
+		<MinRange>40</MinRange>
+		<Accuracy>0.200000003</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>FoxyFireAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FoxyWeapon</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Pelican</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>20</DeliveryDelay>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FoxyFireAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,42 @@
+hud {
+		
+	spectatorControls {
+		screen {
+			source = "default\flash\screens_hud_SpectatorControlScreen.swf";
+			priority = screen-normal;
+			scale-mode = preserve-aspect;
+			anchor-horizontal = left;
+			anchor-vertical = top;
+		}
+		component {
+			image-substitution = true;
+			
+			.dividedBarLabel{}
+			.playerNameLabel{}
+			.statusLabel{}
+			.cameraCombo{}
+			.fowCombo{}			
+			.cameraControlIcon
+			{
+				text = "UIHUD.SPECTATOR.CAMERAMODE.ICON";
+			}
+			.fowControlIcon
+			{
+				text = "UIHUD.SPECTATOR.FOWMODE.ICON";
+			}			
+			.listControlIcon
+			{
+				text = "UIHUD.SPECTATOR.PLAYERLIST.ICON";
+			}
+			
+			.factionIcon{
+				align-horizontal = "center";
+				align-vertical = "center";
+				image-fit = "stretch";
+				image-rendering = "smooth";
+			}
+			
+			
+		}
+	}
+}

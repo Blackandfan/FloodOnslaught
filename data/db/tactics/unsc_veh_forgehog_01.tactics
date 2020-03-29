@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Autocannon</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>385</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_cannon_03</Projectile>
+		<ImpactEffect size="Medium">AutoCannonImpact</ImpactEffect>
+		<MaxVelocityLead>27.6749992</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
+		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>CobraCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_cobracannon_01</Projectile>
+		<ImpactEffect size="medium">CobraCannonImpact</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>GaussTurret</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.800000012</PostAttackCooldownMax>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>EMPArc</Name>
+		<WeaponType>Hero</WeaponType>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>2300</DamagePerSecond>
+		<UseDPSasDPA />
+		<Projectile>fx_proj_anvilround_01</Projectile>
+		<ImpactEffect size="Medium" doShockwaveAction="true" alwaysHorizontal="true">EmpForgeHogTier1</ImpactEffect>
+		<MaxVelocityLead>25</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<Hardpoint>Turret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>UpgradedEMPArc</Name>
+		<WeaponType>Hero</WeaponType>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>2300</DamagePerSecond>
+		<UseDPSasDPA />
+		<Projectile>fx_proj_anvilround_02</Projectile>
+		<ImpactEffect size="Medium" doShockwaveAction="true" alwaysHorizontal="true">EmpForgeHogTier2</ImpactEffect>
+		<MaxVelocityLead>25</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<Hardpoint>GaussTurret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Action>
+		<Name>AutoCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CannonAttack</Anim>
+		<Weapon>Autocannon</Weapon>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+	</Action>
+	<Action>
+		<Name>CobraCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GaussCannonAttack</Anim>
+		<Weapon>CobraCannon</Weapon>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>EMPArcAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>EMPArcAttack</Anim>
+		<Weapon>EMPArc</Weapon>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UpgradedEMPArcAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>EMPArcAttack</Anim>
+		<Weapon>UpgradedEMPArc</Weapon>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>8.61000061</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>8</WorkRange>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>20</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ForgehogHeavyMetal" DamageMitigationScalar="0.899999976">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>NonFlying</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_nanobots01</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AreaBuff2</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>30</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ForgehogHeavyMetal" DamageMitigationScalar="0.850000024" SlowModifier="1.10000002" OverwritesSelf="true">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>NonFlying</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_nanobots02</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SpawnSentinel1</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>unsc_air_forgedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>AreaBuff</PersistentAction>
+		<PersistentAction>AreaBuff2</PersistentAction>
+		<PersistentAction>SpawnSentinel1</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>EMPArcAttack</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>UpgradedEMPArcAttack</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>EMPArcAttack</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>UpgradedEMPArcAttack</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>AutoCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>CobraCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

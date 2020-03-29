@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>megaTurret</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_megaTurret</Projectile>
+		<ImpactEffect size="Large">MediumPlasmaExplosion</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>250</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>100</MaxDeviation>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12.3000002</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>megaTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>megaTurret</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>megaTurretAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

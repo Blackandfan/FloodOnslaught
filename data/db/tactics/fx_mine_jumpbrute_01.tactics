@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>JumpBruteMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>JPBMine</WeaponType>
+		<ImpactEffect size="Medium">BruteMineExplosion</ImpactEffect>
+		<Slow TargetType="infantry" MovementModifier="0.5" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">4.0f</Slow>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>14</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Apply>2</Apply>
+	</Weapon>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<RechargeDelay>4</RechargeDelay>
+		<StartOnCooldown />
+	</Action>
+	<Action>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>10</WorkRange>
+		<ChargeType>Shrapnel</ChargeType>
+		<Weapon>JumpBruteMine</Weapon>
+	</Action>
+	<Tactic>
+		<PersistentAction>StealthManager</PersistentAction>
+		<PersistentAction>ExplosiveManager</PersistentAction>
+	</Tactic>
+</TacticData>

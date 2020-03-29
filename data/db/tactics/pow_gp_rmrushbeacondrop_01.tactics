@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>OrbitalBombardment</Name>
+		<DamagePerSecond>400</DamagePerSecond>
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>pow_gp_rmrushbeacondrop_01</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.600000024" yawpitchstrength="1.5" rollstrength="1" rotationfrequency="18" translationstrength="0" translationfrequency="6" />
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">ODSTUnitPod</ImpactEffect>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>LeaderPower</WeaponType>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>OrbitalBombardmentAttackAction</Name>
+		<Weapon>OrbitalBombardment</Weapon>
+		<ProjectileInvokePower>RM_Unbrk_LichAssault</ProjectileInvokePower>
+	</Action>
+	<Tactic />
+</TacticData>

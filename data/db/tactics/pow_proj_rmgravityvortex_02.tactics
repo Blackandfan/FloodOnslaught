@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Cleansing</Name>
+		<DamagePerSecond>1</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>leaderPower</WeaponType>
+		<Projectile>pow_proj_rmgravityvortex_02</Projectile>
+		<ImpactAdvancedCameraShake fadein="0" duration="1" fadeout="0" yawpitchstrength="0.0500000007" rollstrength="0.0250000004" rotationfrequency="8" translationstrength="0" translationfrequency="6" />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false">1.5f</Daze>
+		<Buff TargetType="Military" BuffType="VortexDebuff" DamageMitigationScalar="1.20000005">3.0f</Buff>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>CleansingAttackAction</Name>
+		<Weapon>Cleansing</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

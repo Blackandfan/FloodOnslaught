@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Hammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>BruteRider</WeaponType>
+		<MaxRange>2</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="TurretBuilding">6</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="groundVehicle">3</TargetPriority>
+		<Hardpoint>b_spine_2</Hardpoint>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>PunchHarder</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>BruteRider</WeaponType>
+		<MaxRange>2</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="TurretBuilding">6</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="groundVehicle">3</TargetPriority>
+		<Hardpoint>b_spine_2</Hardpoint>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<Hitbox>
+			<Type>Circle</Type>
+			<Radius>2</Radius>
+			<DamageRatio>100</DamageRatio>
+			<Origin>Target</Origin>
+			<FriendlyFire>false</FriendlyFire>
+			<TargetType>NonFlying</TargetType>
+		</Hitbox>
+	</Weapon>
+	<Weapon>
+		<Name>Grenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>BruteRider</WeaponType>
+		<Projectile>vfx_dlc5_units_bruteridergrenadetrail</Projectile>
+		<ImpactEffect size="Medium">bruteRiderPlasmaGrenade</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>20</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>3</PreAttackCooldownMax>
+		<PostAttackCooldownMin>3</PostAttackCooldownMin>
+		<PostAttackCooldownMax>3.5</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<Hardpoint>Grunt</Hardpoint>
+		<TargetPriority type="TurretBuilding">6</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="groundVehicle">3</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverGrenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>BruteRider</WeaponType>
+		<Projectile>vfx_dlc5_units_bruteridergrenadetrail</Projectile>
+		<ImpactEffect size="Medium">bruteRiderPlasmaGrenade</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>20</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Grunt</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>3</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<TargetPriority type="TurretBuilding">6</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="groundVehicle">3</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Ram</Name>
+		<WeaponType>InfantryRam</WeaponType>
+		<DamagePerSecond>650</DamagePerSecond>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactEffect size="medium">RamImpact</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<MaxDamagePerRam>2000</MaxDamagePerRam>
+		<ReflectDamageFactor>1</ReflectDamageFactor>
+		<Filter>Medium</Filter>
+		<Hardpoint>b_spine_2</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<MaxInfantrySquadsPerRam>4</MaxInfantrySquadsPerRam>
+	</Weapon>
+	<Weapon>
+		<Name>RamSecondary</Name>
+		<WeaponType>InfantryRam</WeaponType>
+		<DamagePerSecond>250</DamagePerSecond>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactEffect size="medium">RamImpactInfantry</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.200000003" yawpitchstrength="0.400000006" rollstrength="0.200000003" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<MaxDamagePerRam>2000</MaxDamagePerRam>
+		<ReflectDamageFactor>0</ReflectDamageFactor>
+		<Filter>Medium</Filter>
+		<Hardpoint>b_spine_2</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>HammerAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">MeleeAttack</Anim>
+		<Weapon>Hammer</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>UpgradedMeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">PlasmaMeleeAttack</Anim>
+		<Weapon>PunchHarder</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>InCoverGrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeThrow</Anim>
+		<Weapon>InCoverGrenade</Weapon>
+	</Action>
+	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeThrow</Anim>
+		<Weapon>Grenade</Weapon>
+	</Action>
+	<State>
+		<Name>RamState</Name>
+		<WalkAnim>Run</WalkAnim>
+		<RunAnim>Run</RunAnim>
+		<JogAnim>Run</JogAnim>
+	</State>
+	<Action>
+		<Name>RamAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>PersistentCollisionAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>Ram</Weapon>
+		<SecondaryWeapon>RamSecondary</SecondaryWeapon>
+		<NewTacticState>RamState</NewTacticState>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture02</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>GrenadeAttackAction</PersistentAction>
+		<PersistentAction>InCoverGrenadeAttackAction</PersistentAction>
+		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>UpgradedMeleeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>HammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverGrenadeAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Infantry</TargetType>
+			<Action>RamAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture02</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

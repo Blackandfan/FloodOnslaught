@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>PelicanBuilding</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>18</DeliveryDelay>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>InfantryDelivery</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>PelicanCrates</Hardpoint>
+		<Hardpoint2>Crate</Hardpoint2>
+		<DeliveryType>Infantry</DeliveryType>
+		<DeliveryCallDeployName>Crate_Lift</DeliveryCallDeployName>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>HQAnimDelivers</Name>
+		<ActionType>HQAnimDelivers</ActionType>
+		<MinTime>15</MinTime>
+		<MaxTime>60</MaxTime>
+	</Action>
+	<Action>
+		<Name>TrainedSquadDoor</Name>
+		<ActionType>TrainedSquadDoor</ActionType>
+		<Hardpoint>Door</Hardpoint>
+	</Action>
+	<Tactic>
+		<PersistentAction>InfantryDelivery</PersistentAction>
+		<PersistentAction>HQAnimDelivers</PersistentAction>
+		<PersistentAction>TrainedSquadDoor</PersistentAction>
+	</Tactic>
+</TacticData>

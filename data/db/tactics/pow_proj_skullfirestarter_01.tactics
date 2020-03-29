@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FirestarterDamageOverTime</Name>
+		<AllowFriendlyFire>false</AllowFriendlyFire>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="4" />
+		<AOERadius>3</AOERadius>
+	</Weapon>
+	<Weapon>
+		<Name>FirestarterMissile</Name>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>pow_proj_skullfirestarter_01</Projectile>
+		<ImpactCameraShake duration="0.200000003" strength="0.150000006" />
+		<ImpactEffect size="Medium" doShockwaveAction="true">FirestarterMarine</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>FirestarterDamageOverTimeAction</Name>
+		<Weapon>FirestarterDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>FirestarterAttackAction</Name>
+		<Weapon>FirestarterMissile</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

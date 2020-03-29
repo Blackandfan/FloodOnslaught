@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>OrbitalBombardmentShockwave</Name>
+		<AllowFriendlyFire />
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<AOERadius>36.9000015</AOERadius>
+		<AOEDistanceFactor>0.202950001</AOEDistanceFactor>
+		<AOEDamageFactor>0.61500001</AOEDamageFactor>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<Shockwave />
+	</Weapon>
+	<Weapon>
+		<Name>OrbitalBombardment</Name>
+		<DamagePerSecond>30000</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_condormac_01</Projectile>
+		<ImpactEffect size="Medium" doShockwaveAction="true">OrbitalBombardmentExplosion</ImpactEffect>
+		<ImpactCameraShake duration="0.5" strength="2" />
+		<ImpactCameraEffect>
+			<ColorTransformFactor>
+				<Value time="0">1</Value>
+				<Value time="0.5">0.5</Value>
+				<Value time="1">0</Value>
+			</ColorTransformFactor>
+			<BlurFactor>
+				<Value time="0">1</Value>
+				<Value time="0.5">1</Value>
+				<Value time="1">0</Value>
+			</BlurFactor>
+			<ColorTransformR>
+				<Value time="0">0.899999976,0,0</Value>
+			</ColorTransformR>
+			<ColorTransformG>
+				<Value time="0">0,0.899999976,0</Value>
+			</ColorTransformG>
+			<ColorTransformB>
+				<Value time="0">0,0,1</Value>
+			</ColorTransformB>
+			<BlurXY />
+			<RadialBlurFactor use3DPos="true">
+				<Value time="0">0.100000001,0.200000003</Value>
+				<Value time="0.5">0.200000003,0.200000003</Value>
+				<Value time="2">0,0</Value>
+			</RadialBlurFactor>
+			<FOV />
+		</ImpactCameraEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12.3000002</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>OrbitalBombardmentAttackAction</Name>
+		<Weapon>OrbitalBombardment</Weapon>
+	</Action>
+	<Action>
+		<Name>OrbitalBombardmentShockwaveAction</Name>
+		<Weapon>OrbitalBombardmentShockwave</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

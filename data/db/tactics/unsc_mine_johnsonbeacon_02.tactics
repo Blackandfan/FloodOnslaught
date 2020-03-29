@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>30</WorkRange>
+		<WorkRate>0.0359999985</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="35" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+				<HealingPoint>
+					<HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+					<BoneName>bone_top_0</BoneName>
+					<TargetType>Military</TargetType>
+					<MaxHealingDistance>30</MaxHealingDistance>
+					<SwitchTargetDelay>1</SwitchTargetDelay>
+					<AutoReapairOn />
+					<PrioritiseByHp />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>30</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ForgehogHeavyMetal" DamageMitigationScalar="0.800000012">1.0f</BuffParams>
+			<TargetTypes />
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+	</Action>
+	<Tactic>
+		<PersistentAction>RepairOther</PersistentAction>
+		<PersistentAction>AreaBuff</PersistentAction>
+	</Tactic>
+</TacticData>

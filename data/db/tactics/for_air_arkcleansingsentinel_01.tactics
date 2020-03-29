@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_condormac_01</Projectile>
+		<ImpactEffect size="Medium">RetreiverSuperBeam</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Weapon</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">4</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>ArtilleryAir</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_condormac_01</Projectile>
+		<ImpactEffect size="Medium">RetreiverSuperBeamAir</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Weapon</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">4</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>OnDeathBomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_anvilround_02</Projectile>
+		<MaxRange>30</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>30</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>30</AOERadius>
+		<ImpactEffect size="Medium" doShockwaveAction="true" alwaysHorizontal="true">EmpForgeHogTier2</ImpactEffect>
+	</Weapon>
+	<Action>
+		<Name>OnDeathBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>OnDeathBomb</Weapon>
+		<Anim>Attack_Gravatic_Pulse</Anim>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>7</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+	</Action>
+	<Action>
+		<Name>ArtilleryAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RangedAttack</Anim>
+		<Weapon>Artillery</Weapon>
+		<PersistBetweenOpps />
+		<FullBodyAttackAnim />
+		<CanOrientOwner>false</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>ArtilleryAirAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RangedAttack</Anim>
+		<Weapon>ArtilleryAir</Weapon>
+		<PersistBetweenOpps />
+		<FullBodyAttackAnim />
+		<CanOrientOwner>false</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ArtilleryAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ArtilleryAirAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

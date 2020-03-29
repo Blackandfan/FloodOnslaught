@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ScorchPool</Name>
+		<AllowFriendlyFire />
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="6" />
+		<AOERadius>11</AOERadius>
+		<DOTEffect small="vfx_RMvfx_Powers_rmScorchMineUnit" medium="vfx_RMvfx_Powers_rmScorchMineUnit" large="vfx_RMvfx_Powers_rmScorchMineUnit">vfx_RMvfx_Powers_rmScorchMineUnit</DOTEffect>
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<ImpactEffect size="Medium">PlasmaMineExplosion01</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<TargetType>NonFlying</TargetType>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ImpactEffect doShockwaveAction="true">rmScorchMineExplosion</ImpactEffect>
+		<Apply>6</Apply>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>ScorchPool</Weapon>
+	</Action>
+	<Action>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>11</WorkRange>
+		<Weapon>PlasmaMine</Weapon>
+	</Action>
+	<Tactic>
+		<PersistentAction>ExplosiveManager</PersistentAction>
+	</Tactic>
+</TacticData>

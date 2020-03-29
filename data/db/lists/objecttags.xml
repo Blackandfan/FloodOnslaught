@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tags>
+	<Tag name="not_1v1" category="multiplayer" description="if the item is not in 1v1" />
+	<Tag name="not_2v2" category="multiplayer" description="if the item is not in 2v2" />
+	<Tag name="not_3v3" category="multiplayer" description="if the item is not in 3v3" />
+	<Tag name="not_domination" category="multiplayer" description="if the item is not in domination mode" />
+	<Tag name="not_deathmatch" category="multiplayer" description="if the item is not in deathmatch mode" />
+	<Tag name="not_ctf" category="multiplayer" description="if the item is not in ctf mode" />
+	<Tag name="is_1v1" category="multiplayer" description="if the item is in 1v1" />
+	<Tag name="is_2v2" category="multiplayer" description="if the item is in 2v2" />
+	<Tag name="is_3v3" category="multiplayer" description="if the item is in 3v3" />
+	<Tag name="is_blitz" category="multiplayer" description="if the item is in Blitz Mode" />
+	<Tag name="is_blitzfirefight" category="multiplayer" description="if the item is in Blitz Firefighht Mode" />
+	<Tag name="not_blitzfirefight" category="multiplayer" description="if the item is not in Blitz Firefighht Mode" />
+	<Tag name="is_firefight" category="multiplayer" description="if the item is in Firefighht Mode" />
+	<Tag name="not_firefight" category="multiplayer" description="if the item is not in Firefighht Mode" />
+	<Tag name="is_domination" category="multiplayer" description="if the item is in domination mode" />
+	<Tag name="is_deathmatch" category="multiplayer" description="if the item is in deathmatch mode" />
+	<Tag name="is_ctf_1flag" category="multiplayer" description="if the item is in one flag mode" />
+	<Tag name="is_ctf_multiflag" category="multiplayer" description="if the item is in multi-flag mode" />
+	<Tag name="is_ctf_any" category="multiplayer" description="if the item is in either ctf mode" />
+	<Tag name="is_roster" category="multiplayer" description="if the item is in roster mode" />
+	<Tag name="not_roster" category="multiplayer" description="if the item is not in roster mode" />
+	<Tag name="is_quickbuild" category="multiplayer" description="if the item is in Quick Build mode" />
+	<Tag name="not_quickbuild" category="multiplayer" description="if the item is not in Quick Build mode" />
+	<Tag name="not_blitz" category="multiplayer" description="if the item is not in Blitz mode" />
+	<Tag name="is_quickview" category="singleplayer" description="if the item is visible when QuickView is used to load this level" />
+	<Tag name="not_quickview" category="singleplayer" description="if the item is hidden when the QuickView is used to load this level" />
+	<Tag name="dialogue_Cliff" category="DialogueAreaName" description="Named area (for dialogues): Cliff" />
+	<Tag name="dialogue_Waterfall" category="DialogueAreaName" description="Named area (for dialogues): Waterfall" />
+	<Tag name="dialogue_Base" category="DialogueAreaName" description="Named area (for dialogues): Base" />
+	<Tag name="not_singleplayer" category="multiplayer" description="multiplayer only" />
+	<Tag name="is_singleplayer" category="singleplayer" description="singleplayer only" />
+	<Tag name="difficulty_easy" category="singleplayer" description="this object only spawns if the difficulty is set to easy" />
+	<Tag name="difficulty_normal" category="singleplayer" description="this object only spawns if the difficulty is set to normal" />
+	<Tag name="difficulty_heroic" category="singleplayer" description="this object only spawns if the difficulty is set to heroic" />
+	<Tag name="difficulty_legendary" category="singleplayer" description="this object only spawns if the difficulty is set to legendary" />
+	<Tag name="MISSION_TUT_Rostermode" category="singleplayer" description="Roster Mode tutorial objective mission" />
+	<Tag name="MISSION_SinglePlayerDefault" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_TUT_Standalone_Basic" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_TUT_Standalone_Advanced" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_TUT_Multiplayer_Rush" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_TUT_Multiplayer_Turtle" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_TUT_Multiplayer_Boom" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M0_Prologue_1" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M0_Prologue_2" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M02a_Alice_Story" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M03_The_Cartographer" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M03a_Get_To_The_Portals" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M04a_Alice_Story_2" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M06a_Air_Assault" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M08_Halo_Battle" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_M09_Anders_Defence" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_MC_Enforcer_Valley" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_MC_Stop_The_Signal" category="singleplayer" description="mission specific asset" />
+	<Tag name="MISSION_EP02_M03_Trapped" category="singleplayer" description="mission specific asset" />
+</Tags>

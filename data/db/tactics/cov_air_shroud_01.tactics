@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>PointDefenseWeapon</Name>
+		<ImpactEffect size="Medium">PointDefenseImpact</ImpactEffect>
+	</Weapon>
+	<Action>
+		<MaxPitch>0</MaxPitch>
+		<MaxRoll>30</MaxRoll>
+	</Action>
+	<Action>
+		<Name>PointDefense</Name>
+		<ActionType>PointDefense</ActionType>
+		<Weapon>PointDefenseWeapon</Weapon>
+		<MaxCharge>2</MaxCharge>
+		<RechargeDelay>0.100000001</RechargeDelay>
+		<RechargeRate>0.600000024</RechargeRate>
+		<WorkRange>30</WorkRange>
+		<ProtoObject bone="bone_vfx_PowerCoreBottom">fx_pointdefensebeam</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AreaCloak</Name>
+		<ActionType>AreaCloak</ActionType>
+		<CloakAreaTarget>Unit</CloakAreaTarget>
+		<Duration>20</Duration>
+		<WorkRange>20</WorkRange>
+		<ProtoObject>vfx_meshes_unitshieldshroud</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AreaCloak_Advanced</Name>
+		<ActionType>AreaCloak</ActionType>
+		<CloakAreaTarget>Unit</CloakAreaTarget>
+		<Duration>20</Duration>
+		<WorkRange>30</WorkRange>
+		<ProtoObject>vfx_meshes_unitshieldshroudadvanced</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1.84500003</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>AreaCloak</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>AreaCloak_Advanced</Action>
+		</TargetRule>
+		<PersistentAction>PointDefense</PersistentAction>
+	</Tactic>
+</TacticData>

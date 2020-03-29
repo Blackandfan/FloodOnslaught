@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MethaneBuffDAOT</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="12" />
+		<AOERadius>16</AOERadius>
+	</Weapon>
+	<Weapon>
+		<Name>MethaneBomb</Name>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPowerScatterBomb</WeaponType>
+		<Mine>fx_mine_grunt_methanebombmine</Mine>
+		<Projectile>pow_proj_methanebomb_01</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.300000012" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
+		<ImpactEffect size="Medium" doShockwaveAction="true">MethaneBomb</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>80</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>MethaneBombAttackAction</Name>
+		<Weapon>MethaneBomb</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

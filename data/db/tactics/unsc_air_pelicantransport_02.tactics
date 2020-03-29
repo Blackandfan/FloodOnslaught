@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SideFrontCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>ChainGun</WeaponType>
+		<Projectile>fx_proj_pelicanChainGun_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>120</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<Hardpoint>SideFrontTurret</Hardpoint>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="AirCraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">8</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>SideRearCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>ChainGun</WeaponType>
+		<Projectile>fx_proj_pelicanChainGun_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>120</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<Hardpoint>SideRearTurret</Hardpoint>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="AirCraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">8</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>RocketLauncherLeft</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>RocketLauncherLeft</Hardpoint>
+		<TargetPriority type="AirCraft">9</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">8</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>RocketLauncherRight</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>RocketLauncherRight</Hardpoint>
+		<TargetPriority type="AirCraft">9</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">8</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>RightFrontCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>ChainGun</WeaponType>
+		<Projectile>fx_proj_pelicanChainGun_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>120</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<Hardpoint>RightFrontTurret</Hardpoint>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="AirCraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">8</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>RightRearCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>ChainGun</WeaponType>
+		<Projectile>fx_proj_pelicanChainGun_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>120</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<Hardpoint>RightRearTurret</Hardpoint>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="AirCraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">8</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<UseGroupRange />
+	</Weapon>
+	<Action>
+		<Name>SideFrontTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SideFrontTurretAttack</Anim>
+		<Weapon>SideFrontCannon</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<Duration DurationSpread="2">5</Duration>
+		<CanOrientOwner>false</CanOrientOwner>
+		<LoopAttackAnim />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>SideRearTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SideRearTurretAttack</Anim>
+		<Weapon>SideRearCannon</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<Duration DurationSpread="2">5</Duration>
+		<CanOrientOwner>false</CanOrientOwner>
+		<LoopAttackAnim />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>RocketAttackLeftAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim attachmentOnly="true">RocketAttackLeft</Anim>
+		<Weapon>RocketLauncherLeft</Weapon>
+		<CanOrientOwner>false</CanOrientOwner>
+		<DontCheckOrientTolerance />
+	</Action>
+	<Action>
+		<Name>RocketAttackRightAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim attachmentOnly="true">RocketAttackRight</Anim>
+		<Weapon>RocketLauncherRight</Weapon>
+		<CanOrientOwner>false</CanOrientOwner>
+		<DontCheckOrientTolerance />
+	</Action>
+	<Action>
+		<Name>RightFrontTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RightFrontTurretAttack</Anim>
+		<Weapon>RightFrontCannon</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<Duration DurationSpread="2">5</Duration>
+		<CanOrientOwner>false</CanOrientOwner>
+		<LoopAttackAnim />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>RightRearTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RightRearTurretAttack</Anim>
+		<Weapon>RightRearCannon</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<Duration DurationSpread="2">5</Duration>
+		<CanOrientOwner>false</CanOrientOwner>
+		<LoopAttackAnim />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>Transport</Name>
+		<ActionType>Transport</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>RocketAttackLeftAction</PersistentAction>
+		<PersistentAction>RocketAttackRightAction</PersistentAction>
+		<PersistentAction>SideFrontTurretAttackAction</PersistentAction>
+		<PersistentAction>SideRearTurretAttackAction</PersistentAction>
+		<PersistentAction>RightFrontTurretAttackAction</PersistentAction>
+		<PersistentAction>RightRearTurretAttackAction</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RocketAttackLeftAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RocketAttackRightAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SideFrontTurretAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SideRearTurretAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightFrontTurretAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightRearTurretAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<TargetsGround />
+			<ContainsUnits />
+			<Action>Transport</Action>
+			<Ability>UnscUnload</Ability>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

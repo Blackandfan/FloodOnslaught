@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<files>
+	<file path="data\startup\game.cfg" />
+	<file path="data\startup\menus.cfg" used_for_crc="false" />
+	<file path="data\db\lists\civs.xml.xmb" />
+	<file path="data\db\lists\gamedata.xml.xmb" />
+	<file path="data\db\lists\all_objects.xml.xmb" />
+	<file path="data\db\lists\powers.xml.xmb" />
+	<file path="data\db\lists\all_squads.xml.xmb" />
+	<file path="data\db\lists\techs.xml.xmb" />
+	<file path="data\db\lists\waypointsettings.xml.xmb" />
+	<file path="data\db\lists\mpgamehopper.xml.xmb" />
+</files>

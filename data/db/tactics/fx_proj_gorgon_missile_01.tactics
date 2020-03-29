@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>RocketLauncher</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_gorgon_missile_01</Projectile>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>RocketLauncher</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

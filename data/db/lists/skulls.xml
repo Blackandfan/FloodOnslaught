@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<CollectiblesDefinitions>
+	<CollectiblesXMLVersion>3</CollectiblesXMLVersion>
+	<Skull id="2" name="Grunt Birthday Party" objectdbid="" ui_name="GruntBirthdayParty" mission="100">
+		<Effect tech="_SKULL_Party">ApplyTechToAllPlayers</Effect>
+	</Skull>
+	<Skull id="3" name="Paintball" objectdbid="3973" ui_name="Paintball" mission="200">
+		<Effect tech="_SKULL_Paintball">ApplyTechToAllPlayers</Effect>
+	</Skull>
+	<Skull id="4" name="Pain Train" objectdbid="3975" ui_name="PainTrain" mission="200">
+		<Effect tech="_SKULL_PainTrain">ApplyTechToAllPlayers</Effect>
+		<Effect value="0.75">Score</Effect>
+	</Skull>
+	<Skull id="5" name="Bountiful Harvest" objectdbid="3976" ui_name="BountifulHarvest" mission="210">
+		<Effect tech="_SKULL_BountifulHarvest">ApplyTechToAllPlayers</Effect>
+		<Effect value="0.699999988">Score</Effect>
+	</Skull>
+	<Skull id="6" name="Emperor" objectdbid="3977" ui_name="Emperor" mission="300">
+		<Effect value="0.5">PowerRecharge</Effect>
+		<Effect value="0.5">Score</Effect>
+	</Skull>
+	<Skull id="13" name="Pestilence" objectdbid="3968" ui_name="Perstilence" mission="400">
+		<Effect power="SkullPestilence">PowerGrant</Effect>
+		<Effect value="1.20000005">Score</Effect>--&gt;</Skull>
+	<Skull id="11" name="Total Annihilation" objectdbid="3968" ui_name="TotalAnnihilation" mission="410">
+		<Effect tech="_SKULL_TotalAnnihilation">ApplyTechToHumanPlayers</Effect>
+		<Effect value="0.800000012">Score</Effect>--&gt;</Skull>
+	<Skull id="9" name="Sickness" objectdbid="3968" ui_name="Sickness" mission="500">
+		<Campaign>
+			<Effect tech="_SKULL_Sickness">ApplyTechToHumanPlayers</Effect>
+		</Campaign>
+		<DLCCampaign>
+			<Effect tech="_SKULL_Sickness">ApplyTechToHumanPlayers</Effect>
+		</DLCCampaign>
+		<Campaign2>
+			<Effect tech="_SKULL_Sickness">ApplyTechToHumanPlayers</Effect>
+		</Campaign2>
+		<MP>
+			<Effect tech="_SKULL_SicknessMP">ApplyTechToAllPlayers</Effect>
+		</MP>
+		<Effect value="1.10000002">Score</Effect>--&gt;</Skull>
+	<Skull id="10" name="Firestarter" objectdbid="3968" ui_name="FireStarter" mission="500">
+		<Effect power="SkullFirestarter">PowerGrant</Effect>
+		<Effect value="0.800000012">Score</Effect>
+	</Skull>
+	<Skull id="12" name="Things that make you go boom" objectdbid="3968" ui_name="ThingsThatMakeYouGoBoom" mission="600">
+		<Effect power="SkullBoom">PowerGrant</Effect>
+		<Effect value="0.899999976">Score</Effect>
+	</Skull>
+	<Skull id="15" name="Wuv Woo" objectdbid="3966" ui_name="WuvWoo" mission="700">
+		<Effect tech="_SKULL_WuvWoo">ApplyTechToAllPlayers</Effect>
+	</Skull>
+	<Skull id="16" name="Sugar Cookies" objectdbid="3973" ui_name="SugarCookies" mission="700">
+		<Campaign>
+			<Effect tech="_SKULL_SugarCookies">ApplyTechToHumanPlayers</Effect>
+		</Campaign>
+		<DLCCampaign>
+			<Effect tech="_SKULL_SugarCookies">ApplyTechToHumanPlayers</Effect>
+		</DLCCampaign>
+		<Campaign2>
+			<Effect tech="_SKULL_SugarCookies">ApplyTechToHumanPlayers</Effect>
+		</Campaign2>
+		<MP>
+			<Effect tech="_SKULL_SugarCookies_MP">ApplyTechToAllPlayers</Effect>
+		</MP>
+		<Effect value="0.5">Score</Effect>
+	</Skull>
+	<Skull id="1" name="After Party" objectdbid="" ui_name="AfterParty" mission="800">
+		<Effect value="0.800000012">Score</Effect>
+	</Skull>
+	<Skull id="18" name="Nightmare" objectdbid="3968" ui_name="Nightmare" mission="810">
+		<Effect value="1.40000105">Score</Effect>
+		<Effect value="1">SaveBlocked</Effect>
+	</Skull>
+	<Skull id="19" name="Shadow" objectdbid="3968" ui_name="Shadow" mission="810">
+		<Effect value="0.699999988">Score</Effect>
+		<Campaign>
+			<Effect power="SkullShadow_CPGNH">PowerGrant</Effect>
+		</Campaign>
+		<DLCCampaign>
+			<Effect power="SkullShadow_CPGNH">PowerGrant</Effect>
+		</DLCCampaign>
+		<Campaign2>
+			<Effect power="SkullShadow_CPGNH_EP2">PowerGrant</Effect>
+		</Campaign2>
+		<MP>
+			<Effect power="SkullShadow_MP">PowerGrant</Effect>
+		</MP>
+	</Skull>
+	<TimeLineEvent eventName="BlackBox01">
+		<BlackBox>3978</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox02">
+		<BlackBox>3979</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox03">
+		<BlackBox>3980</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox04">
+		<BlackBox>3981</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox05">
+		<BlackBox>3982</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox06">
+		<BlackBox>3983</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox07">
+		<BlackBox>3984</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox08">
+		<BlackBox>3985</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox09">
+		<BlackBox>3986</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox10">
+		<BlackBox>3987</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox11">
+		<BlackBox>3988</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox12">
+		<BlackBox>3989</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox13">
+		<BlackBox>3990</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox14">
+		<BlackBox>3991</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BlackBox15">
+		<BlackBox>3992</BlackBox>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Cutter01">
+		<Leader>Cutter</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Cutter02">
+		<Leader>Cutter</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Forge01">
+		<Leader>Forge</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Forge02">
+		<Leader>Forge</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Anders01">
+		<Leader>Anders</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Anders02">
+		<Leader>Anders</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Arbiter01">
+		<Leader>Arbiter</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Arbiter02">
+		<Leader>Arbiter</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Brute01">
+		<Leader>Brute Chieftain</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Brute02">
+		<Leader>Brute Chieftain</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Prophet01">
+		<Leader>Prophet of Mercy</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Prophet02">
+		<Leader>Prophet of Mercy</Leader>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Chasms01">
+		<Map>Chasms</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="PirthOutskirts01">
+		<Map>Pirth_Outskirts</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="TheDocks01">
+		<Map>The_Docks</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BeasleysPlateau01">
+		<Map>Beasleys_Plateau</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="FortDeen01">
+		<Map>Fort_Deen</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Tundra01">
+		<Map>Tundra</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="TerminalMoraine01">
+		<Map>Terminal_Moraine</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="FrozenValley01">
+		<Map>Frozen_Valley</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="BloodGulch01">
+		<Map>Blood_Gulch</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Repository01">
+		<Map>Repository</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Labyrinth01">
+		<Map>Labyrinth</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Release01">
+		<Map>Release</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Crevice01">
+		<Map>Crevice</Map>
+	</TimeLineEvent>
+	<TimeLineEvent eventName="Exile01">
+		<Map>Exile</Map>
+	</TimeLineEvent>
+</CollectiblesDefinitions>

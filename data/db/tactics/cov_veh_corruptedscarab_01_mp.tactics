@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ShadeTurret</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>290</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Hardpoint>ShadeTurret</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<TargetPriority type="Aircraft">9</TargetPriority>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>scarabBeam</Name>
+		<Corruption />
+		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>1500</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_Corruptedscarabbeam_mp</Projectile>
+		<DOTrate>60</DOTrate>
+		<DOTduration>7</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrowerlg_01</DOTEffect>
+		<Slow TargetType="Military" MovementModifier="0.899999976" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">7f</Slow>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MinRange>6</MinRange>
+		<MaxRange>60</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>wuvwooscarabBeam</Name>
+		<Corruption />
+		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>1500</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_corruptedwuvwoobeam_01</Projectile>
+		<DOTrate>60</DOTrate>
+		<DOTduration>7</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrowerlg_01</DOTEffect>
+		<Slow TargetType="Military" MovementModifier="0.899999976" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">7f</Slow>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MinRange>6</MinRange>
+		<MaxRange>60</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>StompAttackWeapon</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">ScarabStomp</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>Ram</Name>
+		<WeaponType>WarthogRam</WeaponType>
+		<MaxRange>3.07500005</MaxRange>
+		<AOERadius>24.6000004</AOERadius>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactCameraShake duration="0.400000006" strength="0.379999995" />
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<MaxDamagePerRam>2000</MaxDamagePerRam>
+		<ReflectDamageFactor>0</ReflectDamageFactor>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Action>
+		<Name>DisruptionField</Name>
+		<ActionType>DisruptionField</ActionType>
+		<Duration>8</Duration>
+		<WorkRange>25</WorkRange>
+		<WorkRate>0</WorkRate>
+		<ProtoObject>fx_scarabField</ProtoObject>
+		<AffectsOnlySelf />
+	</Action>
+	<Action>
+		<Name>ShadeTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShadeTurretFire</Anim>
+		<Weapon>ShadeTurret</Weapon>
+		<DontCheckOrientTolerance />
+		<StartAnim noInterrupt="true">ShadeTurretOpen</StartAnim>
+		<EndAnim>ShadeTurretClose</EndAnim>
+		<CombatIdleAnimOverride>ShadeTurretCombatIdle</CombatIdleAnimOverride>
+		<CombatIdleDuration>2.5</CombatIdleDuration>
+	</Action>
+	<Action>
+		<Name>scarabBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>scarabBeam</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<CanOrientOwner>true</CanOrientOwner>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>wuvwooscarabBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>wuvwooscarabBeam</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<CanOrientOwner>true</CanOrientOwner>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>PersistentCollisionAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>RamAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>StompAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>StompAttackWeapon</Weapon>
+		<TrampleAttack />
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>ShadeTurretAttackAction</PersistentAction>
+		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>DisruptionField</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>DisruptionField</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>DisruptionField</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>DisruptionField</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>scarabBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>wuvwooscarabBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShadeTurretAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

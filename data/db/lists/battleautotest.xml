@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<root>
+	<settings map_size="2048" battle_spacing="400" battle_timeout="300" />
+	<combatants>
+		<unsc_inf_flameMarine_01 />
+		<unsc_inf_marine_01 />
+		<unsc_inf_marine_02 />
+		<cov_inf_grunt_01>
+			<attack>cov_inf_grunt_02</attack>
+		</cov_inf_grunt_01>
+		<cov_inf_grunt_02>
+			<exclude>unsc_inf_marine_01</exclude>
+			<exclude>unsc_inf_marine_02</exclude>
+		</cov_inf_grunt_02>
+	</combatants>
+</root>

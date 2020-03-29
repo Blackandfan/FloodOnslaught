@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<CommandXP>
+	<XPGain>
+		<PerSecond>1.39999998</PerSecond>
+		<EnemySquadKilled>5</EnemySquadKilled>
+		<OwnSquadKilled>3</OwnSquadKilled>
+		<DamageDealt dmgAmount="3000">1</DamageDealt>
+		<BaseStructureBuilt>40</BaseStructureBuilt>
+		<UpgradeResearched>40</UpgradeResearched>
+		<ForwardBaseBuilt>60</ForwardBaseBuilt>
+		<EnemyStructureDestroyed>50</EnemyStructureDestroyed>
+		<OwnStructureDestroyed>12</OwnStructureDestroyed>
+		<ResourcePointCaptured>40</ResourcePointCaptured>
+		<NeutralDominationPointCaptured>40</NeutralDominationPointCaptured>
+		<EnemyDominationPointCaptured bonusPerSecondOccupied="0.25" bonusMax="300">40</EnemyDominationPointCaptured>
+		<CollectibleRecovered>40</CollectibleRecovered>
+		<InitialCP>0</InitialCP>
+		<InitialLevel>0</InitialLevel>
+	</XPGain>
+	<Levels>
+		<Level>6</Level>
+		<Level>600</Level>
+		<Level>1300</Level>
+		<Level>2000</Level>
+		<Level>3000</Level>
+		<Level>4000</Level>
+		<Level>5000</Level>
+		<Level>6000</Level>
+		<Level>7000</Level>
+		<Level>7900</Level>
+		<Level>8900</Level>
+		<Level>10200</Level>
+		<Level>11500</Level>
+		<Level>13000</Level>
+		<Level>14500</Level>
+		<Level>16100</Level>
+		<Level>18000</Level>
+		<Level>20000</Level>
+	</Levels>
+	<SquadBonuses>
+		<Squad name="unsc_inf_marine_01">0</Squad>
+		<Squad name="unsc_inf_marine_02">0</Squad>
+		<Squad name="unsc_inf_flameMarine_01">1</Squad>
+		<Squad name="unsc_inf_sniper_01">1</Squad>
+		<Squad name="unsc_inf_cyclops_01">2</Squad>
+		<Squad name="unsc_inf_spartan_01">5</Squad>
+		<Squad name="unsc_inf_odst_01">2</Squad>
+		<Squad name="cov_inf_grunt_01">0</Squad>
+		<Squad name="cov_inf_grunt_02">0</Squad>
+		<Squad name="cov_inf_brute_01">1</Squad>
+		<Squad name="cov_inf_brute_02">1</Squad>
+		<Squad name="cov_inf_suicideGrunt_01">1</Squad>
+		<Squad name="cov_inf_suicideGrunt_02">1</Squad>
+		<Squad name="cov_inf_engineer_01">1</Squad>
+		<Squad name="cov_inf_jackal_01">2</Squad>
+		<Squad name="con_inf_hunter_01">2</Squad>
+		<Squad name="cov_inf_bruteHonour_01">5</Squad>
+		<Squad name="cov_inf_atrioxchosen_01">5</Squad>
+		<Squad name="cov_inf_eliteCommando_01">5</Squad>
+		<Squad name="cov_inf_mpdecimus_01">5</Squad>
+		<Squad name="unsc_veh_mongoose_01">1</Squad>
+		<Squad name="unsc_veh_warthog_01">2</Squad>
+		<Squad name="unsc_veh_wolverine_01">2</Squad>
+		<Squad name="unsc_veh_foxcannon_01">3</Squad>
+		<Squad name="unsc_veh_scorpion_01">4</Squad>
+		<Squad name="cov_veh_bruteChopper_01">1</Squad>
+		<Squad name="cov_veh_ghost_01">1</Squad>
+		<Squad name="cov_veh_prowler_01">2</Squad>
+		<Squad name="cov_veh_locust_01">3</Squad>
+		<Squad name="cov_veh_gorgon_01">2</Squad>
+		<Squad name="cov_veh_wraith_01">4</Squad>
+		<Squad name="for_air_sentinel_01">1</Squad>
+		<Squad name="for_air_sentineltier2_01">1</Squad>
+		<Squad name="unsc_air_nightingale_01">2</Squad>
+		<Squad name="unsc_air_hornet_01">2</Squad>
+		<Squad name="unsc_air_vulture_01">4</Squad>
+		<Squad name="cov_air_shroud_01">3</Squad>
+		<Squad name="cov_air_banshee_01">2</Squad>
+		<Squad name="cov_air_blisterback_01">4</Squad>
+		<Squad name="unsc_air_pelicangunship_01">6</Squad>
+		<Squad name="pow_for_andersultimate_01">17</Squad>
+		<Squad name="unsc_air_destroyer_01">20</Squad>
+		<Squad name="cov_veh_scarab_01">20</Squad>
+		<Squad name="unsc_veh_grizzly_01">5</Squad>
+		<Squad name="unsc_veh_forgehog_01">5</Squad>
+		<Squad name="unsc_veh_flamehog_01">2</Squad>
+		<Squad name="unsc_inf_flamecyclops_01">5</Squad>
+		<Squad name="cov_inf_lekgologoliath_01">2</Squad>
+		<Squad name="cov_inf_impervioushunter_01">5</Squad>
+		<Squad name="cov_veh_skitterer_01">0</Squad>
+		<Squad name="unsc_inf_johnson_hero_01">5</Squad>
+		<Squad name="unsc_veh_johnson_mantis_01">2</Squad>
+		<Squad name="unsc_veh_johnson_colossus_01">4</Squad>
+		<Squad name="cov_inf_arbiter_gruntsquad_01">0</Squad>
+		<Squad name="cov_inf_arbiter_gruntsquad_02">0</Squad>
+		<Squad name="cov_air_phantom_01">3</Squad>
+		<Squad name="cov_inf_assaultteam_01">2</Squad>
+		<Squad name="cov_inf_assaultteam_02">2</Squad>
+		<Squad name="cov_inf_arbiter_01">5</Squad>
+		<Squad name="unsc_veh_battleapc_01">3</Squad>
+		<Squad name="unsc_veh_jerome_mantis_01">4</Squad>
+		<Squad name="unsc_inf_omegateam_august_01">6</Squad>
+		<Squad name="unsc_inf_omegateam_jerome_01">5</Squad>
+		<Squad name="unsc_inf_omegateam_leon_01">6</Squad>
+		<Squad name="unsc_inf_omegateam_robert_01">6</Squad>
+		<Squad name="unsc_veh_serina_hero_01">6</Squad>
+		<Squad name="unsc_air_serina_pegasus_01">2</Squad>
+		<Squad name="unsc_inf_serina_cryomarines_01">1</Squad>
+		<Squad name="cov_inf_gruntgoblin01">4</Squad>
+		<Squad name="cov_inf_gruntswarm_01">0</Squad>
+		<Squad name="cov_inf_heavygrunt_01">2</Squad>
+		<Squad name="cov_inf_heavygrunt_02">2</Squad>
+		<Squad name="cov_inf_bruteRider_01">2</Squad>
+		<Squad name="cov_veh_grunt_methanewagon_01">3</Squad>
+		<Squad name="cov_inf_corruptedwarlord_01">5</Squad>
+		<Squad name="cov_inf_mortarwarlord_01">5</Squad>
+		<Squad name="cov_inf_brutegrenadier_01">1</Squad>
+		<Squad name="cov_inf_corruptedengineer_01">1</Squad>
+		<Squad name="cov_veh_corruptedscarab_01">20</Squad>
+		<Squad name="cov_veh_wraithapc_01">3</Squad>
+		<Squad name="cov_air_lich_01">15</Squad>
+	</SquadBonuses>
+	<VeterancyBonusMultipliers>
+		<Veterancy minBonus="3">1</Veterancy>
+		<Veterancy minBonus="4">1.25</Veterancy>
+		<Veterancy minBonus="6">1.5</Veterancy>
+	</VeterancyBonusMultipliers>
+</CommandXP>

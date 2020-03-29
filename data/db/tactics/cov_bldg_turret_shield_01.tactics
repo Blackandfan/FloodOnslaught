@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Spirit</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>5.5</DeliveryDelay>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>PlasmaShieldGen</Name>
+		<ActionType>PlasmaShieldGen</ActionType>
+		<ParticleEffect>effects\building_fx\unsc\damage\electricity_01</ParticleEffect>
+		<Duration>5</Duration>
+		<DeflectTimeout>30</DeflectTimeout>
+		<ProtoObject>cov_bldg_shield_01</ProtoObject>
+		<Count>25136</Count>
+		<WorkRange>54.3100014</WorkRange>
+		<DamageModifiers damageTaken="1.20000005" />
+		<Colour1 red="10" green="0" blue="0.5" />
+		<Colour2 red="2" green="0.200000003" blue="10" />
+		<Colour3 red="0" green="0" blue="10" />
+		<Colour4 red="0.5" green="0.5" blue="10" />
+	</Action>
+	<Tactic>
+		<PersistentAction>PlasmaShieldGen</PersistentAction>
+	</Tactic>
+</TacticData>

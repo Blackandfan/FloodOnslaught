@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>25</WorkRate>
+		<MinIdleDuration>0</MinIdleDuration>
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+	</Tactic>
+</TacticData>

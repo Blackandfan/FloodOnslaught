@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LeechBeam</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>450</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_impervioushunterbeam</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Filter>Medium</Filter>
+		<Slow TargetType="Military" MovementModifier="0.699999988" AOEEffect="false" SmartTargeting="false" AffectsBuildings="false">1.0f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>1</Width>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>LeechBeamVehicle</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>495</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_impervioushunterbeam</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Filter>Medium</Filter>
+		<Slow TargetType="Military" MovementModifier="0.699999988" AOEEffect="false" SmartTargeting="false" AffectsBuildings="false">1.0f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>1</Width>
+				<DamageRatio>23</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>750</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>LeechBeamUpgrade</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_impervioushunterbeamupgrade</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Slow TargetType="Military" MovementModifier="0.699999988" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.0f</Slow>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>LeechBeamUpgradeVehicle</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>550</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_impervioushunterbeamupgrade</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>23</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Slow TargetType="Military" MovementModifier="0.699999988" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.0f</Slow>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>RM_LeechBeamUpgrade</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_impervioushunterbeamupgrade</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Slow TargetType="Military" MovementModifier="0.699999988" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.0f</Slow>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>RM_LeechBeamUpgradeVehicle</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>550</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_impervioushunterbeamupgrade</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>23</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Slow TargetType="Military" MovementModifier="0.699999988" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.0f</Slow>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>Taunt</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>10</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Projectile>fx_proj_cannon_02</Projectile>
+		<ImpactEffect doShockwaveAction="true">PlasmaBurn</ImpactEffect>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>25</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Slow TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">15.0f</Slow>
+		<AlwaysReplaceTargetWithItsPosition />
+	</Weapon>
+	<Weapon>
+		<Name>TauntUpgrade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>10</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Projectile>fx_proj_cannon_02</Projectile>
+		<ImpactEffect doShockwaveAction="true">PlasmaBurn</ImpactEffect>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>40</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Slow TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">15.0f</Slow>
+		<AlwaysReplaceTargetWithItsPosition />
+	</Weapon>
+	<Action>
+		<Name>LeechBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<MoveAnim>BeamJogAttack</MoveAnim>
+		<Weapon>LeechBeam</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0.5">3</Duration>
+		<LoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>LeechBeamAttackActionVehicle</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<MoveAnim>BeamJogAttack</MoveAnim>
+		<Weapon>LeechBeamVehicle</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0.5">3</Duration>
+		<LoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>LeechBeamUpgradeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttackUpgrade</Anim>
+		<MoveAnim>BeamJogAttack</MoveAnim>
+		<Weapon>LeechBeamUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0.5">3</Duration>
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>LeechBeamUpgradeAttackActionVehicle</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttackUpgrade</Anim>
+		<MoveAnim>BeamJogAttack</MoveAnim>
+		<Weapon>LeechBeamUpgradeVehicle</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0.5">3</Duration>
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RM_LeechBeamUpgradeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttackUpgrade</Anim>
+		<MoveAnim>BeamJogAttack</MoveAnim>
+		<Weapon>RM_LeechBeamUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0.5">3</Duration>
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RM_LeechBeamUpgradeAttackActionVehicle</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttackUpgrade</Anim>
+		<MoveAnim>BeamJogAttack</MoveAnim>
+		<Weapon>RM_LeechBeamUpgradeVehicle</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0.5">3</Duration>
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>TauntAction</Name>
+		<ActionType>Taunt</ActionType>
+		<Anim noInterrupt="true">Taunt</Anim>
+		<Weapon>Taunt</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+		<SpecificData>
+			<TauntDuration>10</TauntDuration>
+			<TauntRange>25</TauntRange>
+			<TauntDamageModifier>1</TauntDamageModifier>
+			<VFX />
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>TauntUpgradeAction</Name>
+		<ActionType>Taunt</ActionType>
+		<Anim noInterrupt="true">TauntUpgrade</Anim>
+		<Weapon>TauntUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+		<SpecificData>
+			<TauntDuration>15</TauntDuration>
+			<TauntRange>40</TauntRange>
+			<TauntDamageModifier>0.699999988</TauntDamageModifier>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>0.600000024</CaptureRate>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>13</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_locustshield</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamAttackAction</Action>
+			<TargetType>Infantry</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamAttackAction</Action>
+			<TargetType>Flying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamAttackAction</Action>
+			<TargetType>Building</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamAttackAction</Action>
+			<TargetType>TurretBuilding</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamAttackActionVehicle</Action>
+			<TargetType>GroundVehicle</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamUpgradeAttackAction</Action>
+			<TargetType>Infantry</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamUpgradeAttackAction</Action>
+			<TargetType>Flying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamUpgradeAttackAction</Action>
+			<TargetType>Building</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamUpgradeAttackAction</Action>
+			<TargetType>TurretBuilding</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamUpgradeAttackActionVehicle</Action>
+			<TargetType>GroundVehicle</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RM_LeechBeamUpgradeAttackAction</Action>
+			<TargetType>Infantry</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RM_LeechBeamUpgradeAttackAction</Action>
+			<TargetType>Flying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RM_LeechBeamUpgradeAttackAction</Action>
+			<TargetType>Building</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RM_LeechBeamUpgradeAttackAction</Action>
+			<TargetType>TurretBuilding</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RM_LeechBeamUpgradeAttackActionVehicle</Action>
+			<TargetType>GroundVehicle</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>TauntUpgradeAction</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>TauntUpgradeAction</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>TauntUpgradeAction</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>TauntUpgradeAction</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>TauntAction</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>TauntAction</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>TauntAction</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>TauntAction</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

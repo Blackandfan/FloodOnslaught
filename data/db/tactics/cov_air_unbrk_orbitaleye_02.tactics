@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>orbitaleye_targetpaint</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>60</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="VortexDebuff" DamageMitigationScalar="1.29999995">0.5f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+				<Relation>Neutral</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc2_units_masterchiefinspire</ProtoObject>
+	</Action>
+	<Action>
+		<Name>orbitaleye_targetpaintBuilding</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>60</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="VortexDebuff" DamageMitigationScalar="1.10000002">0.5f</BuffParams>
+			<TargetTypes>
+				<Type>Building</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+				<Relation>Neutral</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc2_units_masterchiefinspire</ProtoObject>
+	</Action>
+	<Action>
+		<Name>slow</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>60</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneDebuff" SlowModifier="0.600000024">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+				<Relation>Neutral</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc2_units_masterchiefinspire</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>orbitaleye_targetpaint</PersistentAction>
+		<PersistentAction>orbitaleye_targetpaintBuilding</PersistentAction>
+		<PersistentAction>slow</PersistentAction>
+	</Tactic>
+</TacticData>

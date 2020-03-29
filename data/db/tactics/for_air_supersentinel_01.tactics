@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ForerunnerBeam</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>110</DamagePerSecond>
+		<WeaponType>SuperSentinel</WeaponType>
+		<Projectile>fx_proj_retrieversmallbeam_01</Projectile>
+		<ImpactEffect size="Medium">RetreiverSmallLaserBeam</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Weapon</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.800000012</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>LockdownBolt</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SuperSentinel</WeaponType>
+		<Projectile>fx_proj_condormac_01</Projectile>
+		<ImpactEffect size="Medium">RetreiverSuperBeam</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Weapon</Hardpoint>
+		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">5f</Daze>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>LockdownBoltAir</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SuperSentinel</WeaponType>
+		<Projectile>fx_proj_condormac_01</Projectile>
+		<ImpactEffect size="Medium">RetreiverSuperBeamAir</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Weapon</Hardpoint>
+		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">5f</Daze>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>StandardDetonate</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SuperSentinel</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
+		<MaxRange>14</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY />
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<Daze TargetType="GroundVehicle" MovementModifier="0" AOEEffect="true" SmartTargeting="false">3.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>BeamCannon01</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_beam_01</Projectile>
+		<ImpactEffect size="Medium">SentinelBeamImpact</ImpactEffect>
+		<MaxVelocityLead>25</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2.5</PostAttackCooldownMax>
+		<Hardpoint>buddy01</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>BeamCannon02</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_beam_01</Projectile>
+		<ImpactEffect size="Medium">SentinelBeamImpact</ImpactEffect>
+		<MaxVelocityLead>25</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2.5</PostAttackCooldownMax>
+		<Hardpoint>buddy02</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>BeamCannon01AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>support_beam_01</Anim>
+		<Weapon>BeamCannon01</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>BeamCannon02AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>support_beam_02</Anim>
+		<Weapon>BeamCannon02</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ForerunnerBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RangedAttack</Anim>
+		<Weapon>ForerunnerBeam</Weapon>
+		<PersistBetweenOpps />
+		<Duration DurationSpread="0.5">2.5</Duration>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<SlaveAttackAction>BeamCannon01AttackAction</SlaveAttackAction>
+		<SlaveAttackAction>BeamCannon02AttackAction</SlaveAttackAction>
+		<LoopAttackAnim />
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>LockdownBoltAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LockdownBolt</Anim>
+		<Weapon>LockdownBolt</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>LockdownBoltAirAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LockdownBolt</Anim>
+		<Weapon>LockdownBoltAir</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>LockdownBoltLureBeaconAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LockdownBolt</Anim>
+		<Weapon>LockdownBolt</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<ProjectileInvokePower>UnscLureBeaconProc</ProjectileInvokePower>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>StandardDetonateAction</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>StandardDetonate</Weapon>
+		<Anim>Detonate</Anim>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<DetonateOnDeath />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1.84500003</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>LockdownBoltAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>LockdownBoltAirAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>LockdownBoltLureBeaconAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ForerunnerBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>BeamCannon01AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>BeamCannon02AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

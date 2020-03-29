@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LightCannon1</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>fx_proj_machinegun_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Turretbuilding">1</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<UseGroupRange />
+	</Weapon>
+	<Action>
+		<Name>LightCannon1AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_WPN_UNSC_WarthogTurretFire" SoundLoopEndEvent="STOP_SFX_3D_WPN_UNSC_WarthogTurretFire">Attack</Anim>
+		<Weapon>LightCannon1</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>InspireAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>20</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="Inspire" DamageMitigationScalar="0.879999995" DamageDealtModifier="1.12" BuffActivateFX="vfx_dlc2_units_spartanleaderinspireunit">
+				<BuffActivateFXOverrides>
+					<Override UnitType="Flying" BuffFX="vfx_dlc2_units_spartanleaderinspireunitflying" />
+				</BuffActivateFXOverrides>
+				<Duration>1.0f</Duration>
+			</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+				<Type>Building</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Mine</Type>
+				<Type>Drone</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc2_units_spartanleaderinspire</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LightCannon1AttackAction</Action>
+		</TargetRule>
+		<PersistentAction>InspireAura</PersistentAction>
+	</Tactic>
+</TacticData>

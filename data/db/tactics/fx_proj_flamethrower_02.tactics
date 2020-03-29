@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>NapalmFlamethrower</Name>
+		<DamagePerSecond>40</DamagePerSecond>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_flameThrower_02</Projectile>
+		<MaxVelocityLead>2.46000004</MaxVelocityLead>
+		<MaxRange>7.38000011</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="150" />
+		<AOERadius>150</AOERadius>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>NapalmFlamethrower</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

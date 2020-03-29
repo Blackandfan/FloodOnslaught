@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LotusMinePod</Name>
+		<DamagePerSecond>150</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>pow_proj_lotusminepod_01</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.5" yawpitchstrength="1.20000005" rollstrength="0.800000012" rotationfrequency="8" translationstrength="0" translationfrequency="6" />
+		<ImpactEffect size="Medium">LotusMineImpact</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>LotusMinePodAttackAction</Name>
+		<Weapon>LotusMinePod</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

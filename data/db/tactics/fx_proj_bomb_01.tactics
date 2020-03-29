@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Bomb</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_bomb_01</Projectile>
+		<ImpactEffect size="Medium">TankShell</ImpactEffect>
+		<MaxVelocityLead>7.38000011</MaxVelocityLead>
+		<MaxRange>3.69000006</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4.9000001</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Bomb</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

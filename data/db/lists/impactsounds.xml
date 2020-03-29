@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ImpactSounds>
+	<ImpactSoundSet name="fx_proj_rifle_01">
+		<Sound type="Metal" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rifle_02">
+		<Sound type="Metal" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_machineGun_01">
+		<Sound type="Metal">2</Sound>
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_machineGun_02">
+		<Sound type="Metal">2</Sound>
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rotaryMG_01">
+		<Sound type="Metal">2</Sound>
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_floodArtillery_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_floodArtillery_02">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fld_air_lugee_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_floodspit_01">
+		<Sound type="Metal" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_cannon_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_cannon_02">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_cannon_03">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_lightCannon_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_heavyCannon_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_Railgun_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_lightRailgun_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_sp_artillery_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_lightArtillery_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_grenade_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_flashGrenade_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_autoGrenade_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Undefined">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_canistershell_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Water">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_CanisterShell</Sound>
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_spartanlaser_01">
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_gaussCannon_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_artillery_01">
+		<Sound type="metalground_01_df" checkMaxDist="false" />
+		<Sound type="Sand" checkMaxDist="false" />
+		<Sound type="Earth" checkMaxDist="false" />
+		<Sound type="Turf" checkMaxDist="false" />
+		<Sound type="Rock" checkMaxDist="false" />
+		<Sound type="Metal" checkMaxDist="false" />
+		<Sound type="Mud" checkMaxDist="false" />
+		<Sound type="Water" checkMaxDist="false" />
+		<Sound type="Snow" checkMaxDist="false" />
+		<Sound type="Ice" checkMaxDist="false" />
+		<Sound type="Flesh" checkMaxDist="false" />
+		<Sound type="EliteFlesh" checkMaxDist="false" />
+		<Sound type="FloodFlesh" checkMaxDist="false" />
+		<Sound type="GruntFlesh" checkMaxDist="false" />
+		<Sound type="HunterFlesh" checkMaxDist="false" />
+		<Sound type="Wood" checkMaxDist="false" />
+		<Sound type="Lava" checkMaxDist="false" />
+		<Sound type="Crystal" checkMaxDist="false" />
+		<Sound type="Plasma" checkMaxDist="false" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_vultureMissile_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_e3_orbitalbombardment">
+		<Sound type="metalground_01_df" checkMaxDist="false" />
+		<Sound type="Sand" checkMaxDist="false" />
+		<Sound type="Earth" checkMaxDist="false" />
+		<Sound type="Turf" checkMaxDist="false" />
+		<Sound type="Rock" checkMaxDist="false" />
+		<Sound type="Metal" checkMaxDist="false" />
+		<Sound type="Mud" checkMaxDist="false" />
+		<Sound type="Water" checkMaxDist="false" />
+		<Sound type="Snow" checkMaxDist="false" />
+		<Sound type="Ice" checkMaxDist="false" />
+		<Sound type="Flesh" checkMaxDist="false" />
+		<Sound type="EliteFlesh" checkMaxDist="false" />
+		<Sound type="FloodFlesh" checkMaxDist="false" />
+		<Sound type="GruntFlesh" checkMaxDist="false" />
+		<Sound type="HunterFlesh" checkMaxDist="false" />
+		<Sound type="Wood" checkMaxDist="false" />
+		<Sound type="Lava" checkMaxDist="false" />
+		<Sound type="Crystal" checkMaxDist="false" />
+		<Sound type="Plasma" checkMaxDist="false" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_artillery_02">
+		<Sound type="metalground_01_df" checkMaxDist="false" />
+		<Sound type="Sand" checkMaxDist="false" />
+		<Sound type="Earth" checkMaxDist="false" />
+		<Sound type="Turf" checkMaxDist="false" />
+		<Sound type="Rock" checkMaxDist="false" />
+		<Sound type="Metal" checkMaxDist="false" />
+		<Sound type="Mud" checkMaxDist="false" />
+		<Sound type="Water" checkMaxDist="false" />
+		<Sound type="Snow" checkMaxDist="false" />
+		<Sound type="Ice" checkMaxDist="false" />
+		<Sound type="Flesh" checkMaxDist="false" />
+		<Sound type="EliteFlesh" checkMaxDist="false" />
+		<Sound type="FloodFlesh" checkMaxDist="false" />
+		<Sound type="GruntFlesh" checkMaxDist="false" />
+		<Sound type="HunterFlesh" checkMaxDist="false" />
+		<Sound type="Wood" checkMaxDist="false" />
+		<Sound type="Lava" checkMaxDist="false" />
+		<Sound type="Crystal" checkMaxDist="false" />
+		<Sound type="Plasma" checkMaxDist="false" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_ballisticRocket_01">
+		<Sound type="metalground_01_df" checkMaxDist="false" />
+		<Sound type="Sand" checkMaxDist="false" />
+		<Sound type="Earth" checkMaxDist="false" />
+		<Sound type="Turf" checkMaxDist="false" />
+		<Sound type="Rock" checkMaxDist="false" />
+		<Sound type="Metal" checkMaxDist="false" />
+		<Sound type="Mud" checkMaxDist="false" />
+		<Sound type="Water" checkMaxDist="false" />
+		<Sound type="Snow" checkMaxDist="false" />
+		<Sound type="Ice" checkMaxDist="false" />
+		<Sound type="Flesh" checkMaxDist="false" />
+		<Sound type="EliteFlesh" checkMaxDist="false" />
+		<Sound type="FloodFlesh" checkMaxDist="false" />
+		<Sound type="GruntFlesh" checkMaxDist="false" />
+		<Sound type="HunterFlesh" checkMaxDist="false" />
+		<Sound type="Wood" checkMaxDist="false" />
+		<Sound type="Lava" checkMaxDist="false" />
+		<Sound type="Crystal" checkMaxDist="false" />
+		<Sound type="Plasma" checkMaxDist="false" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rocket_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rocket_02">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rocket_03">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_missile_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_missile_02">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="proj_wolverine_missile_02">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaGrenade_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaPistol_01">
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_prophetFuelRod_01">
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_shadePlasma_02">
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaCannon_03">
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaRifle_01">
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_bruteGun_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_needler_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_heavyNeedler_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_smallplasma_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_mediumplasma_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaCannon_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaMortar_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_shadeplasma_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_beam_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_fuelRod_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Water">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_FuelRodExplosion</Sound>
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_macCannonSmall">
+		<Sound type="metalground_01_df" checkMaxDist="false" />
+		<Sound type="Sand" checkMaxDist="false" />
+		<Sound type="Earth" checkMaxDist="false" />
+		<Sound type="Turf" checkMaxDist="false" />
+		<Sound type="Rock" checkMaxDist="false" />
+		<Sound type="Metal" checkMaxDist="false" />
+		<Sound type="Mud" checkMaxDist="false" />
+		<Sound type="Water" checkMaxDist="false" />
+		<Sound type="Snow" checkMaxDist="false" />
+		<Sound type="Ice" checkMaxDist="false" />
+		<Sound type="Flesh" checkMaxDist="false" />
+		<Sound type="EliteFlesh" checkMaxDist="false" />
+		<Sound type="FloodFlesh" checkMaxDist="false" />
+		<Sound type="GruntFlesh" checkMaxDist="false" />
+		<Sound type="HunterFlesh" checkMaxDist="false" />
+		<Sound type="Wood" checkMaxDist="false" />
+		<Sound type="Lava" checkMaxDist="false" />
+		<Sound type="Crystal" checkMaxDist="false" />
+		<Sound type="Plasma" checkMaxDist="false" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_macCannonMedium">
+		<Sound type="metalground_01_df" checkMaxDist="false" />
+		<Sound type="Sand" checkMaxDist="false" />
+		<Sound type="Earth" checkMaxDist="false" />
+		<Sound type="Turf" checkMaxDist="false" />
+		<Sound type="Rock" checkMaxDist="false" />
+		<Sound type="Metal" checkMaxDist="false" />
+		<Sound type="Mud" checkMaxDist="false" />
+		<Sound type="Water" checkMaxDist="false" />
+		<Sound type="Snow" checkMaxDist="false" />
+		<Sound type="Ice" checkMaxDist="false" />
+		<Sound type="Flesh" checkMaxDist="false" />
+		<Sound type="EliteFlesh" checkMaxDist="false" />
+		<Sound type="FloodFlesh" checkMaxDist="false" />
+		<Sound type="GruntFlesh" checkMaxDist="false" />
+		<Sound type="HunterFlesh" checkMaxDist="false" />
+		<Sound type="Wood" checkMaxDist="false" />
+		<Sound type="Lava" checkMaxDist="false" />
+		<Sound type="Crystal" checkMaxDist="false" />
+		<Sound type="Plasma" checkMaxDist="false" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_macCannonLarge">
+		<Sound type="metalground_01_df" checkMaxDist="false" />
+		<Sound type="Sand" checkMaxDist="false" />
+		<Sound type="Earth" checkMaxDist="false" />
+		<Sound type="Turf" checkMaxDist="false" />
+		<Sound type="Rock" checkMaxDist="false" />
+		<Sound type="Metal" checkMaxDist="false" />
+		<Sound type="Mud" checkMaxDist="false" />
+		<Sound type="Water" checkMaxDist="false" />
+		<Sound type="Snow" checkMaxDist="false" />
+		<Sound type="Ice" checkMaxDist="false" />
+		<Sound type="Flesh" checkMaxDist="false" />
+		<Sound type="EliteFlesh" checkMaxDist="false" />
+		<Sound type="FloodFlesh" checkMaxDist="false" />
+		<Sound type="GruntFlesh" checkMaxDist="false" />
+		<Sound type="HunterFlesh" checkMaxDist="false" />
+		<Sound type="Wood" checkMaxDist="false" />
+		<Sound type="Lava" checkMaxDist="false" />
+		<Sound type="Crystal" checkMaxDist="false" />
+		<Sound type="Plasma" checkMaxDist="false" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_rage_impact">
+		<Sound type="metalground_01_df" checkMaxDist="false" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_ballisticMissile_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargeProjectileImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_carpetbomb_impact">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_carpetbomb_explosion">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_EmpPulse">
+		<Sound type="Metal" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_CpuHack">
+		<Sound type="Metal" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_megaTurret">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="WallShield">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="cov_brutegun_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Mud" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="Wood" />
+		<Sound type="Lava" />
+		<Sound type="Crystal" />
+		<Sound type="Plasma" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="unsc_inf_cyclops_01">
+		<Sound type="Metal" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="cov_inf_arbiter_01">
+		<Sound type="Metal" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="cov_inf_arbiter_02">
+		<Sound type="Metal" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="cov_inf_eliteCommando_01">
+		<Sound type="Metal" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="unsc_veh_warthog_01">
+		<Sound type="metalground_01_df">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Sand">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Earth">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Turf">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Rock">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Metal">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Mud">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Snow">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Ice">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Flesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="EliteFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="FloodFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="GruntFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="HunterFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="Wood">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Lava">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Crystal">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Plasma">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="cov_veh_ghost_01">
+		<Sound type="Sand">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Earth">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Turf">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Rock">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Metal">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Mud">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Snow">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Ice">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Flesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="EliteFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="FloodFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="GruntFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="HunterFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="Wood">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Lava">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Crystal">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Plasma">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="unsc_veh_foxcannon_01">
+		<Sound type="Sand">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Earth">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Turf">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Rock">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Metal">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Mud">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Snow">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Ice">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Flesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="EliteFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="FloodFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="GruntFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="HunterFlesh">Play_SFX_3D_VEH_GenericRamInfantry</Sound>
+		<Sound type="Wood">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Lava">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Crystal">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="Plasma">Play_SFX_3D_VEH_GenericRamSolid</Sound>
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="unsc_air_odstPod_01">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Rock" />
+		<Sound type="Metal" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="cov_inf_eliteCommando_01">
+		<Sound type="Metal" />
+		<Sound type="Flesh" />
+		<Sound type="EliteFlesh" />
+		<Sound type="FloodFlesh" />
+		<Sound type="GruntFlesh" />
+		<Sound type="HunterFlesh" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="impact_med_metal">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Rock" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="impact_large_metal">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Rock" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Rock" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Rock" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="">
+		<Sound type="metalground_01_df" />
+		<Sound type="Sand" />
+		<Sound type="Rock" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="">
+		<Sound type="Sand" />
+		<Sound type="Rock" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="play_death_rock_medium">
+		<Sound type="Sand" />
+		<Sound type="Rock" />
+		<Sound type="Earth" />
+		<Sound type="Turf" />
+		<Sound type="Metal" />
+		<Sound type="Water" />
+		<Sound type="Snow" />
+		<Sound type="Ice" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaartillery_01">
+		<Sound type="metalground_01_df">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Sand">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Mud">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Flesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="EliteFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="FloodFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="GruntFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="HunterFlesh">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Wood">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Lava">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Crystal">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="Plasma">PLAY_SFX_3D_LargePlasmaImpact</Sound>
+		<Sound type="WallShield" />
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_foxcannon_01">
+		<Sound type="Sand">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Rock">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Earth">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Turf">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Metal">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Water">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Snow">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+		<Sound type="Ice">PLAY_SFX_3D_LargeBallisticImpact</Sound>
+	</ImpactSoundSet>
+</ImpactSounds>

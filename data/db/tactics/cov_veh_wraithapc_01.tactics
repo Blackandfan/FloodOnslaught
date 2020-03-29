@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LeechBeam</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>MediumArms</WeaponType>
+		<Projectile>vfx_episode2_units_leechBeam</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Turret</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Filter>Medium</Filter>
+		<Slow TargetType="Military" MovementModifier="0.800000012" AOEEffect="false" SmartTargeting="false" AffectsBuildings="false">1.0f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.29999995</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>LeechBeamUpgrade</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>MediumArms</WeaponType>
+		<Projectile>vfx_episode2_units_leechBeam</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Turret</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Filter>Medium</Filter>
+		<Slow TargetType="Military" MovementModifier="0.800000012" AOEEffect="false" SmartTargeting="false" AffectsBuildings="false">1.0f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.29999995</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.75</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>OnDeathDamageContained</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>6000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Explosive</WeaponType>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>OnDeathDamageContained</Name>
+		<ActionType>Detonate</ActionType>
+		<DetonateDamageContainedOnly />
+		<Weapon>OnDeathDamageContained</Weapon>
+	</Action>
+	<Action>
+		<Name>LeechBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaAttack</Anim>
+		<Weapon>LeechBeam</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0.5">2.5</Duration>
+		<LoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>LeechBeamUpgradeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaAttack</Anim>
+		<Weapon>LeechBeamUpgrade</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0.5">2.5</Duration>
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UnloadContained</Name>
+		<ActionType>UnloadContained</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>LoadTarget</Name>
+		<ActionType>LoadTarget</ActionType>
+		<WorkRange>10</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeechBeamUpgradeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<ContainsUnits />
+			<Action>UnloadContained</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<ContainsUnits />
+			<Relation>Self</Relation>
+			<Action>UnloadContained</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<Action>LoadTarget</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ImpactEffects xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TerrainEffect name="Test" limit="5">vfx\effects\impacts\test</TerrainEffect>
+	<TerrainEffect name="PowerExplosion" limit="5">vfx\effects\special\god_bombimpact_01</TerrainEffect>
+	<TerrainEffect name="needler_01" limit="5">vfx\effects\impacts\cov\needler_01\needler_01</TerrainEffect>
+	<TerrainEffect name="fuelrod_01" limit="5">vfx\effects\impacts\cov\fuelrod_01\fuelrod_01</TerrainEffect>
+	<TerrainEffect name="cov_plasmagrenade_01" limit="5">vfx\effects\impacts\cov\plasmagrenade_01\plasmagrenade_01</TerrainEffect>
+	<TerrainEffect name="cov_plasmapistol_01" limit="5">vfx\effects\impacts\cov\plasmapistol_01\plasmapistol_01</TerrainEffect>
+	<TerrainEffect name="cov_brutegun_01" limit="5">vfx\effects\impacts\cov\brutegun_01\brutegun_01</TerrainEffect>
+	<TerrainEffect name="cov_brutegun_02" limit="5">vfx\effects\impacts\cov\brutegun_02\brutegun_02</TerrainEffect>
+	<TerrainEffect name="cov_plasmarifle_01" limit="5">vfx\effects\impacts\cov\plasmarifle_01\plasmarifle_01</TerrainEffect>
+	<TerrainEffect name="cov_plasmacannon_01" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\PlasmaCannon</TerrainEffect>
+	<TerrainEffect name="cov_sniperrifle_01" limit="5">vfx\effects\impacts\cov\sniperrifle_01\sniperrifle_01</TerrainEffect>
+	<TerrainEffect name="cov_shadeplasma_01" limit="5">vfx\effects\impacts\cov\shadeplasma_01\shadeplasma_01</TerrainEffect>
+	<TerrainEffect name="cov_plasmamortar_01" limit="5">vfx\effects\impacts\cov\plasmamortar_01\plasmamortar_01</TerrainEffect>
+	<TerrainEffect name="cov_plasmamortar_02" limit="5">vfx\effects\impacts\cov\plasmamortar_02\plasmamortar_02</TerrainEffect>
+	<TerrainEffect name="cov_plasmaburn_01" limit="5">vfx\effects\impacts\cov\plasmaburn_01\plasmaburn_01</TerrainEffect>
+	<TerrainEffect name="cov_brutechopper_01" limit="5">vfx\effects\impacts\cov\brutechopper_01\brutechopper_01</TerrainEffect>
+	<TerrainEffect name="cov_heavyneedler_01" limit="5">vfx\effects\impacts\cov\heavyneedler_01\heavyneedler_01</TerrainEffect>
+	<TerrainEffect name="LargeGreenPlasma" limit="5">vfx\effects\impacts\plasma_large_green\plasma_large_green_01</TerrainEffect>
+	<TerrainEffect name="SmallGreenPlasma" limit="5">vfx\effects\impacts\plasma_small_green\plasma_small_green_01</TerrainEffect>
+	<TerrainEffect name="CleansingExplosion" limit="5">vfx\effects\impacts\tank_shell_impact\tank_shell_impact_01</TerrainEffect>
+	<TerrainEffect name="MethaneExplosion" limit="5">vfx\effects\Unit_FX\cov\grunt\methane_explosion</TerrainEffect>
+	<TerrainEffect name="arbiterrageimpact_01" limit="5">vfx\effects\unit_fx\cov\elite\arbiterrageimpact_01</TerrainEffect>
+	<TerrainEffect name="methaneexplosion_01" limit="5">vfx\effects\building_fx\cov\methanetanks\methaneexplosion_01</TerrainEffect>
+	<TerrainEffect name="stasisbomb_01" limit="5">vfx\effects\impacts\cov\vampire_01\stasisbomb_01</TerrainEffect>
+	<TerrainEffect name="cov_acidburn_01" limit="5">vfx\effects\impacts\cov\acidburn_01\acidburn_01</TerrainEffect>
+	<TerrainEffect name="cov_mineExplosion_01" limit="5">vfx\effects\canister_shell_blast\canister_shell_blast</TerrainEffect>
+	<TerrainEffect name="Missile" limit="4">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MissileImpact</TerrainEffect>
+	<TerrainEffect name="SmallArmsBullet" limit="10" lifespan="1">vfx\effects\impacts\unsc\rifle_01\rifle_01</TerrainEffect>
+	<TerrainEffect name="OrbitalBombardmentExplosion" limit="5" lifespan="15">vfx\effects\impacts\unsc\maccannon_01\maccannon_01</TerrainEffect>
+	<TerrainEffect name="OrbitalBombardmentExplosion2" limit="5" lifespan="15">vfx\effects\impacts\unsc\maccannon_01\maccannon_02</TerrainEffect>
+	<TerrainEffect name="OrbitalBombardmentExplosion3" limit="5" lifespan="15">vfx\effects\impacts\unsc\maccannon_01\maccannon_03</TerrainEffect>
+	<TerrainEffect name="CarpetBombExplosion" limit="5">vfx\effects\impacts\tank_shell_impact\tank_shell_impact_01</TerrainEffect>
+	<TerrainEffect name="UNSCFragGrenade" limit="5">vfx\effects\impacts\grenade\unsc\frag_grenade_01</TerrainEffect>
+	<TerrainEffect name="RhinoShell" limit="5">vfx\effects\impacts\unsc\rhinoshell_01\rhino_shell_impact_01</TerrainEffect>
+	<TerrainEffect name="NukeBlast" limit="5">vfx\effects\impacts\leader_powers\nuke_01</TerrainEffect>
+	<TerrainEffect name="UNSC_rifle_01" limit="10">vfx\effects\impacts\unsc\rifle_01\rifle_01</TerrainEffect>
+	<TerrainEffect name="EmpBlast" limit="5">vfx\effects\impacts\leader_powers\emp_blast_01</TerrainEffect>
+	<TerrainEffect name="unsc_grenade_01" limit="5">vfx\effects\impacts\unsc\grenade_01\grenade_01</TerrainEffect>
+	<TerrainEffect name="TankShell" limit="3">vfx\effects\impacts\unsc\tankshell_01\tank_shell_impact_01</TerrainEffect>
+	<TerrainEffect name="EMPGrenade" limit="5">vfx\effects\impacts\unsc\empgrenade_01\empgrenade_01</TerrainEffect>
+	<TerrainEffect name="unsc_lightcannon_01" limit="15" lifespan="1">vfx\effects\impacts\unsc\lightcannon_01\lightcannon_01</TerrainEffect>
+	<TerrainEffect name="unsc_rocket_01" limit="4">vfx\effects\impacts\unsc\rocket_01\rocket_01</TerrainEffect>
+	<TerrainEffect name="FoxEmp" limit="5">vfx\effects\impacts\unsc\foxEmp_01\foxEmp_01</TerrainEffect>
+	<TerrainEffect name="GammaTankShell" limit="5">vfx\effects\impacts\unsc\gammatankshell_01\gammatankshell_01</TerrainEffect>
+	<TerrainEffect name="unsc_rotarymg_01" limit="8" lifespan="1">vfx\effects\impacts\unsc\rotarymg_01\rotarymg_01</TerrainEffect>
+	<TerrainEffect name="unsc_flashgrenade_01" limit="5">vfx\effects\impacts\unsc\flashgrenade_01\flashgrenade_01</TerrainEffect>
+	<TerrainEffect name="unsc_gausscannon_01" limit="5">vfx\effects\impacts\unsc\gausscannon_01\gausscannon_01</TerrainEffect>
+	<TerrainEffect name="unsc_spartanlaser_01" limit="5">vfx\effects\impacts\unsc\spartanlaser_01\spartanlaser_01</TerrainEffect>
+	<TerrainEffect name="canisterblast" limit="5">vfx\effects\canister_shell_blast\canister_shell_blast</TerrainEffect>
+	<TerrainEffect name="unsc_flamemortar_01" limit="5">vfx\effects\impacts\unsc\flamemortar_01\flamemortar_01</TerrainEffect>
+	<TerrainEffect name="tankshell_02" limit="5">vfx\effects\impacts\unsc\tankshell_02\tankshell_02</TerrainEffect>
+	<TerrainEffect name="VultureNuke" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\Nuke</TerrainEffect>
+	<TerrainEffect name="flood_spit_01" limit="5">vfx\effects\flood\Air\sporecloud_01\flood_mortar_impact_01</TerrainEffect>
+	<TerrainEffect name="flood_impact_lugee_01" limit="5">vfx\effects\impacts\flood\flood_impact_lugee_01</TerrainEffect>
+	<TerrainEffect name="for_beam_01" limit="5">vfx\effects\impacts\for\beam\beam_01</TerrainEffect>
+	<TerrainEffect name="MissileImpact" limit="20" physicsImpulse="">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MissileImpact</TerrainEffect>
+	<TerrainEffect name="ODSTPod" limit="20" lifespan="3600" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\ODSTDropImpact</TerrainEffect>
+	<TerrainEffect name="ODSTUnitPod" limit="20" lifespan="3600" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\ODSTDropPodImpact</TerrainEffect>
+	<TerrainEffect name="SpartanGroundPound" limit="5" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SpartanGroundPoundImpact</TerrainEffect>
+	<TerrainEffect name="MediumPlasmaCannonImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MediumPlasmaCannonImpact</TerrainEffect>
+	<TerrainEffect name="LargeExplosionImpact" limit="10" physicsImpulse="ExplosionLarge">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\LargeExplosionImpact</TerrainEffect>
+	<TerrainEffect name="MediumBallisticImpact" limit="10">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MediumBallisticImpact</TerrainEffect>
+	<TerrainEffect name="GrenadeExplosion" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\GrenadeExplosion</TerrainEffect>
+	<TerrainEffect name="FuelRodCannonAirImpact" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\FuelRodCannonAirImpact</TerrainEffect>
+	<TerrainEffect name="MediumAirExplosion" limit="30">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MediumExplosionAirImpact</TerrainEffect>
+	<TerrainEffect name="RailGunImpact" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\RailGunImpact</TerrainEffect>
+	<TerrainEffect name="MediumPlasmaExplosion" limit="20" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MediumPlasmaExplosion</TerrainEffect>
+	<TerrainEffect name="PlasmaPistolImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\PlasmaPistolImpact</TerrainEffect>
+	<TerrainEffect name="SmallBallisticImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SmallBallisticImpact</TerrainEffect>
+	<TerrainEffect name="CanisterExplosion" limit="10">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\CanisterExplosion</TerrainEffect>
+	<TerrainEffect name="CarbineImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\CarbineImpact</TerrainEffect>
+	<TerrainEffect name="BruteShotImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BruteShotImpact</TerrainEffect>
+	<TerrainEffect name="MediumEMPExplosion" limit="10">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MediumEMPExplosion</TerrainEffect>
+	<TerrainEffect name="BlisterBackArtilleryImpact" limit="50" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BlisterBackArtilleryImpact</TerrainEffect>
+	<TerrainEffect name="BruteMineExplosion" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BruteMineExplosion</TerrainEffect>
+	<TerrainEffect name="BruteMineImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BruteMineImpact</TerrainEffect>
+	<TerrainEffect name="ODSTMineExplosion" limit="5" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\ODSTMineExplosion</TerrainEffect>
+	<TerrainEffect name="ODSTMineImpact" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\ODSTMineImpact</TerrainEffect>
+	<TerrainEffect name="SuicideGruntExplosion" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SuicideGruntExplosion</TerrainEffect>
+	<TerrainEffect name="OperativeEMP" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\OperativeEMP</TerrainEffect>
+	<TerrainEffect name="NeedlerImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\NeedlerImpact</TerrainEffect>
+	<TerrainEffect name="SpartanLaserImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SpartanLaserImpact</TerrainEffect>
+	<TerrainEffect name="CondorMacImpact" limit="5" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\CondorMacImpact</TerrainEffect>
+	<TerrainEffect name="SmallPlasmaExplosion" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SmallPlasmaAirExplosion</TerrainEffect>
+	<TerrainEffect name="SpikerImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SpikerImpact</TerrainEffect>
+	<TerrainEffect name="BanishedMissileExplosion" limit="30" physicsImpulse="">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BanishedMissileImpact</TerrainEffect>
+	<TerrainEffect name="GaussImpact" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\GuassImpact</TerrainEffect>
+	<TerrainEffect name="CyclopsUpgradeImpact" limit="30" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\CyclopsUpgradeImpact</TerrainEffect>
+	<TerrainEffect name="ExplosiveSpikeImpact" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\ExplosiveSpikerImpact</TerrainEffect>
+	<TerrainEffect name="BombingRunL1Impact" limit="20" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BombingRunL1Impact</TerrainEffect>
+	<TerrainEffect name="BombingRunL2Impact" limit="20" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BombingRunL2Impact</TerrainEffect>
+	<TerrainEffect name="BombingRunL3Impact" limit="20" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BombingRunL3Impact</TerrainEffect>
+	<TerrainEffect name="ScatterBomb" limit="20" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\ScatterBomb</TerrainEffect>
+	<TerrainEffect name="UNSCAntiAirExplosion" limit="30" physicsImpulse="">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\UNSCAntiAirExplosion</TerrainEffect>
+	<TerrainEffect name="PlasmaMineExplosion01" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\PlasmaMineExplosion01</TerrainEffect>
+	<TerrainEffect name="PlasmaMineExplosion02" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\PlasmaMineExplosion02</TerrainEffect>
+	<TerrainEffect name="PlasmaBurn" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\PlasmaBurn</TerrainEffect>
+	<TerrainEffect name="GrizzileExplosion" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\GrizzileExplosion</TerrainEffect>
+	<TerrainEffect name="AutoCannonImpact" limit="30" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\AutoCannonImpact</TerrainEffect>
+	<TerrainEffect name="SentinelBeamImpact" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SentinelBeamImpact</TerrainEffect>
+	<TerrainEffect name="LargeEMPImpact" limit="10">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\LargeEMPExplosion</TerrainEffect>
+	<TerrainEffect name="SuicideGruntBurn" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SuicideGruntBurn</TerrainEffect>
+	<TerrainEffect name="NightgaleSmokeBomb" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\NightingaleSmokeBomb</TerrainEffect>
+	<TerrainEffect name="LargeBarrelExplosion" limit="10">vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\LargeBarrelExplosion</TerrainEffect>
+	<TerrainEffect name="MediumBarrelExplosion" limit="10">vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\MediumBarrelExplosion</TerrainEffect>
+	<TerrainEffect name="SmallBarrelExplosion" limit="10" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\SmallBarrelExplosion</TerrainEffect>
+	<TerrainEffect name="SmallGrenadeExplosion" limit="10" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SmallGrenadeExplosion</TerrainEffect>
+	<TerrainEffect name="PlanetaryCleansingExplosion" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\PlanetaryCleansingExplosion</TerrainEffect>
+	<TerrainEffect name="Blackout" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\SpecOpsEMP</TerrainEffect>
+	<TerrainEffect name="MacBlastL1Impact" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MacBlastL1Impact</TerrainEffect>
+	<TerrainEffect name="MacBlastL2Impact" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MacBlastL2Impact</TerrainEffect>
+	<TerrainEffect name="MacBlastL3Impact" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MacBlastL3Impact</TerrainEffect>
+	<TerrainEffect name="MacBlastEMPImpact" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\MacBlastEMPImpact</TerrainEffect>
+	<TerrainEffect name="NapalmFlameUpgrade" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\FlamerUpgradeNapalm</TerrainEffect>
+	<TerrainEffect name="LotusMineImpact" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\LotusMineImpact</TerrainEffect>
+	<TerrainEffect name="rmBlastUnit" limit="10" physicsImpulse="ExplosionLarge">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\rmBlastUnit</TerrainEffect>
+	<TerrainEffect name="rmScorchMineExplosion" limit="10" physicsImpulse="ExplosionLarge">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\rmScorchMineExplosion</TerrainEffect>
+	<TerrainEffect name="rmShrapnelMineExplosion" limit="10" physicsImpulse="ExplosionLarge">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\rmShrapnelMineExplosion</TerrainEffect>
+	<TerrainEffect name="CanisterExplosionScorpionTech" limit="10">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\CanisterExplosionScorpionTech</TerrainEffect>
+	<TerrainEffect name="GorgonImpact" limit="50" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\GorgonImpact</TerrainEffect>
+	<TerrainEffect name="rmSiphonImpact" limit="10">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\rmSiphonImpact</TerrainEffect>
+	<TerrainEffect name="RetreiverGraviticPulse" limit="50" physicsImpulse="ExplosionLarge">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\RetreiverGraviticPulse</TerrainEffect>
+	<TerrainEffect name="RetreiverSmallLaserBeam" limit="50" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\RetreiverSmallLaserBeam</TerrainEffect>
+	<TerrainEffect name="RetreiverSuperBeam" limit="50" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\RetreiverSuperBeam</TerrainEffect>
+	<TerrainEffect name="RetreiverSuperBeamAir" limit="50" physicsImpulse="ExplosionMedium">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\RetreiverSuperBeamAir</TerrainEffect>
+	<TerrainEffect name="RetreiverGraviticPulseImpact" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\RetreiverGraviticPulseImpact</TerrainEffect>
+	<TerrainEffect name="BruteShotImpact2" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BruteShotImpact02</TerrainEffect>
+	<TerrainEffect name="BruteShotImpact3" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BruteShotImpact03</TerrainEffect>
+	<TerrainEffect name="EmpForgeHogTier1" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\EmpForgeHogTier1</TerrainEffect>
+	<TerrainEffect name="EmpForgeHogTier2" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\EmpForgeHogTier2</TerrainEffect>
+	<TerrainEffect name="CobraCannonImpact" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\CobraCannonImpact</TerrainEffect>
+	<TerrainEffect name="RamImpact" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\RamCollision</TerrainEffect>
+	<TerrainEffect name="RamImpactInfantry" limit="20" physicsImpulse="ExplosionSmall">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\RamCollisionInfantry</TerrainEffect>
+	<TerrainEffect name="PaintballMine" limit="20">vfx\UnitVFX\SkullsVFX\PaintballMine</TerrainEffect>
+	<TerrainEffect name="PaintGrenade" limit="20">vfx\UnitVFX\SkullsVFX\PaintGrenade</TerrainEffect>
+	<TerrainEffect name="ScarabStomp" limit="30" physicsImpulse="ExplosionLarge">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\ScarabStomp</TerrainEffect>
+	<TerrainEffect name="FirestarterGrunt" limit="20">vfx\UnitVFX\SkullsVFX\FirestarterGrunt</TerrainEffect>
+	<TerrainEffect name="FirestarterMarine" limit="20">vfx\UnitVFX\SkullsVFX\FirestarterMarine</TerrainEffect>
+	<TerrainEffect name="BruteShotImpactAir" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BruteShotImpactAir</TerrainEffect>
+	<TerrainEffect name="BruteShotImpactAir2" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BruteShotImpactAir2</TerrainEffect>
+	<TerrainEffect name="BruteShotImpactAir3" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BruteShotImpactAir3</TerrainEffect>
+	<TerrainEffect name="PointDefenseImpact" limit="20" physicsImpulse="">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\BanishedPointDefenseImpact</TerrainEffect>
+	<TerrainEffect name="VultureMissileAirImpact" limit="10" physicsImpulse="ExplosionLarge">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\VultureMissileAirImpact</TerrainEffect>
+	<TerrainEffect name="NapalmL1Impact" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\NapalmL1Impact</TerrainEffect>
+	<TerrainEffect name="NapalmL2Impact" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\NapalmL2Impact</TerrainEffect>
+	<TerrainEffect name="NapalmL3Impact" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\NapalmL3Impact</TerrainEffect>
+	<TerrainEffect name="ODSTHellDrop" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\ODSTHellDrop</TerrainEffect>
+	<TerrainEffect name="VehicleHellDrop" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\VehicleHellDrop</TerrainEffect>
+	<TerrainEffect name="Immolation_01" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\Immolation_01</TerrainEffect>
+	<TerrainEffect name="UnstableConcoctionL1" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\UnstableConcoctionL1</TerrainEffect>
+	<TerrainEffect name="UnstableConcoctionL2" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\UnstableConcoctionL2</TerrainEffect>
+	<TerrainEffect name="UnstableConcoctionL3" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\UnstableConcoctionL3</TerrainEffect>
+	<TerrainEffect name="IncendiaryGrenade" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc1\tfx\IncendiaryGrenade</TerrainEffect>
+	<TerrainEffect name="LekgoloWallsImpact" limit="5">vfx\dlc3\tfx\LekgoloWallsImpact</TerrainEffect>
+	<TerrainEffect name="johnsonEMPImpactLvl1" limit="5">vfx\dlc3\tfx\johnsonEMPImpactLvl1</TerrainEffect>
+	<TerrainEffect name="johnsonEMPImpactLvl2" limit="5">vfx\dlc3\tfx\johnsonEMPImpactLvl2</TerrainEffect>
+	<TerrainEffect name="BunkerDropImpact" limit="5">vfx\dlc3\tfx\BunkerDropImpactTfx</TerrainEffect>
+	<TerrainEffect name="JohnsonMissileImpact" limit="5">vfx\dlc3\tfx\JohnsonMissileImpact</TerrainEffect>
+	<TerrainEffect name="PlasmaBoltImpact" limit="5">vfx\dlc2\tfx\plasmaBoltImpact</TerrainEffect>
+	<TerrainEffect name="PlasmaBoltImpact2" limit="5">vfx\dlc2\tfx\plasmaBoltImpact2</TerrainEffect>
+	<TerrainEffect name="PlasmaBoltImpact3" limit="5">vfx\dlc2\tfx\plasmaBoltImpact3</TerrainEffect>
+	<TerrainEffect name="MassStasis" limit="5">vfx\dlc2\tfx\stasisImpact</TerrainEffect>
+	<TerrainEffect name="MassStasis2" limit="5">vfx\dlc2\tfx\stasisImpact2</TerrainEffect>
+	<TerrainEffect name="MassStasis3" limit="5">vfx\dlc2\tfx\stasisImpact3</TerrainEffect>
+	<TerrainEffect name="MassStasisMine1" limit="5">vfx\dlc2\tfx\stasisMine1</TerrainEffect>
+	<TerrainEffect name="MassStasisMine2" limit="5">vfx\dlc2\tfx\stasisMine2</TerrainEffect>
+	<TerrainEffect name="PlasmaGrenadeExplosion" limit="20">vfx\dlc2\tfx\PlasmaGrenadeExplosion</TerrainEffect>
+	<TerrainEffect name="StasisGrenadeExplosion" limit="20">vfx\dlc2\tfx\StasisGrenadeExplosion</TerrainEffect>
+	<TerrainEffect name="PlasmaCasterImpact" limit="20">vfx\dlc2\tfx\PlasmaCasterImpact</TerrainEffect>
+	<TerrainEffect name="needlesImpact" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc2\tfx\needlesImpact</TerrainEffect>
+	<TerrainEffect name="returnedPlasmaImpact" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc2\tfx\returnedPlasmaImpact</TerrainEffect>
+	<TerrainEffect name="returnedBombImpact" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc2\tfx\returnedBombImpact</TerrainEffect>
+	<TerrainEffect name="enduringSalvoImpact" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc2\tfx\enduringSalvoImpact</TerrainEffect>
+	<TerrainEffect name="spartanLeaderLaser" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc2\tfx\spartanLeaderLaser</TerrainEffect>
+	<TerrainEffect name="Cryostorm_01" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc4\tfx\cryoStormImpact</TerrainEffect>
+	<TerrainEffect name="CryoMine_01" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc4\tfx\cryoMine1</TerrainEffect>
+	<TerrainEffect name="CryoMine_02" limit="20" physicsImpulse="ExplosionMedium">vfx\dlc4\tfx\cryoMine2</TerrainEffect>
+	<TerrainEffect name="CryoBlast1" limit="5">vfx\dlc4\tfx\cryoBlastImpact1</TerrainEffect>
+	<TerrainEffect name="CryoBlast2" limit="5">vfx\dlc4\tfx\cryoBlastImpact2</TerrainEffect>
+	<TerrainEffect name="CryoBlast3" limit="5">vfx\dlc4\tfx\cryoBlastImpact3</TerrainEffect>
+	<TerrainEffect name="CryoShellBlast1" limit="5">vfx\dlc4\tfx\cryoshellimpact1</TerrainEffect>
+	<TerrainEffect name="CryoShellBlastAir1" limit="5">vfx\dlc4\tfx\cryoshellimpactAir1</TerrainEffect>
+	<TerrainEffect name="SeismicCharge1" limit="5">vfx\dlc4\tfx\SeismicCharge1</TerrainEffect>
+	<TerrainEffect name="SeismicCharge2" limit="5">vfx\dlc4\tfx\SeismicCharge2</TerrainEffect>
+	<TerrainEffect name="SeismicDrop" limit="10" physicsImpulse="ExplosionSmall">vfx\dlc4\tfx\SeismicDrop</TerrainEffect>
+	<TerrainEffect name="SeismicDropAir" limit="10" physicsImpulse="ExplosionSmall">vfx\dlc4\tfx\SeismicDropAir</TerrainEffect>
+	<TerrainEffect name="IceBlockBomb" limit="20" lifespan="10" physicsImpulse="ExplosionMedium">vfx\dlc4\tfx\iceBlockBombImpact</TerrainEffect>
+	<TerrainEffect name="cryoMineImpact" limit="20">vfx\dlc4\tfx\cryoMineImpact</TerrainEffect>
+	<TerrainEffect name="HammerPlasmaBurn" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\HammerPlasmaBurn</TerrainEffect>
+	<TerrainEffect name="GruntGoblinNeedlerImpact" limit="100" physicsImpulse="ExplosionMedium">vfx\dlc5\tfx\GruntGoblinNeedlerImpact</TerrainEffect>
+	<TerrainEffect name="GruntGoblinShardStormImpactImpact" limit="100" physicsImpulse="ExplosionMedium">vfx\dlc5\tfx\GruntGoblinShardStormImpact</TerrainEffect>
+	<TerrainEffect name="MethaneShellExplosion" limit="100" physicsImpulse="ExplosionMedium">vfx\dlc5\tfx\MethaneShellExplosion</TerrainEffect>
+	<TerrainEffect name="MethaneBomb" limit="100" physicsImpulse="ExplosionMedium">vfx\dlc5\tfx\MethaneBomb</TerrainEffect>
+	<TerrainEffect name="HeavyGruntFuelRodImpact" limit="100" physicsImpulse="ExplosionMedium">vfx\dlc5\tfx\HeavyGruntFuelRodImpact</TerrainEffect>
+	<TerrainEffect name="HeavyGruntFuelRodUpgradeImpact" limit="100" physicsImpulse="ExplosionMedium">vfx\dlc5\tfx\HeavyGruntFuelRodUpgradeImpact</TerrainEffect>
+	<TerrainEffect name="bruteRiderPlasmaGrenade" limit="20">vfx\dlc5\tfx\bruteRiderGrenadeImpact</TerrainEffect>
+	<TerrainEffect name="AmbushGrunts" limit="5">vfx\dlc5\tfx\AmbushGruntsSpawn</TerrainEffect>
+	<TerrainEffect name="GruntSwarmGrenadeImpact" limit="100" physicsImpulse="ExplosionMedium">vfx\dlc5\tfx\GruntSwarmGrenadeImpact</TerrainEffect>
+	<TerrainEffect name="GruntSwarmGrenadeImpactUpgrade" limit="100" physicsImpulse="ExplosionMedium">vfx\dlc5\tfx\GruntSwarmGrenadeImpactUpgrade</TerrainEffect>
+	<TerrainEffect name="ConfettiMine" limit="5">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\ConfettiMine</TerrainEffect>
+	<TerrainEffect name="CorruptionSmallExp" limit="20">vfx\episode2\tfx\CorruptionSmallExp</TerrainEffect>
+	<TerrainEffect name="CorruptionMedium" limit="20">vfx\episode2\tfx\CorruptionMedium</TerrainEffect>
+	<TerrainEffect name="CorruptionMediumExp" limit="20">vfx\episode2\tfx\CorruptionMediumExp</TerrainEffect>
+	<TerrainEffect name="CorruptionLargeExp" limit="20">vfx\episode2\tfx\CorruptionLargeExp</TerrainEffect>
+	<TerrainEffect name="CorruptionLarge" limit="20">vfx\episode2\tfx\CorruptionLarge</TerrainEffect>
+	<TerrainEffect name="CorruptionLargeMine" limit="20">vfx\episode2\tfx\CorruptionLargeMine</TerrainEffect>
+	<TerrainEffect name="CorruptionXLMine" limit="20">vfx\episode2\tfx\CorruptionXLMine</TerrainEffect>
+	<TerrainEffect name="CorruptionXL" limit="20">vfx\episode2\tfx\CorruptionXL</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingSmall_01" limit="20">vfx\episode2\tfx\CorruptionHealingSmall_01</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingMedium_01" limit="20">vfx\episode2\tfx\CorruptionHealingMedium_01</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingLarge_01" limit="20">vfx\episode2\tfx\CorruptionHealingLarge_01</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingXL_01" limit="20">vfx\episode2\tfx\CorruptionHealingXL_01</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingSmall_02" limit="20">vfx\episode2\tfx\CorruptionHealingSmall_02</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingMedium_02" limit="20">vfx\episode2\tfx\CorruptionHealingMedium_02</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingLarge_02" limit="20">vfx\episode2\tfx\CorruptionHealingLarge_02</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingXL_02" limit="20">vfx\episode2\tfx\CorruptionHealingXL_02</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingSmall_03" limit="20">vfx\episode2\tfx\CorruptionHealingSmall_03</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingMedium_03" limit="20">vfx\episode2\tfx\CorruptionHealingMedium_03</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingLarge_03" limit="20">vfx\episode2\tfx\CorruptionHealingLarge_03</TerrainEffect>
+	<TerrainEffect name="CorruptionHealingXL_03" limit="20">vfx\episode2\tfx\CorruptionHealingXL_03</TerrainEffect>
+	<TerrainEffect name="CataclysmSmall" limit="20">vfx\episode2\tfx\CataclysmSmall</TerrainEffect>
+	<TerrainEffect name="CataclysmMedium" limit="20">vfx\episode2\tfx\CataclysmMedium</TerrainEffect>
+	<TerrainEffect name="CataclysmLarge" limit="20">vfx\episode2\tfx\CataclysmLarge</TerrainEffect>
+	<TerrainEffect name="CataclysmXL" limit="20">vfx\episode2\tfx\CataclysmXL</TerrainEffect>
+	<TerrainEffect name="warlordMortarImpact" limit="5">vfx\episode2\tfx\warlordMortarImpact</TerrainEffect>
+	<TerrainEffect name="warlordMortarImpact2" limit="5">vfx\episode2\tfx\warlordMortarImpact2</TerrainEffect>
+	<TerrainEffect name="warlordMortarImpact3" limit="5">vfx\episode2\tfx\warlordMortarImpact3</TerrainEffect>
+	<TerrainEffect name="warlordMortarImpactAir" limit="5">vfx\episode2\tfx\warlordMortarImpactAir</TerrainEffect>
+	<TerrainEffect name="warlordMortarImpactAir2" limit="5">vfx\episode2\tfx\warlordMortarImpactAir2</TerrainEffect>
+	<TerrainEffect name="megaTurretImpact1" limit="5">vfx\episode2\tfx\megaTurretImpact1</TerrainEffect>
+	<TerrainEffect name="megaTurretImpact2" limit="5">vfx\episode2\tfx\megaTurretImpact2</TerrainEffect>
+	<TerrainEffect name="megaTurretImpact3" limit="5">vfx\episode2\tfx\megaTurretImpact3</TerrainEffect>
+	<TerrainEffect name="FloodSpawnerSpineImpact" limit="10" physicsImpulse="ExplosionLarge">vfx\episode2\tfx\FloodSpawnerSpineImpact</TerrainEffect>
+	<TerrainEffect name="VehicleInfectorExplosion" limit="10" physicsImpulse="ExplosionLarge">vfx\episode2\tfx\VehicleInfectorExplosion</TerrainEffect>
+	<TerrainEffect name="FloodEggExplosion" limit="10" physicsImpulse="ExplosionSmall">vfx\episode2\tfx\FloodEggExplosion</TerrainEffect>
+	<TerrainEffect name="BruteGrenadierImpact" limit="20">vfx\episode2\tfx\BruteGrenadierImpact</TerrainEffect>
+	<TerrainEffect name="BruteGrenadierImpact2" limit="20">vfx\episode2\tfx\BruteGrenadierImpact2</TerrainEffect>
+	<TerrainEffect name="HammerPlasmaBurn" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\HammerPlasmaBurn</TerrainEffect>
+	<TerrainEffect name="LichSpawnerImpact" limit="10">vfx\episode2\tfx\LichSpawnerImpact</TerrainEffect>
+	<TerrainEffect name="PlasmaBurn2" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\PlasmaBurn2</TerrainEffect>
+	<TerrainEffect name="PlasmaBurn3" limit="20">vfx\UnitVFX\SharedUnitVFX\SharedUnitWeaponVFX\SharedImpactVFX\ImpactTFX\PlasmaBurn3</TerrainEffect>
+</ImpactEffects>

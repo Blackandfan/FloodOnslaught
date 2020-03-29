@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>OrbitalBombardmentShockwave</Name>
+		<DamagePerSecond>1</DamagePerSecond>
+		<WeaponType>leaderpower</WeaponType>
+		<AOERadius>14</AOERadius>
+		<AOEDistanceFactor>0.202950001</AOEDistanceFactor>
+		<AOEDamageFactor>0.61500001</AOEDamageFactor>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<Shockwave />
+	</Weapon>
+	<Weapon>
+		<Name>OrbitalBombardment</Name>
+		<DamagePerSecond>150</DamagePerSecond>
+		<Chill Amount="50" TargetType="AirCraft" />
+		<Chill Amount="50" TargetType="BasicAirCraft" />
+		<Chill Amount="50" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="50" TargetType="GroundVehicle" />
+		<Chill Amount="30" TargetType="CryoBuilding" />
+		<Chill Amount="30" TargetType="TurretBuilding" />
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_SerinaCryoBlastLVL1</Projectile>
+		<ImpactEffect size="Large">CryoMine_01</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1600</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>OrbitalBombardmentAttackAction</Name>
+		<Weapon>OrbitalBombardment</Weapon>
+	</Action>
+	<Action>
+		<Name>OrbitalBombardmentShockwaveAction</Name>
+		<Weapon>OrbitalBombardmentShockwave</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MegaCannon</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<PostAttackCooldownMin>6.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>6.5</PostAttackCooldownMax>
+		<WeaponType>MegaTurret</WeaponType>
+		<Projectile>fx_proj_MegaTurretProjectile1</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">megaTurretImpact1</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="2" rollstrength="0.800000012" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>300</MaxRange>
+		<MinRange>30</MinRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>17</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>ScorchMegaCannon</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<PostAttackCooldownMin>6.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>6.5</PostAttackCooldownMax>
+		<WeaponType>MegaTurret</WeaponType>
+		<Projectile>fx_proj_MegaTurretProjectile2</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true" doShockwaveAction="true">megaTurretImpact2</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="3.5" rollstrength="1.60000002" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>300</MaxRange>
+		<MinRange>30</MinRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>17</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>megaTurret</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>8400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>MegaTurretCampaignBlocker</WeaponType>
+		<Projectile>vfx_episode2_units_megaturretprojectile3</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true" doShockwaveAction="true">megaTurretImpact3</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="1.5" rollstrength="0.600000024" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>3075</MaxRange>
+		<Accuracy>0.25</Accuracy>
+		<MaxDeviation>100</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12.3000002</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>megaTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>megaTurret</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>ScorchMegaCannonAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>ScorchMegaCannon</Weapon>
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MegaCannonAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>MegaCannon</Weapon>
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurretAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ScorchMegaCannonAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MegaCannonAttack</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

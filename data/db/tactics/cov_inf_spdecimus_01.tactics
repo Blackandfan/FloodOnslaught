@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Hammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Artillery</WeaponType>
+		<MaxRange>3</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PullUnits />
+		<MinPullRange>16</MinPullRange>
+		<MaxPullRange>75</MaxPullRange>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>HammerShockwave</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>4000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<MaxRange>4</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>40</Radius>
+				<DamageRatio>10</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>JumpAttackHammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>450</DamagePerSecond>
+		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
+		<UseDPSasDPA />
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<MinRange>0</MinRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Daze TargetType="nonflying" MovementModifier="0" AOEEffect="true" SmartTargeting="false">3.0f</Daze>
+	</Weapon>
+	<Action>
+		<Name>Charge</Name>
+		<ActionType>Charge</ActionType>
+		<DamageCharge>11</DamageCharge>
+		<ChargeOnTaken />
+		<ChargeOnDealt />
+		<Anim>Pull</Anim>
+		<ProtoObject bone="bone_vfx_PullPoint">fx_decimuspullcharged_01</ProtoObject>
+	</Action>
+	<Action>
+		<Name>HammerAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">Attack</Anim>
+		<Weapon>Hammer</Weapon>
+		<FullBodyAttackAnim />
+		<InvalidTarget>UberUnit</InvalidTarget>
+		<ReactionAnim>Flail</ReactionAnim>
+		<VelocityScalar>22</VelocityScalar>
+		<FollowTarget />
+		<FollowDistance>10</FollowDistance>
+		<MinRelativeHeight>6</MinRelativeHeight>
+		<MaxRelativeHeight>9</MaxRelativeHeight>
+		<Chargable />
+		<ProtoObject bone="bone_vfx_PullPoint">fx_decimuspullbeam</ProtoObject>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" />
+	</Action>
+	<Action>
+		<Name>OrbitalCleansingAction</Name>
+		<ActionType>OrbitalCleansing</ActionType>
+		<Anim>Taunt</Anim>
+		<Duration>5</Duration>
+		<SpecificData>
+			<CleansingBeams>
+				<Beam>
+					<PowerName>DecimusCleansingBeam1</PowerName>
+					<DurationOverride>3</DurationOverride>
+					<SpeedOverride>20</SpeedOverride>
+					<SpawnDelay>0</SpawnDelay>
+					<Waypoints>
+						<wp x="0" z="0" />
+						<wp x="0" z="20" />
+						<wp x="20" z="20" />
+						<wp x="20" z="0" />
+						<wp x="20" z="-20" />
+					</Waypoints>
+				</Beam>
+				<Beam>
+					<PowerName>DecimusCleansingBeam1</PowerName>
+					<DurationOverride>5</DurationOverride>
+					<SpawnDelay>2</SpawnDelay>
+					<SpeedOverride>10</SpeedOverride>
+					<Waypoints>
+						<wp x="0" z="0" />
+						<wp x="0" z="20" />
+						<wp x="-20" z="20" />
+						<wp x="-20" z="0" />
+						<wp x="-20" z="-20" />
+					</Waypoints>
+				</Beam>
+			</CleansingBeams>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>JumpAttackAction</Name>
+		<ActionType>JumpAttack</ActionType>
+		<StartAnim noInterrupt="true">JumpAttackTakeOff</StartAnim>
+		<Anim>JumpAttackArc</Anim>
+		<EndAnim noInterrupt="true" endAnimBlendPosToGroundPoint="0.449999988">JumpAttackLand</EndAnim>
+		<Weapon>JumpAttackHammer</Weapon>
+		<MaxDistance>175</MaxDistance>
+		<MinRelativeHeight>27</MinRelativeHeight>
+		<MaxRelativeHeight>29</MaxRelativeHeight>
+		<VelocityScalar>40</VelocityScalar>
+		<LandingDelay>0.400000006</LandingDelay>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>0.25</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.33299994</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>13</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>Charge</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>HammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>OrbitalCleansingAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<RechargeDelay>4</RechargeDelay>
+	</Action>
+	<Tactic>
+		<PersistentAction>StealthManager</PersistentAction>
+	</Tactic>
+</TacticData>

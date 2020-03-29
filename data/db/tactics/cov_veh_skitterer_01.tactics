@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FocusBeam</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>SmallArmsScouts</WeaponType>
+		<Projectile>fx_proj_skittererBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>2.46000004</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Hardpoint>Beam</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>FocusBeam2</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>SmallArmsScouts</WeaponType>
+		<Projectile>fx_proj_skittererBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>2.46000004</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Hardpoint>BeamAttach</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>FocusBeamUpgrade</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>70</DamagePerSecond>
+		<WeaponType>SmallArmsScouts</WeaponType>
+		<Projectile>fx_proj_skittererbeamupgrade_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>2.46000004</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Hardpoint>Beam</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>FocusBeamUpgrade2</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>70</DamagePerSecond>
+		<WeaponType>SmallArmsScouts</WeaponType>
+		<Projectile>fx_proj_skittererbeamupgrade_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>2.46000004</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Hardpoint>BeamAttach</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+	</Weapon>
+	<Action>
+		<Name>Drone</Name>
+		<ActionType>Drone</ActionType>
+		<Vivacity>2</Vivacity>
+	</Action>
+	<Action>
+		<Name>ActionConvertToDroneUber</Name>
+		<ActionType>ConvertToDrone</ActionType>
+		<WorkRange>12</WorkRange>
+		<DontAutoRestart />
+		<SpecificData>
+			<TargetHealthModifier>2900</TargetHealthModifier>
+			<HeightDifference>22</HeightDifference>
+			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
+			<HeightDifferenceClimbSpeed>15</HeightDifferenceClimbSpeed>
+		</SpecificData>
+		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
+		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
+	</Action>
+	<Action>
+		<Name>ActionConvertToDroneBigAir</Name>
+		<ActionType>ConvertToDrone</ActionType>
+		<WorkRange>17</WorkRange>
+		<DontAutoRestart />
+		<SpecificData>
+			<TargetHealthModifier>2400</TargetHealthModifier>
+			<HeightDifference>8</HeightDifference>
+			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
+			<HeightDifferenceClimbSpeed>15</HeightDifferenceClimbSpeed>
+		</SpecificData>
+		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
+		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
+	</Action>
+	<Action>
+		<Name>ActionConvertToDroneAir</Name>
+		<ActionType>ConvertToDrone</ActionType>
+		<WorkRange>17</WorkRange>
+		<DontAutoRestart />
+		<SpecificData>
+			<TargetHealthModifier>2400</TargetHealthModifier>
+			<HeightDifference>4</HeightDifference>
+			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
+			<HeightDifferenceClimbSpeed>15</HeightDifferenceClimbSpeed>
+		</SpecificData>
+		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
+		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
+	</Action>
+	<Action>
+		<Name>ActionConvertToDroneInf</Name>
+		<ActionType>ConvertToDrone</ActionType>
+		<WorkRange>12</WorkRange>
+		<DontAutoRestart />
+		<SpecificData>
+			<TargetHealthModifier>2400</TargetHealthModifier>
+			<HeightDifference>6</HeightDifference>
+			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
+			<HeightDifferenceClimbSpeed>5</HeightDifferenceClimbSpeed>
+		</SpecificData>
+		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
+		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
+	</Action>
+	<Action>
+		<Name>ActionConvertToDrone</Name>
+		<ActionType>ConvertToDrone</ActionType>
+		<WorkRange>14</WorkRange>
+		<DontAutoRestart />
+		<SpecificData>
+			<TargetHealthModifier>2400</TargetHealthModifier>
+			<HeightDifference>8</HeightDifference>
+			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
+			<HeightDifferenceClimbSpeed>5</HeightDifferenceClimbSpeed>
+		</SpecificData>
+		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
+		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
+	</Action>
+	<Action>
+		<Name>FocusBeam2AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FocusBeam2</Weapon>
+		<Strafing maxDistance="45" turnRate="180" trackingSpeed="40" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<LoopAttackAnim />
+		<PersistBetweenOpps />
+		<Duration DurationSpread="0">0.800000012</Duration>
+	</Action>
+	<Action>
+		<Name>FocusBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FocusBeam</Weapon>
+		<Strafing maxDistance="45" turnRate="180" trackingSpeed="40" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<LoopAttackAnim />
+		<FullBodyAttackAnim />
+		<PersistBetweenOpps />
+		<SlaveAttackAction>FocusBeam2AttackAction</SlaveAttackAction>
+		<Duration DurationSpread="0">0.800000012</Duration>
+	</Action>
+	<Action>
+		<Name>FocusBeamUpgrade2AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AttackUpgrade</Anim>
+		<Weapon>FocusBeamUpgrade2</Weapon>
+		<Strafing maxDistance="45" turnRate="180" trackingSpeed="40" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<PersistBetweenOpps />
+		<Duration DurationSpread="0">1.79999995</Duration>
+	</Action>
+	<Action>
+		<Name>FocusBeamUpgradeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AttackUpgrade</Anim>
+		<Weapon>FocusBeamUpgrade</Weapon>
+		<Strafing maxDistance="45" turnRate="180" trackingSpeed="40" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<FullBodyAttackAnim />
+		<LoopAttackAnim />
+		<PersistBetweenOpps />
+		<SlaveAttackAction>FocusBeamUpgrade2AttackAction</SlaveAttackAction>
+		<Duration DurationSpread="0">1.79999995</Duration>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<TargetType>cov_air_blisterback_01</TargetType>
+			<TargetType>cov_air_shroud_01</TargetType>
+			<Action>ActionConvertToDroneBigAir</Action>
+			<RequireBeingOwnedByOriginalOwner />
+			<RequireTargetBeingOwnedByOriginalOwner />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<TargetType>UberUnit</TargetType>
+			<Action>ActionConvertToDroneUber</Action>
+			<RequireBeingOwnedByOriginalOwner />
+			<RequireTargetBeingOwnedByOriginalOwner />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ActionConvertToDroneAir</Action>
+			<RequireBeingOwnedByOriginalOwner />
+			<RequireTargetBeingOwnedByOriginalOwner />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<TargetType>infantry</TargetType>
+			<Action>ActionConvertToDroneInf</Action>
+			<RequireBeingOwnedByOriginalOwner />
+			<RequireTargetBeingOwnedByOriginalOwner />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>ActionConvertToDrone</Action>
+			<RequireBeingOwnedByOriginalOwner />
+			<RequireTargetBeingOwnedByOriginalOwner />
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FocusBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FocusBeamUpgradeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

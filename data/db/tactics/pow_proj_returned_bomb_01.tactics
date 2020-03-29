@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ScatterBomb</Name>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>pow_proj_returned_bomb_01</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0" fadeout="1.60000002" yawpitchstrength="4" rollstrength="2" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
+		<ImpactEffect size="Medium">returnedBombImpact</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>16</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>24</Radius>
+				<DamageRatio>70</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>32</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>ScatterBombAttackAction</Name>
+		<Weapon>ScatterBomb</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

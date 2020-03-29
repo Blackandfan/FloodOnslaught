@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>InfernoDamageOverTime</Name>
+		<DamagePerSecond>400</DamagePerSecond>
+		<WeaponType>LeaderPowerNonFlying</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="25" />
+		<AOERadius>20</AOERadius>
+		<AOEExpandingRadiusMax rate="12">80</AOEExpandingRadiusMax>
+		<Chill Amount="15" TargetType="Unit" />
+		<Chill Amount="15" TargetType="CryoBuilding" />
+		<Chill Amount="15" TargetType="TurretBuilding" />
+	</Weapon>
+	<Weapon>
+		<Name>InfernoMissile</Name>
+		<DamagePerSecond>4000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>pow_proj_cryostorm_missile_01</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1.39999998" yawpitchstrength="4" rollstrength="2" rotationfrequency="5" translationstrength="0" translationfrequency="4" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.800000012" />
+		<ImpactEffect size="Medium" doShockwaveAction="true">Immolation_01</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>16</Radius>
+				<DamageRatio>80</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<Chill Amount="500" TargetType="Unit" />
+		<Chill Amount="500" TargetType="CryoBuilding" />
+		<Chill Amount="500" TargetType="TurretBuilding" />
+	</Weapon>
+	<Action>
+		<Name>InfernoDamageOverTimeAction</Name>
+		<Weapon>InfernoDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>InfernoAttackAction</Name>
+		<Weapon>InfernoMissile</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

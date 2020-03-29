@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Cleansing</Name>
+		<DamagePerSecond>8000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>leaderPower</WeaponType>
+		<Projectile>pow_proj_lasersshockwave_01</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">PlanetaryCleansingExplosion</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1.79999995" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="10" translationstrength="0" translationfrequency="6" />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>28</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>115</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>CleansingAttackAction</Name>
+		<Weapon>Cleansing</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>
