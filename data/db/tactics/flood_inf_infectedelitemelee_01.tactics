@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>MeleeAttack</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>250</DamagePerSecond>
+		<DamagePerSecond>350</DamagePerSecond>
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>7</MaxRange>
 		<ThrowUnits />
@@ -121,7 +121,13 @@
 		<Anim>TeleportIn</Anim>
 		<WorkRange>0</WorkRange>
 	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+	</Action>
 	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>

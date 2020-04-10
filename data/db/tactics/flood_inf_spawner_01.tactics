@@ -27,7 +27,7 @@
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
-		<Projectile isSpawnedSquad="true">flood_inf_vehinfector_01</Projectile>
+		<Projectile isSpawnedSquad="true">flood_inf_vehinfector_01_real</Projectile>
 		<ImpactEffect size="small">VehicleInfectorExplosion</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>70</MaxRange>

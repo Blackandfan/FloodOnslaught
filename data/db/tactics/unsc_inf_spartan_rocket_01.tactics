@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>RocketLauncher</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>550</DamagePerSecond>
+		<DamagePerSecond>3000</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MissileImpact</ImpactEffect>
@@ -42,7 +42,7 @@
 	<Weapon>
 		<Name>AntiAircraftRocketLauncher</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>660</DamagePerSecond>
+		<DamagePerSecond>3000</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MissileImpact</ImpactEffect>
@@ -345,8 +345,8 @@
 		<WorkRange>3.07500005</WorkRange>
 		<MergeType>Ground</MergeType>
 		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.29999995" damageTaken="0.769999981" byCombatValue="false" />
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="5" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="2.29999995" damageTaken="0.569999981" byCombatValue="false" />
 	</Action>
 	<Action>
 		<Name>UpgradedVehicleJoin</Name>
@@ -354,8 +354,8 @@
 		<WorkRange>3.07500005</WorkRange>
 		<MergeType>Ground</MergeType>
 		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="3" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.45000005" damageTaken="0.689999998" byCombatValue="false" />
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="5" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="2.29999995" damageTaken="0.569999981" byCombatValue="false" />
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -364,8 +364,8 @@
 		<WorkRange>3.07500005</WorkRange>
 		<MergeType>Ground</MergeType>
 		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" boardTime="8" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.29999995" damageTaken="0.769999981" byCombatValue="false" />
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="5" boardTime="3" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="2.29999995" damageTaken="0.569999981" byCombatValue="false" />
 		<Fatality attacker="HijackWraithIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_wraith_01</Fatality>
 		<Fatality attacker="HijackGhostIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_ghost_01</Fatality>
 		<Fatality attacker="HijackChopperIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_bruteChopper_01</Fatality>
@@ -397,8 +397,8 @@
 		<WorkRange>6.1500001</WorkRange>
 		<MergeType>Ground</MergeType>
 		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" boardTime="8" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.29999995" damageTaken="0.769999981" byCombatValue="false" />
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="5" boardTime="3" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="2.29999995" damageTaken="0.569999981" byCombatValue="false" />
 		<Fatality attacker="HijackBlisterbackAirIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_air_blisterbackBase_01</Fatality>
 		<Fatality attacker="HijackBlisterbackAirIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_air_blisterback_01</Fatality>
 		<Fatality attacker="HijackBansheeIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_air_banshee_01</Fatality>
@@ -419,8 +419,8 @@
 		<WorkRange>3.07500005</WorkRange>
 		<MergeType>Ground</MergeType>
 		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="3" boardTime="4" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.45000005" damageTaken="0.689999998" byCombatValue="false" />
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="5" boardTime="3" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="2.29999995" damageTaken="0.569999981" byCombatValue="false" />
 		<Fatality attacker="HijackWraithIn" attackerEnd="HijackWraithEnd" target="HijackIn" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraith_01</Fatality>
 		<StartDisabled />
 		<Fatality attacker="HijackWraithIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_wraith_01</Fatality>
@@ -448,8 +448,8 @@
 		<WorkRange>6.1500001</WorkRange>
 		<MergeType>Ground</MergeType>
 		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="3" boardTime="4" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.45000005" damageTaken="0.689999998" byCombatValue="false" />
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="5" boardTime="3" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="2.29999995" damageTaken="0.569999981" byCombatValue="false" />
 		<Fatality attacker="HijackBlisterbackAirIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_air_blisterback_01</Fatality>
 		<Fatality attacker="HijackBansheeIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_air_banshee_01</Fatality>
 		<Fatality attacker="HijackShroudIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_air_shroud_01</Fatality>

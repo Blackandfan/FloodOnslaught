@@ -80,73 +80,23 @@
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<TargetClosestObjectsToRandomEnemyFirst>false</TargetClosestObjectsToRandomEnemyFirst>
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
+		<Building>
+			<BuildingType>unsc_bldg_command_01</BuildingType>
+		</Building>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<SquadTypeToSend>unsc_inf_spartan_mpalice_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_spartan_mpdoug_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_spartan_mpjerome_01</AlternateSquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1000</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1000</NumberOfTimesToReplaceSquads>
 		</Mission>
 	</Table>
 </Tables>

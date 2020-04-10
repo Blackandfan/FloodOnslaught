@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Autocannon</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>225</DamagePerSecond>
+		<DamagePerSecond>786</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -30,7 +30,7 @@
 	<Weapon>
 		<Name>Railgun</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>213</DamagePerSecond>
+		<DamagePerSecond>2130</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -74,7 +74,7 @@
 	<Weapon>
 		<Name>StompWeapon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>4600</DamagePerSecond>
+		<DamagePerSecond>460000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Stomp</WeaponType>
 		<MaxRange>4</MaxRange>
@@ -125,7 +125,7 @@
 	<Weapon>
 		<Name>SelfStompWeapon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>4600</DamagePerSecond>
+		<DamagePerSecond>460000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Stomp</WeaponType>
 		<MaxRange>4</MaxRange>

@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>40</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>PlasmaRifle</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>

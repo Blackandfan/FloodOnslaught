@@ -332,6 +332,12 @@
 	<InfantryCorpseDecayTime>9999999999999</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
 	<InfectionMap>
+		<InfectionMapEntry targetUnit="unsc_veh_forgehog_01">
+			<Infected weight="1" infectedUnit="unsc_veh_forgehog_01" infectedSquad="unsc_veh_forgehog_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_forgespawn_01">
+			<Infected weight="1" infectedUnit="unsc_inf_forgespawn_01" infectedSquad="unsc_inf_forgespawn_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_specialhonor_01">
 			<Infected weight="1" infectedUnit="cov_inf_specialhonor_01" infectedSquad="cov_inf_specialhonor_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
@@ -433,6 +439,9 @@
 		<InfectionMapEntry targetUnit="unsc_veh_warthog_01">
 			<Infected weight="1" infectedUnit="flood_veh_infected_warthog_01_base" infectedSquad="flood_veh_infected_warthog_01_base" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_warthog_01_forge">
+			<Infected weight="1" infectedUnit="flood_veh_infected_warthog_01_base" infectedSquad="flood_veh_infected_warthog_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_scorpion_01">
 			<Infected weight="1" infectedUnit="flood_veh_infected_scorpion_01_base" infectedSquad="flood_veh_infected_scorpion_01_base" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
@@ -496,7 +505,7 @@
 		<InfectionMapEntry targetUnit="cov_inf_heavygruntsubleader_01">
 			<Infected infectedUnit="flood_inf_infected_gruntfuelrod_01" infectedSquad="flood_inf_infected_gruntfuelrod_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="flood_inf_infected_heavygruntpistol_01">
+		<InfectionMapEntry targetUnit="cov_inf_heavygrunt_01">
 			<Infected infectedUnit="flood_inf_infected_heavygruntpistol_01" infectedSquad="flood_inf_infected_heavygruntpistol_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
 	</InfectionMap>

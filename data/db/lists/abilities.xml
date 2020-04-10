@@ -839,6 +839,18 @@
         <Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal">
         </Application>
     </Ability>
+    <Ability Name="CovCorruptedLich">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>280</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="1" Air="1" Terrain="4" Infantry="1" Building="1" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
     <Ability Name="CovSurveillanceDrone">
         <DisplayNameID>24272</DisplayNameID>
         <RolloverTextID>24273</RolloverTextID>

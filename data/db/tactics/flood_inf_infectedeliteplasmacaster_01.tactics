@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaCaster</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>175</DamagePerSecond>
+		<DamagePerSecond>275</DamagePerSecond>
 		<WeaponType>PlasmaCaster</WeaponType>
 		<Projectile>vfx_dlc2_units_plasmacaster</Projectile>
 		<ImpactEffect size="Medium">PlasmaCasterImpact</ImpactEffect>

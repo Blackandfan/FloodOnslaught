@@ -1,11 +1,253 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="LegendaryAIBuff">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>flood_LegendaryAIBuff</TechScript>
+			<Cost Supplies="100" Power="300" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="UnscForgeHogDrop">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Cost Supplies="100" Power="210" />
+			<Pop type="Unit">4</Pop>
+			<AutoRecharge>60000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">4</Data>
+				<Data type="protoobject" name="Gunship">unsc_air_pelican_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_VehicleDrop_II</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>unsc_veh_warthog_01_forge</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Up_Grizzly">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>unsc_grizzly_upgrade1</TechScript>
+			<Cost Supplies="0" Power="250" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="Up_Forge1">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>unsc_forgehog_upgrade1</TechScript>
+			<Cost Supplies="0" Power="300" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="Up_Forge2">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>unsc_forgehog_upgrade2</TechScript>
+			<Cost Supplies="100" Power="300" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="Up_Forge3">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>unsc_forgehog_upgrade3</TechScript>
+			<Cost Supplies="100" Power="300" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="FloodBanishedunitsDrop">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Cost Supplies="300" Power="0" />
+			<Pop type="Unit">3</Pop>
+			<AutoRecharge>270000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>1</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">2</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.100000001</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
+				<Data type="float" name="AreaDropExpandingStep">8</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">12</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">3</Data>
+				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_Barrage_I</Data>
+				<Data type="bool" name="OverrideProjectileLaunchDir">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_brutespiker_01_squad</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbanishedbitsofship_01</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_brutespiker_01_squad</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbanishedbitsofship_02</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_elitecarbine_01_squad</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbanishedbitsofship_02</ProjectileOverride>
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">2</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.100000001</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
+				<Data type="float" name="AreaDropExpandingStep">8</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">12</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">3</Data>
+				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_Barrage_I</Data>
+				<Data type="bool" name="OverrideProjectileLaunchDir">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_elitecarbine_01_squad</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbanishedbitsofship_01</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_elitecarbine_01_squad</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbanishedbitsofship_02</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_elitecarbine_01_squad</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbanishedbitsofship_02</ProjectileOverride>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="FloodUNSCunitsDrop">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Cost Supplies="500" Power="150" />
-			<Pop type="Unit">13</Pop>
+			<Cost Supplies="500" Power="100" />
+			<Pop type="Unit">9</Pop>
 			<AutoRecharge>270000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -57,19 +299,19 @@
 						<ProjectileOverride>pow_proj_floodbitsofship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_02</ProtoSquadID>
 						<ProjectileOverride>pow_proj_floodbitsofship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_02</ProtoSquadID>
 						<ProjectileOverride>pow_proj_floodbitsofship_03</ProjectileOverride>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_02</ProtoSquadID>
 						<ProjectileOverride>pow_proj_floodbitsofship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_02</ProtoSquadID>
 						<ProjectileOverride>pow_proj_floodbitsofship_05</ProjectileOverride>
 					</Drop>
 					<Drop>
@@ -81,7 +323,7 @@
 						<ProjectileOverride>pow_proj_floodbitsofship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_02</ProtoSquadID>
 						<ProjectileOverride>pow_proj_floodbitsofship_03</ProjectileOverride>
 					</Drop>
 					<Drop>
@@ -89,7 +331,7 @@
 						<ProjectileOverride>pow_proj_floodbitsofship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_02</ProtoSquadID>
 						<ProjectileOverride>pow_proj_floodbitsofship_03</ProjectileOverride>
 					</Drop>
 					<Drop>
@@ -110,6 +352,66 @@
 					</Drop>
 					<Drop>
 						<ProtoSquadID>flood_inf_infected_odst_01_base</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_03</ProjectileOverride>
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">2</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.100000001</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
+				<Data type="float" name="AreaDropExpandingStep">8</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">12</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">3</Data>
+				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_Barrage_I</Data>
+				<Data type="bool" name="OverrideProjectileLaunchDir">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_rocket_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_02</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_rocket_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_03</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_rocket_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_04</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_rocket_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_05</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_rocket_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_01</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_rocket_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_02</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_veh_infected_scorpion_01_base</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_03</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_veh_infected_scorpion_01_base</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_04</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -119,7 +421,7 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">4</Pop>
+			<Pop type="Unit">3</Pop>
 			<Cost Supplies="30" Power="180" />
 			<AutoRecharge>60000</AutoRecharge>
 			<UIRadius>5</UIRadius>
@@ -321,12 +623,38 @@
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
 				<Data type="protoobject" name="Projectile">pow_proj_lotusminepod_01</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
-				<Data type="int" name="NumShots">2</Data>
+				<Data type="int" name="NumShots">1</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_bldg_eggdropaom_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">false</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">0.5</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_lotusminepod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">3</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>flood_bldg_eggdropaom_01</ProtoSquadID>
@@ -362,6 +690,7 @@
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">false</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -374,6 +703,118 @@
 				<Data type="protoobject" name="Gunship">flood_inf_ruptureemerge_LP_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
 				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="bool" name="RequiresLOS">false</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">3</Data>
+				<Data type="float" name="AOERadius">20</Data>
+				<Data type="float" name="WaitDuration">1</Data>
+				<Data type="protoobject" name="Gunship">flood_inf_ruptureemerge_LP_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
 					<Drop>
 						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
 					</Drop>
@@ -469,12 +910,39 @@
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
 				<Data type="protoobject" name="Projectile">pow_proj_lotusminepod_01</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
-				<Data type="int" name="NumShots">2</Data>
+				<Data type="int" name="NumShots">1</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>flood_structure_floodbosstentacledrop_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">1.0</Data>
+				<Data type="float" name="SquadSpawnDelay">0.60000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_lotusminepod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">3</Data>
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
 						<ProtoSquadID>flood_structure_floodbosstentacledrop_01</ProtoSquadID>
@@ -1299,8 +1767,8 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">7</Pop>
-			<Cost Supplies="450" Power="600" />
-			<AutoRecharge>60000</AutoRecharge>
+			<Cost Supplies="150" Power="600" />
+			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1392,44 +1860,49 @@
 	</Power>
 	<Power name="DropCyclops">
 		<Attributes>
-			<PowerType>Gunship</PowerType>
+			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">3</Pop>
 			<Cost Supplies="15" Power="130" />
 			<AutoRecharge>60000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
-			<ShowTransportArrows>true</ShowTransportArrows>
-			<DisplayNameID>5010</DisplayNameID>
-			<RolloverTextID>5011</RolloverTextID>
-			<PrereqTextID>5011</PrereqTextID>
-			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
-			<IconLocation>2</IconLocation>
-			<CameraZoomMin>150</CameraZoomMin>
-			<CameraZoomMax>150</CameraZoomMax>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>4</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
 			<CameraPitchMin>55</CameraPitchMin>
 			<CameraPitchMax>55</CameraPitchMax>
 			<CameraEnableUserScroll>true</CameraEnableUserScroll>
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<FlashUI>
-				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">2</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.200000003</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="int" name="NumGunships">1</Data>
-				<Data type="float" name="WaitDuration">4</Data>
-				<Data type="protoobject" name="Gunship">unsc_air_pelican_01</Data>
-				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_VehicleDrop_II</Data>
-				<Data type="unitdrops" name="UnitDrops">
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_CHR_ODCyclopsDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>unsc_inf_cyclops_01</ProtoSquadID>
+						<ProjectileOverride>unsc_air_odstPodcyclops_01</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -9898,7 +10371,7 @@
 			<AIPowerUseType>BunkerDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">0</Pop>
-			<Cost Supplies="300" Power="0" />
+			<Cost Supplies="140" Power="200" />
 			<AutoRecharge>60000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
@@ -16673,9 +17146,9 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">30</Pop>
-			<Cost Supplies="2750" Power="450" />
-			<AutoRecharge>330000</AutoRecharge>
+			<Pop type="Unit">7</Pop>
+			<Cost Supplies="125" Power="650" />
+			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -16702,23 +17175,13 @@
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="int" name="NumGunships">3</Data>
-				<Data type="float" name="AOERadius">20</Data>
+				<Data type="int" name="NumGunships">1</Data>
 				<Data type="float" name="WaitDuration">2</Data>
-				<Data type="protoobject" name="Gunship">unsc_air_pelicangunship_01</Data>
+				<Data type="protoobject" name="Gunship">unsc_air_pelican_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
 						<ProtoSquadID>unsc_veh_grizzly_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>unsc_veh_grizzly_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>unsc_veh_grizzly_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -39104,8 +39567,8 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>VehicleRecycle</BuffName>
-			<Cost Supplies="1500" Power="1000" />
-			<AutoRecharge>330000</AutoRecharge>
+			<Cost Supplies="350" Power="600" />
+			<AutoRecharge>400000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -39131,7 +39594,7 @@
 				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
 				<Data type="objecttype" name="FilterType2">BasicAircraft</Data>
 				<Data type="objecttype" name="FilterExcludeType">Transport</Data>
-				<Data type="float" name="BuffDuration">45</Data>
+				<Data type="float" name="BuffDuration">30</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="int" name="MaxProcsAllUnits">8</Data>

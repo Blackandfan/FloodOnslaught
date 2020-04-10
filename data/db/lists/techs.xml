@@ -17,15 +17,212 @@
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+        <Effects />
+    </Tech>
+    <Tech name="unsc_instant_forgebuff" type="Normal">
+        <DBID>2041</DBID>
+        <DisplayNameID>1072</DisplayNameID>
+        <RolloverTextID>1073</RolloverTextID>
+        <ResearchPoints>5</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Effects>
-        	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+            <Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0.95" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0.95" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="flood_LegendaryAIBuff" type="Normal">
+        <DBID>2041</DBID>
+        <DisplayNameID>1072</DisplayNameID>
+        <RolloverTextID>1073</RolloverTextID>
+        <ResearchPoints>5</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+        <Effects>
+            <Effect type="Data" amount="0.7" subtype="Cost" Resource="Supplies" relativity="Percent">
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_grizzly_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_02</Target>
+                <Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_brutemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
+                <Target type="ProtoSquad">flood_inf_spawner_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+            </Effect>
+             <Effect type="Data" amount="0.3" subtype="Cost" Resource="Power" relativity="Percent">
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_grizzly_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_02</Target>
+                <Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_brutemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
+                <Target type="ProtoSquad">flood_inf_spawner_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">_Flood</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">_Flood</Target>
+            </Effect>
+             <Effect type="Data" amount="0" subtype="ActionEnable" action="CarbineRifleAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="CarbineRifleLegendaryAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="ActionEnable" action="CorruptedScorchMortarAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_veh_infected_wraith_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ScorchMortarAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_veh_infected_wraith_01_base</Target>
+            </Effect>
+             <Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_grizzly_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_02</Target>
+                <Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_brutemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
+                <Target type="ProtoSquad">flood_inf_spawner_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+            </Effect>
+            <Effect type="Data" subtype="PopCap" amount="15" popType="Unit" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+            <Effect type="Data" subtype="PopCap" amount="3" popType="Reactor" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodBanishedunitsDrop" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodUNSCunitsDrop" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodEggAOMDrop1" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="PowerLevel" power="Flood_Emerge_InfectorsAOM" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodRuptureEmerge" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+        </Effects>
+    </Tech>
+     <Tech name="unsc_LeaderForge" type="Normal">
+        <DBID>1917</DBID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>UNOBTAINABLE</Status>
+        <Flag>Shadow</Flag>
+        <Effects>
+            <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+            <Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport</Effect>
+            <Effect type="UnlockableGodPower" tier="2">Up_Forge1</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Forge1">Up_Forge2</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Forge2">Up_Forge3</Effect>
+            <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
+            <Effect type="UnlockableGodPower" tier="3">UnscForgeHogDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Up_Marine1</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="Up_Marine1">Up_Marine2</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_Hog</Effect>
+            <Effect type="UnlockableGodPower" tier="4">UnscBunkerDrop1_MP</Effect>
+            <Effect type="UnlockableGodPower" tier="5">UnscGrizzlyBattalion</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Up_Grizzly</Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cpgnh_veh_herogrizzly_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
+                <Target type="ProtoSquad">cpgnh_veh_herogrizzly_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_instant_upgrade</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_instant_forgebuff</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_inf_decimus_base</Target>
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -48,13 +245,7 @@
             <Effect type="UnlockableGodPower" tier="4">Up_FlameHog</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscBloodlust1</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscUnstableCon2</Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
@@ -103,17 +294,17 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Mantis1">Up_Mantis2</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Cyclops</Effect>
             <Effect type="UnlockableGodPower" tier="5">DropFoxcannon</Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
+            </Effect>
+             <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_colossus_upgrade1</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
@@ -155,13 +346,7 @@
             <Effect type="UnlockableGodPower" tier="4">Up_CryoMarines</Effect>
             <Effect type="UnlockableGodPower" tier="5">DropScorpion</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Scorpion</Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -211,14 +396,50 @@
             <Effect type="UnlockableGodPower" tier="4">Up_Sniper</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Hog</Effect>
             <Effect type="UnlockableGodPower" tier="5">Jerome_LowPopInspire1</Effect>
-           <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade1_chaingun</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade2_chaingun</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade3_chaingun</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpdoug_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade1_rocket</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade2_rocket</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade3_rocket</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade1_laser</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade2_laser</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_spartan_upgrade3_laser</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
@@ -271,6 +492,18 @@
             </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_decimus_base" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_decimus_base</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
@@ -402,14 +635,11 @@
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_goliath_upgrade1</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
@@ -419,9 +649,6 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
@@ -546,14 +773,11 @@
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_ghost_upgrade1</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_corruptedlich_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
@@ -680,14 +904,11 @@
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_methanescarab_01_base" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_veh_methanescarab_01_base</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_heavygruntLeader_01</Target>
@@ -936,6 +1157,39 @@
             <TechStatus status="Active">Basic</TechStatus>
         </Prereqs>
         <Effects>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cpgnh_veh_herogrizzly_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_methanescarab_01_base" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_corruptedlich_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpdoug_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_minibaseNoSocks</Target>
             </Effect>
@@ -2167,6 +2421,12 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+            </Effect>
+             <Effect type="Data" amount="0" subtype="ActionEnable" action="MachinegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_warthog_01_forge</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_warthog_01_forge</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -5826,16 +6086,16 @@
         <ResearchPoints>0</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Effects>
-            <Effect type="Data" amount="1.25" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="10.25" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">TurretBuilding</Target>
             </Effect>
-            <Effect type="Data" amount="1.75" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="10.75" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">Building</Target>
             </Effect>
-            <Effect type="Data" amount="1.75" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="10.75" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">Garrison</Target>
             </Effect>
-            <Effect type="Data" amount="1.75" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="10.75" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">CapturePoint</Target>
             </Effect>
         </Effects>
@@ -7058,8 +7318,15 @@
             <Effect type="UnlockableGodPower" tier="1">Flood_Emerge_InfectorsAOM</Effect>
             <Effect type="UnlockableGodPower" tier="2">FloodRuptureEmerge</Effect>
             <Effect type="UnlockableGodPower" tier="2">FloodUNSCunitsDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="3">FloodBanishedunitsDrop</Effect>
             <Effect type="UnlockableGodPower" tier="3">Up_Hog</Effect>
-            <Effect type="UnlockableGodPower" tier="3">Up_Wraith</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="Up_Hog">Up_Wraith</Effect>
+            <Effect type="UnlockableGodPower" tier="4">LegendaryAIBuff</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Unbrk_OrbitalEye1_mp</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="Unbrk_OrbitalEye1_mp">Unbrk_OrbitalEye2_mp</Effect>
+            <Effect type="UnlockableGodPower" tier="5">CovBuffRage1</Effect>
+            <Effect type="UnlockableGodPower" tier="5" prereq="CovBuffRage1">CovBuffRage2</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Grunt_InfantryRecycle</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
@@ -10949,6 +11216,15 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnSentinel1" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
             </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_forgehog_upgrade2" type="Normal">
@@ -10987,6 +11263,15 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="ActionEnable" action="AreaBuff2" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -11035,6 +11320,15 @@
             </Effect>
             <Effect type="SquadCounter" NewCounterName="Forgehog_02">
                 <Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
         </Effects>
     </Tech>

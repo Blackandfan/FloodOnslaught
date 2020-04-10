@@ -316,9 +316,9 @@ You may observe performance issues or have a less-than-optimal experience on thi
     <str id="UIMP.LEADERSELECT.SHORTDESCR.ISABEL.BLITZ">Isabel deploys the latest UNSC vehicle tech to great advantage and distracts the enemy with AI holograms.</str>
     <str id="UIMP.LEADERSELECT.SHORTDESCR.JOHNSON">Johnson focuses on a deadly frontline of combat mechs and battlefield defenses.</str>
     <str id="UIMP.LEADERSELECT.SHORTDESCR.JOHNSON.BLITZ">Johnson focuses on a deadly frontline of combat mechs and battlefield defenses.</str>
-    <str id="UIMP.LEADERSELECT.SHORTDESCR.RANDOM.BANISHED">Play with a random Banished leader</str>
+    <str id="UIMP.LEADERSELECT.SHORTDESCR.RANDOM.BANISHED">Play as the Flood</str>
     <str id="UIMP.LEADERSELECT.SHORTDESCR.RANDOM.LEADER">Play with a random leader</str>
-    <str id="UIMP.LEADERSELECT.SHORTDESCR.RANDOM.UNSC">Play with a random UNSC leader</str>
+    <str id="UIMP.LEADERSELECT.SHORTDESCR.RANDOM.UNSC">Play with a random survivor</str>
     <str id="UIMP.LEADERSELECT.SHORTDESCR.SHIPMASTER">The Shipmaster favors stealth and cloaking powers, teleportation tactics, and rapid assaults against his foes.</str>
     <str id="UIMP.LEADERSELECT.SHORTDESCR.SHIPMASTER.BLITZ">The Shipmaster favors stealth, teleportation tactics, and rapid assaults against his foes.</str>
     <str id="UIMP.LEADERSELECT.TITLE.ANDERS">Professor Anders</str>
@@ -328,9 +328,9 @@ You may observe performance issues or have a less-than-optimal experience on thi
     <str id="UIMP.LEADERSELECT.TITLE.DECIMUS">Decimus</str>
     <str id="UIMP.LEADERSELECT.TITLE.ISABEL">Isabel</str>
     <str id="UIMP.LEADERSELECT.TITLE.JOHNSON">Sergeant Johnson</str>
-    <str id="UIMP.LEADERSELECT.TITLE.RANDOM.BANISHED">Random Banished</str>
+    <str id="UIMP.LEADERSELECT.TITLE.RANDOM.BANISHED">Flood, dont use this</str>
     <str id="UIMP.LEADERSELECT.TITLE.RANDOM.LEADER">Random</str>
-    <str id="UIMP.LEADERSELECT.TITLE.RANDOM.UNSC">Random UNSC</str>
+    <str id="UIMP.LEADERSELECT.TITLE.RANDOM.UNSC">Random Survivor</str>
     <str id="UIMP.LEADERSELECT.TITLE.SHIPMASTER">Shipmaster</str>
     <str id="UIMP.LEADERSELECT.TITLE.SHORT.ANDERS">Anders</str>
     <str id="UIMP.LEADERSELECT.TITLE.SHORT.ARBITER">The Arbiter&apos;s fierce loyalty to the Sangheili means he uses Elite-focused units, with unique stasis-based powers.</str>

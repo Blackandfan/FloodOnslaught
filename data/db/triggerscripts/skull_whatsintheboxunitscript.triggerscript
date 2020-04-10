@@ -14,15 +14,15 @@
 				<TriggerVar ID="#92cc63aa-91b3-49b0-8185-0a26379edb77" Type="Integer" Name="T2Chance" IsNull="false" />
 				<TriggerVar ID="#cbec0c1b-b325-4eeb-9ca7-bb3c9c35c718" Type="Integer" Name="" IsNull="false">40</TriggerVar>
 				<TriggerVar ID="#ae287b13-6d7c-4412-9167-b296a2d021b6" Type="Integer" Name="T3Chance" IsNull="false" />
-				<TriggerVar ID="#64dd6b2a-db0e-4f4e-a70a-b51e930be66f" Type="ProtoSquadList" Name="" IsNull="false">unsc_inf_flamemarine_01,unsc_inf_sniper_01,unsc_inf_serina_cryomarines_01,unsc_inf_odst_01,unsc_veh_battleapc_01,unsc_air_nightingale_01</TriggerVar>
+				<TriggerVar ID="#64dd6b2a-db0e-4f4e-a70a-b51e930be66f" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_flamehog_01,unsc_inf_sniper_01,unsc_veh_frosthog_01,unsc_inf_odst_01,unsc_veh_battleapc_01,unsc_air_nightingale_01,unsc_veh_wolverine_01,unsc_veh_foxcannon_01,unsc_inf_cyclops_01</TriggerVar>
 				<TriggerVar ID="#8fe96db3-639c-4611-94c1-0bc318ded474" Type="ProtoSquadList" Name="UNSCT1List" IsNull="false" />
 				<TriggerVar ID="#b1d19e8d-284b-42f2-ae59-62c6dd807cab" Type="ProtoSquadList" Name="" IsNull="false">unsc_inf_cyclops_01,unsc_veh_warthog_01,unsc_veh_flamehog_01,unsc_veh_wolverine_01,unsc_veh_foxcannon_01,unsc_veh_johnson_mantis_01,unsc_inf_heroodst_01</TriggerVar>
 				<TriggerVar ID="#6d8d5030-ca13-40a0-8dd2-dee7753b0937" Type="ProtoSquadList" Name="UNSCT2List" IsNull="false" />
 				<TriggerVar ID="#f03c5bbd-fc1a-4a9e-b758-03b25b4d15e7" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_scorpion_01,unsc_veh_grizzly_01,unsc_veh_johnson_colossus_01</TriggerVar>
 				<TriggerVar ID="#273c1b76-1e33-4ae0-bb7d-23ab2f8772ac" Type="ProtoSquadList" Name="UNSCT3List" IsNull="false" />
-				<TriggerVar ID="#12d00543-0cad-4296-ac39-257c5cc7a1bd" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_engineer_01,cov_veh_brutechopper_01,cov_inf_generic_arbiterenforcer,cov_inf_bruteRider_01,cov_inf_generic_heavygrunt,cov_veh_wraithapc_01,cov_veh_ghost_01</TriggerVar>
+				<TriggerVar ID="#12d00543-0cad-4296-ac39-257c5cc7a1bd" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_engineer_01,cov_veh_brutechopper_01,cov_inf_generic_arbiterenforcer,cov_veh_locust_01_mp_blitz,cov_veh_wraithapc_01,cov_inf_lekgologoliath_01,cov_inf_jackal_01,cov_veh_locust_01,cov_veh_gorgon_01,cov_inf_brutegrenadier_01</TriggerVar>
 				<TriggerVar ID="#8220ee61-30ca-483e-ba70-ac3f420f4fd5" Type="ProtoSquadList" Name="BANT1List" IsNull="false" />
-				<TriggerVar ID="#2fd2c4a3-e383-4c2b-9b3e-1d6ab84c74db" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_hunter_01,cov_inf_jackal_01,cov_veh_prowler_01,cov_veh_locust_01,cov_veh_gorgon_01,cov_inf_brutegrenadier_01,cov_inf_lekgologoliath_01</TriggerVar>
+				<TriggerVar ID="#2fd2c4a3-e383-4c2b-9b3e-1d6ab84c74db" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_hunter_01,cov_inf_jackal_01,cov_veh_prowler_01,cov_veh_locust_01,cov_veh_gorgon_01,cov_inf_brutegrenadier_01</TriggerVar>
 				<TriggerVar ID="#fc5f7786-d286-4790-b4ec-1b74538e821c" Type="ProtoSquadList" Name="BANT3List" IsNull="false" />
 				<TriggerVar ID="#c413cf0a-026c-49f8-81c8-b580c2704915" Type="Trigger" Name="TriggerVar1" IsNull="false">#b45f3535-2d86-423f-86a7-6c464773ea55</TriggerVar>
 				<TriggerVar ID="#369dca3c-5f9e-4fd6-90f2-d46f0bd65864" Type="Integer" Name="" IsNull="false">0</TriggerVar>
@@ -46,7 +46,7 @@
 				<TriggerVar ID="#db9de462-debd-45d9-92a6-dc1dd4e07f7d" Type="Unit" Name="UnitVar2" IsNull="true" />
 				<TriggerVar ID="#d2f9cbaa-90ac-4c98-85e6-205e7f24c976" Type="Player" Name="PlayerToGift" IsNull="false" />
 				<TriggerVar ID="#d33cbb74-bf98-4518-a61e-dbea39b3cee4" Type="Trigger" Name="TriggerVar8" IsNull="false">#da06d942-0c77-4eac-be42-7c1ff999ca6f</TriggerVar>
-				<TriggerVar ID="#f4bbd5e1-41cb-4a68-93f8-0af31590ae1b" Type="Leader" Name="" IsNull="false">Anders</TriggerVar>
+				<TriggerVar ID="#f4bbd5e1-41cb-4a68-93f8-0af31590ae1b" Type="Leader" Name="" IsNull="false">Forge</TriggerVar>
 				<TriggerVar ID="#6cc90cdb-0670-4120-98e3-5154db18ac19" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
 				<TriggerVar ID="#f9d68901-a7c5-47d7-a7c2-95714accd428" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
 				<TriggerVar ID="#abb360ed-1c56-4d1c-b5ac-5317d6e01c00" Type="Trigger" Name="TriggerVar9" IsNull="false">#10339e9a-4452-4d35-bf4e-7c5f984138b7</TriggerVar>

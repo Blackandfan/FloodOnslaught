@@ -88,111 +88,21 @@
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<TargetClosestObjectsToRandomEnemyFirst>false</TargetClosestObjectsToRandomEnemyFirst>
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
+		<Building>
+			<BuildingType>unsc_bldg_command_01</BuildingType>
+		</Building>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<MissionID>2</MissionID>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_mpdecimus_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-			<StreamReplaceSquads>true</StreamReplaceSquads>
-			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+			<NumberOfTimesToRepeatMission>1000</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1000</NumberOfTimesToReplaceSquads>
 		</Mission>
 	</Table>
 </Tables>

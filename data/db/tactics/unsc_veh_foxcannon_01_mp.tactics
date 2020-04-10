@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>FoxyWeapon</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>285</DamagePerSecond>
+		<DamagePerSecond>300</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
 		<PostAttackCooldownMin>2.5999999</PostAttackCooldownMin>
@@ -12,7 +12,7 @@
 		<Projectile>fx_proj_foxcannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>200</MaxRange>
+		<MaxRange>350</MaxRange>
 		<MinRange>40</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>5</MaxDeviation>

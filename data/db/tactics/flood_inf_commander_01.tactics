@@ -50,7 +50,7 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>2000</DamagePerSecond>
+		<DamagePerSecond>4500</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<MaxVelocityLead>25</MaxVelocityLead>
 		<MaxRange>16</MaxRange>
@@ -97,7 +97,7 @@
 	<Weapon>
 		<Name>HammerShockwave</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>12000</DamagePerSecond>
+		<DamagePerSecond>38000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>16</MaxRange>
@@ -124,7 +124,7 @@
 			</Hitbox>
 		</AOEData>
 		<Filter>Heavy</Filter>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">2.0f</Daze>
 	</Weapon>
 	<Weapon>
 		<Name>StompAttackWeapon</Name>
@@ -370,27 +370,26 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
-			<Action>HammerShockwaveAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
-			<Action>MeleeAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
 			<Action>AAMeleeAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>cov_veh_corruptedscarab_01</TargetType>
+			<TargetType>cpgnh_veh_herogrizzly_01</TargetType>
+			<TargetType>unsc_veh_johnson_colossus_01</TargetType>
+			<TargetType>unsc_inf_spartan_mpalice_01</TargetType>
+			<TargetType>unsc_inf_spartan_mpdoug_01</TargetType>
+			<TargetType>unsc_inf_spartan_mpjerome_01</TargetType>
+			<TargetType>cov_inf_mpdecimus_01</TargetType>
+			<TargetType>cov_veh_methanescarab_01_base</TargetType>
 			<Action>OPMeleeAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>unsc_air_destroyer_01</TargetType>
+			<TargetType>pow_for_andersultimate_01</TargetType>
+			<TargetType>cov_air_corruptedlich_01</TargetType>
 			<Action>OPAAMeleeAttackAction</Action>
 		</TargetRule>
 		<TargetRule>

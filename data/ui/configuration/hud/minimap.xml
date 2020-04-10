@@ -2,6 +2,31 @@
 <group>
 	<group name="entities">
 		<entry>
+			<key>cov_veh_locust_01_mp_blitz</key>
+			<value>banished_unit_vehicle</value>
+			<value>3</value>
+		</entry>
+		<entry>
+			<key>unsc_veh_frosthog_01</key>
+			<value>unsc_unit_vehicle</value>
+			<value>0</value>
+		</entry>
+		<entry>
+			<key>unsc_veh_warthog_01_forge</key>
+			<value>unsc_unit_vehicle</value>
+			<value>3</value>
+		</entry>
+		<entry>
+			<key>cov_veh_methanescarab_01_base</key>
+			<value>banished_unit_special</value>
+			<value>0</value>
+		</entry>
+		<entry>
+			<key>cov_air_corruptedlich_01</key>
+			<value>unsc_unit_special</value>
+			<value>0</value>
+		</entry>
+		<entry>
 			<key>cov_inf_specialhonor_01</key>
 			<value>banished_unit_infantry</value>
 			<value>1</value>
@@ -648,22 +673,22 @@
 		</entry>
 		<entry>
 			<key>cov_bldg_builder_01</key>
-			<value>banished_base</value>
+			<value>EP2_FloodBase</value>
 			<value>3</value>
 		</entry>
 		<entry>
 			<key>cov_bldg_builder_02</key>
-			<value>banished_base</value>
+			<value>EP2_FloodBase</value>
 			<value>3</value>
 		</entry>
 		<entry>
 			<key>cov_bldg_builder_03</key>
-			<value>banished_base</value>
+			<value>EP2_FloodBase</value>
 			<value>3</value>
 		</entry>
 		<entry>
 			<key>cov_bldg_builder_04</key>
-			<value>banished_base</value>
+			<value>EP2_FloodBase</value>
 			<value>3</value>
 		</entry>
 		<entry>
@@ -2218,6 +2243,11 @@
 		</entry>
 		<entry>
 			<key>flood_inf_vehinfector_01</key>
+			<value>banished_unit_hero</value>
+			<value>2</value>
+		</entry>
+		<entry>
+			<key>flood_inf_vehinfector_01_real</key>
 			<value>banished_unit_infantry</value>
 			<value>2</value>
 		</entry>

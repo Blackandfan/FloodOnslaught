@@ -158,6 +158,38 @@
 		<PhysicsForceMax>1100</PhysicsForceMax>
 		<Filter>Light</Filter>
 	</Weapon>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SuicideGrunt</WeaponType>
+		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
+		<Projectile isSpawnedSquad="true">unsc_inf_forgespawn_01</Projectile>
+		<MaxRange>10</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>14</AOERadius>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Action>
+		<Name>SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<AutoDetonate AutoDetonateIdleTime="0" AutoDetonateAggroRange="35" />
+		<Weapon>Bomb</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+	</Action>
 	<Action>
 		<Name>AutoCannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -280,7 +312,23 @@
 		<DroneAttach />
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
 	<Tactic>
+		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>AreaBuff</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
 		<PersistentAction>SpawnSentinel1</PersistentAction>

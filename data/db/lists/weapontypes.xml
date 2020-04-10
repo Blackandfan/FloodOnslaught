@@ -789,7 +789,7 @@
         <DamageModifier rating="1" type="HunterShield">2</DamageModifier>
         <DamageModifier rating="1" type="Heavy">0.2</DamageModifier>
         <DamageModifier rating="1" type="Building">1</DamageModifier>
-        <DamageModifier rating="1" type="Shielded">1</DamageModifier>
+        <DamageModifier rating="1" type="Shielded">0.8</DamageModifier>
         <DamageModifier rating="1" type="Flood">1</DamageModifier>
         <DamageModifier rating="1" type="CampaignBlocker">0</DamageModifier>
         <DamageModifier rating="1" type="EnergyCore">2</DamageModifier>
@@ -817,7 +817,7 @@
         <DamageModifier rating="1" type="HunterShield">4</DamageModifier>
         <DamageModifier rating="1" type="Heavy">0.5</DamageModifier>
         <DamageModifier rating="1" type="Building">10</DamageModifier>
-        <DamageModifier rating="1" type="Shielded">1</DamageModifier>
+        <DamageModifier rating="1" type="Shielded">0.8</DamageModifier>
         <DamageModifier rating="1" type="Flood">1</DamageModifier>
         <DamageModifier rating="1" type="CampaignBlocker">0</DamageModifier>
         <DamageModifier rating="1" type="EnergyCore">2</DamageModifier>
@@ -845,7 +845,7 @@
         <DamageModifier rating="1" type="HunterShield">4</DamageModifier>
         <DamageModifier rating="1" type="Heavy">1</DamageModifier>
         <DamageModifier rating="1" type="Building">45</DamageModifier>
-        <DamageModifier rating="1" type="Shielded">1</DamageModifier>
+        <DamageModifier rating="1" type="Shielded">0.8</DamageModifier>
         <DamageModifier rating="1" type="Flood">1</DamageModifier>
         <DamageModifier rating="1" type="CampaignBlocker">0</DamageModifier>
         <DamageModifier rating="1" type="EnergyCore">2</DamageModifier>
@@ -1650,7 +1650,7 @@
         <DamageModifier rating="1" type="HunterShield">2</DamageModifier>
         <DamageModifier rating="1" type="Heavy">0.2</DamageModifier>
         <DamageModifier rating="1" type="Building">0.4</DamageModifier>
-        <DamageModifier rating="1" type="Shielded">1</DamageModifier>
+        <DamageModifier rating="1" type="Shielded">0.8</DamageModifier>
         <DamageModifier rating="1" type="Flood">1</DamageModifier>
         <DamageModifier rating="1" type="CampaignBlocker">0</DamageModifier>
         <DamageModifier rating="1" type="EnergyCore">2</DamageModifier>

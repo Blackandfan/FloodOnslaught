@@ -53,8 +53,8 @@
 	<Weapon>
 		<Name>SniperRifleHero</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>32</DamagePerSecond>
-		<WeaponType>AntiInfantry</WeaponType>
+		<DamagePerSecond>65</DamagePerSecond>
+		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>99</MaxVelocityLead>
@@ -202,7 +202,6 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
 			<Action>SniperRifleShortAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
@@ -212,7 +211,6 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
 			<Action>SniperRifleAttackAction</Action>
 		</TargetRule>
 		<TargetRule>

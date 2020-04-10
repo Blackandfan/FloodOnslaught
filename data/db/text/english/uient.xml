@@ -407,12 +407,10 @@ buildings and vehicles.</str>
     <str id="UIENT.COV_BLDG_BARRICADE_CALTROPS_01.RADIALEDGE.ROLE">GROUND TRAP</str>
     <str id="UIENT.COV_BLDG_BARRICADE_CALTROPS_01.RADIALEDGE.SHORTDESCR">Razor sharp blades arranged in a menacing pattern. Slows and lightly damages enemy ground units that pass over them.</str>
     <str id="UIENT.COV_BLDG_BARRICADE_REFLECTBARRIER_01.RADIALCENTER.NAME">REFLECTION BARRIER</str>
-    <str id="UIENT.cov_bldg_builder_01.RadialCenter.Name">OUTPOST</str>
-    <str id="UIENT.cov_bldg_builder_01.RadialEdge.Name">OUTPOST</str>
+    <str id="UIENT.cov_bldg_builder_01.RadialCenter.Name">SPORE MOUND</str>
+    <str id="UIENT.cov_bldg_builder_01.RadialEdge.Name">SPORE MOUND</str>
     <str id="UIENT.cov_bldg_builder_01.RadialEdge.Role">BASE STRUCTURE</str>
-    <str id="UIENT.cov_bldg_builder_01.RadialEdge.ShortDescr">Forward Base
-3 building slots
-No turret slots</str>
+    <str id="UIENT.cov_bldg_builder_01.RadialEdge.ShortDescr">Spore Mounds are an agglomeration of lesser Flood forms and secretions that conceal and protect the foul nests of the parasite.</str>
     <str id="UIENT.cov_bldg_builder_02.RadialCenter.Name">STRONGHOLD</str>
     <str id="UIENT.cov_bldg_builder_02.RadialEdge.Name">STRONGHOLD</str>
     <str id="UIENT.cov_bldg_builder_02.RadialEdge.Role">BASE STRUCTURE</str>
@@ -1700,8 +1698,8 @@ Has ground pound AoE attack</str>
     <str id="UIENT.FLOOD_INF_INFECTFRM_01.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
     <str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.NAME">SPAWNER</str>
     <str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.ROLE" />
-    <str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.NAME">INFESTER</str>
-    <str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.ROLE">ANTI-VEHICLE</str>
+    <str id="UIENT.flood_inf_vehinfector_01_real.RADIALEDGE.NAME">INFESTER</str>
+    <str id="UIENT.flood_inf_vehinfector_01_real.RADIALEDGE.ROLE">ANTI-VEHICLE</str>
     <str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.NAME">INFECTED VEHICLE</str>
     <str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.ROLE" />
     <str id="UIENT.FOR_AIR_ENFORCER_01.RADIALEDGE.NAME">CONTROLLER SENTINEL</str>
@@ -2820,11 +2818,12 @@ vehicles and buildings.</str>
     <str id="UIENT.UNSC_BLDG_COLOSSUS_01.RADIALEDGE.SHORTDESCR" />
     <str id="UIENT.UNSC_BLDG_COLOSSUS_PAD_01.RADIALCENTER.NAME">COLOSSUS PAD</str>
     <str id="UIENT.UNSC_BLDG_COLOSSUS_PAD_01.RADIALEDGE.NAME">COLOSSUS PAD</str>
-    <str id="UIENT.unsc_bldg_command_01.RadialCenter.Name">FIREBASE</str>
-    <str id="UIENT.unsc_bldg_command_01.RadialEdge.Name">FIREBASE</str>
+    <str id="UIENT.unsc_bldg_command_01.RadialCenter.Name">SUPER UNIT</str>
+    <str id="UIENT.unsc_bldg_command_01.RadialEdge.Name">SUPER UNIT</str>
     <str id="UIENT.unsc_bldg_command_01.RadialEdge.Role">BASE STRUCTURE</str>
-    <str id="UIENT.unsc_bldg_command_01.RadialEdge.ShortDescr">Produces vehicles and infantry
-Can be upgraded to Combat Station</str>
+    <str id="UIENT.unsc_bldg_command_01.RadialEdge.ShortDescr">Produces free leader specific super units
+You will not require a hero once you have build this
+Super unit count increases per base</str>
     <str id="UIENT.unsc_bldg_command_02.RadialCenter.Name">COMBAT STATION</str>
     <str id="UIENT.unsc_bldg_command_02.RadialEdge.Name">COMBAT STATION</str>
     <str id="UIENT.unsc_bldg_command_02.RadialEdge.Role">BASE STRUCTURE</str>
@@ -3784,8 +3783,8 @@ Does not require vision.</str>
     <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALCENTER.NAME">GRIZZLY BATTALION</str>
     <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.NAME">GRIZZLY BATTALION</str>
     <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.ROLE">ACTIVE POWER</str>
-    <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.SALESPITCH">Pelican Gunship drops-off 3 veteran Grizzlies.</str>
-    <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.SHORTDESCR">Activate to get a deployment of 3 veteran Grizzly tanks.</str>
+    <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.SALESPITCH">Pelican Gunship drops-off 1 Grizzlies.</str>
+    <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.SHORTDESCR">Activate to get a deployment of 1 Grizzly tanks.</str>
     <str id="UIENT.UnscHeavyMetal01.RadialCenter.Name">HEAVY METAL I</str>
     <str id="UIENT.UnscHeavyMetal01.RadialEdge.Name">HEAVY METAL I</str>
     <str id="UIENT.UNSCHEAVYMETAL01.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -4376,8 +4375,8 @@ Increases radius of Inspire aura</str>
     <str id="UIENT.DropCyclops.RadialCenter.Name">CYCLOPS DEPLOYMENT</str>
     <str id="UIENT.DropCyclops.RadialEdge.Name">CYCLOPS DEPLOYMENT</str>
     <str id="UIENT.DropCyclops.RADIALEDGE.ROLE">ACTIVE POWER</str>
-    <str id="UIENT.DropCyclops.RADIALEDGE.SALESPITCH">A deployment of 2 Cyclops.</str>
-    <str id="UIENT.DropCyclops.RADIALEDGE.SHORTDESCR">Activate to get a deployment of 2 Cyclops.</str>
+    <str id="UIENT.DropCyclops.RADIALEDGE.SALESPITCH">A deployment of 1 Cyclops.</str>
+    <str id="UIENT.DropCyclops.RADIALEDGE.SHORTDESCR">Activate to get a deployment of 1 Cyclops.</str>
     <str id="UIENT.DropMantis.RadialCenter.Name">MANTIS DEPLOYMENT</str>
     <str id="UIENT.DropMantis.RadialEdge.Name">MANTIS DEPLOYMENT</str>
     <str id="UIENT.DropMantis.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -4752,25 +4751,21 @@ Good all-round vehicle</str>
     <str id="UIENT.Drop_SingleHunter.RADIALEDGE.ROLE">ACTIVE POWER</str>
     <str id="UIENT.Drop_SingleHunter.RADIALEDGE.SALESPITCH">A deployment of a Hunter.</str>
     <str id="UIENT.Drop_SingleHunter.RADIALEDGE.SHORTDESCR">Activate to get a deployment of a Hunter.</str>
-    <str id="UIENT.CovSpecialHonor.RadialCenter.Name">HONOR GUARD DEPLOYMENT</str>
-    <str id="UIENT.CovSpecialHonor.RadialEdge.Name">HONOR GUARD DEPLOYMENT</str>
+    <str id="UIENT.CovSpecialHonor.RadialCenter.Name">SPECIAL OPERATIONS ELITE DEPLOYMENT</str>
+    <str id="UIENT.CovSpecialHonor.RadialEdge.Name">SPECIAL OPERATIONS ELITE DEPLOYMENT</str>
     <str id="UIENT.CovSpecialHonor.RADIALEDGE.ROLE">ACTIVE POWER</str>
-    <str id="UIENT.CovSpecialHonor.RADIALEDGE.SALESPITCH">Drops a Honor Guard into battle.</str>
-    <str id="UIENT.CovSpecialHonor.RadialEdge.ShortDescr">Activate to drop a Honor Guard into battle.</str>
+    <str id="UIENT.CovSpecialHonor.RADIALEDGE.SALESPITCH">Drop a Special Operations Elite into battle.</str>
+    <str id="UIENT.CovSpecialHonor.RadialEdge.ShortDescr">Activate to drop a Special Operations Elite into battle.</str>
     <str id="UIENT.cov_inf_singlehunter_01.RadialCenter.Name">HUNTER</str>
     <str id="UIENT.cov_inf_singlehunter_01.RadialEdge.Name">HUNTER</str>
     <str id="UIENT.cov_inf_singlehunter_01.RadialEdge.Role">CORE-INFANTRY</str>
     <str id="UIENT.cov_inf_singlehunter_01.RadialEdge.ShortDescr">Heavily armored
 Slow moving
 Cannot attack air</str>
-    <str id="UIENT.cov_inf_specialhonor_01.RadialCenter.Name">HONOR GUARD</str>
-    <str id="UIENT.cov_inf_specialhonor_01.RadialEdge.Name">HONOR GUARD</str>
-    <str id="UIENT.cov_inf_specialhonor_01.RadialEdge.Role">HERO INFANTRY</str>
-    <str id="UIENT.cov_inf_specialhonor_01.RadialEdge.ShortDescr">Melee hero
-High damage
-Can cloak
-Detection units can reveal cloak
-Cannot attack air</str>
+    <str id="UIENT.cov_inf_specialhonor_01.RadialCenter.Name">SPECIAL OPERATIONS ELITE</str>
+    <str id="UIENT.cov_inf_specialhonor_01.RadialEdge.Name">SPECIAL OPERATIONS ELITE</str>
+    <str id="UIENT.cov_inf_specialhonor_01.RadialEdge.Role">SPECIAL INFANTRY</str>
+    <str id="UIENT.cov_inf_specialhonor_01.RadialEdge.ShortDescr">High damage</str>
     <str id="UIENT.FloodUNSCunitsDrop.RADIALCENTER.NAME">UNSC DROP</str>
     <str id="UIENT.FloodUNSCunitsDrop.RADIALEDGE.NAME">UNSC DROP</str>
     <str id="UIENT.FloodUNSCunitsDrop.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -4791,4 +4786,111 @@ Cannot attack air</str>
     <str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.ROLE">ACTIVE POWER</str>
     <str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.SALESPITCH">Summon Pod Infectors.</str>
     <str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.SHORTDESCR">Activate to summon Pod Infectors into battle.</str>
+    <str id="UIENT.flood_veh_infected_grizzly_01_base.RADIALCENTER.NAME">INFECTED GRIZZLY</str>
+    <str id="UIENT.flood_veh_infected_grizzly_01_base.RADIALEDGE.NAME">INFECTED GRIZZLY</str>
+    <str id="UIENT.flood_veh_infected_grizzly_01_base.RADIALEDGE.ROLE">HEAVY TANK</str>
+    <str id="UIENT.flood_veh_infected_grizzly_01_base.RADIALEDGE.SHORTDESCR">Heavy damage
+Slow moving
+Medium range
+Heavy armor</str>
+    <str id="UIENT.FloodBanishedunitsDrop.RADIALCENTER.NAME">BANISHED DROP</str>
+    <str id="UIENT.FloodBanishedunitsDrop.RADIALEDGE.NAME">BANISHED DROP</str>
+    <str id="UIENT.FloodBanishedunitsDrop.RADIALEDGE.ROLE">ACTIVE POWER</str>
+    <str id="UIENT.FloodBanishedunitsDrop.RADIALEDGE.SALESPITCH">A deployment of infected Banished units.</str>
+    <str id="UIENT.FloodBanishedunitsDrop.RADIALEDGE.SHORTDESCR">Activate to get a deployment of infected Banished units.</str>
+    <str id="UIENT.cov_veh_methanescarab_01_base.RADIALCENTER.NAME">THE GOOD STUFF</str>
+    <str id="UIENT.cov_veh_methanescarab_01_base.RADIALEDGE.NAME">THE GOOD STUFF</str>
+    <str id="UIENT.cov_veh_methanescarab_01_base.RADIALEDGE.ROLE">SUPER UNIT</str>
+    <str id="UIENT.cov_veh_methanescarab_01_base.RADIALEDGE.SHORTDESCR">Supports your units a lot
+Generates a Methane aura around itself
+Methane increases Grunt damage and armor
+Methane reduces enemy damage and armor
+Can fire Methane Shells that create Methane auras
+Slow moving
+Very heavy armor
+Traverses all terrain</str>
+    <str id="UIENT.cov_air_corruptedlich_01.RADIALCENTER.NAME">VOLATILE LICH</str>
+    <str id="UIENT.cov_air_corruptedlich_01.RADIALEDGE.NAME">VOLATILE LICH</str>
+    <str id="UIENT.cov_air_corruptedlich_01.RADIALEDGE.ROLE">SUPER UNIT</str>
+    <str id="UIENT.cov_air_corruptedlich_01.RADIALEDGE.SHORTDESCR">Very high damage
+Beam creates pools of infused gel
+Very heavy armor
+Traverses all terrain</str>
+    <str id="UIENT.cov_inf_mpdecimus_01.RadialCenter.Name">DECIMUS</str>
+    <str id="UIENT.cov_inf_mpdecimus_01.RadialEdge.ShortDescr">Spawns with Warlord and Honor Guard</str>
+    <str id="UIENT.Up_Forge1.RADIALCENTER.NAME">ANVIL ROUND</str>
+    <str id="UIENT.Up_Forge1.RADIALEDGE.NAME">ANVIL ROUND</str>
+    <str id="UIENT.Up_Forge1.RADIALEDGE.ROLE">NEW ABILITY</str>
+    <str id="UIENT.Up_Forge1.RADIALEDGE.SHORTDESCR">Increases health and damage
+Adds ability to fire an Anvil Round
+Anvil Round damages enemy ground units and slows enemy vehicles</str>
+    <str id="UIENT.Up_Forge1.RADIALEDGE.UPGRADEPITCH">Increases health and damage
+Improves Nanobots
+Increases the speed of nearby allies</str>
+    <str id="UIENT.Up_Forge2.RADIALCENTER.NAME">DEFENSIVE AURA</str>
+    <str id="UIENT.Up_Forge2.RADIALEDGE.NAME">DEFENSIVE AURA</str>
+    <str id="UIENT.Up_Forge2.RADIALEDGE.ROLE">UNIT UPGRADE</str>
+    <str id="UIENT.Up_Forge2.RADIALEDGE.SHORTDESCR">Increases health and damage
+Improves Nanobots
+Increases the speed of nearby allies</str>
+    <str id="UIENT.Up_Forge2.RADIALEDGE.UPGRADEPITCH">Increases health and damage
+Upgrades Gauss Cannon
+Upgrades Anvil Round ability</str>
+    <str id="UIENT.Up_Forge3.RADIALCENTER.NAME">GAUSS OVERCHARGE</str>
+    <str id="UIENT.Up_Forge3.RADIALEDGE.NAME">GAUSS OVERCHARGE</str>
+    <str id="UIENT.Up_Forge3.RADIALEDGE.ROLE">WEAPON UPGRADE</str>
+    <str id="UIENT.Up_Forge3.RADIALEDGE.SHORTDESCR">Increases health and damage
+Upgrades Gauss Cannon
+Upgrades Anvil Round ability</str>
+    <str id="UIENT.Up_Forge3.RADIALEDGE.UPGRADEPITCH">Increases health and damage
+Faster movement speed</str>
+    <str id="UIENT.Up_Grizzly.RADIALCENTER.NAME">MISSILE BARRAGE</str>
+    <str id="UIENT.Up_Grizzly.RADIALEDGE.NAME">MISSILE BARRAGE</str>
+    <str id="UIENT.Up_Grizzly.RADIALEDGE.ROLE">NEW ABILITY</str>
+    <str id="UIENT.Up_Grizzly.RADIALEDGE.SHORTDESCR">Adds Missile Barrage ability
+Powerful targeted AoE attack</str>
+    <str id="UIENT.Up_Grizzly.RADIALEDGE.UPGRADEPITCH">Increases health and damage
+Faster movement speed</str>
+    <str id="UIENT.cpgnh_veh_herogrizzly_01.RADIALCENTER.NAME">EXPERIMENTAL GRIZZLY</str>
+    <str id="UIENT.cpgnh_veh_herogrizzly_01.RADIALEDGE.NAME">EXPERIMENTAL GRIZZLY</str>
+    <str id="UIENT.cpgnh_veh_herogrizzly_01.RADIALEDGE.ROLE">HEAVY TANK</str>
+    <str id="UIENT.cpgnh_veh_herogrizzly_01.RADIALEDGE.SHORTDESCR">Heavy damage
+Slow moving
+Medium range
+Heavy armor</str>
+    <str id="UIENT.UnscForgeHogDrop.RadialCenter.Name">WARTHOG DROP</str>
+    <str id="UIENT.UnscForgeHogDrop.RadialEdge.Name">WARTHOG DROP</str>
+    <str id="UIENT.UnscForgeHogDrop.RADIALEDGE.ROLE">ACTIVE POWER</str>
+    <str id="UIENT.UnscForgeHogDrop.RADIALEDGE.SALESPITCH">Drop a Warthog into battle.</str>
+    <str id="UIENT.UnscForgeHogDrop.RadialEdge.ShortDescr">Activate to drop a Warthog into battle.</str>
+    <str id="UIENT.flood_inf_vehinfector_01.RADIALCENTER.NAME">FORGE</str>
+    <str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.NAME">FORGE</str>
+    <str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.ROLE">HERO</str>
+    <str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.SHORTDESCR">Ranged Hero
+Protection nanobots increase armor of nearby allies</str>
+    <str id="UIENT.unsc_inf_forgespawn_01.RADIALCENTER.NAME">FORGE</str>
+    <str id="UIENT.unsc_inf_forgespawn_01.RADIALEDGE.NAME">FORGE</str>
+    <str id="UIENT.unsc_inf_forgespawn_01.RADIALEDGE.ROLE">HERO</str>
+    <str id="UIENT.unsc_inf_forgespawn_01.RADIALEDGE.SHORTDESCR">Ranged Hero
+Protection nanobots increase armor of nearby allies</str>
+    <str id="UIENT.unsc_veh_frosthog_01.RADIALCENTER.NAME">FROST WARTHOG</str>
+    <str id="UIENT.unsc_veh_frosthog_01.RADIALEDGE.NAME">FROST WARTHOG</str>
+    <str id="UIENT.unsc_veh_frosthog_01.RADIALEDGE.ROLE">CORE VEHICLE</str>
+    <str id="UIENT.unsc_veh_frosthog_01.RADIALEDGE.SHORTDESCR">Can ram enemies
+Fast moving
+Good all-round vehicle</str>
+    <str id="UIENT.cov_veh_locust_01_mp_blitz.RadialCenter.Name">BEETLE</str>
+    <str id="UIENT.cov_veh_locust_01_mp_blitz.RadialEdge.Name">BEETLE</str>
+    <str id="UIENT.cov_veh_locust_01_mp_blitz.RadialEdge.Role">ANTI-EVERYTHING MECH</str>
+    <str id="UIENT.cov_veh_locust_01_mp_blitz.RadialEdge.ShortDescr">Beam deals sustained damage
+Deals damage along trajectory 
+Long range
+Light armor</str>
+    <str id="UIENT.ReverseHotDrop.RADIALCENTER.NAME">BRING BACK FORGE INTO THE MAP</str>
+    <str id="UIENT.ReverseHotDrop.RADIALEDGE.NAME">BRING BACK FORGE INTO THE MAP</str>
+    <str id="UIENT.ReverseHotDrop.RADIALEDGE.ROLE">POWER</str>
+    <str id="UIENT.ReverseHotDrop.RADIALEDGE.SHORTDESCR">Use this to teleport forge back into the map if he ends up spawning outside it
+temporary fix</str>
+    <str id="UIENT.ReverseHotDrop.RADIALEDGE.SALESPITCH">se this to teleport forge back into the map if he ends up spawning outside it
+temporary fix</str>
 </string_table>
